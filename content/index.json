@@ -1,0 +1,7 @@
+{
+  "exercises": [
+    { "id": "powitanie", "title": "Codzienne powitania", "text": "Dzień dobry. Jak się masz? Miło cię widzieć." },
+    { "id": "dom", "title": "W domu", "text": "Otwieram okno. Na stole leży chleb. Kot śpi na kanapie." },
+    { "id": "spacer", "title": "Spacer", "text": "Idę do parku. Świeci słońce. Spotykam sąsiada i mówię cześć." }
+  ]
+}

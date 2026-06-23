@@ -1,0 +1,41 @@
+.container {
+  max-width: 48rem;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+}
+
+.title {
+  font-size: 1.25rem;
+  color: #495057;
+  margin-bottom: 1.5rem;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.button {
+  font-size: 1.1rem;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 0.5rem;
+  background: #1971c2;
+  color: white;
+  cursor: pointer;
+}
+
+.progress {
+  flex: 1;
+  height: 0.5rem;
+  background: #dee2e6;
+  border-radius: 0.25rem;
+  overflow: hidden;
+}
+
+.progressFill {
+  height: 100%;
+  background: #1971c2;
+}

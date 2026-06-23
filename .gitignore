@@ -4,3 +4,7 @@ node_modules/
 out/
 .DS_Store
 dist/
+tsconfig.tsbuildinfo
+*.tsbuildinfo
+public/sw.js
+public/swe-worker-*.js
