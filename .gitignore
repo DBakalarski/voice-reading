@@ -6,3 +6,5 @@ out/
 dist/
 tsconfig.tsbuildinfo
 *.tsbuildinfo
+public/sw.js
+public/swe-worker-*.js
