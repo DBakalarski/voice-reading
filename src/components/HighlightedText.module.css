@@ -1,0 +1,21 @@
+.text {
+  font-size: 2rem;
+  line-height: 2.4;
+  letter-spacing: 0.01em;
+  word-spacing: 0.2em;
+}
+
+.word {
+  padding: 0.05em 0.1em;
+  border-radius: 0.2em;
+  transition: background-color 80ms linear;
+}
+
+.currentPhrase {
+  background-color: #fff3bf;
+}
+
+.currentWord {
+  background-color: #ffd43b;
+  font-weight: 700;
+}
