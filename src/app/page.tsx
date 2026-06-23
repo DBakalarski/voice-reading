@@ -1,3 +1,5 @@
+import { ExerciseList } from "@/components/ExerciseList";
+
 export default function Home() {
-  return <main>Voice Reading</main>;
+  return <ExerciseList />;
 }
