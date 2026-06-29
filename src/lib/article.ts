@@ -83,6 +83,26 @@ export function uniqueId(base: string, existing: string[]): string {
   return `${base}-${n}`;
 }
 
+/**
+ * Boilerplate containers to delete before Readability runs. Mostly specific to
+ * naukatolubie.pl (the primary source); `#ez-toc-container` is the generic
+ * WordPress "Easy Table of Contents" plugin. Extend as new sources appear.
+ */
+export const BOILERPLATE_SELECTORS = [
+  "#ez-toc-container", // spis treści (plugin ez-toc)
+  ".ntl-reading-time", // "Przewidywany czas: N min"
+  ".ntl-authorbox", // bio autora
+];
+
+/** Remove known boilerplate blocks from the document in place. */
+export function stripBoilerplate(document: Document): void {
+  for (const selector of BOILERPLATE_SELECTORS) {
+    for (const el of Array.from(document.querySelectorAll(selector))) {
+      el.remove();
+    }
+  }
+}
+
 export interface ExtractedArticle {
   title: string;
   text: string;

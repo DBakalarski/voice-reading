@@ -1,9 +1,11 @@
 // @vitest-environment node
 import { describe, it, expect } from "vitest";
+import { JSDOM } from "jsdom";
 import {
   extractArticle,
   normalizeText,
   slugify,
+  stripBoilerplate,
   trimBoilerplateText,
   uniqueId,
 } from "./article";
@@ -115,5 +117,24 @@ describe("extractArticle", () => {
     expect(() => extractArticle("<html><body></body></html>", "https://x.test")).toThrow(
       /tre/i,
     );
+  });
+});
+
+describe("stripBoilerplate", () => {
+  it("removes TOC, reading-time and author-box elements, keeps the article", () => {
+    const dom = new JSDOM(`<!DOCTYPE html><html><body>
+      <div class="ntl-reading-time">Przewidywany czas: 5 min</div>
+      <div id="ez-toc-container" class="ez-toc-container-direction">
+        <p>Spis treści</p><ul><li>Co to jest sen?</li></ul>
+      </div>
+      <article><p>Treść artykułu o śnie.</p></article>
+      <div class="ntl-authorbox">Autor Joanna Śliwowska — biolog.</div>
+    </body></html>`);
+    stripBoilerplate(dom.window.document);
+    const html = dom.window.document.body.innerHTML;
+    expect(html).toContain("Treść artykułu o śnie.");
+    expect(html).not.toContain("Spis treści");
+    expect(html).not.toContain("Przewidywany czas");
+    expect(html).not.toContain("Joanna Śliwowska");
   });
 });
