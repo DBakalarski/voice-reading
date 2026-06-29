@@ -1,582 +1,582 @@
 {
-  "id": "trudny",
-  "title": "Poziom 3 — Trudny: Jesień w mieście",
-  "audio": "/library/trudny.mp3",
+  "id": "l3-jesien",
+  "title": "Jesień w mieście",
+  "audio": "/library/l3-jesien.mp3",
   "words": [
     {
       "text": "Jesień",
       "start": 0,
-      "end": 0.697,
+      "end": 0.557,
       "phrase": 0
     },
     {
       "text": "w",
-      "start": 0.813,
-      "end": 0.848,
+      "start": 0.65,
+      "end": 0.685,
       "phrase": 0
     },
     {
       "text": "mieście",
-      "start": 0.917,
-      "end": 1.254,
+      "start": 0.755,
+      "end": 1.115,
       "phrase": 0
     },
     {
       "text": "ma",
-      "start": 1.3,
-      "end": 1.393,
+      "start": 1.184,
+      "end": 1.312,
       "phrase": 0
     },
     {
       "text": "swój",
-      "start": 1.44,
-      "end": 1.707,
+      "start": 1.358,
+      "end": 1.625,
       "phrase": 0
     },
     {
       "text": "własny,",
-      "start": 1.776,
-      "end": 2.508,
+      "start": 1.66,
+      "end": 2.38,
       "phrase": 0
     },
     {
       "text": "niepowtarzalny",
-      "start": 2.601,
-      "end": 3.529,
+      "start": 2.531,
+      "end": 3.309,
       "phrase": 0
     },
     {
       "text": "rytm.",
-      "start": 3.587,
-      "end": 4.145,
+      "start": 3.367,
+      "end": 3.913,
       "phrase": 0
     },
     {
       "text": "Poranki",
-      "start": 4.47,
-      "end": 4.981,
+      "start": 4.354,
+      "end": 4.83,
       "phrase": 1
     },
     {
       "text": "stają",
-      "start": 5.039,
-      "end": 5.329,
+      "start": 4.865,
+      "end": 5.155,
       "phrase": 1
     },
     {
       "text": "się",
-      "start": 5.387,
-      "end": 5.492,
+      "start": 5.213,
+      "end": 5.306,
       "phrase": 1
     },
     {
       "text": "chłodniejsze,",
-      "start": 5.526,
-      "end": 6.502,
+      "start": 5.341,
+      "end": 6.177,
       "phrase": 1
     },
     {
       "text": "a",
-      "start": 6.711,
-      "end": 6.769,
+      "start": 6.246,
+      "end": 6.316,
       "phrase": 1
     },
     {
       "text": "światło,",
-      "start": 6.85,
-      "end": 7.338,
+      "start": 6.432,
+      "end": 6.954,
       "phrase": 1
     },
     {
       "text": "które",
-      "start": 7.361,
-      "end": 7.651,
+      "start": 6.978,
+      "end": 7.245,
       "phrase": 1
     },
     {
       "text": "wpada",
-      "start": 7.697,
-      "end": 8.057,
+      "start": 7.303,
+      "end": 7.697,
       "phrase": 1
     },
     {
       "text": "między",
-      "start": 8.104,
-      "end": 8.394,
+      "start": 7.744,
+      "end": 8.022,
       "phrase": 1
     },
     {
       "text": "kamienice,",
-      "start": 8.44,
-      "end": 9.265,
+      "start": 8.069,
+      "end": 8.87,
       "phrase": 1
     },
     {
       "text": "nabiera",
-      "start": 9.474,
-      "end": 9.95,
+      "start": 9.044,
+      "end": 9.462,
       "phrase": 1
     },
     {
       "text": "złotawej",
-      "start": 10.019,
-      "end": 10.472,
+      "start": 9.52,
+      "end": 10.008,
       "phrase": 1
     },
     {
       "text": "barwy.",
-      "start": 10.542,
-      "end": 11.18,
+      "start": 10.077,
+      "end": 10.681,
       "phrase": 1
     },
     {
       "text": "Liście,",
-      "start": 11.564,
-      "end": 12.295,
+      "start": 11.122,
+      "end": 11.703,
       "phrase": 2
     },
     {
       "text": "początkowo",
-      "start": 12.376,
-      "end": 12.968,
+      "start": 11.773,
+      "end": 12.318,
       "phrase": 2
     },
     {
       "text": "zielone,",
-      "start": 13.015,
-      "end": 13.758,
+      "start": 12.365,
+      "end": 12.922,
       "phrase": 2
     },
     {
       "text": "powoli",
-      "start": 13.932,
-      "end": 14.327,
+      "start": 13.096,
+      "end": 13.491,
       "phrase": 2
     },
     {
       "text": "przybierają",
-      "start": 14.385,
-      "end": 14.942,
+      "start": 13.537,
+      "end": 14.06,
       "phrase": 2
     },
     {
       "text": "odcienie",
-      "start": 15.023,
-      "end": 15.488,
+      "start": 14.129,
+      "end": 14.571,
       "phrase": 2
     },
     {
       "text": "żółci,",
-      "start": 15.569,
-      "end": 16.289,
+      "start": 14.652,
+      "end": 15.232,
       "phrase": 2
     },
     {
       "text": "pomarańczy",
-      "start": 16.44,
-      "end": 17.171,
+      "start": 15.279,
+      "end": 16.103,
       "phrase": 2
     },
     {
       "text": "i",
-      "start": 17.241,
-      "end": 17.299,
+      "start": 16.184,
+      "end": 16.3,
       "phrase": 2
     },
     {
       "text": "czerwieni,",
-      "start": 17.357,
-      "end": 18.228,
+      "start": 16.37,
+      "end": 17.194,
       "phrase": 2
     },
     {
       "text": "by",
-      "start": 18.402,
-      "end": 18.565,
+      "start": 17.345,
+      "end": 17.473,
       "phrase": 2
     },
     {
       "text": "w",
-      "start": 18.611,
-      "end": 18.634,
+      "start": 17.507,
+      "end": 17.542,
       "phrase": 2
     },
     {
       "text": "końcu",
-      "start": 18.704,
-      "end": 19.075,
+      "start": 17.6,
+      "end": 18.03,
       "phrase": 2
     },
     {
       "text": "opaść",
-      "start": 19.168,
-      "end": 19.667,
+      "start": 18.146,
+      "end": 18.622,
       "phrase": 2
     },
     {
       "text": "na",
-      "start": 19.76,
-      "end": 19.842,
+      "start": 18.715,
+      "end": 18.796,
       "phrase": 2
     },
     {
       "text": "wilgotne",
-      "start": 19.9,
-      "end": 20.376,
+      "start": 18.866,
+      "end": 19.353,
       "phrase": 2
     },
     {
       "text": "chodniki.",
-      "start": 20.399,
-      "end": 21.246,
+      "start": 19.388,
+      "end": 20.201,
       "phrase": 2
     },
     {
       "text": "Ludzie",
-      "start": 21.688,
-      "end": 21.989,
+      "start": 20.526,
+      "end": 20.828,
       "phrase": 3
     },
     {
       "text": "idą",
-      "start": 22.048,
-      "end": 22.28,
+      "start": 20.886,
+      "end": 21.095,
       "phrase": 3
     },
     {
       "text": "szybciej",
-      "start": 22.349,
-      "end": 22.744,
+      "start": 21.165,
+      "end": 21.513,
       "phrase": 3
     },
     {
       "text": "niż",
-      "start": 22.791,
-      "end": 22.93,
+      "start": 21.571,
+      "end": 21.722,
       "phrase": 3
     },
     {
       "text": "latem,",
-      "start": 23.011,
-      "end": 23.534,
+      "start": 21.792,
+      "end": 22.302,
       "phrase": 3
     },
     {
       "text": "chowając",
-      "start": 23.685,
-      "end": 24.23,
+      "start": 22.477,
+      "end": 22.953,
       "phrase": 3
     },
     {
       "text": "dłonie",
-      "start": 24.288,
-      "end": 24.637,
+      "start": 23.011,
+      "end": 23.336,
       "phrase": 3
     },
     {
       "text": "w",
-      "start": 24.695,
-      "end": 24.718,
+      "start": 23.382,
+      "end": 23.405,
       "phrase": 3
     },
     {
       "text": "kieszeniach",
-      "start": 24.776,
-      "end": 25.217,
+      "start": 23.463,
+      "end": 23.916,
       "phrase": 3
     },
     {
       "text": "płaszczy.",
-      "start": 25.263,
-      "end": 25.972,
+      "start": 23.963,
+      "end": 24.671,
       "phrase": 3
     },
     {
       "text": "Z",
-      "start": 26.483,
-      "end": 26.541,
+      "start": 25.054,
+      "end": 25.089,
       "phrase": 4
     },
     {
       "text": "otwartych",
-      "start": 26.599,
-      "end": 27.121,
+      "start": 25.135,
+      "end": 25.646,
       "phrase": 4
     },
     {
       "text": "drzwi",
-      "start": 27.168,
-      "end": 27.435,
+      "start": 25.716,
+      "end": 26.018,
       "phrase": 4
     },
     {
       "text": "kawiarni",
-      "start": 27.481,
-      "end": 28.12,
+      "start": 26.076,
+      "end": 26.772,
       "phrase": 4
     },
     {
       "text": "unosi",
-      "start": 28.398,
-      "end": 28.805,
+      "start": 27.051,
+      "end": 27.388,
       "phrase": 4
     },
     {
       "text": "się",
-      "start": 28.851,
-      "end": 28.955,
+      "start": 27.434,
+      "end": 27.527,
       "phrase": 4
     },
     {
       "text": "zapach",
-      "start": 29.037,
-      "end": 29.397,
+      "start": 27.585,
+      "end": 27.875,
       "phrase": 4
     },
     {
       "text": "cynamonu",
-      "start": 29.443,
-      "end": 30.093,
+      "start": 27.933,
+      "end": 28.572,
       "phrase": 4
     },
     {
       "text": "i",
-      "start": 30.175,
-      "end": 30.244,
+      "start": 28.641,
+      "end": 28.676,
       "phrase": 4
     },
     {
       "text": "świeżo",
-      "start": 30.36,
-      "end": 30.79,
+      "start": 28.746,
+      "end": 29.083,
       "phrase": 4
     },
     {
       "text": "mielonej",
-      "start": 30.836,
-      "end": 31.231,
+      "start": 29.141,
+      "end": 29.535,
       "phrase": 4
     },
     {
       "text": "kawy.",
-      "start": 31.289,
-      "end": 31.87,
+      "start": 29.593,
+      "end": 30.116,
       "phrase": 4
     },
     {
       "text": "Mimo",
-      "start": 32.38,
-      "end": 32.647,
+      "start": 30.499,
+      "end": 30.754,
       "phrase": 5
     },
     {
       "text": "wczesnej",
-      "start": 32.694,
-      "end": 33.135,
+      "start": 30.801,
+      "end": 31.219,
       "phrase": 5
     },
     {
       "text": "pory",
-      "start": 33.193,
-      "end": 33.576,
+      "start": 31.277,
+      "end": 31.66,
       "phrase": 5
     },
     {
       "text": "ulice",
-      "start": 33.855,
-      "end": 34.366,
+      "start": 31.985,
+      "end": 32.519,
       "phrase": 5
     },
     {
       "text": "tętnią",
-      "start": 34.459,
-      "end": 34.981,
+      "start": 32.635,
+      "end": 33.227,
       "phrase": 5
     },
     {
       "text": "życiem:",
-      "start": 35.074,
-      "end": 35.701,
+      "start": 33.32,
+      "end": 33.97,
       "phrase": 5
     },
     {
       "text": "tramwaje",
-      "start": 36.026,
-      "end": 36.595,
+      "start": 34.179,
+      "end": 34.853,
       "phrase": 5
     },
     {
       "text": "suną",
-      "start": 36.653,
-      "end": 37.025,
+      "start": 34.922,
+      "end": 35.27,
       "phrase": 5
     },
     {
       "text": "wzdłuż",
-      "start": 37.094,
-      "end": 37.443,
+      "start": 35.34,
+      "end": 35.723,
       "phrase": 5
     },
     {
       "text": "torów,",
-      "start": 37.524,
-      "end": 38.151,
+      "start": 35.793,
+      "end": 36.373,
       "phrase": 5
     },
     {
       "text": "a",
-      "start": 38.395,
-      "end": 38.476,
+      "start": 36.548,
+      "end": 36.606,
       "phrase": 5
     },
     {
       "text": "gdzieś",
-      "start": 38.546,
-      "end": 38.847,
+      "start": 36.675,
+      "end": 36.966,
       "phrase": 5
     },
     {
       "text": "w",
-      "start": 38.906,
-      "end": 38.94,
+      "start": 37.035,
+      "end": 37.058,
       "phrase": 5
     },
     {
       "text": "oddali",
-      "start": 39.022,
-      "end": 39.556,
+      "start": 37.116,
+      "end": 37.616,
       "phrase": 5
     },
     {
       "text": "słychać",
-      "start": 39.625,
-      "end": 40.101,
+      "start": 37.685,
+      "end": 38.103,
       "phrase": 5
     },
     {
       "text": "dzwony",
-      "start": 40.217,
-      "end": 40.659,
+      "start": 38.196,
+      "end": 38.568,
       "phrase": 5
     },
     {
       "text": "kościoła.",
-      "start": 40.705,
-      "end": 41.611,
+      "start": 38.603,
+      "end": 39.462,
       "phrase": 5
     },
     {
       "text": "Dla",
-      "start": 42.052,
-      "end": 42.249,
+      "start": 39.903,
+      "end": 40.1,
       "phrase": 6
     },
     {
       "text": "wielu",
-      "start": 42.307,
-      "end": 42.516,
+      "start": 40.147,
+      "end": 40.344,
       "phrase": 6
     },
     {
       "text": "mieszkańców",
-      "start": 42.563,
-      "end": 43.178,
+      "start": 40.379,
+      "end": 41.006,
       "phrase": 6
     },
     {
       "text": "to",
-      "start": 43.248,
-      "end": 43.329,
+      "start": 41.052,
+      "end": 41.122,
       "phrase": 6
     },
     {
       "text": "właśnie",
-      "start": 43.375,
-      "end": 43.77,
+      "start": 41.168,
+      "end": 41.551,
       "phrase": 6
     },
     {
       "text": "ta",
-      "start": 43.84,
-      "end": 43.991,
+      "start": 41.598,
+      "end": 41.691,
       "phrase": 6
     },
     {
       "text": "pora",
-      "start": 44.049,
-      "end": 44.281,
+      "start": 41.749,
+      "end": 41.981,
       "phrase": 6
     },
     {
       "text": "roku,",
-      "start": 44.351,
-      "end": 44.954,
+      "start": 42.039,
+      "end": 42.608,
       "phrase": 6
     },
     {
       "text": "choć",
-      "start": 45.07,
-      "end": 45.326,
+      "start": 42.689,
+      "end": 42.921,
       "phrase": 6
     },
     {
       "text": "krótka",
-      "start": 45.419,
-      "end": 45.871,
+      "start": 43.014,
+      "end": 43.432,
       "phrase": 6
     },
     {
       "text": "i",
-      "start": 45.953,
-      "end": 45.988,
+      "start": 43.502,
+      "end": 43.525,
       "phrase": 6
     },
     {
       "text": "zmienna,",
-      "start": 46.057,
-      "end": 46.812,
+      "start": 43.572,
+      "end": 44.303,
       "phrase": 6
     },
     {
       "text": "kryje",
-      "start": 46.928,
-      "end": 47.207,
+      "start": 44.477,
+      "end": 44.756,
       "phrase": 6
     },
     {
       "text": "w",
-      "start": 47.241,
-      "end": 47.265,
+      "start": 44.791,
+      "end": 44.814,
       "phrase": 6
     },
     {
       "text": "sobie",
-      "start": 47.311,
-      "end": 47.543,
+      "start": 44.86,
+      "end": 45.127,
       "phrase": 6
     },
     {
       "text": "najwięcej",
-      "start": 47.59,
-      "end": 48.17,
+      "start": 45.185,
+      "end": 45.801,
       "phrase": 6
     },
     {
       "text": "spokoju",
-      "start": 48.228,
-      "end": 48.855,
+      "start": 45.847,
+      "end": 46.567,
       "phrase": 6
     },
     {
       "text": "i",
-      "start": 48.948,
-      "end": 48.995,
+      "start": 46.683,
+      "end": 46.741,
       "phrase": 6
     },
     {
       "text": "zadumy.",
-      "start": 49.087,
-      "end": 49.923,
+      "start": 46.822,
+      "end": 47.693,
       "phrase": 6
     }
   ],
@@ -585,43 +585,43 @@
       "index": 0,
       "text": "Jesień w mieście ma swój własny, niepowtarzalny rytm.",
       "start": 0,
-      "end": 4.145
+      "end": 3.913
     },
     {
       "index": 1,
       "text": "Poranki stają się chłodniejsze, a światło, które wpada między kamienice, nabiera złotawej barwy.",
-      "start": 4.47,
-      "end": 11.18
+      "start": 4.354,
+      "end": 10.681
     },
     {
       "index": 2,
       "text": "Liście, początkowo zielone, powoli przybierają odcienie żółci, pomarańczy i czerwieni, by w końcu opaść na wilgotne chodniki.",
-      "start": 11.564,
-      "end": 21.246
+      "start": 11.122,
+      "end": 20.201
     },
     {
       "index": 3,
       "text": "Ludzie idą szybciej niż latem, chowając dłonie w kieszeniach płaszczy.",
-      "start": 21.688,
-      "end": 25.972
+      "start": 20.526,
+      "end": 24.671
     },
     {
       "index": 4,
       "text": "Z otwartych drzwi kawiarni unosi się zapach cynamonu i świeżo mielonej kawy.",
-      "start": 26.483,
-      "end": 31.87
+      "start": 25.054,
+      "end": 30.116
     },
     {
       "index": 5,
       "text": "Mimo wczesnej pory ulice tętnią życiem: tramwaje suną wzdłuż torów, a gdzieś w oddali słychać dzwony kościoła.",
-      "start": 32.38,
-      "end": 41.611
+      "start": 30.499,
+      "end": 39.462
     },
     {
       "index": 6,
       "text": "Dla wielu mieszkańców to właśnie ta pora roku, choć krótka i zmienna, kryje w sobie najwięcej spokoju i zadumy.",
-      "start": 42.052,
-      "end": 49.923
+      "start": 39.903,
+      "end": 47.693
     }
   ]
 }

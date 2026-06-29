@@ -1,19 +1,58 @@
 {
   "exercises": [
     {
-      "id": "latwy",
-      "title": "Poziom 1 — Łatwy: Poranek",
+      "id": "l1-poranek",
+      "level": 1,
+      "title": "Poranek",
       "text": "Dzień dobry. Jest ranek. Słońce wschodzi. Wstaję z łóżka. Otwieram okno. Powietrze jest świeże. Robię herbatę. Piję ją powoli. Na stole leży chleb. Jem śniadanie. Potem myję naczynia. Czuję się dobrze. Zaczynam nowy dzień."
     },
     {
-      "id": "sredni",
-      "title": "Poziom 2 — Średni: Na targu",
+      "id": "l1-liczby",
+      "level": 1,
+      "title": "Liczby i dni",
+      "text": "Liczę powoli. Jeden, dwa, trzy. Cztery, pięć, sześć. To jest prosta liczba. Dziś jest poniedziałek. Jutro będzie wtorek. Tydzień ma siedem dni. Rok ma dwanaście miesięcy. Teraz jest godzina ósma. Mam dużo czasu. Liczę jeszcze raz. Jeden, dwa, trzy."
+    },
+    {
+      "id": "l1-kuchnia",
+      "level": 1,
+      "title": "W kuchni",
+      "text": "Jestem w kuchni. Na stole stoi talerz. Obok leży łyżka i widelec. W szklance jest woda. Gotuję zupę. Zupa jest gorąca. Pachnie bardzo dobrze. Kroję chleb. Biorę masło. Smaruję kromkę. Siadam przy stole. Smacznego."
+    },
+    {
+      "id": "l2-targ",
+      "level": 2,
+      "title": "Na targu",
       "text": "W sobotę rano poszłam na targ niedaleko domu. Na straganach leżały świeże warzywa i owoce. Kupiłam kilogram jabłek, bochenek chleba i bukiet kwiatów. Sprzedawca uśmiechnął się i zapytał, jak mija mi dzień. Powiedziałam, że bardzo dobrze, bo pogoda była słoneczna. W drodze powrotnej spotkałam sąsiadkę, która niosła ciężką torbę. Pomogłam jej donieść zakupy do domu. Kiedy wróciłam, zaparzyłam kawę i usiadłam przy oknie. To był spokojny i miły poranek."
     },
     {
-      "id": "trudny",
-      "title": "Poziom 3 — Trudny: Jesień w mieście",
+      "id": "l2-lekarz",
+      "level": 2,
+      "title": "Wizyta u lekarza",
+      "text": "W poniedziałek rano miałem wizytę u lekarza. Umówiłem się na godzinę dziewiątą, więc wyszedłem z domu wcześniej. W poczekalni siedziało kilka osób, które czekały na swoją kolej. Kiedy pielęgniarka wywołała moje nazwisko, wszedłem do gabinetu. Lekarz zapytał, jak się czuję i co mi dolega. Opowiedziałem mu, że od kilku dni boli mnie gardło. Zbadał mnie dokładnie i przepisał lekarstwo. Na koniec poradził, żebym dużo odpoczywał i pił ciepłe płyny. Podziękowałem i umówiłem się na kolejną wizytę."
+    },
+    {
+      "id": "l2-telefon",
+      "level": 2,
+      "title": "Rozmowa telefoniczna",
+      "text": "Wczoraj wieczorem zadzwoniła do mnie moja przyjaciółka Anna. Powiedziała, że w sobotę organizuje małe przyjęcie z okazji urodzin. Zapytała, czy mam ochotę przyjść i kogo jeszcze powinna zaprosić. Odpowiedziałam, że bardzo się cieszę i na pewno będę. Umówiłyśmy się, że przyniosę domowe ciasto i kilka napojów. Rozmawiałyśmy jeszcze przez chwilę o pracy i o pogodzie. Zanim się rozłączyłyśmy, podała mi dokładny adres i godzinę. Odłożyłam telefon w bardzo dobrym nastroju."
+    },
+    {
+      "id": "l3-jesien",
+      "level": 3,
+      "title": "Jesień w mieście",
       "text": "Jesień w mieście ma swój własny, niepowtarzalny rytm. Poranki stają się chłodniejsze, a światło, które wpada między kamienice, nabiera złotawej barwy. Liście, początkowo zielone, powoli przybierają odcienie żółci, pomarańczy i czerwieni, by w końcu opaść na wilgotne chodniki. Ludzie idą szybciej niż latem, chowając dłonie w kieszeniach płaszczy. Z otwartych drzwi kawiarni unosi się zapach cynamonu i świeżo mielonej kawy. Mimo wczesnej pory ulice tętnią życiem: tramwaje suną wzdłuż torów, a gdzieś w oddali słychać dzwony kościoła. Dla wielu mieszkańców to właśnie ta pora roku, choć krótka i zmienna, kryje w sobie najwięcej spokoju i zadumy."
+    },
+    {
+      "id": "l3-wiadomosci",
+      "level": 3,
+      "title": "Poranne wiadomości",
+      "text": "Dzień dobry, oto najważniejsze informacje tego poranka. Synoptycy zapowiadają, że w ciągu najbliższych dni temperatura wyraźnie spadnie, a na północy kraju mogą pojawić się pierwsze przymrozki. W stolicy rozpoczął się remont głównego mostu, dlatego kierowcy powinni liczyć się z utrudnieniami i wybierać trasy alternatywne. Naukowcy z miejscowego uniwersytetu opublikowali wyniki badań, które mogą pomóc w ochronie zagrożonych gatunków ptaków. W świecie kultury rozpoczął się doroczny festiwal filmowy, na który zjechali twórcy z kilkunastu krajów. Na zakończenie sport: nasza reprezentacja awansowała do finału, pokonując rywali różnicą dwóch punktów. To wszystko na teraz, do usłyszenia za godzinę."
+    },
+    {
+      "id": "l3-wspomnienie",
+      "level": 3,
+      "title": "Wspomnienie z dzieciństwa",
+      "text": "Kiedy myślę o dzieciństwie, najczęściej wracam pamięcią do długich, leniwych wakacji u dziadków na wsi. Dom stał na skraju lasu, a poranki zaczynały się od śpiewu ptaków i zapachu świeżego pieczywa, który dochodził z kuchni. Babcia, niezależnie od pogody, zawsze znajdowała dla nas jakieś zajęcie: zbieranie malin, pomoc w ogrodzie albo naukę starych, niemal zapomnianych piosenek. Dziadek z kolei opowiadał historie, w których prawda mieszała się z fantazją tak umiejętnie, że do dziś nie wiem, co wydarzyło się naprawdę. Wieczorami siadaliśmy razem na ganku i w milczeniu patrzyliśmy, jak słońce powoli chowa się za wzgórzami. Choć minęło wiele lat, te chwile wydają mi się bliższe niż niejedno wczorajsze wydarzenie."
     }
   ]
 }

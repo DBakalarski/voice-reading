@@ -1,0 +1,477 @@
+{
+  "id": "l2-telefon",
+  "title": "Rozmowa telefoniczna",
+  "audio": "/library/l2-telefon.mp3",
+  "words": [
+    {
+      "text": "Wczoraj",
+      "start": 0,
+      "end": 0.464,
+      "phrase": 0
+    },
+    {
+      "text": "wieczorem",
+      "start": 0.511,
+      "end": 0.917,
+      "phrase": 0
+    },
+    {
+      "text": "zadzwoniła",
+      "start": 0.987,
+      "end": 1.428,
+      "phrase": 0
+    },
+    {
+      "text": "do",
+      "start": 1.474,
+      "end": 1.556,
+      "phrase": 0
+    },
+    {
+      "text": "mnie",
+      "start": 1.591,
+      "end": 1.718,
+      "phrase": 0
+    },
+    {
+      "text": "moja",
+      "start": 1.765,
+      "end": 1.962,
+      "phrase": 0
+    },
+    {
+      "text": "przyjaciółka",
+      "start": 1.997,
+      "end": 2.566,
+      "phrase": 0
+    },
+    {
+      "text": "Anna.",
+      "start": 2.647,
+      "end": 3.193,
+      "phrase": 0
+    },
+    {
+      "text": "Powiedziała,",
+      "start": 3.437,
+      "end": 3.982,
+      "phrase": 1
+    },
+    {
+      "text": "że",
+      "start": 4.029,
+      "end": 4.203,
+      "phrase": 1
+    },
+    {
+      "text": "w",
+      "start": 4.284,
+      "end": 4.319,
+      "phrase": 1
+    },
+    {
+      "text": "sobotę",
+      "start": 4.377,
+      "end": 4.783,
+      "phrase": 1
+    },
+    {
+      "text": "organizuje",
+      "start": 4.841,
+      "end": 5.445,
+      "phrase": 1
+    },
+    {
+      "text": "małe",
+      "start": 5.515,
+      "end": 5.793,
+      "phrase": 1
+    },
+    {
+      "text": "przyjęcie",
+      "start": 5.828,
+      "end": 6.316,
+      "phrase": 1
+    },
+    {
+      "text": "z",
+      "start": 6.374,
+      "end": 6.397,
+      "phrase": 1
+    },
+    {
+      "text": "okazji",
+      "start": 6.478,
+      "end": 6.896,
+      "phrase": 1
+    },
+    {
+      "text": "urodzin.",
+      "start": 6.954,
+      "end": 7.686,
+      "phrase": 1
+    },
+    {
+      "text": "Zapytała,",
+      "start": 8.069,
+      "end": 8.615,
+      "phrase": 2
+    },
+    {
+      "text": "czy",
+      "start": 8.638,
+      "end": 8.754,
+      "phrase": 2
+    },
+    {
+      "text": "mam",
+      "start": 8.8,
+      "end": 8.963,
+      "phrase": 2
+    },
+    {
+      "text": "ochotę",
+      "start": 9.009,
+      "end": 9.3,
+      "phrase": 2
+    },
+    {
+      "text": "przyjść",
+      "start": 9.346,
+      "end": 9.764,
+      "phrase": 2
+    },
+    {
+      "text": "i",
+      "start": 9.88,
+      "end": 9.915,
+      "phrase": 2
+    },
+    {
+      "text": "kogo",
+      "start": 10.031,
+      "end": 10.333,
+      "phrase": 2
+    },
+    {
+      "text": "jeszcze",
+      "start": 10.403,
+      "end": 10.658,
+      "phrase": 2
+    },
+    {
+      "text": "powinna",
+      "start": 10.704,
+      "end": 11.111,
+      "phrase": 2
+    },
+    {
+      "text": "zaprosić.",
+      "start": 11.169,
+      "end": 12.005,
+      "phrase": 2
+    },
+    {
+      "text": "Odpowiedziałam,",
+      "start": 12.283,
+      "end": 13.05,
+      "phrase": 3
+    },
+    {
+      "text": "że",
+      "start": 13.084,
+      "end": 13.177,
+      "phrase": 3
+    },
+    {
+      "text": "bardzo",
+      "start": 13.224,
+      "end": 13.514,
+      "phrase": 3
+    },
+    {
+      "text": "się",
+      "start": 13.56,
+      "end": 13.665,
+      "phrase": 3
+    },
+    {
+      "text": "cieszę",
+      "start": 13.723,
+      "end": 14.048,
+      "phrase": 3
+    },
+    {
+      "text": "i",
+      "start": 14.129,
+      "end": 14.164,
+      "phrase": 3
+    },
+    {
+      "text": "na",
+      "start": 14.21,
+      "end": 14.28,
+      "phrase": 3
+    },
+    {
+      "text": "pewno",
+      "start": 14.327,
+      "end": 14.57,
+      "phrase": 3
+    },
+    {
+      "text": "będę.",
+      "start": 14.617,
+      "end": 15.209,
+      "phrase": 3
+    },
+    {
+      "text": "Umówiłyśmy",
+      "start": 15.534,
+      "end": 16.231,
+      "phrase": 4
+    },
+    {
+      "text": "się,",
+      "start": 16.265,
+      "end": 16.428,
+      "phrase": 4
+    },
+    {
+      "text": "że",
+      "start": 16.474,
+      "end": 16.556,
+      "phrase": 4
+    },
+    {
+      "text": "przyniosę",
+      "start": 16.591,
+      "end": 17.067,
+      "phrase": 4
+    },
+    {
+      "text": "domowe",
+      "start": 17.113,
+      "end": 17.426,
+      "phrase": 4
+    },
+    {
+      "text": "ciasto",
+      "start": 17.461,
+      "end": 17.937,
+      "phrase": 4
+    },
+    {
+      "text": "i",
+      "start": 18.019,
+      "end": 18.065,
+      "phrase": 4
+    },
+    {
+      "text": "kilka",
+      "start": 18.135,
+      "end": 18.413,
+      "phrase": 4
+    },
+    {
+      "text": "napojów.",
+      "start": 18.46,
+      "end": 19.122,
+      "phrase": 4
+    },
+    {
+      "text": "Rozmawiałyśmy",
+      "start": 19.447,
+      "end": 20.19,
+      "phrase": 5
+    },
+    {
+      "text": "jeszcze",
+      "start": 20.236,
+      "end": 20.445,
+      "phrase": 5
+    },
+    {
+      "text": "przez",
+      "start": 20.48,
+      "end": 20.666,
+      "phrase": 5
+    },
+    {
+      "text": "chwilę",
+      "start": 20.689,
+      "end": 20.968,
+      "phrase": 5
+    },
+    {
+      "text": "o",
+      "start": 21.014,
+      "end": 21.049,
+      "phrase": 5
+    },
+    {
+      "text": "pracy",
+      "start": 21.095,
+      "end": 21.606,
+      "phrase": 5
+    },
+    {
+      "text": "i",
+      "start": 21.676,
+      "end": 21.734,
+      "phrase": 5
+    },
+    {
+      "text": "o",
+      "start": 21.815,
+      "end": 21.85,
+      "phrase": 5
+    },
+    {
+      "text": "pogodzie.",
+      "start": 21.896,
+      "end": 22.616,
+      "phrase": 5
+    },
+    {
+      "text": "Zanim",
+      "start": 22.895,
+      "end": 23.197,
+      "phrase": 6
+    },
+    {
+      "text": "się",
+      "start": 23.243,
+      "end": 23.336,
+      "phrase": 6
+    },
+    {
+      "text": "rozłączyłyśmy,",
+      "start": 23.382,
+      "end": 24.311,
+      "phrase": 6
+    },
+    {
+      "text": "podała",
+      "start": 24.346,
+      "end": 24.683,
+      "phrase": 6
+    },
+    {
+      "text": "mi",
+      "start": 24.729,
+      "end": 24.799,
+      "phrase": 6
+    },
+    {
+      "text": "dokładny",
+      "start": 24.845,
+      "end": 25.275,
+      "phrase": 6
+    },
+    {
+      "text": "adres",
+      "start": 25.333,
+      "end": 25.704,
+      "phrase": 6
+    },
+    {
+      "text": "i",
+      "start": 25.786,
+      "end": 25.82,
+      "phrase": 6
+    },
+    {
+      "text": "godzinę.",
+      "start": 25.89,
+      "end": 26.54,
+      "phrase": 6
+    },
+    {
+      "text": "Odłożyłam",
+      "start": 26.923,
+      "end": 27.516,
+      "phrase": 7
+    },
+    {
+      "text": "telefon",
+      "start": 27.574,
+      "end": 28.015,
+      "phrase": 7
+    },
+    {
+      "text": "w",
+      "start": 28.096,
+      "end": 28.131,
+      "phrase": 7
+    },
+    {
+      "text": "bardzo",
+      "start": 28.201,
+      "end": 28.584,
+      "phrase": 7
+    },
+    {
+      "text": "dobrym",
+      "start": 28.63,
+      "end": 28.909,
+      "phrase": 7
+    },
+    {
+      "text": "nastroju.",
+      "start": 28.955,
+      "end": 29.861,
+      "phrase": 7
+    }
+  ],
+  "phrases": [
+    {
+      "index": 0,
+      "text": "Wczoraj wieczorem zadzwoniła do mnie moja przyjaciółka Anna.",
+      "start": 0,
+      "end": 3.193
+    },
+    {
+      "index": 1,
+      "text": "Powiedziała, że w sobotę organizuje małe przyjęcie z okazji urodzin.",
+      "start": 3.437,
+      "end": 7.686
+    },
+    {
+      "index": 2,
+      "text": "Zapytała, czy mam ochotę przyjść i kogo jeszcze powinna zaprosić.",
+      "start": 8.069,
+      "end": 12.005
+    },
+    {
+      "index": 3,
+      "text": "Odpowiedziałam, że bardzo się cieszę i na pewno będę.",
+      "start": 12.283,
+      "end": 15.209
+    },
+    {
+      "index": 4,
+      "text": "Umówiłyśmy się, że przyniosę domowe ciasto i kilka napojów.",
+      "start": 15.534,
+      "end": 19.122
+    },
+    {
+      "index": 5,
+      "text": "Rozmawiałyśmy jeszcze przez chwilę o pracy i o pogodzie.",
+      "start": 19.447,
+      "end": 22.616
+    },
+    {
+      "index": 6,
+      "text": "Zanim się rozłączyłyśmy, podała mi dokładny adres i godzinę.",
+      "start": 22.895,
+      "end": 26.54
+    },
+    {
+      "index": 7,
+      "text": "Odłożyłam telefon w bardzo dobrym nastroju.",
+      "start": 26.923,
+      "end": 29.861
+    }
+  ]
+}

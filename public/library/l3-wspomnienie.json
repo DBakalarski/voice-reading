@@ -1,0 +1,699 @@
+{
+  "id": "l3-wspomnienie",
+  "title": "Wspomnienie z dzieciństwa",
+  "audio": "/library/l3-wspomnienie.mp3",
+  "words": [
+    {
+      "text": "Kiedy",
+      "start": 0,
+      "end": 0.372,
+      "phrase": 0
+    },
+    {
+      "text": "myślę",
+      "start": 0.406,
+      "end": 0.662,
+      "phrase": 0
+    },
+    {
+      "text": "o",
+      "start": 0.72,
+      "end": 0.766,
+      "phrase": 0
+    },
+    {
+      "text": "dzieciństwie,",
+      "start": 0.813,
+      "end": 1.602,
+      "phrase": 0
+    },
+    {
+      "text": "najczęściej",
+      "start": 1.672,
+      "end": 2.252,
+      "phrase": 0
+    },
+    {
+      "text": "wracam",
+      "start": 2.299,
+      "end": 2.635,
+      "phrase": 0
+    },
+    {
+      "text": "pamięcią",
+      "start": 2.682,
+      "end": 3.123,
+      "phrase": 0
+    },
+    {
+      "text": "do",
+      "start": 3.193,
+      "end": 3.262,
+      "phrase": 0
+    },
+    {
+      "text": "długich,",
+      "start": 3.32,
+      "end": 3.913,
+      "phrase": 0
+    },
+    {
+      "text": "leniwych",
+      "start": 3.959,
+      "end": 4.377,
+      "phrase": 0
+    },
+    {
+      "text": "wakacji",
+      "start": 4.423,
+      "end": 4.888,
+      "phrase": 0
+    },
+    {
+      "text": "u",
+      "start": 4.957,
+      "end": 5.027,
+      "phrase": 0
+    },
+    {
+      "text": "dziadków",
+      "start": 5.062,
+      "end": 5.445,
+      "phrase": 0
+    },
+    {
+      "text": "na",
+      "start": 5.503,
+      "end": 5.596,
+      "phrase": 0
+    },
+    {
+      "text": "wsi.",
+      "start": 5.642,
+      "end": 6.037,
+      "phrase": 0
+    },
+    {
+      "text": "Dom",
+      "start": 6.42,
+      "end": 6.641,
+      "phrase": 1
+    },
+    {
+      "text": "stał",
+      "start": 6.699,
+      "end": 6.908,
+      "phrase": 1
+    },
+    {
+      "text": "na",
+      "start": 6.966,
+      "end": 7.036,
+      "phrase": 1
+    },
+    {
+      "text": "skraju",
+      "start": 7.082,
+      "end": 7.407,
+      "phrase": 1
+    },
+    {
+      "text": "lasu,",
+      "start": 7.477,
+      "end": 8.057,
+      "phrase": 1
+    },
+    {
+      "text": "a",
+      "start": 8.266,
+      "end": 8.324,
+      "phrase": 1
+    },
+    {
+      "text": "poranki",
+      "start": 8.394,
+      "end": 8.835,
+      "phrase": 1
+    },
+    {
+      "text": "zaczynały",
+      "start": 8.893,
+      "end": 9.323,
+      "phrase": 1
+    },
+    {
+      "text": "się",
+      "start": 9.358,
+      "end": 9.462,
+      "phrase": 1
+    },
+    {
+      "text": "od",
+      "start": 9.52,
+      "end": 9.601,
+      "phrase": 1
+    },
+    {
+      "text": "śpiewu",
+      "start": 9.648,
+      "end": 9.961,
+      "phrase": 1
+    },
+    {
+      "text": "ptaków",
+      "start": 9.996,
+      "end": 10.507,
+      "phrase": 1
+    },
+    {
+      "text": "i",
+      "start": 10.623,
+      "end": 10.693,
+      "phrase": 1
+    },
+    {
+      "text": "zapachu",
+      "start": 10.762,
+      "end": 11.122,
+      "phrase": 1
+    },
+    {
+      "text": "świeżego",
+      "start": 11.18,
+      "end": 11.552,
+      "phrase": 1
+    },
+    {
+      "text": "pieczywa,",
+      "start": 11.598,
+      "end": 12.028,
+      "phrase": 1
+    },
+    {
+      "text": "który",
+      "start": 12.063,
+      "end": 12.283,
+      "phrase": 1
+    },
+    {
+      "text": "dochodził",
+      "start": 12.318,
+      "end": 12.69,
+      "phrase": 1
+    },
+    {
+      "text": "z",
+      "start": 12.725,
+      "end": 12.748,
+      "phrase": 1
+    },
+    {
+      "text": "kuchni.",
+      "start": 12.806,
+      "end": 13.375,
+      "phrase": 1
+    },
+    {
+      "text": "Babcia,",
+      "start": 13.654,
+      "end": 14.153,
+      "phrase": 2
+    },
+    {
+      "text": "niezależnie",
+      "start": 14.188,
+      "end": 14.745,
+      "phrase": 2
+    },
+    {
+      "text": "od",
+      "start": 14.78,
+      "end": 14.873,
+      "phrase": 2
+    },
+    {
+      "text": "pogody,",
+      "start": 14.931,
+      "end": 15.593,
+      "phrase": 2
+    },
+    {
+      "text": "zawsze",
+      "start": 15.801,
+      "end": 16.173,
+      "phrase": 2
+    },
+    {
+      "text": "znajdowała",
+      "start": 16.208,
+      "end": 16.754,
+      "phrase": 2
+    },
+    {
+      "text": "dla",
+      "start": 16.788,
+      "end": 16.928,
+      "phrase": 2
+    },
+    {
+      "text": "nas",
+      "start": 16.974,
+      "end": 17.102,
+      "phrase": 2
+    },
+    {
+      "text": "jakieś",
+      "start": 17.148,
+      "end": 17.38,
+      "phrase": 2
+    },
+    {
+      "text": "zajęcie:",
+      "start": 17.438,
+      "end": 18.251,
+      "phrase": 2
+    },
+    {
+      "text": "zbieranie",
+      "start": 18.46,
+      "end": 18.913,
+      "phrase": 2
+    },
+    {
+      "text": "malin,",
+      "start": 18.971,
+      "end": 19.47,
+      "phrase": 2
+    },
+    {
+      "text": "pomoc",
+      "start": 19.563,
+      "end": 20.016,
+      "phrase": 2
+    },
+    {
+      "text": "w",
+      "start": 20.086,
+      "end": 20.109,
+      "phrase": 2
+    },
+    {
+      "text": "ogrodzie",
+      "start": 20.178,
+      "end": 20.713,
+      "phrase": 2
+    },
+    {
+      "text": "albo",
+      "start": 20.782,
+      "end": 21.038,
+      "phrase": 2
+    },
+    {
+      "text": "naukę",
+      "start": 21.107,
+      "end": 21.525,
+      "phrase": 2
+    },
+    {
+      "text": "starych,",
+      "start": 21.572,
+      "end": 22.106,
+      "phrase": 2
+    },
+    {
+      "text": "niemal",
+      "start": 22.129,
+      "end": 22.419,
+      "phrase": 2
+    },
+    {
+      "text": "zapomnianych",
+      "start": 22.489,
+      "end": 23.127,
+      "phrase": 2
+    },
+    {
+      "text": "piosenek.",
+      "start": 23.174,
+      "end": 23.952,
+      "phrase": 2
+    },
+    {
+      "text": "Dziadek",
+      "start": 24.335,
+      "end": 24.695,
+      "phrase": 3
+    },
+    {
+      "text": "z",
+      "start": 24.73,
+      "end": 24.753,
+      "phrase": 3
+    },
+    {
+      "text": "kolei",
+      "start": 24.799,
+      "end": 25.136,
+      "phrase": 3
+    },
+    {
+      "text": "opowiadał",
+      "start": 25.217,
+      "end": 25.682,
+      "phrase": 3
+    },
+    {
+      "text": "historie,",
+      "start": 25.74,
+      "end": 26.262,
+      "phrase": 3
+    },
+    {
+      "text": "w",
+      "start": 26.285,
+      "end": 26.309,
+      "phrase": 3
+    },
+    {
+      "text": "których",
+      "start": 26.355,
+      "end": 26.668,
+      "phrase": 3
+    },
+    {
+      "text": "prawda",
+      "start": 26.738,
+      "end": 27.214,
+      "phrase": 3
+    },
+    {
+      "text": "mieszała",
+      "start": 27.272,
+      "end": 27.713,
+      "phrase": 3
+    },
+    {
+      "text": "się",
+      "start": 27.76,
+      "end": 27.864,
+      "phrase": 3
+    },
+    {
+      "text": "z",
+      "start": 27.911,
+      "end": 27.934,
+      "phrase": 3
+    },
+    {
+      "text": "fantazją",
+      "start": 27.992,
+      "end": 28.573,
+      "phrase": 3
+    },
+    {
+      "text": "tak",
+      "start": 28.654,
+      "end": 28.828,
+      "phrase": 3
+    },
+    {
+      "text": "umiejętnie,",
+      "start": 28.921,
+      "end": 29.838,
+      "phrase": 3
+    },
+    {
+      "text": "że",
+      "start": 29.989,
+      "end": 30.105,
+      "phrase": 3
+    },
+    {
+      "text": "do",
+      "start": 30.152,
+      "end": 30.256,
+      "phrase": 3
+    },
+    {
+      "text": "dziś",
+      "start": 30.303,
+      "end": 30.593,
+      "phrase": 3
+    },
+    {
+      "text": "nie",
+      "start": 30.709,
+      "end": 30.848,
+      "phrase": 3
+    },
+    {
+      "text": "wiem,",
+      "start": 30.918,
+      "end": 31.162,
+      "phrase": 3
+    },
+    {
+      "text": "co",
+      "start": 31.197,
+      "end": 31.382,
+      "phrase": 3
+    },
+    {
+      "text": "wydarzyło",
+      "start": 31.498,
+      "end": 32.009,
+      "phrase": 3
+    },
+    {
+      "text": "się",
+      "start": 32.056,
+      "end": 32.137,
+      "phrase": 3
+    },
+    {
+      "text": "naprawdę.",
+      "start": 32.195,
+      "end": 32.95,
+      "phrase": 3
+    },
+    {
+      "text": "Wieczorami",
+      "start": 33.391,
+      "end": 33.925,
+      "phrase": 4
+    },
+    {
+      "text": "siadaliśmy",
+      "start": 33.971,
+      "end": 34.517,
+      "phrase": 4
+    },
+    {
+      "text": "razem",
+      "start": 34.564,
+      "end": 34.819,
+      "phrase": 4
+    },
+    {
+      "text": "na",
+      "start": 34.865,
+      "end": 34.935,
+      "phrase": 4
+    },
+    {
+      "text": "ganku",
+      "start": 34.993,
+      "end": 35.492,
+      "phrase": 4
+    },
+    {
+      "text": "i",
+      "start": 35.771,
+      "end": 35.887,
+      "phrase": 4
+    },
+    {
+      "text": "w",
+      "start": 35.945,
+      "end": 35.98,
+      "phrase": 4
+    },
+    {
+      "text": "milczeniu",
+      "start": 36.05,
+      "end": 36.572,
+      "phrase": 4
+    },
+    {
+      "text": "patrzyliśmy,",
+      "start": 36.618,
+      "end": 37.373,
+      "phrase": 4
+    },
+    {
+      "text": "jak",
+      "start": 37.396,
+      "end": 37.536,
+      "phrase": 4
+    },
+    {
+      "text": "słońce",
+      "start": 37.605,
+      "end": 38.093,
+      "phrase": 4
+    },
+    {
+      "text": "powoli",
+      "start": 38.151,
+      "end": 38.523,
+      "phrase": 4
+    },
+    {
+      "text": "chowa",
+      "start": 38.581,
+      "end": 38.882,
+      "phrase": 4
+    },
+    {
+      "text": "się",
+      "start": 38.929,
+      "end": 39.033,
+      "phrase": 4
+    },
+    {
+      "text": "za",
+      "start": 39.091,
+      "end": 39.173,
+      "phrase": 4
+    },
+    {
+      "text": "wzgórzami.",
+      "start": 39.219,
+      "end": 40.032,
+      "phrase": 4
+    },
+    {
+      "text": "Choć",
+      "start": 40.415,
+      "end": 40.705,
+      "phrase": 5
+    },
+    {
+      "text": "minęło",
+      "start": 40.798,
+      "end": 41.17,
+      "phrase": 5
+    },
+    {
+      "text": "wiele",
+      "start": 41.216,
+      "end": 41.46,
+      "phrase": 5
+    },
+    {
+      "text": "lat,",
+      "start": 41.518,
+      "end": 42.098,
+      "phrase": 5
+    },
+    {
+      "text": "te",
+      "start": 42.249,
+      "end": 42.377,
+      "phrase": 5
+    },
+    {
+      "text": "chwile",
+      "start": 42.412,
+      "end": 42.772,
+      "phrase": 5
+    },
+    {
+      "text": "wydają",
+      "start": 42.83,
+      "end": 43.236,
+      "phrase": 5
+    },
+    {
+      "text": "mi",
+      "start": 43.306,
+      "end": 43.387,
+      "phrase": 5
+    },
+    {
+      "text": "się",
+      "start": 43.434,
+      "end": 43.538,
+      "phrase": 5
+    },
+    {
+      "text": "bliższe",
+      "start": 43.596,
+      "end": 44.13,
+      "phrase": 5
+    },
+    {
+      "text": "niż",
+      "start": 44.2,
+      "end": 44.478,
+      "phrase": 5
+    },
+    {
+      "text": "niejedno",
+      "start": 44.595,
+      "end": 45.094,
+      "phrase": 5
+    },
+    {
+      "text": "wczorajsze",
+      "start": 45.129,
+      "end": 45.651,
+      "phrase": 5
+    },
+    {
+      "text": "wydarzenie.",
+      "start": 45.697,
+      "end": 46.673,
+      "phrase": 5
+    }
+  ],
+  "phrases": [
+    {
+      "index": 0,
+      "text": "Kiedy myślę o dzieciństwie, najczęściej wracam pamięcią do długich, leniwych wakacji u dziadków na wsi.",
+      "start": 0,
+      "end": 6.037
+    },
+    {
+      "index": 1,
+      "text": "Dom stał na skraju lasu, a poranki zaczynały się od śpiewu ptaków i zapachu świeżego pieczywa, który dochodził z kuchni.",
+      "start": 6.42,
+      "end": 13.375
+    },
+    {
+      "index": 2,
+      "text": "Babcia, niezależnie od pogody, zawsze znajdowała dla nas jakieś zajęcie: zbieranie malin, pomoc w ogrodzie albo naukę starych, niemal zapomnianych piosenek.",
+      "start": 13.654,
+      "end": 23.952
+    },
+    {
+      "index": 3,
+      "text": "Dziadek z kolei opowiadał historie, w których prawda mieszała się z fantazją tak umiejętnie, że do dziś nie wiem, co wydarzyło się naprawdę.",
+      "start": 24.335,
+      "end": 32.95
+    },
+    {
+      "index": 4,
+      "text": "Wieczorami siadaliśmy razem na ganku i w milczeniu patrzyliśmy, jak słońce powoli chowa się za wzgórzami.",
+      "start": 33.391,
+      "end": 40.032
+    },
+    {
+      "index": 5,
+      "text": "Choć minęło wiele lat, te chwile wydają mi się bliższe niż niejedno wczorajsze wydarzenie.",
+      "start": 40.415,
+      "end": 46.673
+    }
+  ]
+}

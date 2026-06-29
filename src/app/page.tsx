@@ -1,5 +1,5 @@
-import { ExerciseList } from "@/components/ExerciseList";
+import { LevelMenu } from "@/components/LevelMenu";
 
 export default function Home() {
-  return <ExerciseList />;
+  return <LevelMenu />;
 }

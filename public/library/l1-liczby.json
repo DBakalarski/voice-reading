@@ -1,0 +1,315 @@
+{
+  "id": "l1-liczby",
+  "title": "Liczby i dni",
+  "audio": "/library/l1-liczby.mp3",
+  "words": [
+    {
+      "text": "Liczę",
+      "start": 0,
+      "end": 0.511,
+      "phrase": 0
+    },
+    {
+      "text": "powoli.",
+      "start": 0.58,
+      "end": 1.277,
+      "phrase": 0
+    },
+    {
+      "text": "Jeden,",
+      "start": 1.451,
+      "end": 2.148,
+      "phrase": 1
+    },
+    {
+      "text": "dwa,",
+      "start": 2.299,
+      "end": 2.879,
+      "phrase": 1
+    },
+    {
+      "text": "trzy.",
+      "start": 3.03,
+      "end": 3.704,
+      "phrase": 1
+    },
+    {
+      "text": "Cztery,",
+      "start": 3.82,
+      "end": 4.528,
+      "phrase": 2
+    },
+    {
+      "text": "pięć,",
+      "start": 4.656,
+      "end": 5.364,
+      "phrase": 2
+    },
+    {
+      "text": "sześć.",
+      "start": 5.492,
+      "end": 6.211,
+      "phrase": 2
+    },
+    {
+      "text": "To",
+      "start": 6.385,
+      "end": 6.525,
+      "phrase": 3
+    },
+    {
+      "text": "jest",
+      "start": 6.571,
+      "end": 6.711,
+      "phrase": 3
+    },
+    {
+      "text": "prosta",
+      "start": 6.769,
+      "end": 7.117,
+      "phrase": 3
+    },
+    {
+      "text": "liczba.",
+      "start": 7.175,
+      "end": 7.767,
+      "phrase": 3
+    },
+    {
+      "text": "Dziś",
+      "start": 7.86,
+      "end": 8.081,
+      "phrase": 4
+    },
+    {
+      "text": "jest",
+      "start": 8.127,
+      "end": 8.278,
+      "phrase": 4
+    },
+    {
+      "text": "poniedziałek.",
+      "start": 8.324,
+      "end": 9.137,
+      "phrase": 4
+    },
+    {
+      "text": "Jutro",
+      "start": 9.311,
+      "end": 9.66,
+      "phrase": 5
+    },
+    {
+      "text": "będzie",
+      "start": 9.706,
+      "end": 9.985,
+      "phrase": 5
+    },
+    {
+      "text": "wtorek.",
+      "start": 10.019,
+      "end": 10.658,
+      "phrase": 5
+    },
+    {
+      "text": "Tydzień",
+      "start": 10.809,
+      "end": 11.169,
+      "phrase": 6
+    },
+    {
+      "text": "ma",
+      "start": 11.227,
+      "end": 11.32,
+      "phrase": 6
+    },
+    {
+      "text": "siedem",
+      "start": 11.366,
+      "end": 11.656,
+      "phrase": 6
+    },
+    {
+      "text": "dni.",
+      "start": 11.726,
+      "end": 12.214,
+      "phrase": 6
+    },
+    {
+      "text": "Rok",
+      "start": 12.388,
+      "end": 12.597,
+      "phrase": 7
+    },
+    {
+      "text": "ma",
+      "start": 12.678,
+      "end": 12.783,
+      "phrase": 7
+    },
+    {
+      "text": "dwanaście",
+      "start": 12.829,
+      "end": 13.282,
+      "phrase": 7
+    },
+    {
+      "text": "miesięcy.",
+      "start": 13.328,
+      "end": 14.095,
+      "phrase": 7
+    },
+    {
+      "text": "Teraz",
+      "start": 14.245,
+      "end": 14.536,
+      "phrase": 8
+    },
+    {
+      "text": "jest",
+      "start": 14.605,
+      "end": 14.756,
+      "phrase": 8
+    },
+    {
+      "text": "godzina",
+      "start": 14.826,
+      "end": 15.197,
+      "phrase": 8
+    },
+    {
+      "text": "ósma.",
+      "start": 15.267,
+      "end": 15.894,
+      "phrase": 8
+    },
+    {
+      "text": "Mam",
+      "start": 16.045,
+      "end": 16.231,
+      "phrase": 9
+    },
+    {
+      "text": "dużo",
+      "start": 16.289,
+      "end": 16.533,
+      "phrase": 9
+    },
+    {
+      "text": "czasu.",
+      "start": 16.567,
+      "end": 17.125,
+      "phrase": 9
+    },
+    {
+      "text": "Liczę",
+      "start": 17.334,
+      "end": 17.636,
+      "phrase": 10
+    },
+    {
+      "text": "jeszcze",
+      "start": 17.694,
+      "end": 17.949,
+      "phrase": 10
+    },
+    {
+      "text": "raz.",
+      "start": 18.007,
+      "end": 18.506,
+      "phrase": 10
+    },
+    {
+      "text": "Jeden,",
+      "start": 18.68,
+      "end": 19.354,
+      "phrase": 11
+    },
+    {
+      "text": "dwa,",
+      "start": 19.528,
+      "end": 20.12,
+      "phrase": 11
+    },
+    {
+      "text": "trzy.",
+      "start": 20.294,
+      "end": 20.991,
+      "phrase": 11
+    }
+  ],
+  "phrases": [
+    {
+      "index": 0,
+      "text": "Liczę powoli.",
+      "start": 0,
+      "end": 1.277
+    },
+    {
+      "index": 1,
+      "text": "Jeden, dwa, trzy.",
+      "start": 1.451,
+      "end": 3.704
+    },
+    {
+      "index": 2,
+      "text": "Cztery, pięć, sześć.",
+      "start": 3.82,
+      "end": 6.211
+    },
+    {
+      "index": 3,
+      "text": "To jest prosta liczba.",
+      "start": 6.385,
+      "end": 7.767
+    },
+    {
+      "index": 4,
+      "text": "Dziś jest poniedziałek.",
+      "start": 7.86,
+      "end": 9.137
+    },
+    {
+      "index": 5,
+      "text": "Jutro będzie wtorek.",
+      "start": 9.311,
+      "end": 10.658
+    },
+    {
+      "index": 6,
+      "text": "Tydzień ma siedem dni.",
+      "start": 10.809,
+      "end": 12.214
+    },
+    {
+      "index": 7,
+      "text": "Rok ma dwanaście miesięcy.",
+      "start": 12.388,
+      "end": 14.095
+    },
+    {
+      "index": 8,
+      "text": "Teraz jest godzina ósma.",
+      "start": 14.245,
+      "end": 15.894
+    },
+    {
+      "index": 9,
+      "text": "Mam dużo czasu.",
+      "start": 16.045,
+      "end": 17.125
+    },
+    {
+      "index": 10,
+      "text": "Liczę jeszcze raz.",
+      "start": 17.334,
+      "end": 18.506
+    },
+    {
+      "index": 11,
+      "text": "Jeden, dwa, trzy.",
+      "start": 18.68,
+      "end": 20.991
+    }
+  ]
+}

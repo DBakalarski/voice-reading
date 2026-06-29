@@ -25,6 +25,16 @@ const customRuntimeCaching = [
       matchOptions: { ignoreSearch: true },
     }),
   },
+  // Cache the /level HTML shell ignoring the ?level= query string.
+  // One cached copy serves every level's topic list offline.
+  {
+    matcher: ({ url, request }: { url: URL; request: Request }) =>
+      url.pathname === "/level" || url.pathname === "/level.html",
+    handler: new NetworkFirst({
+      cacheName: "level-shell",
+      matchOptions: { ignoreSearch: true },
+    }),
+  },
   // Cache the home page (/) so it is available offline.
   {
     matcher: ({ url, request }: { url: URL; request: Request }) =>

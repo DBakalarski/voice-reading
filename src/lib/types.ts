@@ -23,6 +23,7 @@ export interface Exercise {
 export interface ExerciseSummary {
   id: string;
   title: string;
+  level: number;
 }
 
 export interface LibraryIndex {

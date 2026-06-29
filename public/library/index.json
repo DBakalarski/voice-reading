@@ -1,16 +1,49 @@
 {
   "exercises": [
     {
-      "id": "latwy",
-      "title": "Poziom 1 — Łatwy: Poranek"
+      "id": "l1-poranek",
+      "title": "Poranek",
+      "level": 1
     },
     {
-      "id": "sredni",
-      "title": "Poziom 2 — Średni: Na targu"
+      "id": "l1-liczby",
+      "title": "Liczby i dni",
+      "level": 1
     },
     {
-      "id": "trudny",
-      "title": "Poziom 3 — Trudny: Jesień w mieście"
+      "id": "l1-kuchnia",
+      "title": "W kuchni",
+      "level": 1
+    },
+    {
+      "id": "l2-targ",
+      "title": "Na targu",
+      "level": 2
+    },
+    {
+      "id": "l2-lekarz",
+      "title": "Wizyta u lekarza",
+      "level": 2
+    },
+    {
+      "id": "l2-telefon",
+      "title": "Rozmowa telefoniczna",
+      "level": 2
+    },
+    {
+      "id": "l3-jesien",
+      "title": "Jesień w mieście",
+      "level": 3
+    },
+    {
+      "id": "l3-wiadomosci",
+      "title": "Poranne wiadomości",
+      "level": 3
+    },
+    {
+      "id": "l3-wspomnienie",
+      "title": "Wspomnienie z dzieciństwa",
+      "level": 3
     }
   ]
 }

@@ -7,6 +7,7 @@ import type { Alignment, LibraryIndex } from "../src/lib/types";
 interface ContentItem {
   id: string;
   title: string;
+  level: number;
   text: string;
 }
 
@@ -42,7 +43,7 @@ async function main() {
     const exercise = buildExercise(item.id, item.title, alignment);
     await writeFile(`${OUT_DIR}/${item.id}.json`, JSON.stringify(exercise, null, 2));
 
-    summaries.push({ id: item.id, title: item.title });
+    summaries.push({ id: item.id, title: item.title, level: item.level });
   }
 
   const index: LibraryIndex = { exercises: summaries };

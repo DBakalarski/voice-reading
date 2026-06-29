@@ -1,0 +1,519 @@
+{
+  "id": "l2-lekarz",
+  "title": "Wizyta u lekarza",
+  "audio": "/library/l2-lekarz.mp3",
+  "words": [
+    {
+      "text": "W",
+      "start": 0,
+      "end": 0.151,
+      "phrase": 0
+    },
+    {
+      "text": "poniedziałek",
+      "start": 0.221,
+      "end": 0.685,
+      "phrase": 0
+    },
+    {
+      "text": "rano",
+      "start": 0.743,
+      "end": 0.975,
+      "phrase": 0
+    },
+    {
+      "text": "miałem",
+      "start": 1.022,
+      "end": 1.3,
+      "phrase": 0
+    },
+    {
+      "text": "wizytę",
+      "start": 1.358,
+      "end": 1.695,
+      "phrase": 0
+    },
+    {
+      "text": "u",
+      "start": 1.765,
+      "end": 1.811,
+      "phrase": 0
+    },
+    {
+      "text": "lekarza.",
+      "start": 1.869,
+      "end": 2.682,
+      "phrase": 0
+    },
+    {
+      "text": "Umówiłem",
+      "start": 2.891,
+      "end": 3.425,
+      "phrase": 1
+    },
+    {
+      "text": "się",
+      "start": 3.483,
+      "end": 3.587,
+      "phrase": 1
+    },
+    {
+      "text": "na",
+      "start": 3.669,
+      "end": 3.773,
+      "phrase": 1
+    },
+    {
+      "text": "godzinę",
+      "start": 3.843,
+      "end": 4.191,
+      "phrase": 1
+    },
+    {
+      "text": "dziewiątą,",
+      "start": 4.214,
+      "end": 4.946,
+      "phrase": 1
+    },
+    {
+      "text": "więc",
+      "start": 4.969,
+      "end": 5.259,
+      "phrase": 1
+    },
+    {
+      "text": "wyszedłem",
+      "start": 5.341,
+      "end": 5.759,
+      "phrase": 1
+    },
+    {
+      "text": "z",
+      "start": 5.817,
+      "end": 5.84,
+      "phrase": 1
+    },
+    {
+      "text": "domu",
+      "start": 5.875,
+      "end": 6.095,
+      "phrase": 1
+    },
+    {
+      "text": "wcześniej.",
+      "start": 6.118,
+      "end": 6.92,
+      "phrase": 1
+    },
+    {
+      "text": "W",
+      "start": 7.245,
+      "end": 7.303,
+      "phrase": 2
+    },
+    {
+      "text": "poczekalni",
+      "start": 7.372,
+      "end": 7.883,
+      "phrase": 2
+    },
+    {
+      "text": "siedziało",
+      "start": 7.918,
+      "end": 8.278,
+      "phrase": 2
+    },
+    {
+      "text": "kilka",
+      "start": 8.324,
+      "end": 8.603,
+      "phrase": 2
+    },
+    {
+      "text": "osób,",
+      "start": 8.673,
+      "end": 8.963,
+      "phrase": 2
+    },
+    {
+      "text": "które",
+      "start": 8.986,
+      "end": 9.242,
+      "phrase": 2
+    },
+    {
+      "text": "czekały",
+      "start": 9.276,
+      "end": 9.648,
+      "phrase": 2
+    },
+    {
+      "text": "na",
+      "start": 9.683,
+      "end": 9.764,
+      "phrase": 2
+    },
+    {
+      "text": "swoją",
+      "start": 9.81,
+      "end": 10.136,
+      "phrase": 2
+    },
+    {
+      "text": "kolej.",
+      "start": 10.205,
+      "end": 10.786,
+      "phrase": 2
+    },
+    {
+      "text": "Kiedy",
+      "start": 11.029,
+      "end": 11.262,
+      "phrase": 3
+    },
+    {
+      "text": "pielęgniarka",
+      "start": 11.297,
+      "end": 11.97,
+      "phrase": 3
+    },
+    {
+      "text": "wywołała",
+      "start": 12.028,
+      "end": 12.539,
+      "phrase": 3
+    },
+    {
+      "text": "moje",
+      "start": 12.585,
+      "end": 12.794,
+      "phrase": 3
+    },
+    {
+      "text": "nazwisko,",
+      "start": 12.829,
+      "end": 13.572,
+      "phrase": 3
+    },
+    {
+      "text": "wszedłem",
+      "start": 13.688,
+      "end": 14.118,
+      "phrase": 3
+    },
+    {
+      "text": "do",
+      "start": 14.164,
+      "end": 14.222,
+      "phrase": 3
+    },
+    {
+      "text": "gabinetu.",
+      "start": 14.268,
+      "end": 15.093,
+      "phrase": 3
+    },
+    {
+      "text": "Lekarz",
+      "start": 15.418,
+      "end": 15.743,
+      "phrase": 4
+    },
+    {
+      "text": "zapytał,",
+      "start": 15.789,
+      "end": 16.254,
+      "phrase": 4
+    },
+    {
+      "text": "jak",
+      "start": 16.289,
+      "end": 16.428,
+      "phrase": 4
+    },
+    {
+      "text": "się",
+      "start": 16.498,
+      "end": 16.602,
+      "phrase": 4
+    },
+    {
+      "text": "czuję",
+      "start": 16.66,
+      "end": 17.055,
+      "phrase": 4
+    },
+    {
+      "text": "i",
+      "start": 17.171,
+      "end": 17.287,
+      "phrase": 4
+    },
+    {
+      "text": "co",
+      "start": 17.357,
+      "end": 17.473,
+      "phrase": 4
+    },
+    {
+      "text": "mi",
+      "start": 17.531,
+      "end": 17.612,
+      "phrase": 4
+    },
+    {
+      "text": "dolega.",
+      "start": 17.647,
+      "end": 18.378,
+      "phrase": 4
+    },
+    {
+      "text": "Opowiedziałem",
+      "start": 18.703,
+      "end": 19.354,
+      "phrase": 5
+    },
+    {
+      "text": "mu,",
+      "start": 19.412,
+      "end": 19.586,
+      "phrase": 5
+    },
+    {
+      "text": "że",
+      "start": 19.632,
+      "end": 19.806,
+      "phrase": 5
+    },
+    {
+      "text": "od",
+      "start": 19.876,
+      "end": 20.027,
+      "phrase": 5
+    },
+    {
+      "text": "kilku",
+      "start": 20.097,
+      "end": 20.445,
+      "phrase": 5
+    },
+    {
+      "text": "dni",
+      "start": 20.48,
+      "end": 20.817,
+      "phrase": 5
+    },
+    {
+      "text": "boli",
+      "start": 20.909,
+      "end": 21.188,
+      "phrase": 5
+    },
+    {
+      "text": "mnie",
+      "start": 21.211,
+      "end": 21.362,
+      "phrase": 5
+    },
+    {
+      "text": "gardło.",
+      "start": 21.42,
+      "end": 22.14,
+      "phrase": 5
+    },
+    {
+      "text": "Zbadał",
+      "start": 22.384,
+      "end": 22.779,
+      "phrase": 6
+    },
+    {
+      "text": "mnie",
+      "start": 22.837,
+      "end": 22.988,
+      "phrase": 6
+    },
+    {
+      "text": "dokładnie",
+      "start": 23.034,
+      "end": 23.707,
+      "phrase": 6
+    },
+    {
+      "text": "i",
+      "start": 23.823,
+      "end": 23.998,
+      "phrase": 6
+    },
+    {
+      "text": "przepisał",
+      "start": 24.056,
+      "end": 24.508,
+      "phrase": 6
+    },
+    {
+      "text": "lekarstwo.",
+      "start": 24.567,
+      "end": 25.437,
+      "phrase": 6
+    },
+    {
+      "text": "Na",
+      "start": 25.681,
+      "end": 25.809,
+      "phrase": 7
+    },
+    {
+      "text": "koniec",
+      "start": 25.855,
+      "end": 26.134,
+      "phrase": 7
+    },
+    {
+      "text": "poradził,",
+      "start": 26.204,
+      "end": 26.668,
+      "phrase": 7
+    },
+    {
+      "text": "żebym",
+      "start": 26.691,
+      "end": 26.947,
+      "phrase": 7
+    },
+    {
+      "text": "dużo",
+      "start": 27.005,
+      "end": 27.248,
+      "phrase": 7
+    },
+    {
+      "text": "odpoczywał",
+      "start": 27.283,
+      "end": 27.91,
+      "phrase": 7
+    },
+    {
+      "text": "i",
+      "start": 28.026,
+      "end": 28.119,
+      "phrase": 7
+    },
+    {
+      "text": "pił",
+      "start": 28.189,
+      "end": 28.398,
+      "phrase": 7
+    },
+    {
+      "text": "ciepłe",
+      "start": 28.479,
+      "end": 28.793,
+      "phrase": 7
+    },
+    {
+      "text": "płyny.",
+      "start": 28.827,
+      "end": 29.408,
+      "phrase": 7
+    },
+    {
+      "text": "Podziękowałem",
+      "start": 29.617,
+      "end": 30.534,
+      "phrase": 8
+    },
+    {
+      "text": "i",
+      "start": 30.65,
+      "end": 30.766,
+      "phrase": 8
+    },
+    {
+      "text": "umówiłem",
+      "start": 30.882,
+      "end": 31.382,
+      "phrase": 8
+    },
+    {
+      "text": "się",
+      "start": 31.44,
+      "end": 31.509,
+      "phrase": 8
+    },
+    {
+      "text": "na",
+      "start": 31.556,
+      "end": 31.625,
+      "phrase": 8
+    },
+    {
+      "text": "kolejną",
+      "start": 31.683,
+      "end": 32.067,
+      "phrase": 8
+    },
+    {
+      "text": "wizytę.",
+      "start": 32.136,
+      "end": 32.972,
+      "phrase": 8
+    }
+  ],
+  "phrases": [
+    {
+      "index": 0,
+      "text": "W poniedziałek rano miałem wizytę u lekarza.",
+      "start": 0,
+      "end": 2.682
+    },
+    {
+      "index": 1,
+      "text": "Umówiłem się na godzinę dziewiątą, więc wyszedłem z domu wcześniej.",
+      "start": 2.891,
+      "end": 6.92
+    },
+    {
+      "index": 2,
+      "text": "W poczekalni siedziało kilka osób, które czekały na swoją kolej.",
+      "start": 7.245,
+      "end": 10.786
+    },
+    {
+      "index": 3,
+      "text": "Kiedy pielęgniarka wywołała moje nazwisko, wszedłem do gabinetu.",
+      "start": 11.029,
+      "end": 15.093
+    },
+    {
+      "index": 4,
+      "text": "Lekarz zapytał, jak się czuję i co mi dolega.",
+      "start": 15.418,
+      "end": 18.378
+    },
+    {
+      "index": 5,
+      "text": "Opowiedziałem mu, że od kilku dni boli mnie gardło.",
+      "start": 18.703,
+      "end": 22.14
+    },
+    {
+      "index": 6,
+      "text": "Zbadał mnie dokładnie i przepisał lekarstwo.",
+      "start": 22.384,
+      "end": 25.437
+    },
+    {
+      "index": 7,
+      "text": "Na koniec poradził, żebym dużo odpoczywał i pił ciepłe płyny.",
+      "start": 25.681,
+      "end": 29.408
+    },
+    {
+      "index": 8,
+      "text": "Podziękowałem i umówiłem się na kolejną wizytę.",
+      "start": 29.617,
+      "end": 32.972
+    }
+  ]
+}
