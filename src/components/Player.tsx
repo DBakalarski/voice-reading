@@ -26,9 +26,6 @@ export function Player({ exercise }: { exercise: Exercise }) {
 
   return (
     <main className={styles.container}>
-      <h1 className={styles.title}>{exercise.title}</h1>
-      <HighlightedText words={exercise.words} wordIndex={wordIndex} phraseIndex={phraseIndex} />
-      <audio ref={audioRef} src={exercise.audio} onTimeUpdate={onTimeUpdate} preload="auto" />
       <div className={styles.controls}>
         <button className={styles.button} onClick={toggle}>
           {playing ? "Pauza" : "Odtwórz"}
@@ -37,6 +34,9 @@ export function Player({ exercise }: { exercise: Exercise }) {
           <div className={styles.progressFill} style={{ width: `${progress}%` }} />
         </div>
       </div>
+      <h1 className={styles.title}>{exercise.title}</h1>
+      <HighlightedText words={exercise.words} wordIndex={wordIndex} phraseIndex={phraseIndex} />
+      <audio ref={audioRef} src={exercise.audio} onTimeUpdate={onTimeUpdate} preload="auto" />
     </main>
   );
 }

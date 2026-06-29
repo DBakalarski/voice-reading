@@ -9,6 +9,9 @@
   padding: 0.05em 0.1em;
   border-radius: 0.2em;
   transition: background-color 80ms linear;
+  /* Keep the active word clear of the sticky controls when auto-scrolled. */
+  scroll-margin-top: 6rem;
+  scroll-margin-bottom: 3rem;
 }
 
 .currentPhrase {
@@ -17,5 +20,7 @@
 
 .currentWord {
   background-color: #ffd43b;
-  font-weight: 700;
+  /* Faux-bold via text-shadow: visually heavier without changing glyph width,
+     so emphasising the current word never reflows the text (no jumping). */
+  text-shadow: 0.02em 0 0 currentColor, -0.02em 0 0 currentColor;
 }

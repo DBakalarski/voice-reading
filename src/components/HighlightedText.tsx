@@ -1,3 +1,6 @@
+"use client";
+
+import { useEffect, useRef } from "react";
 import type { Word } from "@/lib/types";
 import styles from "./HighlightedText.module.css";
 
@@ -8,6 +11,25 @@ interface Props {
 }
 
 export function HighlightedText({ words, wordIndex, phraseIndex }: Props) {
+  const activeWordRef = useRef<HTMLSpanElement>(null);
+
+  // Gently follow the reading: nudge the page only when the active word is
+  // near a viewport edge. `block: "nearest"` is a no-op while the word is
+  // comfortably visible, so it never jumps.
+  useEffect(() => {
+    if (wordIndex === -1) return;
+    const el = activeWordRef.current;
+    if (!el) return;
+    const reduce =
+      typeof window !== "undefined" &&
+      window.matchMedia?.("(prefers-reduced-motion: reduce)").matches;
+    try {
+      el.scrollIntoView({ behavior: reduce ? "auto" : "smooth", block: "nearest" });
+    } catch {
+      /* scrollIntoView unavailable (e.g. jsdom) — ignore */
+    }
+  }, [wordIndex]);
+
   return (
     <p className={styles.text}>
       {words.map((w, i) => {
@@ -17,7 +39,12 @@ export function HighlightedText({ words, wordIndex, phraseIndex }: Props) {
         if (isPhrase) classNames.push(styles.currentPhrase, "current-phrase");
         if (isWord) classNames.push(styles.currentWord, "current-word");
         return (
-          <span key={i} data-testid="word" className={classNames.join(" ")}>
+          <span
+            key={i}
+            ref={isWord ? activeWordRef : undefined}
+            data-testid="word"
+            className={classNames.join(" ")}
+          >
             {w.text}{" "}
           </span>
         );

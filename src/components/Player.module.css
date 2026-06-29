@@ -10,11 +10,19 @@
   margin-bottom: 1.5rem;
 }
 
+/* Playback controls pinned to the top so they stay reachable while the
+   text auto-scrolls beneath them. */
 .controls {
+  position: sticky;
+  top: 0;
+  z-index: 10;
   display: flex;
   align-items: center;
   gap: 1rem;
-  margin-top: 2rem;
+  padding: 1rem 0;
+  margin-bottom: 1.5rem;
+  background: #fff;
+  border-bottom: 1px solid #e9ecef;
 }
 
 .button {
