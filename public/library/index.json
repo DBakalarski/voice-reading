@@ -1,0 +1,16 @@
+{
+  "exercises": [
+    {
+      "id": "powitanie",
+      "title": "Codzienne powitania"
+    },
+    {
+      "id": "dom",
+      "title": "W domu"
+    },
+    {
+      "id": "spacer",
+      "title": "Spacer"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "id": "spacer",
+  "title": "Spacer",
+  "audio": "/library/spacer.mp3",
+  "words": [
+    {
+      "text": "Idę",
+      "start": 0,
+      "end": 0.36,
+      "phrase": 0
+    },
+    {
+      "text": "do",
+      "start": 0.395,
+      "end": 0.464,
+      "phrase": 0
+    },
+    {
+      "text": "parku.",
+      "start": 0.511,
+      "end": 0.964,
+      "phrase": 0
+    },
+    {
+      "text": "Świeci",
+      "start": 1.138,
+      "end": 1.428,
+      "phrase": 1
+    },
+    {
+      "text": "słońce.",
+      "start": 1.463,
+      "end": 1.974,
+      "phrase": 1
+    },
+    {
+      "text": "Spotykam",
+      "start": 2.183,
+      "end": 2.577,
+      "phrase": 2
+    },
+    {
+      "text": "sąsiada",
+      "start": 2.624,
+      "end": 3.019,
+      "phrase": 2
+    },
+    {
+      "text": "i",
+      "start": 3.077,
+      "end": 3.1,
+      "phrase": 2
+    },
+    {
+      "text": "mówię",
+      "start": 3.146,
+      "end": 3.355,
+      "phrase": 2
+    },
+    {
+      "text": "cześć.",
+      "start": 3.39,
+      "end": 3.994,
+      "phrase": 2
+    }
+  ],
+  "phrases": [
+    {
+      "index": 0,
+      "text": "Idę do parku.",
+      "start": 0,
+      "end": 0.964
+    },
+    {
+      "index": 1,
+      "text": "Świeci słońce.",
+      "start": 1.138,
+      "end": 1.974
+    },
+    {
+      "index": 2,
+      "text": "Spotykam sąsiada i mówię cześć.",
+      "start": 2.183,
+      "end": 3.994
+    }
+  ]
+}
