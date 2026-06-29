@@ -21,4 +21,26 @@ describe("TopicList", () => {
     expect(link).toHaveAttribute("href", "/exercise?id=a");
     expect(screen.queryByText("Wiadomości")).not.toBeInTheDocument();
   });
+
+  it("lists only articles when cat=article", async () => {
+    window.history.pushState({}, "", "/level?cat=article");
+    const index = {
+      exercises: [
+        { id: "a", title: "Poranek", level: 1 },
+        { id: "art-sen", title: "Po co nam sen", category: "article" },
+      ],
+    };
+    vi.stubGlobal("fetch", vi.fn(async () => new Response(JSON.stringify(index))));
+    render(<TopicList />);
+    await waitFor(() =>
+      expect(screen.getByText("Po co nam sen")).toBeInTheDocument(),
+    );
+
+    expect(screen.getByText("Artykuły")).toBeInTheDocument();
+    expect(screen.getByRole("link", { name: "Po co nam sen" })).toHaveAttribute(
+      "href",
+      "/exercise?id=art-sen",
+    );
+    expect(screen.queryByText("Poranek")).not.toBeInTheDocument();
+  });
 });

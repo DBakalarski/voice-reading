@@ -6,571 +6,571 @@
     {
       "text": "Dzień",
       "start": 0,
-      "end": 0.313,
+      "end": 0.383,
       "phrase": 0
     },
     {
       "text": "dobry,",
-      "start": 0.348,
-      "end": 0.731,
+      "start": 0.418,
+      "end": 0.755,
       "phrase": 0
     },
     {
       "text": "oto",
-      "start": 0.813,
-      "end": 1.091,
+      "start": 0.801,
+      "end": 1.045,
       "phrase": 0
     },
     {
       "text": "najważniejsze",
-      "start": 1.173,
-      "end": 1.869,
+      "start": 1.126,
+      "end": 1.846,
       "phrase": 0
     },
     {
       "text": "informacje",
-      "start": 1.927,
+      "start": 1.904,
       "end": 2.485,
       "phrase": 0
     },
     {
       "text": "tego",
       "start": 2.519,
-      "end": 2.694,
+      "end": 2.717,
       "phrase": 0
     },
     {
       "text": "poranka.",
-      "start": 2.74,
-      "end": 3.437,
+      "start": 2.763,
+      "end": 3.495,
       "phrase": 0
     },
     {
       "text": "Synoptycy",
-      "start": 3.68,
-      "end": 4.272,
+      "start": 3.669,
+      "end": 4.261,
       "phrase": 1
     },
     {
       "text": "zapowiadają,",
-      "start": 4.319,
+      "start": 4.296,
       "end": 5.027,
       "phrase": 1
     },
     {
       "text": "że",
       "start": 5.062,
-      "end": 5.132,
+      "end": 5.155,
       "phrase": 1
     },
     {
       "text": "w",
-      "start": 5.166,
-      "end": 5.201,
+      "start": 5.19,
+      "end": 5.224,
       "phrase": 1
     },
     {
       "text": "ciągu",
-      "start": 5.248,
+      "start": 5.259,
       "end": 5.561,
       "phrase": 1
     },
     {
       "text": "najbliższych",
       "start": 5.631,
-      "end": 6.327,
+      "end": 6.304,
       "phrase": 1
     },
     {
       "text": "dni",
-      "start": 6.397,
-      "end": 6.745,
+      "start": 6.385,
+      "end": 6.722,
       "phrase": 1
     },
     {
       "text": "temperatura",
-      "start": 6.827,
-      "end": 7.477,
+      "start": 7.001,
+      "end": 7.616,
       "phrase": 1
     },
     {
       "text": "wyraźnie",
-      "start": 7.546,
-      "end": 8.022,
+      "start": 7.674,
+      "end": 8.081,
       "phrase": 1
     },
     {
       "text": "spadnie,",
-      "start": 8.069,
-      "end": 8.754,
+      "start": 8.127,
+      "end": 8.777,
       "phrase": 1
     },
     {
       "text": "a",
-      "start": 8.963,
-      "end": 9.021,
+      "start": 8.951,
+      "end": 8.998,
       "phrase": 1
     },
     {
       "text": "na",
-      "start": 9.102,
-      "end": 9.183,
+      "start": 9.056,
+      "end": 9.137,
       "phrase": 1
     },
     {
       "text": "północy",
-      "start": 9.242,
-      "end": 9.706,
+      "start": 9.183,
+      "end": 9.613,
       "phrase": 1
     },
     {
       "text": "kraju",
-      "start": 9.752,
-      "end": 10.124,
+      "start": 9.659,
+      "end": 10.019,
       "phrase": 1
     },
     {
       "text": "mogą",
-      "start": 10.182,
-      "end": 10.449,
+      "start": 10.077,
+      "end": 10.344,
       "phrase": 1
     },
     {
       "text": "pojawić",
-      "start": 10.507,
-      "end": 10.948,
+      "start": 10.403,
+      "end": 10.82,
       "phrase": 1
     },
     {
       "text": "się",
-      "start": 10.995,
-      "end": 11.099,
+      "start": 10.879,
+      "end": 10.983,
       "phrase": 1
     },
     {
       "text": "pierwsze",
-      "start": 11.18,
-      "end": 11.575,
+      "start": 11.099,
+      "end": 11.529,
       "phrase": 1
     },
     {
       "text": "przymrozki.",
-      "start": 11.61,
-      "end": 12.353,
+      "start": 11.564,
+      "end": 12.376,
       "phrase": 1
     },
     {
       "text": "W",
-      "start": 12.736,
-      "end": 12.783,
+      "start": 12.817,
+      "end": 12.864,
       "phrase": 2
     },
     {
       "text": "stolicy",
-      "start": 12.829,
-      "end": 13.235,
+      "start": 12.922,
+      "end": 13.328,
       "phrase": 2
     },
     {
       "text": "rozpoczął",
-      "start": 13.27,
-      "end": 13.711,
+      "start": 13.363,
+      "end": 13.769,
       "phrase": 2
     },
     {
       "text": "się",
-      "start": 13.758,
-      "end": 13.862,
+      "start": 13.816,
+      "end": 13.909,
       "phrase": 2
     },
     {
       "text": "remont",
-      "start": 13.944,
-      "end": 14.28,
+      "start": 13.978,
+      "end": 14.303,
       "phrase": 2
     },
     {
       "text": "głównego",
-      "start": 14.338,
-      "end": 14.791,
+      "start": 14.361,
+      "end": 14.825,
       "phrase": 2
     },
     {
       "text": "mostu,",
-      "start": 14.838,
-      "end": 15.418,
+      "start": 14.883,
+      "end": 15.499,
       "phrase": 2
     },
     {
       "text": "dlatego",
-      "start": 15.569,
-      "end": 15.975,
+      "start": 15.708,
+      "end": 16.103,
       "phrase": 2
     },
     {
       "text": "kierowcy",
-      "start": 16.022,
-      "end": 16.498,
+      "start": 16.149,
+      "end": 16.579,
       "phrase": 2
     },
     {
       "text": "powinni",
-      "start": 16.556,
-      "end": 17.009,
+      "start": 16.625,
+      "end": 17.089,
       "phrase": 2
     },
     {
       "text": "liczyć",
-      "start": 17.067,
-      "end": 17.38,
+      "start": 17.147,
+      "end": 17.496,
       "phrase": 2
     },
     {
       "text": "się",
-      "start": 17.438,
-      "end": 17.578,
+      "start": 17.565,
+      "end": 17.693,
       "phrase": 2
     },
     {
       "text": "z",
-      "start": 17.647,
-      "end": 17.694,
+      "start": 17.763,
+      "end": 17.798,
       "phrase": 2
     },
     {
       "text": "utrudnieniami",
-      "start": 17.81,
-      "end": 18.75,
+      "start": 17.89,
+      "end": 18.854,
       "phrase": 2
     },
     {
       "text": "i",
-      "start": 18.994,
-      "end": 19.087,
+      "start": 19.133,
+      "end": 19.226,
       "phrase": 2
     },
     {
       "text": "wybierać",
-      "start": 19.145,
-      "end": 19.551,
+      "start": 19.307,
+      "end": 19.841,
       "phrase": 2
     },
     {
       "text": "trasy",
-      "start": 19.621,
-      "end": 19.958,
+      "start": 19.922,
+      "end": 20.352,
       "phrase": 2
     },
     {
       "text": "alternatywne.",
-      "start": 20.016,
-      "end": 21.188,
+      "start": 20.421,
+      "end": 21.629,
       "phrase": 2
     },
     {
       "text": "Naukowcy",
-      "start": 21.513,
-      "end": 22.059,
+      "start": 21.954,
+      "end": 22.523,
       "phrase": 3
     },
     {
       "text": "z",
-      "start": 22.094,
-      "end": 22.117,
+      "start": 22.558,
+      "end": 22.581,
       "phrase": 3
     },
     {
       "text": "miejscowego",
-      "start": 22.187,
-      "end": 22.756,
+      "start": 22.639,
+      "end": 23.208,
       "phrase": 3
     },
     {
       "text": "uniwersytetu",
-      "start": 22.825,
-      "end": 23.673,
+      "start": 23.278,
+      "end": 24.171,
       "phrase": 3
     },
     {
       "text": "opublikowali",
-      "start": 23.882,
-      "end": 24.683,
+      "start": 24.241,
+      "end": 24.984,
       "phrase": 3
     },
     {
       "text": "wyniki",
-      "start": 24.753,
-      "end": 25.113,
+      "start": 25.054,
+      "end": 25.437,
       "phrase": 3
     },
     {
       "text": "badań,",
-      "start": 25.182,
-      "end": 25.763,
+      "start": 25.507,
+      "end": 26.099,
       "phrase": 3
     },
     {
       "text": "które",
-      "start": 25.972,
-      "end": 26.215,
+      "start": 26.308,
+      "end": 26.563,
       "phrase": 3
     },
     {
       "text": "mogą",
-      "start": 26.25,
-      "end": 26.506,
+      "start": 26.621,
+      "end": 26.946,
       "phrase": 3
     },
     {
       "text": "pomóc",
-      "start": 26.575,
-      "end": 26.866,
+      "start": 27.039,
+      "end": 27.376,
       "phrase": 3
     },
     {
       "text": "w",
-      "start": 26.935,
-      "end": 26.959,
+      "start": 27.434,
+      "end": 27.469,
       "phrase": 3
     },
     {
       "text": "ochronie",
-      "start": 27.051,
-      "end": 27.504,
+      "start": 27.515,
+      "end": 27.91,
       "phrase": 3
     },
     {
       "text": "zagrożonych",
-      "start": 27.551,
-      "end": 28.108,
+      "start": 27.968,
+      "end": 28.537,
       "phrase": 3
     },
     {
       "text": "gatunków",
-      "start": 28.154,
-      "end": 28.619,
+      "start": 28.595,
+      "end": 29.082,
       "phrase": 3
     },
     {
       "text": "ptaków.",
-      "start": 28.665,
-      "end": 29.443,
+      "start": 29.141,
+      "end": 29.849,
       "phrase": 3
     },
     {
       "text": "W",
-      "start": 29.884,
-      "end": 29.919,
+      "start": 30.174,
+      "end": 30.22,
       "phrase": 4
     },
     {
       "text": "świecie",
-      "start": 30,
-      "end": 30.314,
+      "start": 30.278,
+      "end": 30.557,
       "phrase": 4
     },
     {
       "text": "kultury",
-      "start": 30.36,
-      "end": 30.848,
+      "start": 30.603,
+      "end": 31.207,
       "phrase": 4
     },
     {
       "text": "rozpoczął",
-      "start": 30.894,
-      "end": 31.335,
+      "start": 31.451,
+      "end": 31.985,
       "phrase": 4
     },
     {
       "text": "się",
-      "start": 31.382,
-      "end": 31.475,
+      "start": 32.043,
+      "end": 32.148,
       "phrase": 4
     },
     {
       "text": "doroczny",
-      "start": 31.533,
-      "end": 31.939,
+      "start": 32.229,
+      "end": 32.682,
       "phrase": 4
     },
     {
       "text": "festiwal",
-      "start": 31.974,
-      "end": 32.427,
+      "start": 32.728,
+      "end": 33.239,
       "phrase": 4
     },
     {
       "text": "filmowy,",
-      "start": 32.485,
-      "end": 32.984,
+      "start": 33.297,
+      "end": 33.97,
       "phrase": 4
     },
     {
       "text": "na",
-      "start": 33.019,
-      "end": 33.1,
+      "start": 34.179,
+      "end": 34.284,
       "phrase": 4
     },
     {
       "text": "który",
-      "start": 33.135,
-      "end": 33.39,
+      "start": 34.33,
+      "end": 34.62,
       "phrase": 4
     },
     {
       "text": "zjechali",
-      "start": 33.425,
-      "end": 33.797,
+      "start": 34.655,
+      "end": 35.085,
       "phrase": 4
     },
     {
       "text": "twórcy",
-      "start": 33.831,
-      "end": 34.261,
+      "start": 35.131,
+      "end": 35.631,
       "phrase": 4
     },
     {
       "text": "z",
-      "start": 34.284,
-      "end": 34.307,
+      "start": 35.677,
+      "end": 35.7,
       "phrase": 4
     },
     {
       "text": "kilkunastu",
-      "start": 34.377,
-      "end": 34.992,
+      "start": 35.758,
+      "end": 36.374,
       "phrase": 4
     },
     {
       "text": "krajów.",
-      "start": 35.039,
-      "end": 35.619,
+      "start": 36.432,
+      "end": 37.012,
       "phrase": 4
     },
     {
       "text": "Na",
-      "start": 35.898,
-      "end": 36.014,
-      "phrase": 5
-    },
-    {
-      "text": "zakończenie",
-      "start": 36.061,
-      "end": 36.595,
-      "phrase": 5
-    },
-    {
-      "text": "sport:",
-      "start": 36.641,
-      "end": 37.164,
-      "phrase": 5
-    },
-    {
-      "text": "nasza",
-      "start": 37.245,
+      "start": 37.395,
       "end": 37.523,
       "phrase": 5
     },
     {
+      "text": "zakończenie",
+      "start": 37.569,
+      "end": 38.138,
+      "phrase": 5
+    },
+    {
+      "text": "sport:",
+      "start": 38.173,
+      "end": 38.684,
+      "phrase": 5
+    },
+    {
+      "text": "nasza",
+      "start": 38.963,
+      "end": 39.23,
+      "phrase": 5
+    },
+    {
       "text": "reprezentacja",
-      "start": 37.582,
-      "end": 38.348,
+      "start": 39.299,
+      "end": 40.089,
       "phrase": 5
     },
     {
       "text": "awansowała",
-      "start": 38.394,
-      "end": 38.951,
+      "start": 40.158,
+      "end": 40.785,
       "phrase": 5
     },
     {
       "text": "do",
-      "start": 38.998,
-      "end": 39.068,
+      "start": 40.843,
+      "end": 40.913,
       "phrase": 5
     },
     {
       "text": "finału,",
-      "start": 39.114,
-      "end": 39.787,
+      "start": 40.96,
+      "end": 41.598,
       "phrase": 5
     },
     {
       "text": "pokonując",
-      "start": 39.962,
-      "end": 40.6,
+      "start": 41.726,
+      "end": 42.341,
       "phrase": 5
     },
     {
       "text": "rywali",
-      "start": 40.67,
-      "end": 41.03,
+      "start": 42.422,
+      "end": 42.782,
       "phrase": 5
     },
     {
       "text": "różnicą",
-      "start": 41.088,
-      "end": 41.564,
+      "start": 42.852,
+      "end": 43.351,
       "phrase": 5
     },
     {
       "text": "dwóch",
-      "start": 41.633,
-      "end": 41.889,
+      "start": 43.421,
+      "end": 43.688,
       "phrase": 5
     },
     {
       "text": "punktów.",
-      "start": 41.947,
-      "end": 42.678,
+      "start": 43.758,
+      "end": 44.454,
       "phrase": 5
     },
     {
       "text": "To",
-      "start": 42.794,
-      "end": 42.934,
+      "start": 44.663,
+      "end": 44.779,
       "phrase": 6
     },
     {
       "text": "wszystko",
-      "start": 42.98,
-      "end": 43.386,
+      "start": 44.814,
+      "end": 45.22,
       "phrase": 6
     },
     {
       "text": "na",
-      "start": 43.456,
-      "end": 43.549,
+      "start": 45.278,
+      "end": 45.371,
       "phrase": 6
     },
     {
       "text": "teraz,",
-      "start": 43.607,
-      "end": 44.118,
+      "start": 45.429,
+      "end": 46.01,
       "phrase": 6
     },
     {
       "text": "do",
-      "start": 44.188,
-      "end": 44.292,
+      "start": 46.219,
+      "end": 46.347,
       "phrase": 6
     },
     {
       "text": "usłyszenia",
-      "start": 44.35,
-      "end": 44.861,
+      "start": 46.405,
+      "end": 46.997,
       "phrase": 6
     },
     {
       "text": "za",
-      "start": 44.919,
-      "end": 45,
+      "start": 47.078,
+      "end": 47.194,
       "phrase": 6
     },
     {
       "text": "godzinę.",
-      "start": 45.058,
-      "end": 45.79,
+      "start": 47.252,
+      "end": 48.018,
       "phrase": 6
     }
   ],
@@ -579,43 +579,43 @@
       "index": 0,
       "text": "Dzień dobry, oto najważniejsze informacje tego poranka.",
       "start": 0,
-      "end": 3.437
+      "end": 3.495
     },
     {
       "index": 1,
       "text": "Synoptycy zapowiadają, że w ciągu najbliższych dni temperatura wyraźnie spadnie, a na północy kraju mogą pojawić się pierwsze przymrozki.",
-      "start": 3.68,
-      "end": 12.353
+      "start": 3.669,
+      "end": 12.376
     },
     {
       "index": 2,
       "text": "W stolicy rozpoczął się remont głównego mostu, dlatego kierowcy powinni liczyć się z utrudnieniami i wybierać trasy alternatywne.",
-      "start": 12.736,
-      "end": 21.188
+      "start": 12.817,
+      "end": 21.629
     },
     {
       "index": 3,
       "text": "Naukowcy z miejscowego uniwersytetu opublikowali wyniki badań, które mogą pomóc w ochronie zagrożonych gatunków ptaków.",
-      "start": 21.513,
-      "end": 29.443
+      "start": 21.954,
+      "end": 29.849
     },
     {
       "index": 4,
       "text": "W świecie kultury rozpoczął się doroczny festiwal filmowy, na który zjechali twórcy z kilkunastu krajów.",
-      "start": 29.884,
-      "end": 35.619
+      "start": 30.174,
+      "end": 37.012
     },
     {
       "index": 5,
       "text": "Na zakończenie sport: nasza reprezentacja awansowała do finału, pokonując rywali różnicą dwóch punktów.",
-      "start": 35.898,
-      "end": 42.678
+      "start": 37.395,
+      "end": 44.454
     },
     {
       "index": 6,
       "text": "To wszystko na teraz, do usłyszenia za godzinę.",
-      "start": 42.794,
-      "end": 45.79
+      "start": 44.663,
+      "end": 48.018
     }
   ]
 }

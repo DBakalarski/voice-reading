@@ -1,0 +1,6549 @@
+{
+  "id": "art-po-co-nam-sen",
+  "title": "Po co nam sen?",
+  "audio": "/library/art-po-co-nam-sen.mp3",
+  "words": [
+    {
+      "text": "Przewidywany",
+      "start": 0,
+      "end": 0.778,
+      "phrase": 0
+    },
+    {
+      "text": "czas:",
+      "start": 0.801,
+      "end": 1.3,
+      "phrase": 0
+    },
+    {
+      "text": "5",
+      "start": 1.474,
+      "end": 1.707,
+      "phrase": 0
+    },
+    {
+      "text": "min",
+      "start": 1.846,
+      "end": 2.032,
+      "phrase": 0
+    },
+    {
+      "text": "We",
+      "start": 2.101,
+      "end": 2.206,
+      "phrase": 0
+    },
+    {
+      "text": "śnie",
+      "start": 2.252,
+      "end": 2.647,
+      "phrase": 0
+    },
+    {
+      "text": "spędzamy",
+      "start": 2.961,
+      "end": 3.576,
+      "phrase": 0
+    },
+    {
+      "text": "aż",
+      "start": 3.657,
+      "end": 3.855,
+      "phrase": 0
+    },
+    {
+      "text": "1/3",
+      "start": 3.971,
+      "end": 4.656,
+      "phrase": 0
+    },
+    {
+      "text": "naszego",
+      "start": 4.853,
+      "end": 5.224,
+      "phrase": 0
+    },
+    {
+      "text": "życia",
+      "start": 5.283,
+      "end": 5.689,
+      "phrase": 0
+    },
+    {
+      "text": "–",
+      "start": 5.851,
+      "end": 5.968,
+      "phrase": 0
+    },
+    {
+      "text": "warto",
+      "start": 6.107,
+      "end": 6.409,
+      "phrase": 0
+    },
+    {
+      "text": "więc",
+      "start": 6.444,
+      "end": 6.641,
+      "phrase": 0
+    },
+    {
+      "text": "wiedzieć",
+      "start": 6.699,
+      "end": 7.047,
+      "phrase": 0
+    },
+    {
+      "text": "o",
+      "start": 7.129,
+      "end": 7.187,
+      "phrase": 0
+    },
+    {
+      "text": "nim",
+      "start": 7.245,
+      "end": 7.384,
+      "phrase": 0
+    },
+    {
+      "text": "coś",
+      "start": 7.43,
+      "end": 7.581,
+      "phrase": 0
+    },
+    {
+      "text": "więcej.",
+      "start": 7.639,
+      "end": 8.348,
+      "phrase": 0
+    },
+    {
+      "text": "Czym",
+      "start": 8.51,
+      "end": 8.731,
+      "phrase": 1
+    },
+    {
+      "text": "sen",
+      "start": 8.824,
+      "end": 9.021,
+      "phrase": 1
+    },
+    {
+      "text": "różni",
+      "start": 9.102,
+      "end": 9.416,
+      "phrase": 1
+    },
+    {
+      "text": "się",
+      "start": 9.462,
+      "end": 9.555,
+      "phrase": 1
+    },
+    {
+      "text": "od",
+      "start": 9.625,
+      "end": 9.706,
+      "phrase": 1
+    },
+    {
+      "text": "śpiączki?",
+      "start": 9.764,
+      "end": 10.577,
+      "phrase": 1
+    },
+    {
+      "text": "Jakie",
+      "start": 10.739,
+      "end": 11.088,
+      "phrase": 2
+    },
+    {
+      "text": "mamy",
+      "start": 11.134,
+      "end": 11.389,
+      "phrase": 2
+    },
+    {
+      "text": "fazy",
+      "start": 11.447,
+      "end": 11.773,
+      "phrase": 2
+    },
+    {
+      "text": "snu?",
+      "start": 11.831,
+      "end": 12.307,
+      "phrase": 2
+    },
+    {
+      "text": "Po",
+      "start": 12.411,
+      "end": 12.574,
+      "phrase": 3
+    },
+    {
+      "text": "co",
+      "start": 12.62,
+      "end": 12.713,
+      "phrase": 3
+    },
+    {
+      "text": "nam",
+      "start": 12.783,
+      "end": 12.922,
+      "phrase": 3
+    },
+    {
+      "text": "sen?",
+      "start": 12.992,
+      "end": 13.479,
+      "phrase": 3
+    },
+    {
+      "text": "Na",
+      "start": 13.653,
+      "end": 13.827,
+      "phrase": 4
+    },
+    {
+      "text": "te",
+      "start": 13.874,
+      "end": 13.967,
+      "phrase": 4
+    },
+    {
+      "text": "pytania",
+      "start": 14.013,
+      "end": 14.42,
+      "phrase": 4
+    },
+    {
+      "text": "znajdziesz",
+      "start": 14.478,
+      "end": 14.942,
+      "phrase": 4
+    },
+    {
+      "text": "odpowiedź",
+      "start": 14.988,
+      "end": 15.499,
+      "phrase": 4
+    },
+    {
+      "text": "w",
+      "start": 15.546,
+      "end": 15.581,
+      "phrase": 4
+    },
+    {
+      "text": "tym",
+      "start": 15.615,
+      "end": 15.732,
+      "phrase": 4
+    },
+    {
+      "text": "artykule.",
+      "start": 15.813,
+      "end": 16.567,
+      "phrase": 4
+    },
+    {
+      "text": "Spis",
+      "start": 16.881,
+      "end": 17.217,
+      "phrase": 5
+    },
+    {
+      "text": "treści",
+      "start": 17.287,
+      "end": 17.879,
+      "phrase": 5
+    },
+    {
+      "text": "Co",
+      "start": 18.193,
+      "end": 18.378,
+      "phrase": 5
+    },
+    {
+      "text": "to",
+      "start": 18.448,
+      "end": 18.553,
+      "phrase": 5
+    },
+    {
+      "text": "jest",
+      "start": 18.611,
+      "end": 18.831,
+      "phrase": 5
+    },
+    {
+      "text": "sen?Jakie",
+      "start": 18.936,
+      "end": 19.899,
+      "phrase": 5
+    },
+    {
+      "text": "mamy",
+      "start": 19.946,
+      "end": 20.213,
+      "phrase": 5
+    },
+    {
+      "text": "fazy",
+      "start": 20.259,
+      "end": 20.55,
+      "phrase": 5
+    },
+    {
+      "text": "snu?„Skowronki”",
+      "start": 20.596,
+      "end": 22.07,
+      "phrase": 5
+    },
+    {
+      "text": "i",
+      "start": 22.128,
+      "end": 22.245,
+      "phrase": 5
+    },
+    {
+      "text": "„sowy”Jak",
+      "start": 22.268,
+      "end": 23.487,
+      "phrase": 5
+    },
+    {
+      "text": "długo",
+      "start": 23.545,
+      "end": 23.87,
+      "phrase": 5
+    },
+    {
+      "text": "powinniśmy",
+      "start": 23.916,
+      "end": 24.509,
+      "phrase": 5
+    },
+    {
+      "text": "spać?Ile",
+      "start": 24.543,
+      "end": 25.611,
+      "phrase": 5
+    },
+    {
+      "text": "śpią",
+      "start": 25.658,
+      "end": 25.902,
+      "phrase": 5
+    },
+    {
+      "text": "zwierzęta?„Wampirzy”",
+      "start": 25.96,
+      "end": 27.783,
+      "phrase": 5
+    },
+    {
+      "text": "hormon",
+      "start": 28.015,
+      "end": 28.537,
+      "phrase": 5
+    },
+    {
+      "text": "–",
+      "start": 28.688,
+      "end": 28.723,
+      "phrase": 5
+    },
+    {
+      "text": "melatoninaPo",
+      "start": 28.839,
+      "end": 30.093,
+      "phrase": 5
+    },
+    {
+      "text": "co",
+      "start": 30.139,
+      "end": 30.244,
+      "phrase": 5
+    },
+    {
+      "text": "nam",
+      "start": 30.302,
+      "end": 30.441,
+      "phrase": 5
+    },
+    {
+      "text": "sen?Co",
+      "start": 30.511,
+      "end": 31.207,
+      "phrase": 5
+    },
+    {
+      "text": "się",
+      "start": 31.266,
+      "end": 31.37,
+      "phrase": 5
+    },
+    {
+      "text": "dzieje",
+      "start": 31.416,
+      "end": 31.707,
+      "phrase": 5
+    },
+    {
+      "text": "kiedy",
+      "start": 31.753,
+      "end": 31.974,
+      "phrase": 5
+    },
+    {
+      "text": "śpimy",
+      "start": 32.02,
+      "end": 32.287,
+      "phrase": 5
+    },
+    {
+      "text": "za",
+      "start": 32.334,
+      "end": 32.438,
+      "phrase": 5
+    },
+    {
+      "text": "krótko?Czy",
+      "start": 32.485,
+      "end": 33.379,
+      "phrase": 5
+    },
+    {
+      "text": "brak",
+      "start": 33.425,
+      "end": 33.669,
+      "phrase": 5
+    },
+    {
+      "text": "snu",
+      "start": 33.738,
+      "end": 33.971,
+      "phrase": 5
+    },
+    {
+      "text": "może",
+      "start": 34.029,
+      "end": 34.249,
+      "phrase": 5
+    },
+    {
+      "text": "prowadzić",
+      "start": 34.284,
+      "end": 34.725,
+      "phrase": 5
+    },
+    {
+      "text": "do",
+      "start": 34.783,
+      "end": 34.841,
+      "phrase": 5
+    },
+    {
+      "text": "śmierci?Jak",
+      "start": 34.911,
+      "end": 36.072,
+      "phrase": 5
+    },
+    {
+      "text": "dbać",
+      "start": 36.13,
+      "end": 36.432,
+      "phrase": 5
+    },
+    {
+      "text": "o",
+      "start": 36.525,
+      "end": 36.571,
+      "phrase": 5
+    },
+    {
+      "text": "dobrą",
+      "start": 36.641,
+      "end": 37.001,
+      "phrase": 5
+    },
+    {
+      "text": "higienę",
+      "start": 37.07,
+      "end": 37.488,
+      "phrase": 5
+    },
+    {
+      "text": "snu?",
+      "start": 37.546,
+      "end": 38.046,
+      "phrase": 5
+    },
+    {
+      "text": "Co",
+      "start": 38.324,
+      "end": 38.533,
+      "phrase": 6
+    },
+    {
+      "text": "to",
+      "start": 38.603,
+      "end": 38.707,
+      "phrase": 6
+    },
+    {
+      "text": "jest",
+      "start": 38.777,
+      "end": 39.009,
+      "phrase": 6
+    },
+    {
+      "text": "sen?",
+      "start": 39.09,
+      "end": 39.555,
+      "phrase": 6
+    },
+    {
+      "text": "Jest",
+      "start": 39.88,
+      "end": 40.147,
+      "phrase": 7
+    },
+    {
+      "text": "to",
+      "start": 40.228,
+      "end": 40.368,
+      "phrase": 7
+    },
+    {
+      "text": "stan",
+      "start": 40.426,
+      "end": 40.716,
+      "phrase": 7
+    },
+    {
+      "text": "czynnościowy",
+      "start": 40.786,
+      "end": 41.61,
+      "phrase": 7
+    },
+    {
+      "text": "ośrodkowego",
+      "start": 41.668,
+      "end": 42.388,
+      "phrase": 7
+    },
+    {
+      "text": "układu",
+      "start": 42.446,
+      "end": 42.817,
+      "phrase": 7
+    },
+    {
+      "text": "nerwowego",
+      "start": 42.864,
+      "end": 43.502,
+      "phrase": 7
+    },
+    {
+      "text": "cyklicznie",
+      "start": 43.781,
+      "end": 44.431,
+      "phrase": 7
+    },
+    {
+      "text": "pojawiający",
+      "start": 44.489,
+      "end": 45.255,
+      "phrase": 7
+    },
+    {
+      "text": "się",
+      "start": 45.29,
+      "end": 45.43,
+      "phrase": 7
+    },
+    {
+      "text": "i",
+      "start": 45.546,
+      "end": 45.604,
+      "phrase": 7
+    },
+    {
+      "text": "przemijający",
+      "start": 45.662,
+      "end": 46.521,
+      "phrase": 7
+    },
+    {
+      "text": "w",
+      "start": 46.556,
+      "end": 46.591,
+      "phrase": 7
+    },
+    {
+      "text": "rytmie",
+      "start": 46.625,
+      "end": 46.904,
+      "phrase": 7
+    },
+    {
+      "text": "dobowym,",
+      "start": 46.95,
+      "end": 47.577,
+      "phrase": 7
+    },
+    {
+      "text": "podczas",
+      "start": 47.728,
+      "end": 48.111,
+      "phrase": 7
+    },
+    {
+      "text": "którego",
+      "start": 48.158,
+      "end": 48.529,
+      "phrase": 7
+    },
+    {
+      "text": "następuje",
+      "start": 48.576,
+      "end": 49.145,
+      "phrase": 7
+    },
+    {
+      "text": "zniesienie",
+      "start": 49.203,
+      "end": 49.725,
+      "phrase": 7
+    },
+    {
+      "text": "świadomościoraz",
+      "start": 49.772,
+      "end": 50.608,
+      "phrase": 7
+    },
+    {
+      "text": "bezruch.",
+      "start": 50.666,
+      "end": 51.304,
+      "phrase": 7
+    },
+    {
+      "text": "W",
+      "start": 51.63,
+      "end": 51.688,
+      "phrase": 8
+    },
+    {
+      "text": "przeciwieństwie",
+      "start": 51.769,
+      "end": 52.5,
+      "phrase": 8
+    },
+    {
+      "text": "do",
+      "start": 52.547,
+      "end": 52.64,
+      "phrase": 8
+    },
+    {
+      "text": "śpiączki,",
+      "start": 52.709,
+      "end": 53.499,
+      "phrase": 8
+    },
+    {
+      "text": "fizjologiczny",
+      "start": 53.673,
+      "end": 54.509,
+      "phrase": 8
+    },
+    {
+      "text": "sen",
+      "start": 54.567,
+      "end": 54.904,
+      "phrase": 8
+    },
+    {
+      "text": "charakteryzuje",
+      "start": 55.054,
+      "end": 55.856,
+      "phrase": 8
+    },
+    {
+      "text": "się",
+      "start": 55.902,
+      "end": 56.018,
+      "phrase": 8
+    },
+    {
+      "text": "pełną",
+      "start": 56.111,
+      "end": 56.541,
+      "phrase": 8
+    },
+    {
+      "text": "odwracalnością",
+      "start": 56.657,
+      "end": 57.597,
+      "phrase": 8
+    },
+    {
+      "text": "pod",
+      "start": 57.667,
+      "end": 57.806,
+      "phrase": 8
+    },
+    {
+      "text": "wpływem",
+      "start": 57.829,
+      "end": 58.236,
+      "phrase": 8
+    },
+    {
+      "text": "czynników",
+      "start": 58.305,
+      "end": 58.932,
+      "phrase": 8
+    },
+    {
+      "text": "zewnętrznych.",
+      "start": 59.025,
+      "end": 59.873,
+      "phrase": 8
+    },
+    {
+      "text": "We",
+      "start": 60.116,
+      "end": 60.256,
+      "phrase": 9
+    },
+    {
+      "text": "śnie",
+      "start": 60.302,
+      "end": 60.558,
+      "phrase": 9
+    },
+    {
+      "text": "spędzamy",
+      "start": 60.616,
+      "end": 61.15,
+      "phrase": 9
+    },
+    {
+      "text": "aż",
+      "start": 61.219,
+      "end": 61.452,
+      "phrase": 9
+    },
+    {
+      "text": "1/3",
+      "start": 61.568,
+      "end": 62.287,
+      "phrase": 9
+    },
+    {
+      "text": "naszego",
+      "start": 62.496,
+      "end": 62.845,
+      "phrase": 9
+    },
+    {
+      "text": "życia,",
+      "start": 62.903,
+      "end": 63.472,
+      "phrase": 9
+    },
+    {
+      "text": "a",
+      "start": 63.646,
+      "end": 63.704,
+      "phrase": 9
+    },
+    {
+      "text": "badania",
+      "start": 63.785,
+      "end": 64.145,
+      "phrase": 9
+    },
+    {
+      "text": "stanu",
+      "start": 64.191,
+      "end": 64.505,
+      "phrase": 9
+    },
+    {
+      "text": "snu",
+      "start": 64.563,
+      "end": 64.795,
+      "phrase": 9
+    },
+    {
+      "text": "i",
+      "start": 64.876,
+      "end": 64.946,
+      "phrase": 9
+    },
+    {
+      "text": "czuwania",
+      "start": 65.004,
+      "end": 65.596,
+      "phrase": 9
+    },
+    {
+      "text": "można",
+      "start": 65.712,
+      "end": 66.026,
+      "phrase": 9
+    },
+    {
+      "text": "przeprowadzać",
+      "start": 66.061,
+      "end": 66.722,
+      "phrase": 9
+    },
+    {
+      "text": "za",
+      "start": 66.804,
+      "end": 66.943,
+      "phrase": 9
+    },
+    {
+      "text": "pomocą",
+      "start": 66.989,
+      "end": 67.361,
+      "phrase": 9
+    },
+    {
+      "text": "techniki",
+      "start": 67.442,
+      "end": 67.918,
+      "phrase": 9
+    },
+    {
+      "text": "zwanej",
+      "start": 67.988,
+      "end": 68.406,
+      "phrase": 9
+    },
+    {
+      "text": "elektroencefalografią,",
+      "start": 68.58,
+      "end": 70.217,
+      "phrase": 9
+    },
+    {
+      "text": "w",
+      "start": 70.252,
+      "end": 70.31,
+      "phrase": 9
+    },
+    {
+      "text": "skrócie",
+      "start": 70.345,
+      "end": 70.786,
+      "phrase": 9
+    },
+    {
+      "text": "EEG.",
+      "start": 70.948,
+      "end": 71.668,
+      "phrase": 9
+    },
+    {
+      "text": "Jakie",
+      "start": 72.318,
+      "end": 72.574,
+      "phrase": 10
+    },
+    {
+      "text": "mamy",
+      "start": 72.62,
+      "end": 72.829,
+      "phrase": 10
+    },
+    {
+      "text": "fazy",
+      "start": 72.864,
+      "end": 73.131,
+      "phrase": 10
+    },
+    {
+      "text": "snu?",
+      "start": 73.166,
+      "end": 73.584,
+      "phrase": 10
+    },
+    {
+      "text": "Ze",
+      "start": 73.851,
+      "end": 73.967,
+      "phrase": 11
+    },
+    {
+      "text": "względu",
+      "start": 74.002,
+      "end": 74.466,
+      "phrase": 11
+    },
+    {
+      "text": "na",
+      "start": 74.559,
+      "end": 74.664,
+      "phrase": 11
+    },
+    {
+      "text": "charakterystyczną",
+      "start": 74.71,
+      "end": 75.569,
+      "phrase": 11
+    },
+    {
+      "text": "aktywność",
+      "start": 75.651,
+      "end": 76.185,
+      "phrase": 11
+    },
+    {
+      "text": "bioelektryczną",
+      "start": 76.254,
+      "end": 77.137,
+      "phrase": 11
+    },
+    {
+      "text": "mózgu",
+      "start": 77.253,
+      "end": 77.601,
+      "phrase": 11
+    },
+    {
+      "text": "podczas",
+      "start": 77.647,
+      "end": 77.996,
+      "phrase": 11
+    },
+    {
+      "text": "snu",
+      "start": 78.077,
+      "end": 78.414,
+      "phrase": 11
+    },
+    {
+      "text": "rozróżnia",
+      "start": 78.716,
+      "end": 79.226,
+      "phrase": 11
+    },
+    {
+      "text": "się",
+      "start": 79.284,
+      "end": 79.412,
+      "phrase": 11
+    },
+    {
+      "text": "dwie",
+      "start": 79.482,
+      "end": 79.749,
+      "phrase": 11
+    },
+    {
+      "text": "główne",
+      "start": 79.807,
+      "end": 80.155,
+      "phrase": 11
+    },
+    {
+      "text": "fazy:",
+      "start": 80.213,
+      "end": 80.805,
+      "phrase": 11
+    },
+    {
+      "text": "sen",
+      "start": 81.107,
+      "end": 81.386,
+      "phrase": 11
+    },
+    {
+      "text": "wolnofalowy",
+      "start": 81.467,
+      "end": 82.349,
+      "phrase": 11
+    },
+    {
+      "text": "(tzw.",
+      "start": 82.489,
+      "end": 83.011,
+      "phrase": 11
+    },
+    {
+      "text": "NREM",
+      "start": 83.476,
+      "end": 83.94,
+      "phrase": 12
+    },
+    {
+      "text": "–",
+      "start": 84.103,
+      "end": 84.149,
+      "phrase": 12
+    },
+    {
+      "text": "sen",
+      "start": 84.335,
+      "end": 84.602,
+      "phrase": 12
+    },
+    {
+      "text": "o",
+      "start": 84.706,
+      "end": 84.776,
+      "phrase": 12
+    },
+    {
+      "text": "wolnych",
+      "start": 84.857,
+      "end": 85.217,
+      "phrase": 12
+    },
+    {
+      "text": "ruchach",
+      "start": 85.24,
+      "end": 85.554,
+      "phrase": 12
+    },
+    {
+      "text": "gałek",
+      "start": 85.67,
+      "end": 86.03,
+      "phrase": 12
+    },
+    {
+      "text": "ocznych)",
+      "start": 86.134,
+      "end": 86.668,
+      "phrase": 12
+    },
+    {
+      "text": "oraz",
+      "start": 86.854,
+      "end": 87.191,
+      "phrase": 12
+    },
+    {
+      "text": "sen",
+      "start": 87.307,
+      "end": 87.539,
+      "phrase": 12
+    },
+    {
+      "text": "paradoksalny",
+      "start": 87.608,
+      "end": 88.502,
+      "phrase": 12
+    },
+    {
+      "text": "(tzw.",
+      "start": 88.595,
+      "end": 89.129,
+      "phrase": 12
+    },
+    {
+      "text": "REM",
+      "start": 89.338,
+      "end": 89.64,
+      "phrase": 13
+    },
+    {
+      "text": "–",
+      "start": 89.756,
+      "end": 89.803,
+      "phrase": 13
+    },
+    {
+      "text": "sen",
+      "start": 89.977,
+      "end": 90.232,
+      "phrase": 13
+    },
+    {
+      "text": "o",
+      "start": 90.325,
+      "end": 90.418,
+      "phrase": 13
+    },
+    {
+      "text": "szybkich",
+      "start": 90.453,
+      "end": 90.883,
+      "phrase": 13
+    },
+    {
+      "text": "ruchach",
+      "start": 90.929,
+      "end": 91.254,
+      "phrase": 13
+    },
+    {
+      "text": "gałek",
+      "start": 91.37,
+      "end": 91.684,
+      "phrase": 13
+    },
+    {
+      "text": "ocznych).",
+      "start": 91.776,
+      "end": 92.322,
+      "phrase": 13
+    },
+    {
+      "text": "W",
+      "start": 92.647,
+      "end": 92.728,
+      "phrase": 14
+    },
+    {
+      "text": "fazie",
+      "start": 92.81,
+      "end": 93.123,
+      "phrase": 14
+    },
+    {
+      "text": "REM",
+      "start": 93.205,
+      "end": 93.425,
+      "phrase": 14
+    },
+    {
+      "text": "zniesione",
+      "start": 93.553,
+      "end": 94.017,
+      "phrase": 14
+    },
+    {
+      "text": "zostaje",
+      "start": 94.064,
+      "end": 94.47,
+      "phrase": 14
+    },
+    {
+      "text": "napięcie",
+      "start": 94.505,
+      "end": 94.946,
+      "phrase": 14
+    },
+    {
+      "text": "mięśniowe",
+      "start": 95.004,
+      "end": 95.608,
+      "phrase": 14
+    },
+    {
+      "text": "i",
+      "start": 95.677,
+      "end": 95.724,
+      "phrase": 14
+    },
+    {
+      "text": "występują",
+      "start": 95.782,
+      "end": 96.328,
+      "phrase": 14
+    },
+    {
+      "text": "marzenia",
+      "start": 96.386,
+      "end": 96.746,
+      "phrase": 14
+    },
+    {
+      "text": "senne.",
+      "start": 96.804,
+      "end": 97.396,
+      "phrase": 14
+    },
+    {
+      "text": "W",
+      "start": 97.721,
+      "end": 97.779,
+      "phrase": 15
+    },
+    {
+      "text": "czasie",
+      "start": 97.814,
+      "end": 98.046,
+      "phrase": 15
+    },
+    {
+      "text": "marzeń",
+      "start": 98.104,
+      "end": 98.394,
+      "phrase": 15
+    },
+    {
+      "text": "sennych",
+      "start": 98.475,
+      "end": 98.928,
+      "phrase": 15
+    },
+    {
+      "text": "dominują",
+      "start": 98.998,
+      "end": 99.532,
+      "phrase": 15
+    },
+    {
+      "text": "doznania",
+      "start": 99.602,
+      "end": 99.985,
+      "phrase": 15
+    },
+    {
+      "text": "wzrokowe,",
+      "start": 100.02,
+      "end": 100.821,
+      "phrase": 15
+    },
+    {
+      "text": "ale",
+      "start": 100.995,
+      "end": 101.216,
+      "phrase": 15
+    },
+    {
+      "text": "u",
+      "start": 101.274,
+      "end": 101.332,
+      "phrase": 15
+    },
+    {
+      "text": "60%",
+      "start": 101.425,
+      "end": 102.226,
+      "phrase": 15
+    },
+    {
+      "text": "badanych",
+      "start": 102.435,
+      "end": 102.957,
+      "phrase": 15
+    },
+    {
+      "text": "stwierdza",
+      "start": 103.038,
+      "end": 103.514,
+      "phrase": 15
+    },
+    {
+      "text": "się",
+      "start": 103.561,
+      "end": 103.665,
+      "phrase": 15
+    },
+    {
+      "text": "współwystępowanie",
+      "start": 103.735,
+      "end": 104.85,
+      "phrase": 15
+    },
+    {
+      "text": "efektów",
+      "start": 104.896,
+      "end": 105.395,
+      "phrase": 15
+    },
+    {
+      "text": "werbalnych",
+      "start": 105.511,
+      "end": 106.208,
+      "phrase": 15
+    },
+    {
+      "text": "i",
+      "start": 106.278,
+      "end": 106.312,
+      "phrase": 15
+    },
+    {
+      "text": "akustycznych.",
+      "start": 106.394,
+      "end": 107.334,
+      "phrase": 15
+    },
+    {
+      "text": "Uważa",
+      "start": 107.659,
+      "end": 108.077,
+      "phrase": 16
+    },
+    {
+      "text": "się,",
+      "start": 108.124,
+      "end": 108.286,
+      "phrase": 16
+    },
+    {
+      "text": "że",
+      "start": 108.333,
+      "end": 108.425,
+      "phrase": 16
+    },
+    {
+      "text": "w",
+      "start": 108.46,
+      "end": 108.495,
+      "phrase": 16
+    },
+    {
+      "text": "ciągu",
+      "start": 108.53,
+      "end": 108.832,
+      "phrase": 16
+    },
+    {
+      "text": "nocy",
+      "start": 108.901,
+      "end": 109.157,
+      "phrase": 16
+    },
+    {
+      "text": "przeciętnie",
+      "start": 109.192,
+      "end": 109.853,
+      "phrase": 16
+    },
+    {
+      "text": "śnimy",
+      "start": 109.9,
+      "end": 110.213,
+      "phrase": 16
+    },
+    {
+      "text": "4–6",
+      "start": 110.329,
+      "end": 110.887,
+      "phrase": 16
+    },
+    {
+      "text": "snów,",
+      "start": 111.038,
+      "end": 111.467,
+      "phrase": 16
+    },
+    {
+      "text": "a",
+      "start": 111.676,
+      "end": 111.734,
+      "phrase": 16
+    },
+    {
+      "text": "zapominamy",
+      "start": 111.816,
+      "end": 112.419,
+      "phrase": 16
+    },
+    {
+      "text": "90%",
+      "start": 112.489,
+      "end": 113.36,
+      "phrase": 16
+    },
+    {
+      "text": "z",
+      "start": 113.476,
+      "end": 113.511,
+      "phrase": 16
+    },
+    {
+      "text": "nich.",
+      "start": 113.569,
+      "end": 113.998,
+      "phrase": 16
+    },
+    {
+      "text": "„Skowronki”",
+      "start": 114.172,
+      "end": 115.136,
+      "phrase": 17
+    },
+    {
+      "text": "i",
+      "start": 115.171,
+      "end": 115.287,
+      "phrase": 17
+    },
+    {
+      "text": "„sowy”",
+      "start": 115.333,
+      "end": 116.065,
+      "phrase": 17
+    },
+    {
+      "text": "Ludzie,",
+      "start": 116.274,
+      "end": 116.634,
+      "phrase": 17
+    },
+    {
+      "text": "których",
+      "start": 116.657,
+      "end": 117.005,
+      "phrase": 17
+    },
+    {
+      "text": "chronotyp",
+      "start": 117.063,
+      "end": 117.621,
+      "phrase": 17
+    },
+    {
+      "text": "określany",
+      "start": 117.702,
+      "end": 118.225,
+      "phrase": 17
+    },
+    {
+      "text": "jest",
+      "start": 118.259,
+      "end": 118.41,
+      "phrase": 17
+    },
+    {
+      "text": "jako",
+      "start": 118.48,
+      "end": 118.747,
+      "phrase": 17
+    },
+    {
+      "text": "„skowronki”",
+      "start": 118.817,
+      "end": 119.943,
+      "phrase": 17
+    },
+    {
+      "text": "albo",
+      "start": 120.059,
+      "end": 120.43,
+      "phrase": 17
+    },
+    {
+      "text": "„ranne",
+      "start": 120.488,
+      "end": 121.127,
+      "phrase": 17
+    },
+    {
+      "text": "ptaszki”",
+      "start": 121.173,
+      "end": 121.975,
+      "phrase": 17
+    },
+    {
+      "text": "to",
+      "start": 122.091,
+      "end": 122.207,
+      "phrase": 17
+    },
+    {
+      "text": "ci",
+      "start": 122.265,
+      "end": 122.427,
+      "phrase": 17
+    },
+    {
+      "text": "o",
+      "start": 122.543,
+      "end": 122.613,
+      "phrase": 17
+    },
+    {
+      "text": "szczytowym",
+      "start": 122.648,
+      "end": 123.17,
+      "phrase": 17
+    },
+    {
+      "text": "momencie",
+      "start": 123.228,
+      "end": 123.658,
+      "phrase": 17
+    },
+    {
+      "text": "stanu",
+      "start": 123.704,
+      "end": 124.018,
+      "phrase": 17
+    },
+    {
+      "text": "czuwania",
+      "start": 124.064,
+      "end": 124.656,
+      "phrase": 17
+    },
+    {
+      "text": "przypadającym",
+      "start": 124.738,
+      "end": 125.562,
+      "phrase": 17
+    },
+    {
+      "text": "we",
+      "start": 125.632,
+      "end": 125.725,
+      "phrase": 17
+    },
+    {
+      "text": "wczesnej",
+      "start": 125.759,
+      "end": 126.224,
+      "phrase": 17
+    },
+    {
+      "text": "porze",
+      "start": 126.282,
+      "end": 126.561,
+      "phrase": 17
+    },
+    {
+      "text": "dnia,",
+      "start": 126.607,
+      "end": 127.037,
+      "phrase": 17
+    },
+    {
+      "text": "których",
+      "start": 127.211,
+      "end": 127.547,
+      "phrase": 17
+    },
+    {
+      "text": "senność",
+      "start": 127.605,
+      "end": 128.174,
+      "phrase": 17
+    },
+    {
+      "text": "ogarnia",
+      "start": 128.267,
+      "end": 128.708,
+      "phrase": 17
+    },
+    {
+      "text": "pod",
+      "start": 128.755,
+      "end": 128.894,
+      "phrase": 17
+    },
+    {
+      "text": "wieczór.",
+      "start": 128.952,
+      "end": 129.521,
+      "phrase": 17
+    },
+    {
+      "text": "Stanowią",
+      "start": 129.765,
+      "end": 130.241,
+      "phrase": 18
+    },
+    {
+      "text": "oni",
+      "start": 130.334,
+      "end": 130.554,
+      "phrase": 18
+    },
+    {
+      "text": "ok.",
+      "start": 130.636,
+      "end": 131.112,
+      "phrase": 18
+    },
+    {
+      "text": "40%",
+      "start": 131.355,
+      "end": 132.157,
+      "phrase": 19
+    },
+    {
+      "text": "populacji,",
+      "start": 132.273,
+      "end": 133.027,
+      "phrase": 19
+    },
+    {
+      "text": "wolą",
+      "start": 133.143,
+      "end": 133.457,
+      "phrase": 19
+    },
+    {
+      "text": "budzić",
+      "start": 133.526,
+      "end": 133.91,
+      "phrase": 19
+    },
+    {
+      "text": "się",
+      "start": 133.968,
+      "end": 134.084,
+      "phrase": 19
+    },
+    {
+      "text": "o",
+      "start": 134.153,
+      "end": 134.199,
+      "phrase": 19
+    },
+    {
+      "text": "świcie",
+      "start": 134.257,
+      "end": 134.733,
+      "phrase": 19
+    },
+    {
+      "text": "i",
+      "start": 134.85,
+      "end": 134.919,
+      "phrase": 19
+    },
+    {
+      "text": "wówczas",
+      "start": 134.989,
+      "end": 135.43,
+      "phrase": 19
+    },
+    {
+      "text": "najlepiej",
+      "start": 135.523,
+      "end": 136.034,
+      "phrase": 19
+    },
+    {
+      "text": "funkcjonują.",
+      "start": 136.092,
+      "end": 137.09,
+      "phrase": 19
+    },
+    {
+      "text": "Natomiast",
+      "start": 137.415,
+      "end": 137.938,
+      "phrase": 20
+    },
+    {
+      "text": "„sowy”",
+      "start": 138.008,
+      "end": 138.727,
+      "phrase": 20
+    },
+    {
+      "text": "albo",
+      "start": 138.762,
+      "end": 139.192,
+      "phrase": 20
+    },
+    {
+      "text": "„nocne",
+      "start": 139.25,
+      "end": 139.795,
+      "phrase": 20
+    },
+    {
+      "text": "marki”",
+      "start": 139.853,
+      "end": 140.492,
+      "phrase": 20
+    },
+    {
+      "text": "stanowią",
+      "start": 140.701,
+      "end": 141.2,
+      "phrase": 20
+    },
+    {
+      "text": "ok.",
+      "start": 141.316,
+      "end": 141.874,
+      "phrase": 20
+    },
+    {
+      "text": "30%",
+      "start": 142.199,
+      "end": 142.965,
+      "phrase": 21
+    },
+    {
+      "text": "populacji",
+      "start": 143.081,
+      "end": 143.778,
+      "phrase": 21
+    },
+    {
+      "text": "i",
+      "start": 143.859,
+      "end": 143.94,
+      "phrase": 21
+    },
+    {
+      "text": "obejmują",
+      "start": 144.033,
+      "end": 144.567,
+      "phrase": 21
+    },
+    {
+      "text": "ludzi,",
+      "start": 144.648,
+      "end": 145.182,
+      "phrase": 21
+    },
+    {
+      "text": "którzy",
+      "start": 145.333,
+      "end": 145.635,
+      "phrase": 21
+    },
+    {
+      "text": "wolą",
+      "start": 145.67,
+      "end": 145.949,
+      "phrase": 21
+    },
+    {
+      "text": "kłaść",
+      "start": 146.03,
+      "end": 146.413,
+      "phrase": 21
+    },
+    {
+      "text": "się",
+      "start": 146.483,
+      "end": 146.576,
+      "phrase": 21
+    },
+    {
+      "text": "do",
+      "start": 146.634,
+      "end": 146.703,
+      "phrase": 21
+    },
+    {
+      "text": "łóżka",
+      "start": 146.761,
+      "end": 147.087,
+      "phrase": 21
+    },
+    {
+      "text": "później",
+      "start": 147.145,
+      "end": 147.632,
+      "phrase": 21
+    },
+    {
+      "text": "i",
+      "start": 147.713,
+      "end": 147.783,
+      "phrase": 21
+    },
+    {
+      "text": "w",
+      "start": 147.841,
+      "end": 147.864,
+      "phrase": 21
+    },
+    {
+      "text": "rezultacie",
+      "start": 147.911,
+      "end": 148.468,
+      "phrase": 21
+    },
+    {
+      "text": "również",
+      "start": 148.538,
+      "end": 148.932,
+      "phrase": 21
+    },
+    {
+      "text": "później",
+      "start": 148.991,
+      "end": 149.339,
+      "phrase": 21
+    },
+    {
+      "text": "wstawać.",
+      "start": 149.362,
+      "end": 150.024,
+      "phrase": 21
+    },
+    {
+      "text": "Pozostałe",
+      "start": 150.349,
+      "end": 150.883,
+      "phrase": 22
+    },
+    {
+      "text": "30%",
+      "start": 150.964,
+      "end": 151.8,
+      "phrase": 22
+    },
+    {
+      "text": "mieści",
+      "start": 151.928,
+      "end": 152.23,
+      "phrase": 22
+    },
+    {
+      "text": "się",
+      "start": 152.265,
+      "end": 152.346,
+      "phrase": 22
+    },
+    {
+      "text": "pomiędzy",
+      "start": 152.404,
+      "end": 152.822,
+      "phrase": 22
+    },
+    {
+      "text": "„skowronkami”",
+      "start": 152.845,
+      "end": 153.844,
+      "phrase": 22
+    },
+    {
+      "text": "a",
+      "start": 153.913,
+      "end": 154.029,
+      "phrase": 22
+    },
+    {
+      "text": "„sowami”.",
+      "start": 154.064,
+      "end": 154.935,
+      "phrase": 22
+    },
+    {
+      "text": "Występowanie",
+      "start": 155.213,
+      "end": 155.968,
+      "phrase": 23
+    },
+    {
+      "text": "chronotypów",
+      "start": 156.015,
+      "end": 156.816,
+      "phrase": 23
+    },
+    {
+      "text": "jest",
+      "start": 156.932,
+      "end": 157.152,
+      "phrase": 23
+    },
+    {
+      "text": "uwarunkowane",
+      "start": 157.234,
+      "end": 157.953,
+      "phrase": 23
+    },
+    {
+      "text": "genetycznie.",
+      "start": 158.023,
+      "end": 158.975,
+      "phrase": 23
+    },
+    {
+      "text": "Jak",
+      "start": 159.254,
+      "end": 159.498,
+      "phrase": 24
+    },
+    {
+      "text": "długo",
+      "start": 159.567,
+      "end": 159.974,
+      "phrase": 24
+    },
+    {
+      "text": "powinniśmy",
+      "start": 160.02,
+      "end": 160.647,
+      "phrase": 24
+    },
+    {
+      "text": "spać?",
+      "start": 160.682,
+      "end": 161.286,
+      "phrase": 24
+    },
+    {
+      "text": "Zapotrzebowanie",
+      "start": 161.529,
+      "end": 162.307,
+      "phrase": 25
+    },
+    {
+      "text": "na",
+      "start": 162.365,
+      "end": 162.458,
+      "phrase": 25
+    },
+    {
+      "text": "sen",
+      "start": 162.528,
+      "end": 162.783,
+      "phrase": 25
+    },
+    {
+      "text": "zależne",
+      "start": 162.899,
+      "end": 163.41,
+      "phrase": 25
+    },
+    {
+      "text": "jest",
+      "start": 163.468,
+      "end": 163.642,
+      "phrase": 25
+    },
+    {
+      "text": "od",
+      "start": 163.712,
+      "end": 163.805,
+      "phrase": 25
+    },
+    {
+      "text": "wieku.",
+      "start": 163.851,
+      "end": 164.443,
+      "phrase": 25
+    },
+    {
+      "text": "Poniżej",
+      "start": 164.722,
+      "end": 165.372,
+      "phrase": 26
+    },
+    {
+      "text": "znajduje",
+      "start": 165.488,
+      "end": 165.999,
+      "phrase": 26
+    },
+    {
+      "text": "się",
+      "start": 166.046,
+      "end": 166.162,
+      "phrase": 26
+    },
+    {
+      "text": "zestawienie",
+      "start": 166.243,
+      "end": 166.893,
+      "phrase": 26
+    },
+    {
+      "text": "zalecanej",
+      "start": 166.963,
+      "end": 167.532,
+      "phrase": 26
+    },
+    {
+      "text": "długości",
+      "start": 167.578,
+      "end": 168.147,
+      "phrase": 26
+    },
+    {
+      "text": "snu",
+      "start": 168.217,
+      "end": 168.565,
+      "phrase": 26
+    },
+    {
+      "text": "w",
+      "start": 168.681,
+      "end": 168.727,
+      "phrase": 26
+    },
+    {
+      "text": "różnych",
+      "start": 168.809,
+      "end": 169.18,
+      "phrase": 26
+    },
+    {
+      "text": "okresach",
+      "start": 169.238,
+      "end": 169.726,
+      "phrase": 26
+    },
+    {
+      "text": "życia",
+      "start": 169.796,
+      "end": 170.063,
+      "phrase": 26
+    },
+    {
+      "text": "człowieka.",
+      "start": 170.097,
+      "end": 170.806,
+      "phrase": 26
+    },
+    {
+      "text": "Noworodek",
+      "start": 171.003,
+      "end": 171.375,
+      "phrase": 27
+    },
+    {
+      "text": "14-17",
+      "start": 171.421,
+      "end": 172.327,
+      "phrase": 27
+    },
+    {
+      "text": "godzin",
+      "start": 172.408,
+      "end": 172.71,
+      "phrase": 27
+    },
+    {
+      "text": "Niemowlę",
+      "start": 172.93,
+      "end": 173.406,
+      "phrase": 27
+    },
+    {
+      "text": "12-15",
+      "start": 173.441,
+      "end": 174.196,
+      "phrase": 27
+    },
+    {
+      "text": "godzin",
+      "start": 174.277,
+      "end": 174.556,
+      "phrase": 27
+    },
+    {
+      "text": "Małe",
+      "start": 174.776,
+      "end": 174.962,
+      "phrase": 27
+    },
+    {
+      "text": "dziecko",
+      "start": 174.985,
+      "end": 175.322,
+      "phrase": 27
+    },
+    {
+      "text": "(1-2",
+      "start": 175.403,
+      "end": 175.728,
+      "phrase": 27
+    },
+    {
+      "text": "lat)",
+      "start": 175.81,
+      "end": 176.053,
+      "phrase": 27
+    },
+    {
+      "text": "11-14",
+      "start": 176.274,
+      "end": 176.947,
+      "phrase": 27
+    },
+    {
+      "text": "godzin",
+      "start": 177.029,
+      "end": 177.33,
+      "phrase": 27
+    },
+    {
+      "text": "Przedszkolak",
+      "start": 177.516,
+      "end": 177.992,
+      "phrase": 27
+    },
+    {
+      "text": "(3-5",
+      "start": 178.108,
+      "end": 178.561,
+      "phrase": 27
+    },
+    {
+      "text": "lat)",
+      "start": 178.642,
+      "end": 178.886,
+      "phrase": 27
+    },
+    {
+      "text": "10-13",
+      "start": 179.049,
+      "end": 179.78,
+      "phrase": 27
+    },
+    {
+      "text": "godzin",
+      "start": 179.861,
+      "end": 180.152,
+      "phrase": 27
+    },
+    {
+      "text": "Dziecko",
+      "start": 180.337,
+      "end": 180.616,
+      "phrase": 27
+    },
+    {
+      "text": "w",
+      "start": 180.662,
+      "end": 180.686,
+      "phrase": 27
+    },
+    {
+      "text": "wieku",
+      "start": 180.732,
+      "end": 180.918,
+      "phrase": 27
+    },
+    {
+      "text": "szkolnym",
+      "start": 180.941,
+      "end": 181.324,
+      "phrase": 27
+    },
+    {
+      "text": "(6-13",
+      "start": 181.44,
+      "end": 182.207,
+      "phrase": 27
+    },
+    {
+      "text": "lat)",
+      "start": 182.288,
+      "end": 182.555,
+      "phrase": 27
+    },
+    {
+      "text": "9-11",
+      "start": 182.776,
+      "end": 183.46,
+      "phrase": 27
+    },
+    {
+      "text": "godzin",
+      "start": 183.519,
+      "end": 183.728,
+      "phrase": 27
+    },
+    {
+      "text": "Nastolatek",
+      "start": 183.774,
+      "end": 184.273,
+      "phrase": 27
+    },
+    {
+      "text": "(14-17",
+      "start": 184.378,
+      "end": 185.33,
+      "phrase": 27
+    },
+    {
+      "text": "lat)",
+      "start": 185.411,
+      "end": 185.666,
+      "phrase": 27
+    },
+    {
+      "text": "8-10",
+      "start": 185.806,
+      "end": 186.294,
+      "phrase": 27
+    },
+    {
+      "text": "godzin",
+      "start": 186.363,
+      "end": 186.642,
+      "phrase": 27
+    },
+    {
+      "text": "Młody",
+      "start": 186.804,
+      "end": 187.037,
+      "phrase": 27
+    },
+    {
+      "text": "dorosły",
+      "start": 187.06,
+      "end": 187.455,
+      "phrase": 27
+    },
+    {
+      "text": "(18-12",
+      "start": 187.571,
+      "end": 188.372,
+      "phrase": 27
+    },
+    {
+      "text": "lat)",
+      "start": 188.453,
+      "end": 188.708,
+      "phrase": 27
+    },
+    {
+      "text": "7-9",
+      "start": 188.848,
+      "end": 189.533,
+      "phrase": 27
+    },
+    {
+      "text": "godzin",
+      "start": 189.637,
+      "end": 189.846,
+      "phrase": 27
+    },
+    {
+      "text": "Dorosły",
+      "start": 189.893,
+      "end": 190.276,
+      "phrase": 27
+    },
+    {
+      "text": "(26-64",
+      "start": 190.427,
+      "end": 191.727,
+      "phrase": 27
+    },
+    {
+      "text": "lat)",
+      "start": 191.82,
+      "end": 192.064,
+      "phrase": 27
+    },
+    {
+      "text": "7-9",
+      "start": 192.342,
+      "end": 193.132,
+      "phrase": 27
+    },
+    {
+      "text": "godzin",
+      "start": 193.248,
+      "end": 193.573,
+      "phrase": 27
+    },
+    {
+      "text": "Osoba",
+      "start": 193.747,
+      "end": 194.084,
+      "phrase": 27
+    },
+    {
+      "text": "starsza",
+      "start": 194.119,
+      "end": 194.525,
+      "phrase": 27
+    },
+    {
+      "text": "(65+)",
+      "start": 194.676,
+      "end": 195.86,
+      "phrase": 27
+    },
+    {
+      "text": "7-8",
+      "start": 196.069,
+      "end": 196.801,
+      "phrase": 27
+    },
+    {
+      "text": "godzin",
+      "start": 196.905,
+      "end": 197.265,
+      "phrase": 27
+    },
+    {
+      "text": "Przeczytaj",
+      "start": 197.59,
+      "end": 197.95,
+      "phrase": 27
+    },
+    {
+      "text": "też:",
+      "start": 197.985,
+      "end": 198.24,
+      "phrase": 27
+    },
+    {
+      "text": "Mózg",
+      "start": 198.31,
+      "end": 198.658,
+      "phrase": 27
+    },
+    {
+      "text": "a",
+      "start": 198.774,
+      "end": 198.879,
+      "phrase": 27
+    },
+    {
+      "text": "emocje.",
+      "start": 198.925,
+      "end": 199.529,
+      "phrase": 27
+    },
+    {
+      "text": "Na",
+      "start": 199.738,
+      "end": 199.854,
+      "phrase": 28
+    },
+    {
+      "text": "tropach",
+      "start": 199.877,
+      "end": 200.214,
+      "phrase": 28
+    },
+    {
+      "text": "neurobiologii",
+      "start": 200.307,
+      "end": 200.957,
+      "phrase": 28
+    },
+    {
+      "text": "agresji",
+      "start": 201.015,
+      "end": 201.491,
+      "phrase": 28
+    },
+    {
+      "text": "i",
+      "start": 201.561,
+      "end": 201.63,
+      "phrase": 28
+    },
+    {
+      "text": "empatii",
+      "start": 201.7,
+      "end": 202.199,
+      "phrase": 28
+    },
+    {
+      "text": "Ile",
+      "start": 202.478,
+      "end": 202.652,
+      "phrase": 28
+    },
+    {
+      "text": "śpią",
+      "start": 202.687,
+      "end": 202.896,
+      "phrase": 28
+    },
+    {
+      "text": "zwierzęta?",
+      "start": 202.942,
+      "end": 203.592,
+      "phrase": 28
+    },
+    {
+      "text": "Największymi",
+      "start": 203.871,
+      "end": 204.382,
+      "phrase": 29
+    },
+    {
+      "text": "„śpiochami”",
+      "start": 204.394,
+      "end": 204.974,
+      "phrase": 29
+    },
+    {
+      "text": "są",
+      "start": 204.997,
+      "end": 205.183,
+      "phrase": 29
+    },
+    {
+      "text": "nietoperze,",
+      "start": 205.276,
+      "end": 206.042,
+      "phrase": 29
+    },
+    {
+      "text": "które",
+      "start": 206.17,
+      "end": 206.367,
+      "phrase": 29
+    },
+    {
+      "text": "potrafią",
+      "start": 206.402,
+      "end": 206.773,
+      "phrase": 29
+    },
+    {
+      "text": "przespać",
+      "start": 206.831,
+      "end": 207.203,
+      "phrase": 29
+    },
+    {
+      "text": "19,9",
+      "start": 207.307,
+      "end": 208.341,
+      "phrase": 29
+    },
+    {
+      "text": "godziny.",
+      "start": 208.468,
+      "end": 209.014,
+      "phrase": 29
+    },
+    {
+      "text": "Do",
+      "start": 209.304,
+      "end": 209.42,
+      "phrase": 30
+    },
+    {
+      "text": "grupy",
+      "start": 209.467,
+      "end": 209.734,
+      "phrase": 30
+    },
+    {
+      "text": "„śpiochów”",
+      "start": 209.745,
+      "end": 210.477,
+      "phrase": 30
+    },
+    {
+      "text": "można",
+      "start": 210.616,
+      "end": 210.848,
+      "phrase": 30
+    },
+    {
+      "text": "również",
+      "start": 210.895,
+      "end": 211.185,
+      "phrase": 30
+    },
+    {
+      "text": "zaliczyć",
+      "start": 211.255,
+      "end": 211.626,
+      "phrase": 30
+    },
+    {
+      "text": "pancernika",
+      "start": 211.673,
+      "end": 212.253,
+      "phrase": 30
+    },
+    {
+      "text": "przesypiającego",
+      "start": 212.276,
+      "end": 213.077,
+      "phrase": 30
+    },
+    {
+      "text": "18,5",
+      "start": 213.159,
+      "end": 214.215,
+      "phrase": 30
+    },
+    {
+      "text": "godziny.",
+      "start": 214.32,
+      "end": 214.865,
+      "phrase": 30
+    },
+    {
+      "text": "Koty",
+      "start": 215.156,
+      "end": 215.434,
+      "phrase": 31
+    },
+    {
+      "text": "także",
+      "start": 215.469,
+      "end": 215.759,
+      "phrase": 31
+    },
+    {
+      "text": "sporo",
+      "start": 215.783,
+      "end": 216.026,
+      "phrase": 31
+    },
+    {
+      "text": "śpią,",
+      "start": 216.061,
+      "end": 216.398,
+      "phrase": 31
+    },
+    {
+      "text": "bo",
+      "start": 216.421,
+      "end": 216.549,
+      "phrase": 31
+    },
+    {
+      "text": "aż",
+      "start": 216.607,
+      "end": 216.781,
+      "phrase": 31
+    },
+    {
+      "text": "14,5",
+      "start": 216.897,
+      "end": 217.942,
+      "phrase": 31
+    },
+    {
+      "text": "godziny.",
+      "start": 218.047,
+      "end": 218.569,
+      "phrase": 31
+    },
+    {
+      "text": "Do",
+      "start": 218.859,
+      "end": 218.975,
+      "phrase": 32
+    },
+    {
+      "text": "zwierząt",
+      "start": 219.01,
+      "end": 219.417,
+      "phrase": 32
+    },
+    {
+      "text": "o",
+      "start": 219.475,
+      "end": 219.533,
+      "phrase": 32
+    },
+    {
+      "text": "średnim",
+      "start": 219.579,
+      "end": 219.962,
+      "phrase": 32
+    },
+    {
+      "text": "zapotrzebowaniu",
+      "start": 220.009,
+      "end": 220.67,
+      "phrase": 32
+    },
+    {
+      "text": "na",
+      "start": 220.694,
+      "end": 220.775,
+      "phrase": 32
+    },
+    {
+      "text": "sen",
+      "start": 220.833,
+      "end": 220.984,
+      "phrase": 32
+    },
+    {
+      "text": "należą:",
+      "start": 221.089,
+      "end": 221.681,
+      "phrase": 32
+    },
+    {
+      "text": "lisy",
+      "start": 221.89,
+      "end": 222.308,
+      "phrase": 32
+    },
+    {
+      "text": "(9,8",
+      "start": 222.412,
+      "end": 223.503,
+      "phrase": 32
+    },
+    {
+      "text": "godziny),",
+      "start": 223.666,
+      "end": 224.2,
+      "phrase": 32
+    },
+    {
+      "text": "małpy",
+      "start": 224.363,
+      "end": 224.792,
+      "phrase": 32
+    },
+    {
+      "text": "(9,6",
+      "start": 224.897,
+      "end": 225.814,
+      "phrase": 32
+    },
+    {
+      "text": "godziny),",
+      "start": 225.942,
+      "end": 226.464,
+      "phrase": 32
+    },
+    {
+      "text": "króliki",
+      "start": 226.557,
+      "end": 227.056,
+      "phrase": 32
+    },
+    {
+      "text": "(8,4",
+      "start": 227.149,
+      "end": 228.182,
+      "phrase": 32
+    },
+    {
+      "text": "godziny).",
+      "start": 228.333,
+      "end": 228.798,
+      "phrase": 32
+    },
+    {
+      "text": "Stosunkowo",
+      "start": 229.065,
+      "end": 229.575,
+      "phrase": 33
+    },
+    {
+      "text": "mało",
+      "start": 229.634,
+      "end": 229.866,
+      "phrase": 33
+    },
+    {
+      "text": "śpią",
+      "start": 229.912,
+      "end": 230.202,
+      "phrase": 33
+    },
+    {
+      "text": "natomiast:",
+      "start": 230.272,
+      "end": 230.818,
+      "phrase": 33
+    },
+    {
+      "text": "krowy",
+      "start": 230.876,
+      "end": 231.305,
+      "phrase": 33
+    },
+    {
+      "text": "(3,9",
+      "start": 231.41,
+      "end": 232.246,
+      "phrase": 33
+    },
+    {
+      "text": "godziny),",
+      "start": 232.385,
+      "end": 232.861,
+      "phrase": 33
+    },
+    {
+      "text": "owce",
+      "start": 233,
+      "end": 233.36,
+      "phrase": 33
+    },
+    {
+      "text": "i",
+      "start": 233.442,
+      "end": 233.476,
+      "phrase": 33
+    },
+    {
+      "text": "kozy",
+      "start": 233.581,
+      "end": 233.964,
+      "phrase": 33
+    },
+    {
+      "text": "(3,8",
+      "start": 234.045,
+      "end": 234.835,
+      "phrase": 33
+    },
+    {
+      "text": "godziny)",
+      "start": 234.974,
+      "end": 235.415,
+      "phrase": 33
+    },
+    {
+      "text": "oraz",
+      "start": 235.589,
+      "end": 235.868,
+      "phrase": 33
+    },
+    {
+      "text": "konie",
+      "start": 235.961,
+      "end": 236.286,
+      "phrase": 33
+    },
+    {
+      "text": "(2,9",
+      "start": 236.391,
+      "end": 237.238,
+      "phrase": 33
+    },
+    {
+      "text": "godziny).",
+      "start": 237.377,
+      "end": 237.83,
+      "phrase": 33
+    },
+    {
+      "text": "„Wampirzy”",
+      "start": 238.062,
+      "end": 238.829,
+      "phrase": 34
+    },
+    {
+      "text": "hormon",
+      "start": 238.887,
+      "end": 239.328,
+      "phrase": 34
+    },
+    {
+      "text": "–",
+      "start": 239.432,
+      "end": 239.444,
+      "phrase": 34
+    },
+    {
+      "text": "melatonina",
+      "start": 239.548,
+      "end": 240.094,
+      "phrase": 34
+    },
+    {
+      "text": "Melatonina",
+      "start": 240.175,
+      "end": 240.768,
+      "phrase": 34
+    },
+    {
+      "text": "to",
+      "start": 240.837,
+      "end": 240.93,
+      "phrase": 34
+    },
+    {
+      "text": "hormon,",
+      "start": 240.988,
+      "end": 241.383,
+      "phrase": 34
+    },
+    {
+      "text": "który",
+      "start": 241.418,
+      "end": 241.661,
+      "phrase": 34
+    },
+    {
+      "text": "wydziela",
+      "start": 241.696,
+      "end": 242.01,
+      "phrase": 34
+    },
+    {
+      "text": "się",
+      "start": 242.045,
+      "end": 242.126,
+      "phrase": 34
+    },
+    {
+      "text": "z",
+      "start": 242.161,
+      "end": 242.184,
+      "phrase": 34
+    },
+    {
+      "text": "szyszynki",
+      "start": 242.23,
+      "end": 242.625,
+      "phrase": 34
+    },
+    {
+      "text": "w",
+      "start": 242.66,
+      "end": 242.695,
+      "phrase": 34
+    },
+    {
+      "text": "nocy",
+      "start": 242.753,
+      "end": 243.043,
+      "phrase": 34
+    },
+    {
+      "text": "i",
+      "start": 243.089,
+      "end": 243.113,
+      "phrase": 34
+    },
+    {
+      "text": "pomaga",
+      "start": 243.159,
+      "end": 243.461,
+      "phrase": 34
+    },
+    {
+      "text": "nam",
+      "start": 243.507,
+      "end": 243.624,
+      "phrase": 34
+    },
+    {
+      "text": "zasnąć,",
+      "start": 243.682,
+      "end": 244.32,
+      "phrase": 34
+    },
+    {
+      "text": "stąd",
+      "start": 244.529,
+      "end": 244.819,
+      "phrase": 34
+    },
+    {
+      "text": "też",
+      "start": 244.901,
+      "end": 245.086,
+      "phrase": 34
+    },
+    {
+      "text": "nazywany",
+      "start": 245.156,
+      "end": 245.574,
+      "phrase": 34
+    },
+    {
+      "text": "jest",
+      "start": 245.597,
+      "end": 245.783,
+      "phrase": 34
+    },
+    {
+      "text": "„hormonem",
+      "start": 245.806,
+      "end": 246.329,
+      "phrase": 34
+    },
+    {
+      "text": "ciemności”",
+      "start": 246.387,
+      "end": 247.234,
+      "phrase": 34
+    },
+    {
+      "text": "lub",
+      "start": 247.327,
+      "end": 247.559,
+      "phrase": 34
+    },
+    {
+      "text": "„wampirzym",
+      "start": 247.641,
+      "end": 248.36,
+      "phrase": 34
+    },
+    {
+      "text": "hormonem”.",
+      "start": 248.43,
+      "end": 249.161,
+      "phrase": 34
+    },
+    {
+      "text": "Kilka",
+      "start": 249.487,
+      "end": 249.8,
+      "phrase": 35
+    },
+    {
+      "text": "godzin",
+      "start": 249.846,
+      "end": 250.102,
+      "phrase": 35
+    },
+    {
+      "text": "po",
+      "start": 250.16,
+      "end": 250.241,
+      "phrase": 35
+    },
+    {
+      "text": "zmierzchu",
+      "start": 250.288,
+      "end": 250.822,
+      "phrase": 35
+    },
+    {
+      "text": "poziom",
+      "start": 250.996,
+      "end": 251.344,
+      "phrase": 35
+    },
+    {
+      "text": "tego",
+      "start": 251.414,
+      "end": 251.611,
+      "phrase": 35
+    },
+    {
+      "text": "hormonu",
+      "start": 251.669,
+      "end": 252.087,
+      "phrase": 35
+    },
+    {
+      "text": "gwałtownie",
+      "start": 252.134,
+      "end": 252.703,
+      "phrase": 35
+    },
+    {
+      "text": "wzrasta,",
+      "start": 252.737,
+      "end": 253.446,
+      "phrase": 35
+    },
+    {
+      "text": "by",
+      "start": 253.62,
+      "end": 253.771,
+      "phrase": 35
+    },
+    {
+      "text": "osiągnąć­­",
+      "start": 253.84,
+      "end": 254.374,
+      "phrase": 35
+    },
+    {
+      "text": "wartość",
+      "start": 254.432,
+      "end": 254.781,
+      "phrase": 35
+    },
+    {
+      "text": "maksymalną",
+      "start": 254.85,
+      "end": 255.594,
+      "phrase": 35
+    },
+    {
+      "text": "ok.",
+      "start": 255.872,
+      "end": 256.406,
+      "phrase": 35
+    },
+    {
+      "text": "4:00",
+      "start": 257.358,
+      "end": 258.171,
+      "phrase": 36
+    },
+    {
+      "text": "w",
+      "start": 258.345,
+      "end": 258.38,
+      "phrase": 36
+    },
+    {
+      "text": "nocy.",
+      "start": 258.461,
+      "end": 258.972,
+      "phrase": 36
+    },
+    {
+      "text": "Kiedy",
+      "start": 259.355,
+      "end": 259.611,
+      "phrase": 37
+    },
+    {
+      "text": "zapadniemy",
+      "start": 259.657,
+      "end": 260.179,
+      "phrase": 37
+    },
+    {
+      "text": "już",
+      "start": 260.226,
+      "end": 260.4,
+      "phrase": 37
+    },
+    {
+      "text": "w",
+      "start": 260.481,
+      "end": 260.505,
+      "phrase": 37
+    },
+    {
+      "text": "sen,",
+      "start": 260.597,
+      "end": 261.097,
+      "phrase": 37
+    },
+    {
+      "text": "to",
+      "start": 261.271,
+      "end": 261.387,
+      "phrase": 37
+    },
+    {
+      "text": "poziom",
+      "start": 261.457,
+      "end": 261.747,
+      "phrase": 37
+    },
+    {
+      "text": "melatoniny",
+      "start": 261.828,
+      "end": 262.42,
+      "phrase": 37
+    },
+    {
+      "text": "powoli",
+      "start": 262.478,
+      "end": 262.827,
+      "phrase": 37
+    },
+    {
+      "text": "spada",
+      "start": 262.873,
+      "end": 263.221,
+      "phrase": 37
+    },
+    {
+      "text": "podczas",
+      "start": 263.279,
+      "end": 263.674,
+      "phrase": 37
+    },
+    {
+      "text": "nocy",
+      "start": 263.79,
+      "end": 264.185,
+      "phrase": 37
+    },
+    {
+      "text": "i",
+      "start": 264.266,
+      "end": 264.324,
+      "phrase": 37
+    },
+    {
+      "text": "godzin",
+      "start": 264.44,
+      "end": 264.823,
+      "phrase": 37
+    },
+    {
+      "text": "porannych.",
+      "start": 264.893,
+      "end": 265.694,
+      "phrase": 37
+    },
+    {
+      "text": "Po",
+      "start": 265.938,
+      "end": 266.101,
+      "phrase": 38
+    },
+    {
+      "text": "co",
+      "start": 266.135,
+      "end": 266.251,
+      "phrase": 38
+    },
+    {
+      "text": "nam",
+      "start": 266.31,
+      "end": 266.449,
+      "phrase": 38
+    },
+    {
+      "text": "sen?",
+      "start": 266.519,
+      "end": 266.971,
+      "phrase": 38
+    },
+    {
+      "text": "Najprostsza",
+      "start": 267.215,
+      "end": 267.9,
+      "phrase": 39
+    },
+    {
+      "text": "odpowiedź",
+      "start": 267.947,
+      "end": 268.434,
+      "phrase": 39
+    },
+    {
+      "text": "na",
+      "start": 268.492,
+      "end": 268.562,
+      "phrase": 39
+    },
+    {
+      "text": "powyższe",
+      "start": 268.62,
+      "end": 269.049,
+      "phrase": 39
+    },
+    {
+      "text": "pytanie",
+      "start": 269.108,
+      "end": 269.491,
+      "phrase": 39
+    },
+    {
+      "text": "brzmi:",
+      "start": 269.537,
+      "end": 270.06,
+      "phrase": 39
+    },
+    {
+      "text": "„Śpię,",
+      "start": 270.176,
+      "end": 271,
+      "phrase": 39
+    },
+    {
+      "text": "bo",
+      "start": 271.081,
+      "end": 271.197,
+      "phrase": 39
+    },
+    {
+      "text": "jestem",
+      "start": 271.255,
+      "end": 271.58,
+      "phrase": 39
+    },
+    {
+      "text": "zmęczony”.",
+      "start": 271.639,
+      "end": 272.474,
+      "phrase": 39
+    },
+    {
+      "text": "W",
+      "start": 272.718,
+      "end": 272.776,
+      "phrase": 40
+    },
+    {
+      "text": "rzeczywistości",
+      "start": 272.834,
+      "end": 273.705,
+      "phrase": 40
+    },
+    {
+      "text": "sen",
+      "start": 273.798,
+      "end": 274.1,
+      "phrase": 40
+    },
+    {
+      "text": "pełni",
+      "start": 274.181,
+      "end": 274.541,
+      "phrase": 40
+    },
+    {
+      "text": "wiele",
+      "start": 274.599,
+      "end": 274.866,
+      "phrase": 40
+    },
+    {
+      "text": "funkcji.",
+      "start": 274.924,
+      "end": 275.667,
+      "phrase": 40
+    },
+    {
+      "text": "W",
+      "start": 276.05,
+      "end": 276.108,
+      "phrase": 41
+    },
+    {
+      "text": "czasie",
+      "start": 276.166,
+      "end": 276.433,
+      "phrase": 41
+    },
+    {
+      "text": "snu",
+      "start": 276.491,
+      "end": 276.781,
+      "phrase": 41
+    },
+    {
+      "text": "następuje",
+      "start": 276.851,
+      "end": 277.478,
+      "phrase": 41
+    },
+    {
+      "text": "regeneracja",
+      "start": 277.594,
+      "end": 278.337,
+      "phrase": 41
+    },
+    {
+      "text": "mięśni,",
+      "start": 278.395,
+      "end": 279.185,
+      "phrase": 41
+    },
+    {
+      "text": "spowolnienie",
+      "start": 279.336,
+      "end": 280.044,
+      "phrase": 41
+    },
+    {
+      "text": "metabolizmu,",
+      "start": 280.102,
+      "end": 281.124,
+      "phrase": 41
+    },
+    {
+      "text": "oszczędzanie",
+      "start": 281.333,
+      "end": 282.006,
+      "phrase": 41
+    },
+    {
+      "text": "energii,",
+      "start": 282.064,
+      "end": 282.912,
+      "phrase": 41
+    },
+    {
+      "text": "zachodzenie",
+      "start": 283.086,
+      "end": 283.585,
+      "phrase": 41
+    },
+    {
+      "text": "procesów",
+      "start": 283.631,
+      "end": 284.061,
+      "phrase": 41
+    },
+    {
+      "text": "naprawczych",
+      "start": 284.131,
+      "end": 284.676,
+      "phrase": 41
+    },
+    {
+      "text": "w",
+      "start": 284.711,
+      "end": 284.746,
+      "phrase": 41
+    },
+    {
+      "text": "neuronach",
+      "start": 284.804,
+      "end": 285.489,
+      "phrase": 41
+    },
+    {
+      "text": "(komórkach",
+      "start": 285.605,
+      "end": 286.255,
+      "phrase": 41
+    },
+    {
+      "text": "nerwowych),",
+      "start": 286.313,
+      "end": 287.08,
+      "phrase": 41
+    },
+    {
+      "text": "konsolidacja",
+      "start": 287.323,
+      "end": 288.136,
+      "phrase": 41
+    },
+    {
+      "text": "procesów",
+      "start": 288.182,
+      "end": 288.647,
+      "phrase": 41
+    },
+    {
+      "text": "pamięciowych,",
+      "start": 288.705,
+      "end": 289.634,
+      "phrase": 41
+    },
+    {
+      "text": "czyli",
+      "start": 289.75,
+      "end": 290.028,
+      "phrase": 41
+    },
+    {
+      "text": "przechodzenie",
+      "start": 290.086,
+      "end": 290.655,
+      "phrase": 41
+    },
+    {
+      "text": "informacji",
+      "start": 290.725,
+      "end": 291.34,
+      "phrase": 41
+    },
+    {
+      "text": "z",
+      "start": 291.375,
+      "end": 291.398,
+      "phrase": 41
+    },
+    {
+      "text": "pamięci",
+      "start": 291.456,
+      "end": 291.909,
+      "phrase": 41
+    },
+    {
+      "text": "krótkotrwałej",
+      "start": 291.967,
+      "end": 292.873,
+      "phrase": 41
+    },
+    {
+      "text": "do",
+      "start": 292.931,
+      "end": 293.001,
+      "phrase": 41
+    },
+    {
+      "text": "pamięci",
+      "start": 293.047,
+      "end": 293.616,
+      "phrase": 41
+    },
+    {
+      "text": "długotrwałej,",
+      "start": 293.709,
+      "end": 294.858,
+      "phrase": 41
+    },
+    {
+      "text": "a",
+      "start": 295.102,
+      "end": 295.172,
+      "phrase": 41
+    },
+    {
+      "text": "także",
+      "start": 295.241,
+      "end": 295.717,
+      "phrase": 41
+    },
+    {
+      "text": "regulacja",
+      "start": 295.833,
+      "end": 296.402,
+      "phrase": 41
+    },
+    {
+      "text": "gospodarki",
+      "start": 296.46,
+      "end": 297.064,
+      "phrase": 41
+    },
+    {
+      "text": "hormonalnej.",
+      "start": 297.122,
+      "end": 298.086,
+      "phrase": 41
+    },
+    {
+      "text": "Co",
+      "start": 298.33,
+      "end": 298.469,
+      "phrase": 42
+    },
+    {
+      "text": "się",
+      "start": 298.527,
+      "end": 298.631,
+      "phrase": 42
+    },
+    {
+      "text": "dzieje",
+      "start": 298.689,
+      "end": 298.956,
+      "phrase": 42
+    },
+    {
+      "text": "kiedy",
+      "start": 299.015,
+      "end": 299.247,
+      "phrase": 42
+    },
+    {
+      "text": "śpimy",
+      "start": 299.293,
+      "end": 299.607,
+      "phrase": 42
+    },
+    {
+      "text": "za",
+      "start": 299.665,
+      "end": 299.758,
+      "phrase": 42
+    },
+    {
+      "text": "krótko?",
+      "start": 299.816,
+      "end": 300.419,
+      "phrase": 42
+    },
+    {
+      "text": "Nawet",
+      "start": 300.698,
+      "end": 301,
+      "phrase": 43
+    },
+    {
+      "text": "krótkotrwały",
+      "start": 301.07,
+      "end": 301.847,
+      "phrase": 43
+    },
+    {
+      "text": "niedobór",
+      "start": 301.882,
+      "end": 302.3,
+      "phrase": 43
+    },
+    {
+      "text": "snu",
+      "start": 302.381,
+      "end": 302.718,
+      "phrase": 43
+    },
+    {
+      "text": "(24",
+      "start": 302.834,
+      "end": 303.693,
+      "phrase": 43
+    },
+    {
+      "text": "h)",
+      "start": 303.809,
+      "end": 304.251,
+      "phrase": 43
+    },
+    {
+      "text": "powoduje",
+      "start": 304.425,
+      "end": 304.901,
+      "phrase": 43
+    },
+    {
+      "text": "wiele",
+      "start": 304.959,
+      "end": 305.226,
+      "phrase": 43
+    },
+    {
+      "text": "zmian",
+      "start": 305.272,
+      "end": 305.574,
+      "phrase": 43
+    },
+    {
+      "text": "w",
+      "start": 305.621,
+      "end": 305.655,
+      "phrase": 43
+    },
+    {
+      "text": "kondycji",
+      "start": 305.713,
+      "end": 306.143,
+      "phrase": 43
+    },
+    {
+      "text": "psychofizycznej,",
+      "start": 306.189,
+      "end": 307.258,
+      "phrase": 43
+    },
+    {
+      "text": "do",
+      "start": 307.409,
+      "end": 307.501,
+      "phrase": 43
+    },
+    {
+      "text": "których",
+      "start": 307.536,
+      "end": 307.815,
+      "phrase": 43
+    },
+    {
+      "text": "należą",
+      "start": 307.861,
+      "end": 308.198,
+      "phrase": 43
+    },
+    {
+      "text": "m.in.:",
+      "start": 308.244,
+      "end": 309.069,
+      "phrase": 43
+    },
+    {
+      "text": "zaburzenia",
+      "start": 309.196,
+      "end": 309.696,
+      "phrase": 43
+    },
+    {
+      "text": "nastroju,",
+      "start": 309.742,
+      "end": 310.497,
+      "phrase": 43
+    },
+    {
+      "text": "utrudnione",
+      "start": 310.671,
+      "end": 311.298,
+      "phrase": 43
+    },
+    {
+      "text": "skupienie",
+      "start": 311.344,
+      "end": 311.785,
+      "phrase": 43
+    },
+    {
+      "text": "uwagi,",
+      "start": 311.844,
+      "end": 312.47,
+      "phrase": 43
+    },
+    {
+      "text": "spowolnienie",
+      "start": 312.552,
+      "end": 313.155,
+      "phrase": 43
+    },
+    {
+      "text": "reakcji,",
+      "start": 313.213,
+      "end": 313.898,
+      "phrase": 43
+    },
+    {
+      "text": "spadek",
+      "start": 314.107,
+      "end": 314.525,
+      "phrase": 43
+    },
+    {
+      "text": "motywacji,",
+      "start": 314.595,
+      "end": 315.408,
+      "phrase": 43
+    },
+    {
+      "text": "przecenianie",
+      "start": 315.524,
+      "end": 316.139,
+      "phrase": 43
+    },
+    {
+      "text": "swoich",
+      "start": 316.174,
+      "end": 316.499,
+      "phrase": 43
+    },
+    {
+      "text": "umiejętności",
+      "start": 316.557,
+      "end": 317.358,
+      "phrase": 43
+    },
+    {
+      "text": "i",
+      "start": 317.44,
+      "end": 317.486,
+      "phrase": 43
+    },
+    {
+      "text": "podwyższona,",
+      "start": 317.567,
+      "end": 318.566,
+      "phrase": 43
+    },
+    {
+      "text": "skłonność",
+      "start": 318.74,
+      "end": 319.378,
+      "phrase": 43
+    },
+    {
+      "text": "do",
+      "start": 319.448,
+      "end": 319.518,
+      "phrase": 43
+    },
+    {
+      "text": "podejmowania",
+      "start": 319.564,
+      "end": 320.214,
+      "phrase": 43
+    },
+    {
+      "text": "ryzyka,",
+      "start": 320.272,
+      "end": 320.922,
+      "phrase": 43
+    },
+    {
+      "text": "spadek",
+      "start": 321.097,
+      "end": 321.468,
+      "phrase": 43
+    },
+    {
+      "text": "zdolności",
+      "start": 321.526,
+      "end": 322.049,
+      "phrase": 43
+    },
+    {
+      "text": "twórczego",
+      "start": 322.083,
+      "end": 322.559,
+      "phrase": 43
+    },
+    {
+      "text": "myślenia",
+      "start": 322.606,
+      "end": 323.105,
+      "phrase": 43
+    },
+    {
+      "text": "i",
+      "start": 323.186,
+      "end": 323.233,
+      "phrase": 43
+    },
+    {
+      "text": "umiejętności,",
+      "start": 323.314,
+      "end": 324.359,
+      "phrase": 43
+    },
+    {
+      "text": "podejmowania",
+      "start": 324.603,
+      "end": 325.241,
+      "phrase": 43
+    },
+    {
+      "text": "złożonych",
+      "start": 325.299,
+      "end": 325.741,
+      "phrase": 43
+    },
+    {
+      "text": "decyzji,",
+      "start": 325.787,
+      "end": 326.507,
+      "phrase": 43
+    },
+    {
+      "text": "upośledzenie",
+      "start": 326.716,
+      "end": 327.505,
+      "phrase": 43
+    },
+    {
+      "text": "aktywności",
+      "start": 327.563,
+      "end": 328.283,
+      "phrase": 43
+    },
+    {
+      "text": "układu",
+      "start": 328.364,
+      "end": 328.794,
+      "phrase": 43
+    },
+    {
+      "text": "immunologicznego.",
+      "start": 328.864,
+      "end": 330.152,
+      "phrase": 43
+    },
+    {
+      "text": "Niedobór",
+      "start": 330.431,
+      "end": 330.907,
+      "phrase": 44
+    },
+    {
+      "text": "snu",
+      "start": 330.977,
+      "end": 331.186,
+      "phrase": 44
+    },
+    {
+      "text": "jest",
+      "start": 331.255,
+      "end": 331.418,
+      "phrase": 44
+    },
+    {
+      "text": "również",
+      "start": 331.476,
+      "end": 331.801,
+      "phrase": 44
+    },
+    {
+      "text": "głównym",
+      "start": 331.871,
+      "end": 332.277,
+      "phrase": 44
+    },
+    {
+      "text": "„winowajcą”",
+      "start": 332.335,
+      "end": 333.125,
+      "phrase": 44
+    },
+    {
+      "text": "wypadków",
+      "start": 333.148,
+      "end": 333.67,
+      "phrase": 44
+    },
+    {
+      "text": "w",
+      "start": 333.751,
+      "end": 333.786,
+      "phrase": 44
+    },
+    {
+      "text": "pracy",
+      "start": 333.856,
+      "end": 334.32,
+      "phrase": 44
+    },
+    {
+      "text": "i",
+      "start": 334.39,
+      "end": 334.471,
+      "phrase": 44
+    },
+    {
+      "text": "słabych",
+      "start": 334.541,
+      "end": 334.982,
+      "phrase": 44
+    },
+    {
+      "text": "ocen",
+      "start": 335.063,
+      "end": 335.353,
+      "phrase": 44
+    },
+    {
+      "text": "studentów.",
+      "start": 335.423,
+      "end": 336.282,
+      "phrase": 44
+    },
+    {
+      "text": "Ponadto",
+      "start": 336.561,
+      "end": 337.048,
+      "phrase": 45
+    },
+    {
+      "text": "niewystarczająca",
+      "start": 337.13,
+      "end": 338.058,
+      "phrase": 45
+    },
+    {
+      "text": "ilość",
+      "start": 338.14,
+      "end": 338.5,
+      "phrase": 45
+    },
+    {
+      "text": "snu",
+      "start": 338.592,
+      "end": 338.952,
+      "phrase": 45
+    },
+    {
+      "text": "może",
+      "start": 339.277,
+      "end": 339.556,
+      "phrase": 45
+    },
+    {
+      "text": "przyczynić",
+      "start": 339.591,
+      "end": 340.113,
+      "phrase": 45
+    },
+    {
+      "text": "się",
+      "start": 340.148,
+      "end": 340.241,
+      "phrase": 45
+    },
+    {
+      "text": "do",
+      "start": 340.299,
+      "end": 340.38,
+      "phrase": 45
+    },
+    {
+      "text": "rozwoju",
+      "start": 340.427,
+      "end": 340.833,
+      "phrase": 45
+    },
+    {
+      "text": "choroby",
+      "start": 340.856,
+      "end": 341.216,
+      "phrase": 45
+    },
+    {
+      "text": "Alzheimera,",
+      "start": 341.286,
+      "end": 342.238,
+      "phrase": 45
+    },
+    {
+      "text": "cukrzycy,",
+      "start": 342.354,
+      "end": 343.19,
+      "phrase": 45
+    },
+    {
+      "text": "choroby",
+      "start": 343.248,
+      "end": 343.643,
+      "phrase": 45
+    },
+    {
+      "text": "wieńcowej",
+      "start": 343.689,
+      "end": 344.281,
+      "phrase": 45
+    },
+    {
+      "text": "czy",
+      "start": 344.339,
+      "end": 344.444,
+      "phrase": 45
+    },
+    {
+      "text": "udaru.",
+      "start": 344.502,
+      "end": 345.152,
+      "phrase": 45
+    },
+    {
+      "text": "Badania",
+      "start": 345.535,
+      "end": 345.918,
+      "phrase": 46
+    },
+    {
+      "text": "naukowe",
+      "start": 345.965,
+      "end": 346.406,
+      "phrase": 46
+    },
+    {
+      "text": "potwierdzają,",
+      "start": 346.452,
+      "end": 347.207,
+      "phrase": 46
+    },
+    {
+      "text": "że",
+      "start": 347.253,
+      "end": 347.358,
+      "phrase": 46
+    },
+    {
+      "text": "im",
+      "start": 347.416,
+      "end": 347.52,
+      "phrase": 46
+    },
+    {
+      "text": "krótszy",
+      "start": 347.602,
+      "end": 348.031,
+      "phrase": 46
+    },
+    {
+      "text": "sen,",
+      "start": 348.078,
+      "end": 348.426,
+      "phrase": 46
+    },
+    {
+      "text": "tym",
+      "start": 348.484,
+      "end": 348.67,
+      "phrase": 46
+    },
+    {
+      "text": "krótsze",
+      "start": 348.763,
+      "end": 349.157,
+      "phrase": 46
+    },
+    {
+      "text": "życie.",
+      "start": 349.216,
+      "end": 349.808,
+      "phrase": 46
+    },
+    {
+      "text": "Deprywacja",
+      "start": 350.191,
+      "end": 350.853,
+      "phrase": 47
+    },
+    {
+      "text": "snu",
+      "start": 350.911,
+      "end": 351.212,
+      "phrase": 47
+    },
+    {
+      "text": "bywa",
+      "start": 351.282,
+      "end": 351.537,
+      "phrase": 47
+    },
+    {
+      "text": "wykorzystywana",
+      "start": 351.595,
+      "end": 352.361,
+      "phrase": 47
+    },
+    {
+      "text": "jako",
+      "start": 352.419,
+      "end": 352.617,
+      "phrase": 47
+    },
+    {
+      "text": "pewien",
+      "start": 352.675,
+      "end": 352.942,
+      "phrase": 47
+    },
+    {
+      "text": "rodzaj",
+      "start": 353.023,
+      "end": 353.325,
+      "phrase": 47
+    },
+    {
+      "text": "tortur.",
+      "start": 353.406,
+      "end": 354.056,
+      "phrase": 47
+    },
+    {
+      "text": "Oskarżane",
+      "start": 354.265,
+      "end": 354.939,
+      "phrase": 48
+    },
+    {
+      "text": "o",
+      "start": 355.008,
+      "end": 355.055,
+      "phrase": 48
+    },
+    {
+      "text": "stosowanie",
+      "start": 355.09,
+      "end": 355.612,
+      "phrase": 48
+    },
+    {
+      "text": "tej",
+      "start": 355.659,
+      "end": 355.786,
+      "phrase": 48
+    },
+    {
+      "text": "techniki",
+      "start": 355.844,
+      "end": 356.251,
+      "phrase": 48
+    },
+    {
+      "text": "były",
+      "start": 356.309,
+      "end": 356.541,
+      "phrase": 48
+    },
+    {
+      "text": "KGB,",
+      "start": 356.599,
+      "end": 357.33,
+      "phrase": 48
+    },
+    {
+      "text": "wojska",
+      "start": 357.539,
+      "end": 357.957,
+      "phrase": 48
+    },
+    {
+      "text": "japońskie",
+      "start": 358.004,
+      "end": 358.503,
+      "phrase": 48
+    },
+    {
+      "text": "w",
+      "start": 358.538,
+      "end": 358.573,
+      "phrase": 48
+    },
+    {
+      "text": "czasie",
+      "start": 358.608,
+      "end": 358.875,
+      "phrase": 48
+    },
+    {
+      "text": "II",
+      "start": 358.909,
+      "end": 359.211,
+      "phrase": 48
+    },
+    {
+      "text": "wojny",
+      "start": 359.269,
+      "end": 359.56,
+      "phrase": 48
+    },
+    {
+      "text": "światowej",
+      "start": 359.606,
+      "end": 360.221,
+      "phrase": 48
+    },
+    {
+      "text": "i",
+      "start": 360.5,
+      "end": 360.709,
+      "phrase": 48
+    },
+    {
+      "text": "armia",
+      "start": 360.802,
+      "end": 361.15,
+      "phrase": 48
+    },
+    {
+      "text": "brytyjska",
+      "start": 361.208,
+      "end": 361.789,
+      "phrase": 48
+    },
+    {
+      "text": "w",
+      "start": 361.835,
+      "end": 361.858,
+      "phrase": 48
+    },
+    {
+      "text": "stosunku",
+      "start": 361.905,
+      "end": 362.369,
+      "phrase": 48
+    },
+    {
+      "text": "do",
+      "start": 362.427,
+      "end": 362.508,
+      "phrase": 48
+    },
+    {
+      "text": "członków",
+      "start": 362.555,
+      "end": 363.019,
+      "phrase": 48
+    },
+    {
+      "text": "IRA.",
+      "start": 363.101,
+      "end": 363.658,
+      "phrase": 48
+    },
+    {
+      "text": "Czy",
+      "start": 363.902,
+      "end": 364.099,
+      "phrase": 49
+    },
+    {
+      "text": "brak",
+      "start": 364.157,
+      "end": 364.401,
+      "phrase": 49
+    },
+    {
+      "text": "snu",
+      "start": 364.482,
+      "end": 364.691,
+      "phrase": 49
+    },
+    {
+      "text": "może",
+      "start": 364.738,
+      "end": 364.97,
+      "phrase": 49
+    },
+    {
+      "text": "prowadzić",
+      "start": 365.016,
+      "end": 365.539,
+      "phrase": 49
+    },
+    {
+      "text": "do",
+      "start": 365.62,
+      "end": 365.701,
+      "phrase": 49
+    },
+    {
+      "text": "śmierci?",
+      "start": 365.759,
+      "end": 366.479,
+      "phrase": 49
+    },
+    {
+      "text": "Odpowiedź",
+      "start": 366.862,
+      "end": 367.385,
+      "phrase": 50
+    },
+    {
+      "text": "na",
+      "start": 367.455,
+      "end": 367.536,
+      "phrase": 50
+    },
+    {
+      "text": "powyższe",
+      "start": 367.594,
+      "end": 368.093,
+      "phrase": 50
+    },
+    {
+      "text": "pytanie",
+      "start": 368.14,
+      "end": 368.546,
+      "phrase": 50
+    },
+    {
+      "text": "jest",
+      "start": 368.604,
+      "end": 368.813,
+      "phrase": 50
+    },
+    {
+      "text": "twierdząca",
+      "start": 368.883,
+      "end": 369.544,
+      "phrase": 50
+    },
+    {
+      "text": "w",
+      "start": 369.637,
+      "end": 369.661,
+      "phrase": 50
+    },
+    {
+      "text": "dwóch",
+      "start": 369.742,
+      "end": 369.997,
+      "phrase": 50
+    },
+    {
+      "text": "przypadkach,",
+      "start": 370.02,
+      "end": 370.856,
+      "phrase": 50
+    },
+    {
+      "text": "a",
+      "start": 371.135,
+      "end": 371.181,
+      "phrase": 50
+    },
+    {
+      "text": "mianowicie",
+      "start": 371.24,
+      "end": 371.75,
+      "phrase": 50
+    },
+    {
+      "text": "w",
+      "start": 371.808,
+      "end": 371.843,
+      "phrase": 50
+    },
+    {
+      "text": "przypadku",
+      "start": 371.89,
+      "end": 372.377,
+      "phrase": 50
+    },
+    {
+      "text": "występowania",
+      "start": 372.435,
+      "end": 373.19,
+      "phrase": 50
+    },
+    {
+      "text": "bardzo",
+      "start": 373.26,
+      "end": 373.62,
+      "phrase": 50
+    },
+    {
+      "text": "rzadkiej",
+      "start": 373.654,
+      "end": 374.072,
+      "phrase": 50
+    },
+    {
+      "text": "choroby",
+      "start": 374.119,
+      "end": 374.467,
+      "phrase": 50
+    },
+    {
+      "text": "genetycznej,",
+      "start": 374.514,
+      "end": 375.384,
+      "phrase": 50
+    },
+    {
+      "text": "która",
+      "start": 375.558,
+      "end": 375.872,
+      "phrase": 50
+    },
+    {
+      "text": "ujawnia",
+      "start": 375.942,
+      "end": 376.383,
+      "phrase": 50
+    },
+    {
+      "text": "się",
+      "start": 376.429,
+      "end": 376.522,
+      "phrase": 50
+    },
+    {
+      "text": "w",
+      "start": 376.568,
+      "end": 376.592,
+      "phrase": 50
+    },
+    {
+      "text": "średnim",
+      "start": 376.638,
+      "end": 377.044,
+      "phrase": 50
+    },
+    {
+      "text": "wieku",
+      "start": 377.103,
+      "end": 377.497,
+      "phrase": 50
+    },
+    {
+      "text": "jako",
+      "start": 377.776,
+      "end": 378.031,
+      "phrase": 50
+    },
+    {
+      "text": "postępująca",
+      "start": 378.078,
+      "end": 378.844,
+      "phrase": 50
+    },
+    {
+      "text": "bezsenność",
+      "start": 378.902,
+      "end": 379.715,
+      "phrase": 50
+    },
+    {
+      "text": "i",
+      "start": 379.959,
+      "end": 380.017,
+      "phrase": 50
+    },
+    {
+      "text": "nazwana",
+      "start": 380.086,
+      "end": 380.504,
+      "phrase": 50
+    },
+    {
+      "text": "jest",
+      "start": 380.562,
+      "end": 380.748,
+      "phrase": 50
+    },
+    {
+      "text": "śmiertelną",
+      "start": 380.841,
+      "end": 381.503,
+      "phrase": 50
+    },
+    {
+      "text": "bezsennością",
+      "start": 381.573,
+      "end": 382.351,
+      "phrase": 50
+    },
+    {
+      "text": "rodzinną.",
+      "start": 382.42,
+      "end": 383.221,
+      "phrase": 50
+    },
+    {
+      "text": "W",
+      "start": 383.662,
+      "end": 383.732,
+      "phrase": 51
+    },
+    {
+      "text": "wyniku",
+      "start": 383.883,
+      "end": 384.243,
+      "phrase": 51
+    },
+    {
+      "text": "rozwoju",
+      "start": 384.301,
+      "end": 384.754,
+      "phrase": 51
+    },
+    {
+      "text": "zmian",
+      "start": 384.8,
+      "end": 385.067,
+      "phrase": 51
+    },
+    {
+      "text": "chorobowych",
+      "start": 385.114,
+      "end": 385.741,
+      "phrase": 51
+    },
+    {
+      "text": "po",
+      "start": 385.799,
+      "end": 385.903,
+      "phrase": 51
+    },
+    {
+      "text": "kilku",
+      "start": 385.95,
+      "end": 386.24,
+      "phrase": 51
+    },
+    {
+      "text": "miesiącach",
+      "start": 386.286,
+      "end": 386.844,
+      "phrase": 51
+    },
+    {
+      "text": "pacjent",
+      "start": 386.89,
+      "end": 387.273,
+      "phrase": 51
+    },
+    {
+      "text": "przestaje",
+      "start": 387.32,
+      "end": 387.796,
+      "phrase": 51
+    },
+    {
+      "text": "w",
+      "start": 387.842,
+      "end": 387.865,
+      "phrase": 51
+    },
+    {
+      "text": "ogóle",
+      "start": 387.912,
+      "end": 388.19,
+      "phrase": 51
+    },
+    {
+      "text": "spać,",
+      "start": 388.237,
+      "end": 388.91,
+      "phrase": 51
+    },
+    {
+      "text": "co",
+      "start": 389.189,
+      "end": 389.293,
+      "phrase": 51
+    },
+    {
+      "text": "prowadzi",
+      "start": 389.34,
+      "end": 389.734,
+      "phrase": 51
+    },
+    {
+      "text": "do",
+      "start": 389.781,
+      "end": 389.909,
+      "phrase": 51
+    },
+    {
+      "text": "szybkich",
+      "start": 389.967,
+      "end": 390.396,
+      "phrase": 51
+    },
+    {
+      "text": "zmian",
+      "start": 390.454,
+      "end": 390.861,
+      "phrase": 51
+    },
+    {
+      "text": "na",
+      "start": 390.954,
+      "end": 391.046,
+      "phrase": 51
+    },
+    {
+      "text": "poziomie",
+      "start": 391.093,
+      "end": 391.476,
+      "phrase": 51
+    },
+    {
+      "text": "mózgu",
+      "start": 391.534,
+      "end": 391.964,
+      "phrase": 51
+    },
+    {
+      "text": "i",
+      "start": 392.056,
+      "end": 392.103,
+      "phrase": 51
+    },
+    {
+      "text": "innych",
+      "start": 392.184,
+      "end": 392.567,
+      "phrase": 51
+    },
+    {
+      "text": "organów.",
+      "start": 392.614,
+      "end": 393.368,
+      "phrase": 51
+    },
+    {
+      "text": "Zwykle",
+      "start": 393.81,
+      "end": 394.228,
+      "phrase": 52
+    },
+    {
+      "text": "po",
+      "start": 394.286,
+      "end": 394.448,
+      "phrase": 52
+    },
+    {
+      "text": "12-18",
+      "start": 394.506,
+      "end": 395.632,
+      "phrase": 52
+    },
+    {
+      "text": "miesiącach",
+      "start": 395.725,
+      "end": 396.317,
+      "phrase": 52
+    },
+    {
+      "text": "poważnych",
+      "start": 396.364,
+      "end": 396.863,
+      "phrase": 52
+    },
+    {
+      "text": "braków",
+      "start": 396.909,
+      "end": 397.281,
+      "phrase": 52
+    },
+    {
+      "text": "snu",
+      "start": 397.351,
+      "end": 397.711,
+      "phrase": 52
+    },
+    {
+      "text": "pacjent",
+      "start": 397.99,
+      "end": 398.489,
+      "phrase": 52
+    },
+    {
+      "text": "umiera.",
+      "start": 398.582,
+      "end": 399.313,
+      "phrase": 52
+    },
+    {
+      "text": "Drugi",
+      "start": 399.696,
+      "end": 400.01,
+      "phrase": 53
+    },
+    {
+      "text": "przypadek,",
+      "start": 400.045,
+      "end": 400.672,
+      "phrase": 53
+    },
+    {
+      "text": "w",
+      "start": 400.695,
+      "end": 400.718,
+      "phrase": 53
+    },
+    {
+      "text": "którym",
+      "start": 400.776,
+      "end": 401.055,
+      "phrase": 53
+    },
+    {
+      "text": "brak",
+      "start": 401.101,
+      "end": 401.345,
+      "phrase": 53
+    },
+    {
+      "text": "snu",
+      "start": 401.415,
+      "end": 401.612,
+      "phrase": 53
+    },
+    {
+      "text": "może",
+      "start": 401.67,
+      "end": 401.949,
+      "phrase": 53
+    },
+    {
+      "text": "prowadzić",
+      "start": 401.995,
+      "end": 402.483,
+      "phrase": 53
+    },
+    {
+      "text": "do",
+      "start": 402.552,
+      "end": 402.622,
+      "phrase": 53
+    },
+    {
+      "text": "śmierci,",
+      "start": 402.68,
+      "end": 403.377,
+      "phrase": 53
+    },
+    {
+      "text": "to",
+      "start": 403.528,
+      "end": 403.644,
+      "phrase": 53
+    },
+    {
+      "text": "siadanie",
+      "start": 403.702,
+      "end": 404.108,
+      "phrase": 53
+    },
+    {
+      "text": "za",
+      "start": 404.166,
+      "end": 404.259,
+      "phrase": 53
+    },
+    {
+      "text": "kierownicą",
+      "start": 404.305,
+      "end": 404.932,
+      "phrase": 53
+    },
+    {
+      "text": "przez",
+      "start": 404.99,
+      "end": 405.188,
+      "phrase": 53
+    },
+    {
+      "text": "niewyspanych",
+      "start": 405.246,
+      "end": 405.85,
+      "phrase": 53
+    },
+    {
+      "text": "ludzi",
+      "start": 405.908,
+      "end": 406.175,
+      "phrase": 53
+    },
+    {
+      "text": "mogące",
+      "start": 406.233,
+      "end": 406.662,
+      "phrase": 53
+    },
+    {
+      "text": "prowadzić",
+      "start": 406.709,
+      "end": 407.196,
+      "phrase": 53
+    },
+    {
+      "text": "do",
+      "start": 407.278,
+      "end": 407.347,
+      "phrase": 53
+    },
+    {
+      "text": "wypadków,",
+      "start": 407.405,
+      "end": 408.23,
+      "phrase": 53
+    },
+    {
+      "text": "w",
+      "start": 408.404,
+      "end": 408.45,
+      "phrase": 53
+    },
+    {
+      "text": "tym",
+      "start": 408.508,
+      "end": 408.636,
+      "phrase": 53
+    },
+    {
+      "text": "również",
+      "start": 408.694,
+      "end": 409.077,
+      "phrase": 53
+    },
+    {
+      "text": "tych",
+      "start": 409.147,
+      "end": 409.309,
+      "phrase": 53
+    },
+    {
+      "text": "śmiertelnych.",
+      "start": 409.367,
+      "end": 410.354,
+      "phrase": 53
+    },
+    {
+      "text": "Jak",
+      "start": 410.737,
+      "end": 410.946,
+      "phrase": 54
+    },
+    {
+      "text": "dbać",
+      "start": 411.016,
+      "end": 411.341,
+      "phrase": 54
+    },
+    {
+      "text": "o",
+      "start": 411.457,
+      "end": 411.573,
+      "phrase": 54
+    },
+    {
+      "text": "dobrą",
+      "start": 411.655,
+      "end": 412.049,
+      "phrase": 54
+    },
+    {
+      "text": "higienę",
+      "start": 412.119,
+      "end": 412.56,
+      "phrase": 54
+    },
+    {
+      "text": "snu?",
+      "start": 412.595,
+      "end": 413.094,
+      "phrase": 54
+    },
+    {
+      "text": "Poniżej",
+      "start": 413.419,
+      "end": 413.872,
+      "phrase": 55
+    },
+    {
+      "text": "kilka",
+      "start": 413.93,
+      "end": 414.255,
+      "phrase": 55
+    },
+    {
+      "text": "zaleceń,",
+      "start": 414.313,
+      "end": 414.859,
+      "phrase": 55
+    },
+    {
+      "text": "które",
+      "start": 414.882,
+      "end": 415.137,
+      "phrase": 55
+    },
+    {
+      "text": "mogą",
+      "start": 415.196,
+      "end": 415.497,
+      "phrase": 55
+    },
+    {
+      "text": "nam",
+      "start": 415.567,
+      "end": 415.695,
+      "phrase": 55
+    },
+    {
+      "text": "pomóc",
+      "start": 415.753,
+      "end": 416.124,
+      "phrase": 55
+    },
+    {
+      "text": "dobrze",
+      "start": 416.194,
+      "end": 416.496,
+      "phrase": 55
+    },
+    {
+      "text": "spać.",
+      "start": 416.542,
+      "end": 417.123,
+      "phrase": 55
+    },
+    {
+      "text": "Spanie",
+      "start": 417.367,
+      "end": 417.854,
+      "phrase": 56
+    },
+    {
+      "text": "o",
+      "start": 417.947,
+      "end": 418.028,
+      "phrase": 56
+    },
+    {
+      "text": "stałych",
+      "start": 418.075,
+      "end": 418.458,
+      "phrase": 56
+    },
+    {
+      "text": "porach.",
+      "start": 418.504,
+      "end": 419.015,
+      "phrase": 56
+    },
+    {
+      "text": "Niewykonywanie",
+      "start": 419.294,
+      "end": 420.037,
+      "phrase": 57
+    },
+    {
+      "text": "ćwiczeń",
+      "start": 420.095,
+      "end": 420.478,
+      "phrase": 57
+    },
+    {
+      "text": "fizycznych",
+      "start": 420.524,
+      "end": 421.093,
+      "phrase": 57
+    },
+    {
+      "text": "2-3",
+      "start": 421.209,
+      "end": 421.651,
+      "phrase": 57
+    },
+    {
+      "text": "godziny",
+      "start": 421.732,
+      "end": 422.057,
+      "phrase": 57
+    },
+    {
+      "text": "przed",
+      "start": 422.092,
+      "end": 422.312,
+      "phrase": 57
+    },
+    {
+      "text": "snem.",
+      "start": 422.359,
+      "end": 422.858,
+      "phrase": 57
+    },
+    {
+      "text": "Unikanie",
+      "start": 423.102,
+      "end": 423.624,
+      "phrase": 58
+    },
+    {
+      "text": "kofeiny",
+      "start": 423.671,
+      "end": 424.193,
+      "phrase": 58
+    },
+    {
+      "text": "i",
+      "start": 424.263,
+      "end": 424.298,
+      "phrase": 58
+    },
+    {
+      "text": "nikotyny,",
+      "start": 424.356,
+      "end": 424.89,
+      "phrase": 58
+    },
+    {
+      "text": "które",
+      "start": 424.913,
+      "end": 425.168,
+      "phrase": 58
+    },
+    {
+      "text": "działają",
+      "start": 425.203,
+      "end": 425.621,
+      "phrase": 58
+    },
+    {
+      "text": "pobudzająco.",
+      "start": 425.691,
+      "end": 426.689,
+      "phrase": 58
+    },
+    {
+      "text": "Kofeina",
+      "start": 426.898,
+      "end": 427.409,
+      "phrase": 59
+    },
+    {
+      "text": "oprócz",
+      "start": 427.467,
+      "end": 427.827,
+      "phrase": 59
+    },
+    {
+      "text": "kawy",
+      "start": 427.85,
+      "end": 428.175,
+      "phrase": 59
+    },
+    {
+      "text": "znajduje",
+      "start": 428.222,
+      "end": 428.64,
+      "phrase": 59
+    },
+    {
+      "text": "się",
+      "start": 428.686,
+      "end": 428.779,
+      "phrase": 59
+    },
+    {
+      "text": "również",
+      "start": 428.837,
+      "end": 429.186,
+      "phrase": 59
+    },
+    {
+      "text": "w",
+      "start": 429.232,
+      "end": 429.255,
+      "phrase": 59
+    },
+    {
+      "text": "coli,",
+      "start": 429.313,
+      "end": 429.789,
+      "phrase": 59
+    },
+    {
+      "text": "herbacie",
+      "start": 429.94,
+      "end": 430.544,
+      "phrase": 59
+    },
+    {
+      "text": "czy",
+      "start": 430.602,
+      "end": 430.799,
+      "phrase": 59
+    },
+    {
+      "text": "czekoladzie.",
+      "start": 430.846,
+      "end": 431.693,
+      "phrase": 59
+    },
+    {
+      "text": "Wystrzeganie",
+      "start": 432.019,
+      "end": 432.762,
+      "phrase": 60
+    },
+    {
+      "text": "się",
+      "start": 432.82,
+      "end": 432.912,
+      "phrase": 60
+    },
+    {
+      "text": "picia",
+      "start": 432.982,
+      "end": 433.249,
+      "phrase": 60
+    },
+    {
+      "text": "napojów",
+      "start": 433.307,
+      "end": 433.783,
+      "phrase": 60
+    },
+    {
+      "text": "alkoholowych",
+      "start": 433.864,
+      "end": 434.619,
+      "phrase": 60
+    },
+    {
+      "text": "późnym",
+      "start": 434.689,
+      "end": 435.118,
+      "phrase": 60
+    },
+    {
+      "text": "wieczorem.",
+      "start": 435.176,
+      "end": 435.966,
+      "phrase": 60
+    },
+    {
+      "text": "Wystrzeganie",
+      "start": 436.291,
+      "end": 436.976,
+      "phrase": 61
+    },
+    {
+      "text": "się",
+      "start": 437.034,
+      "end": 437.139,
+      "phrase": 61
+    },
+    {
+      "text": "spożywania",
+      "start": 437.185,
+      "end": 437.8,
+      "phrase": 61
+    },
+    {
+      "text": "obfitych",
+      "start": 437.858,
+      "end": 438.346,
+      "phrase": 61
+    },
+    {
+      "text": "posiłków",
+      "start": 438.404,
+      "end": 439.054,
+      "phrase": 61
+    },
+    {
+      "text": "późnym",
+      "start": 439.135,
+      "end": 439.507,
+      "phrase": 61
+    },
+    {
+      "text": "wieczorem.",
+      "start": 439.565,
+      "end": 440.273,
+      "phrase": 61
+    },
+    {
+      "text": "Unikanie",
+      "start": 440.656,
+      "end": 441.202,
+      "phrase": 62
+    },
+    {
+      "text": "drzemek",
+      "start": 441.248,
+      "end": 441.643,
+      "phrase": 62
+    },
+    {
+      "text": "po",
+      "start": 441.713,
+      "end": 441.806,
+      "phrase": 62
+    },
+    {
+      "text": "godzinie",
+      "start": 441.852,
+      "end": 442.224,
+      "phrase": 62
+    },
+    {
+      "text": "15:00.",
+      "start": 442.27,
+      "end": 443.211,
+      "phrase": 62
+    },
+    {
+      "text": "Przed",
+      "start": 443.594,
+      "end": 443.861,
+      "phrase": 63
+    },
+    {
+      "text": "snem",
+      "start": 443.919,
+      "end": 444.302,
+      "phrase": 63
+    },
+    {
+      "text": "warto",
+      "start": 444.418,
+      "end": 444.789,
+      "phrase": 63
+    },
+    {
+      "text": "wziąć",
+      "start": 444.836,
+      "end": 445.161,
+      "phrase": 63
+    },
+    {
+      "text": "gorącą",
+      "start": 445.277,
+      "end": 445.846,
+      "phrase": 63
+    },
+    {
+      "text": "kąpiel.",
+      "start": 445.927,
+      "end": 446.601,
+      "phrase": 63
+    },
+    {
+      "text": "Miejsce,",
+      "start": 446.926,
+      "end": 447.402,
+      "phrase": 64
+    },
+    {
+      "text": "w",
+      "start": 447.425,
+      "end": 447.448,
+      "phrase": 64
+    },
+    {
+      "text": "którym",
+      "start": 447.495,
+      "end": 447.704,
+      "phrase": 64
+    },
+    {
+      "text": "śpimy,",
+      "start": 447.762,
+      "end": 448.11,
+      "phrase": 64
+    },
+    {
+      "text": "powinno",
+      "start": 448.145,
+      "end": 448.493,
+      "phrase": 64
+    },
+    {
+      "text": "być",
+      "start": 448.551,
+      "end": 448.679,
+      "phrase": 64
+    },
+    {
+      "text": "ciemne,",
+      "start": 448.737,
+      "end": 449.213,
+      "phrase": 64
+    },
+    {
+      "text": "chłodne",
+      "start": 449.224,
+      "end": 449.7,
+      "phrase": 64
+    },
+    {
+      "text": "i",
+      "start": 449.77,
+      "end": 449.828,
+      "phrase": 64
+    },
+    {
+      "text": "przewietrzone.",
+      "start": 449.886,
+      "end": 450.734,
+      "phrase": 64
+    },
+    {
+      "text": "Literatura",
+      "start": 451.012,
+      "end": 451.546,
+      "phrase": 65
+    },
+    {
+      "text": "Górska",
+      "start": 451.593,
+      "end": 451.906,
+      "phrase": 65
+    },
+    {
+      "text": "T,",
+      "start": 451.964,
+      "end": 452.301,
+      "phrase": 65
+    },
+    {
+      "text": "Grabowska",
+      "start": 452.429,
+      "end": 453.021,
+      "phrase": 65
+    },
+    {
+      "text": "A,",
+      "start": 453.125,
+      "end": 453.323,
+      "phrase": 65
+    },
+    {
+      "text": "Zagrodzka",
+      "start": 453.358,
+      "end": 453.892,
+      "phrase": 65
+    },
+    {
+      "text": "J.",
+      "start": 453.95,
+      "end": 454.031,
+      "phrase": 65
+    },
+    {
+      "text": "Mózg",
+      "start": 454.066,
+      "end": 454.368,
+      "phrase": 66
+    },
+    {
+      "text": "a",
+      "start": 454.507,
+      "end": 454.588,
+      "phrase": 66
+    },
+    {
+      "text": "zachowanie.",
+      "start": 454.646,
+      "end": 455.401,
+      "phrase": 66
+    },
+    {
+      "text": "PWN",
+      "start": 455.784,
+      "end": 456.225,
+      "phrase": 67
+    },
+    {
+      "text": "2012.",
+      "start": 456.33,
+      "end": 457.409,
+      "phrase": 67
+    },
+    {
+      "text": "Hirshkowitz",
+      "start": 457.618,
+      "end": 458.303,
+      "phrase": 68
+    },
+    {
+      "text": "M,",
+      "start": 458.42,
+      "end": 458.768,
+      "phrase": 68
+    },
+    {
+      "text": "Whiton",
+      "start": 459.012,
+      "end": 459.406,
+      "phrase": 68
+    },
+    {
+      "text": "K,",
+      "start": 459.488,
+      "end": 459.836,
+      "phrase": 68
+    },
+    {
+      "text": "Albert",
+      "start": 459.987,
+      "end": 460.393,
+      "phrase": 68
+    },
+    {
+      "text": "SM,",
+      "start": 460.475,
+      "end": 460.951,
+      "phrase": 68
+    },
+    {
+      "text": "Alessi",
+      "start": 461.101,
+      "end": 461.577,
+      "phrase": 68
+    },
+    {
+      "text": "C,",
+      "start": 461.624,
+      "end": 461.903,
+      "phrase": 68
+    },
+    {
+      "text": "Bruni",
+      "start": 461.984,
+      "end": 462.309,
+      "phrase": 68
+    },
+    {
+      "text": "O,",
+      "start": 462.413,
+      "end": 462.703,
+      "phrase": 68
+    },
+    {
+      "text": "DonCarlos",
+      "start": 462.796,
+      "end": 463.423,
+      "phrase": 68
+    },
+    {
+      "text": "L,",
+      "start": 463.528,
+      "end": 463.876,
+      "phrase": 68
+    },
+    {
+      "text": "Hazen",
+      "start": 463.98,
+      "end": 464.387,
+      "phrase": 68
+    },
+    {
+      "text": "N,",
+      "start": 464.433,
+      "end": 464.782,
+      "phrase": 68
+    },
+    {
+      "text": "Herman",
+      "start": 464.863,
+      "end": 465.269,
+      "phrase": 68
+    },
+    {
+      "text": "J,",
+      "start": 465.339,
+      "end": 465.699,
+      "phrase": 68
+    },
+    {
+      "text": "Adams",
+      "start": 465.861,
+      "end": 466.198,
+      "phrase": 68
+    },
+    {
+      "text": "Hillard",
+      "start": 466.233,
+      "end": 466.511,
+      "phrase": 68
+    },
+    {
+      "text": "PJ,",
+      "start": 466.569,
+      "end": 467.08,
+      "phrase": 68
+    },
+    {
+      "text": "Katz",
+      "start": 467.22,
+      "end": 467.51,
+      "phrase": 68
+    },
+    {
+      "text": "ES,",
+      "start": 467.603,
+      "end": 468.172,
+      "phrase": 68
+    },
+    {
+      "text": "Kheirandish-Gozal",
+      "start": 468.299,
+      "end": 469.344,
+      "phrase": 68
+    },
+    {
+      "text": "L,",
+      "start": 469.425,
+      "end": 469.727,
+      "phrase": 68
+    },
+    {
+      "text": "Neubauer",
+      "start": 469.878,
+      "end": 470.331,
+      "phrase": 68
+    },
+    {
+      "text": "DN,",
+      "start": 470.401,
+      "end": 470.854,
+      "phrase": 68
+    },
+    {
+      "text": "O’Donnell",
+      "start": 470.923,
+      "end": 471.411,
+      "phrase": 68
+    },
+    {
+      "text": "AE,",
+      "start": 471.48,
+      "end": 472.026,
+      "phrase": 68
+    },
+    {
+      "text": "Ohayon",
+      "start": 472.224,
+      "end": 472.723,
+      "phrase": 68
+    },
+    {
+      "text": "M,",
+      "start": 472.781,
+      "end": 473.176,
+      "phrase": 68
+    },
+    {
+      "text": "Peever",
+      "start": 473.338,
+      "end": 473.64,
+      "phrase": 68
+    },
+    {
+      "text": "J,",
+      "start": 473.698,
+      "end": 474.058,
+      "phrase": 68
+    },
+    {
+      "text": "Rawding",
+      "start": 474.197,
+      "end": 474.476,
+      "phrase": 68
+    },
+    {
+      "text": "R,",
+      "start": 474.545,
+      "end": 474.905,
+      "phrase": 68
+    },
+    {
+      "text": "Sachdeva",
+      "start": 475.01,
+      "end": 475.567,
+      "phrase": 68
+    },
+    {
+      "text": "RC,",
+      "start": 475.637,
+      "end": 476.206,
+      "phrase": 68
+    },
+    {
+      "text": "Setters",
+      "start": 476.345,
+      "end": 476.705,
+      "phrase": 68
+    },
+    {
+      "text": "B,",
+      "start": 476.763,
+      "end": 477.088,
+      "phrase": 68
+    },
+    {
+      "text": "Vitiello",
+      "start": 477.204,
+      "end": 477.703,
+      "phrase": 68
+    },
+    {
+      "text": "MV,",
+      "start": 477.773,
+      "end": 478.249,
+      "phrase": 68
+    },
+    {
+      "text": "Ware",
+      "start": 478.388,
+      "end": 478.679,
+      "phrase": 68
+    },
+    {
+      "text": "JC.",
+      "start": 478.748,
+      "end": 479.398,
+      "phrase": 68
+    },
+    {
+      "text": "National",
+      "start": 479.747,
+      "end": 480.165,
+      "phrase": 69
+    },
+    {
+      "text": "Sleep",
+      "start": 480.223,
+      "end": 480.443,
+      "phrase": 69
+    },
+    {
+      "text": "Foundation’s",
+      "start": 480.501,
+      "end": 481.035,
+      "phrase": 69
+    },
+    {
+      "text": "updated",
+      "start": 481.105,
+      "end": 481.535,
+      "phrase": 69
+    },
+    {
+      "text": "sleep",
+      "start": 481.581,
+      "end": 481.825,
+      "phrase": 69
+    },
+    {
+      "text": "duration",
+      "start": 481.872,
+      "end": 482.243,
+      "phrase": 69
+    },
+    {
+      "text": "recommendations:",
+      "start": 482.301,
+      "end": 483.149,
+      "phrase": 69
+    },
+    {
+      "text": "final",
+      "start": 483.381,
+      "end": 483.648,
+      "phrase": 69
+    },
+    {
+      "text": "report.",
+      "start": 483.706,
+      "end": 484.124,
+      "phrase": 69
+    },
+    {
+      "text": "Sleep",
+      "start": 484.264,
+      "end": 484.473,
+      "phrase": 70
+    },
+    {
+      "text": "Health.",
+      "start": 484.531,
+      "end": 484.844,
+      "phrase": 70
+    },
+    {
+      "text": "2015",
+      "start": 484.983,
+      "end": 485.808,
+      "phrase": 71
+    },
+    {
+      "text": "Dec;1(4):233-243.",
+      "start": 485.924,
+      "end": 488.675,
+      "phrase": 71
+    },
+    {
+      "text": "doi:",
+      "start": 488.896,
+      "end": 489.151,
+      "phrase": 72
+    },
+    {
+      "text": "10.1016/j.sleh.2015.10.004.",
+      "start": 489.175,
+      "end": 493.482,
+      "phrase": 72
+    },
+    {
+      "text": "Kalat",
+      "start": 493.644,
+      "end": 493.9,
+      "phrase": 73
+    },
+    {
+      "text": "J.W.",
+      "start": 493.946,
+      "end": 494.202,
+      "phrase": 73
+    },
+    {
+      "text": "Sen",
+      "start": 494.237,
+      "end": 494.411,
+      "phrase": 74
+    },
+    {
+      "text": "i",
+      "start": 494.48,
+      "end": 494.527,
+      "phrase": 74
+    },
+    {
+      "text": "czuwanie",
+      "start": 494.573,
+      "end": 494.921,
+      "phrase": 74
+    },
+    {
+      "text": "w:",
+      "start": 494.98,
+      "end": 495.061,
+      "phrase": 74
+    },
+    {
+      "text": "Biologiczne",
+      "start": 495.084,
+      "end": 495.537,
+      "phrase": 74
+    },
+    {
+      "text": "podstawy",
+      "start": 495.56,
+      "end": 495.908,
+      "phrase": 74
+    },
+    {
+      "text": "psychologii.",
+      "start": 495.932,
+      "end": 496.535,
+      "phrase": 74
+    },
+    {
+      "text": "PWN",
+      "start": 496.605,
+      "end": 496.988,
+      "phrase": 75
+    },
+    {
+      "text": "2020.",
+      "start": 497.058,
+      "end": 497.905,
+      "phrase": 75
+    },
+    {
+      "text": "Walker",
+      "start": 498.079,
+      "end": 498.404,
+      "phrase": 76
+    },
+    {
+      "text": "M.",
+      "start": 498.463,
+      "end": 498.811,
+      "phrase": 76
+    },
+    {
+      "text": "Dlaczego",
+      "start": 498.95,
+      "end": 499.287,
+      "phrase": 77
+    },
+    {
+      "text": "śpimy.",
+      "start": 499.322,
+      "end": 499.728,
+      "phrase": 77
+    },
+    {
+      "text": "Odkrywanie",
+      "start": 499.821,
+      "end": 500.274,
+      "phrase": 78
+    },
+    {
+      "text": "potęgi",
+      "start": 500.297,
+      "end": 500.61,
+      "phrase": 78
+    },
+    {
+      "text": "snu",
+      "start": 500.657,
+      "end": 500.854,
+      "phrase": 78
+    },
+    {
+      "text": "i",
+      "start": 500.912,
+      "end": 500.947,
+      "phrase": 78
+    },
+    {
+      "text": "marzeń",
+      "start": 500.994,
+      "end": 501.226,
+      "phrase": 78
+    },
+    {
+      "text": "sennych.",
+      "start": 501.284,
+      "end": 501.76,
+      "phrase": 78
+    },
+    {
+      "text": "Marginesy",
+      "start": 501.992,
+      "end": 502.445,
+      "phrase": 79
+    },
+    {
+      "text": "2017.",
+      "start": 502.514,
+      "end": 503.641,
+      "phrase": 79
+    },
+    {
+      "text": "Tagi:",
+      "start": 503.687,
+      "end": 504.268,
+      "phrase": 80
+    },
+    {
+      "text": "Autor",
+      "start": 504.477,
+      "end": 504.941,
+      "phrase": 80
+    },
+    {
+      "text": "Joanna",
+      "start": 505.057,
+      "end": 505.498,
+      "phrase": 80
+    },
+    {
+      "text": "Śliwowska",
+      "start": 505.545,
+      "end": 506.23,
+      "phrase": 80
+    },
+    {
+      "text": "Z",
+      "start": 506.926,
+      "end": 507.008,
+      "phrase": 80
+    },
+    {
+      "text": "wykształcenia",
+      "start": 507.066,
+      "end": 507.867,
+      "phrase": 80
+    },
+    {
+      "text": "jestem",
+      "start": 507.96,
+      "end": 508.285,
+      "phrase": 80
+    },
+    {
+      "text": "biologiem,",
+      "start": 508.331,
+      "end": 508.981,
+      "phrase": 80
+    },
+    {
+      "text": "a",
+      "start": 509.039,
+      "end": 509.155,
+      "phrase": 80
+    },
+    {
+      "text": "pasjonuje",
+      "start": 509.248,
+      "end": 509.782,
+      "phrase": 80
+    },
+    {
+      "text": "się",
+      "start": 509.829,
+      "end": 509.945,
+      "phrase": 80
+    },
+    {
+      "text": "neurobiologią.",
+      "start": 510.061,
+      "end": 511.117,
+      "phrase": 80
+    },
+    {
+      "text": "Mózg",
+      "start": 511.361,
+      "end": 511.721,
+      "phrase": 81
+    },
+    {
+      "text": "to",
+      "start": 511.779,
+      "end": 511.907,
+      "phrase": 81
+    },
+    {
+      "text": "fascynujący",
+      "start": 511.988,
+      "end": 512.696,
+      "phrase": 81
+    },
+    {
+      "text": "organ,",
+      "start": 512.766,
+      "end": 513.254,
+      "phrase": 81
+    },
+    {
+      "text": "który",
+      "start": 513.3,
+      "end": 513.579,
+      "phrase": 81
+    },
+    {
+      "text": "ma",
+      "start": 513.625,
+      "end": 513.706,
+      "phrase": 81
+    },
+    {
+      "text": "możliwości",
+      "start": 513.753,
+      "end": 514.38,
+      "phrase": 81
+    },
+    {
+      "text": "zmian",
+      "start": 514.438,
+      "end": 514.867,
+      "phrase": 81
+    },
+    {
+      "text": "pod",
+      "start": 515.111,
+      "end": 515.309,
+      "phrase": 81
+    },
+    {
+      "text": "wpływem",
+      "start": 515.332,
+      "end": 515.738,
+      "phrase": 81
+    },
+    {
+      "text": "warunków",
+      "start": 515.796,
+      "end": 516.226,
+      "phrase": 81
+    },
+    {
+      "text": "środowiska,",
+      "start": 516.272,
+      "end": 516.969,
+      "phrase": 81
+    },
+    {
+      "text": "co",
+      "start": 517.004,
+      "end": 517.096,
+      "phrase": 81
+    },
+    {
+      "text": "nazywamy",
+      "start": 517.143,
+      "end": 517.677,
+      "phrase": 81
+    },
+    {
+      "text": "neuroplastycznością.",
+      "start": 517.793,
+      "end": 519.198,
+      "phrase": 81
+    },
+    {
+      "text": "Oprócz",
+      "start": 519.523,
+      "end": 519.929,
+      "phrase": 82
+    },
+    {
+      "text": "tego,",
+      "start": 519.976,
+      "end": 520.208,
+      "phrase": 82
+    },
+    {
+      "text": "że",
+      "start": 520.243,
+      "end": 520.324,
+      "phrase": 82
+    },
+    {
+      "text": "jestem",
+      "start": 520.347,
+      "end": 520.614,
+      "phrase": 82
+    },
+    {
+      "text": "naukowcem,",
+      "start": 520.672,
+      "end": 521.543,
+      "phrase": 82
+    },
+    {
+      "text": "również",
+      "start": 521.752,
+      "end": 522.147,
+      "phrase": 82
+    },
+    {
+      "text": "prowadzę",
+      "start": 522.216,
+      "end": 522.611,
+      "phrase": 82
+    },
+    {
+      "text": "zajęcia",
+      "start": 522.658,
+      "end": 523.064,
+      "phrase": 82
+    },
+    {
+      "text": "dydaktyczne",
+      "start": 523.11,
+      "end": 523.668,
+      "phrase": 82
+    },
+    {
+      "text": "ze",
+      "start": 523.714,
+      "end": 523.795,
+      "phrase": 82
+    },
+    {
+      "text": "studentami",
+      "start": 523.83,
+      "end": 524.492,
+      "phrase": 82
+    },
+    {
+      "text": "oraz",
+      "start": 524.771,
+      "end": 525.061,
+      "phrase": 82
+    },
+    {
+      "text": "popularyzuję",
+      "start": 525.131,
+      "end": 525.85,
+      "phrase": 82
+    },
+    {
+      "text": "naukę.",
+      "start": 525.897,
+      "end": 526.512,
+      "phrase": 82
+    },
+    {
+      "text": "Jestem",
+      "start": 526.895,
+      "end": 527.232,
+      "phrase": 83
+    },
+    {
+      "text": "także",
+      "start": 527.29,
+      "end": 527.592,
+      "phrase": 83
+    },
+    {
+      "text": "mamą",
+      "start": 527.662,
+      "end": 527.963,
+      "phrase": 83
+    },
+    {
+      "text": "dwóch",
+      "start": 528.045,
+      "end": 528.323,
+      "phrase": 83
+    },
+    {
+      "text": "nastolatków",
+      "start": 528.381,
+      "end": 529.043,
+      "phrase": 83
+    },
+    {
+      "text": "Heleny",
+      "start": 529.101,
+      "end": 529.484,
+      "phrase": 83
+    },
+    {
+      "text": "i",
+      "start": 529.542,
+      "end": 529.6,
+      "phrase": 83
+    },
+    {
+      "text": "Antoniego.",
+      "start": 529.67,
+      "end": 530.529,
+      "phrase": 83
+    }
+  ],
+  "phrases": [
+    {
+      "index": 0,
+      "text": "Przewidywany czas: 5 min We śnie spędzamy aż 1/3 naszego życia – warto więc wiedzieć o nim coś więcej.",
+      "start": 0,
+      "end": 8.348
+    },
+    {
+      "index": 1,
+      "text": "Czym sen różni się od śpiączki?",
+      "start": 8.51,
+      "end": 10.577
+    },
+    {
+      "index": 2,
+      "text": "Jakie mamy fazy snu?",
+      "start": 10.739,
+      "end": 12.307
+    },
+    {
+      "index": 3,
+      "text": "Po co nam sen?",
+      "start": 12.411,
+      "end": 13.479
+    },
+    {
+      "index": 4,
+      "text": "Na te pytania znajdziesz odpowiedź w tym artykule.",
+      "start": 13.653,
+      "end": 16.567
+    },
+    {
+      "index": 5,
+      "text": "Spis treści Co to jest sen?Jakie mamy fazy snu?„Skowronki” i „sowy”Jak długo powinniśmy spać?Ile śpią zwierzęta?„Wampirzy” hormon – melatoninaPo co nam sen?Co się dzieje kiedy śpimy za krótko?Czy brak snu może prowadzić do śmierci?Jak dbać o dobrą higienę snu?",
+      "start": 16.881,
+      "end": 38.046
+    },
+    {
+      "index": 6,
+      "text": "Co to jest sen?",
+      "start": 38.324,
+      "end": 39.555
+    },
+    {
+      "index": 7,
+      "text": "Jest to stan czynnościowy ośrodkowego układu nerwowego cyklicznie pojawiający się i przemijający w rytmie dobowym, podczas którego następuje zniesienie świadomościoraz bezruch.",
+      "start": 39.88,
+      "end": 51.304
+    },
+    {
+      "index": 8,
+      "text": "W przeciwieństwie do śpiączki, fizjologiczny sen charakteryzuje się pełną odwracalnością pod wpływem czynników zewnętrznych.",
+      "start": 51.63,
+      "end": 59.873
+    },
+    {
+      "index": 9,
+      "text": "We śnie spędzamy aż 1/3 naszego życia, a badania stanu snu i czuwania można przeprowadzać za pomocą techniki zwanej elektroencefalografią, w skrócie EEG.",
+      "start": 60.116,
+      "end": 71.668
+    },
+    {
+      "index": 10,
+      "text": "Jakie mamy fazy snu?",
+      "start": 72.318,
+      "end": 73.584
+    },
+    {
+      "index": 11,
+      "text": "Ze względu na charakterystyczną aktywność bioelektryczną mózgu podczas snu rozróżnia się dwie główne fazy: sen wolnofalowy (tzw.",
+      "start": 73.851,
+      "end": 83.011
+    },
+    {
+      "index": 12,
+      "text": "NREM – sen o wolnych ruchach gałek ocznych) oraz sen paradoksalny (tzw.",
+      "start": 83.476,
+      "end": 89.129
+    },
+    {
+      "index": 13,
+      "text": "REM – sen o szybkich ruchach gałek ocznych).",
+      "start": 89.338,
+      "end": 92.322
+    },
+    {
+      "index": 14,
+      "text": "W fazie REM zniesione zostaje napięcie mięśniowe i występują marzenia senne.",
+      "start": 92.647,
+      "end": 97.396
+    },
+    {
+      "index": 15,
+      "text": "W czasie marzeń sennych dominują doznania wzrokowe, ale u 60% badanych stwierdza się współwystępowanie efektów werbalnych i akustycznych.",
+      "start": 97.721,
+      "end": 107.334
+    },
+    {
+      "index": 16,
+      "text": "Uważa się, że w ciągu nocy przeciętnie śnimy 4–6 snów, a zapominamy 90% z nich.",
+      "start": 107.659,
+      "end": 113.998
+    },
+    {
+      "index": 17,
+      "text": "„Skowronki” i „sowy” Ludzie, których chronotyp określany jest jako „skowronki” albo „ranne ptaszki” to ci o szczytowym momencie stanu czuwania przypadającym we wczesnej porze dnia, których senność ogarnia pod wieczór.",
+      "start": 114.172,
+      "end": 129.521
+    },
+    {
+      "index": 18,
+      "text": "Stanowią oni ok.",
+      "start": 129.765,
+      "end": 131.112
+    },
+    {
+      "index": 19,
+      "text": "40% populacji, wolą budzić się o świcie i wówczas najlepiej funkcjonują.",
+      "start": 131.355,
+      "end": 137.09
+    },
+    {
+      "index": 20,
+      "text": "Natomiast „sowy” albo „nocne marki” stanowią ok.",
+      "start": 137.415,
+      "end": 141.874
+    },
+    {
+      "index": 21,
+      "text": "30% populacji i obejmują ludzi, którzy wolą kłaść się do łóżka później i w rezultacie również później wstawać.",
+      "start": 142.199,
+      "end": 150.024
+    },
+    {
+      "index": 22,
+      "text": "Pozostałe 30% mieści się pomiędzy „skowronkami” a „sowami”.",
+      "start": 150.349,
+      "end": 154.935
+    },
+    {
+      "index": 23,
+      "text": "Występowanie chronotypów jest uwarunkowane genetycznie.",
+      "start": 155.213,
+      "end": 158.975
+    },
+    {
+      "index": 24,
+      "text": "Jak długo powinniśmy spać?",
+      "start": 159.254,
+      "end": 161.286
+    },
+    {
+      "index": 25,
+      "text": "Zapotrzebowanie na sen zależne jest od wieku.",
+      "start": 161.529,
+      "end": 164.443
+    },
+    {
+      "index": 26,
+      "text": "Poniżej znajduje się zestawienie zalecanej długości snu w różnych okresach życia człowieka.",
+      "start": 164.722,
+      "end": 170.806
+    },
+    {
+      "index": 27,
+      "text": "Noworodek 14-17 godzin Niemowlę 12-15 godzin Małe dziecko (1-2 lat) 11-14 godzin Przedszkolak (3-5 lat) 10-13 godzin Dziecko w wieku szkolnym (6-13 lat) 9-11 godzin Nastolatek (14-17 lat) 8-10 godzin Młody dorosły (18-12 lat) 7-9 godzin Dorosły (26-64 lat) 7-9 godzin Osoba starsza (65+) 7-8 godzin Przeczytaj też: Mózg a emocje.",
+      "start": 171.003,
+      "end": 199.529
+    },
+    {
+      "index": 28,
+      "text": "Na tropach neurobiologii agresji i empatii Ile śpią zwierzęta?",
+      "start": 199.738,
+      "end": 203.592
+    },
+    {
+      "index": 29,
+      "text": "Największymi „śpiochami” są nietoperze, które potrafią przespać 19,9 godziny.",
+      "start": 203.871,
+      "end": 209.014
+    },
+    {
+      "index": 30,
+      "text": "Do grupy „śpiochów” można również zaliczyć pancernika przesypiającego 18,5 godziny.",
+      "start": 209.304,
+      "end": 214.865
+    },
+    {
+      "index": 31,
+      "text": "Koty także sporo śpią, bo aż 14,5 godziny.",
+      "start": 215.156,
+      "end": 218.569
+    },
+    {
+      "index": 32,
+      "text": "Do zwierząt o średnim zapotrzebowaniu na sen należą: lisy (9,8 godziny), małpy (9,6 godziny), króliki (8,4 godziny).",
+      "start": 218.859,
+      "end": 228.798
+    },
+    {
+      "index": 33,
+      "text": "Stosunkowo mało śpią natomiast: krowy (3,9 godziny), owce i kozy (3,8 godziny) oraz konie (2,9 godziny).",
+      "start": 229.065,
+      "end": 237.83
+    },
+    {
+      "index": 34,
+      "text": "„Wampirzy” hormon – melatonina Melatonina to hormon, który wydziela się z szyszynki w nocy i pomaga nam zasnąć, stąd też nazywany jest „hormonem ciemności” lub „wampirzym hormonem”.",
+      "start": 238.062,
+      "end": 249.161
+    },
+    {
+      "index": 35,
+      "text": "Kilka godzin po zmierzchu poziom tego hormonu gwałtownie wzrasta, by osiągnąć­­ wartość maksymalną ok.",
+      "start": 249.487,
+      "end": 256.406
+    },
+    {
+      "index": 36,
+      "text": "4:00 w nocy.",
+      "start": 257.358,
+      "end": 258.972
+    },
+    {
+      "index": 37,
+      "text": "Kiedy zapadniemy już w sen, to poziom melatoniny powoli spada podczas nocy i godzin porannych.",
+      "start": 259.355,
+      "end": 265.694
+    },
+    {
+      "index": 38,
+      "text": "Po co nam sen?",
+      "start": 265.938,
+      "end": 266.971
+    },
+    {
+      "index": 39,
+      "text": "Najprostsza odpowiedź na powyższe pytanie brzmi: „Śpię, bo jestem zmęczony”.",
+      "start": 267.215,
+      "end": 272.474
+    },
+    {
+      "index": 40,
+      "text": "W rzeczywistości sen pełni wiele funkcji.",
+      "start": 272.718,
+      "end": 275.667
+    },
+    {
+      "index": 41,
+      "text": "W czasie snu następuje regeneracja mięśni, spowolnienie metabolizmu, oszczędzanie energii, zachodzenie procesów naprawczych w neuronach (komórkach nerwowych), konsolidacja procesów pamięciowych, czyli przechodzenie informacji z pamięci krótkotrwałej do pamięci długotrwałej, a także regulacja gospodarki hormonalnej.",
+      "start": 276.05,
+      "end": 298.086
+    },
+    {
+      "index": 42,
+      "text": "Co się dzieje kiedy śpimy za krótko?",
+      "start": 298.33,
+      "end": 300.419
+    },
+    {
+      "index": 43,
+      "text": "Nawet krótkotrwały niedobór snu (24 h) powoduje wiele zmian w kondycji psychofizycznej, do których należą m.in.: zaburzenia nastroju, utrudnione skupienie uwagi, spowolnienie reakcji, spadek motywacji, przecenianie swoich umiejętności i podwyższona, skłonność do podejmowania ryzyka, spadek zdolności twórczego myślenia i umiejętności, podejmowania złożonych decyzji, upośledzenie aktywności układu immunologicznego.",
+      "start": 300.698,
+      "end": 330.152
+    },
+    {
+      "index": 44,
+      "text": "Niedobór snu jest również głównym „winowajcą” wypadków w pracy i słabych ocen studentów.",
+      "start": 330.431,
+      "end": 336.282
+    },
+    {
+      "index": 45,
+      "text": "Ponadto niewystarczająca ilość snu może przyczynić się do rozwoju choroby Alzheimera, cukrzycy, choroby wieńcowej czy udaru.",
+      "start": 336.561,
+      "end": 345.152
+    },
+    {
+      "index": 46,
+      "text": "Badania naukowe potwierdzają, że im krótszy sen, tym krótsze życie.",
+      "start": 345.535,
+      "end": 349.808
+    },
+    {
+      "index": 47,
+      "text": "Deprywacja snu bywa wykorzystywana jako pewien rodzaj tortur.",
+      "start": 350.191,
+      "end": 354.056
+    },
+    {
+      "index": 48,
+      "text": "Oskarżane o stosowanie tej techniki były KGB, wojska japońskie w czasie II wojny światowej i armia brytyjska w stosunku do członków IRA.",
+      "start": 354.265,
+      "end": 363.658
+    },
+    {
+      "index": 49,
+      "text": "Czy brak snu może prowadzić do śmierci?",
+      "start": 363.902,
+      "end": 366.479
+    },
+    {
+      "index": 50,
+      "text": "Odpowiedź na powyższe pytanie jest twierdząca w dwóch przypadkach, a mianowicie w przypadku występowania bardzo rzadkiej choroby genetycznej, która ujawnia się w średnim wieku jako postępująca bezsenność i nazwana jest śmiertelną bezsennością rodzinną.",
+      "start": 366.862,
+      "end": 383.221
+    },
+    {
+      "index": 51,
+      "text": "W wyniku rozwoju zmian chorobowych po kilku miesiącach pacjent przestaje w ogóle spać, co prowadzi do szybkich zmian na poziomie mózgu i innych organów.",
+      "start": 383.662,
+      "end": 393.368
+    },
+    {
+      "index": 52,
+      "text": "Zwykle po 12-18 miesiącach poważnych braków snu pacjent umiera.",
+      "start": 393.81,
+      "end": 399.313
+    },
+    {
+      "index": 53,
+      "text": "Drugi przypadek, w którym brak snu może prowadzić do śmierci, to siadanie za kierownicą przez niewyspanych ludzi mogące prowadzić do wypadków, w tym również tych śmiertelnych.",
+      "start": 399.696,
+      "end": 410.354
+    },
+    {
+      "index": 54,
+      "text": "Jak dbać o dobrą higienę snu?",
+      "start": 410.737,
+      "end": 413.094
+    },
+    {
+      "index": 55,
+      "text": "Poniżej kilka zaleceń, które mogą nam pomóc dobrze spać.",
+      "start": 413.419,
+      "end": 417.123
+    },
+    {
+      "index": 56,
+      "text": "Spanie o stałych porach.",
+      "start": 417.367,
+      "end": 419.015
+    },
+    {
+      "index": 57,
+      "text": "Niewykonywanie ćwiczeń fizycznych 2-3 godziny przed snem.",
+      "start": 419.294,
+      "end": 422.858
+    },
+    {
+      "index": 58,
+      "text": "Unikanie kofeiny i nikotyny, które działają pobudzająco.",
+      "start": 423.102,
+      "end": 426.689
+    },
+    {
+      "index": 59,
+      "text": "Kofeina oprócz kawy znajduje się również w coli, herbacie czy czekoladzie.",
+      "start": 426.898,
+      "end": 431.693
+    },
+    {
+      "index": 60,
+      "text": "Wystrzeganie się picia napojów alkoholowych późnym wieczorem.",
+      "start": 432.019,
+      "end": 435.966
+    },
+    {
+      "index": 61,
+      "text": "Wystrzeganie się spożywania obfitych posiłków późnym wieczorem.",
+      "start": 436.291,
+      "end": 440.273
+    },
+    {
+      "index": 62,
+      "text": "Unikanie drzemek po godzinie 15:00.",
+      "start": 440.656,
+      "end": 443.211
+    },
+    {
+      "index": 63,
+      "text": "Przed snem warto wziąć gorącą kąpiel.",
+      "start": 443.594,
+      "end": 446.601
+    },
+    {
+      "index": 64,
+      "text": "Miejsce, w którym śpimy, powinno być ciemne, chłodne i przewietrzone.",
+      "start": 446.926,
+      "end": 450.734
+    },
+    {
+      "index": 65,
+      "text": "Literatura Górska T, Grabowska A, Zagrodzka J.",
+      "start": 451.012,
+      "end": 454.031
+    },
+    {
+      "index": 66,
+      "text": "Mózg a zachowanie.",
+      "start": 454.066,
+      "end": 455.401
+    },
+    {
+      "index": 67,
+      "text": "PWN 2012.",
+      "start": 455.784,
+      "end": 457.409
+    },
+    {
+      "index": 68,
+      "text": "Hirshkowitz M, Whiton K, Albert SM, Alessi C, Bruni O, DonCarlos L, Hazen N, Herman J, Adams Hillard PJ, Katz ES, Kheirandish-Gozal L, Neubauer DN, O’Donnell AE, Ohayon M, Peever J, Rawding R, Sachdeva RC, Setters B, Vitiello MV, Ware JC.",
+      "start": 457.618,
+      "end": 479.398
+    },
+    {
+      "index": 69,
+      "text": "National Sleep Foundation’s updated sleep duration recommendations: final report.",
+      "start": 479.747,
+      "end": 484.124
+    },
+    {
+      "index": 70,
+      "text": "Sleep Health.",
+      "start": 484.264,
+      "end": 484.844
+    },
+    {
+      "index": 71,
+      "text": "2015 Dec;1(4):233-243.",
+      "start": 484.983,
+      "end": 488.675
+    },
+    {
+      "index": 72,
+      "text": "doi: 10.1016/j.sleh.2015.10.004.",
+      "start": 488.896,
+      "end": 493.482
+    },
+    {
+      "index": 73,
+      "text": "Kalat J.W.",
+      "start": 493.644,
+      "end": 494.202
+    },
+    {
+      "index": 74,
+      "text": "Sen i czuwanie w: Biologiczne podstawy psychologii.",
+      "start": 494.237,
+      "end": 496.535
+    },
+    {
+      "index": 75,
+      "text": "PWN 2020.",
+      "start": 496.605,
+      "end": 497.905
+    },
+    {
+      "index": 76,
+      "text": "Walker M.",
+      "start": 498.079,
+      "end": 498.811
+    },
+    {
+      "index": 77,
+      "text": "Dlaczego śpimy.",
+      "start": 498.95,
+      "end": 499.728
+    },
+    {
+      "index": 78,
+      "text": "Odkrywanie potęgi snu i marzeń sennych.",
+      "start": 499.821,
+      "end": 501.76
+    },
+    {
+      "index": 79,
+      "text": "Marginesy 2017.",
+      "start": 501.992,
+      "end": 503.641
+    },
+    {
+      "index": 80,
+      "text": "Tagi: Autor Joanna Śliwowska Z wykształcenia jestem biologiem, a pasjonuje się neurobiologią.",
+      "start": 503.687,
+      "end": 511.117
+    },
+    {
+      "index": 81,
+      "text": "Mózg to fascynujący organ, który ma możliwości zmian pod wpływem warunków środowiska, co nazywamy neuroplastycznością.",
+      "start": 511.361,
+      "end": 519.198
+    },
+    {
+      "index": 82,
+      "text": "Oprócz tego, że jestem naukowcem, również prowadzę zajęcia dydaktyczne ze studentami oraz popularyzuję naukę.",
+      "start": 519.523,
+      "end": 526.512
+    },
+    {
+      "index": 83,
+      "text": "Jestem także mamą dwóch nastolatków Heleny i Antoniego.",
+      "start": 526.895,
+      "end": 530.529
+    }
+  ]
+}

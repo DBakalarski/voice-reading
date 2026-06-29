@@ -6,205 +6,205 @@
     {
       "text": "Jestem",
       "start": 0,
-      "end": 0.476,
+      "end": 0.522,
       "phrase": 0
     },
     {
       "text": "w",
-      "start": 0.499,
-      "end": 0.534,
+      "start": 0.569,
+      "end": 0.604,
       "phrase": 0
     },
     {
       "text": "kuchni.",
-      "start": 0.592,
-      "end": 1.161,
+      "start": 0.662,
+      "end": 1.265,
       "phrase": 0
     },
     {
       "text": "Na",
-      "start": 1.242,
-      "end": 1.37,
+      "start": 1.416,
+      "end": 1.556,
       "phrase": 1
     },
     {
       "text": "stole",
-      "start": 1.405,
-      "end": 1.695,
+      "start": 1.591,
+      "end": 1.858,
       "phrase": 1
     },
     {
       "text": "stoi",
-      "start": 1.73,
-      "end": 1.962,
+      "start": 1.892,
+      "end": 2.125,
       "phrase": 1
     },
     {
       "text": "talerz.",
-      "start": 2.032,
-      "end": 2.601,
+      "start": 2.194,
+      "end": 2.786,
       "phrase": 1
     },
     {
       "text": "Obok",
-      "start": 2.879,
-      "end": 3.158,
+      "start": 3.03,
+      "end": 3.32,
       "phrase": 2
     },
     {
       "text": "leży",
-      "start": 3.204,
-      "end": 3.425,
+      "start": 3.379,
+      "end": 3.599,
       "phrase": 2
     },
     {
       "text": "łyżka",
-      "start": 3.471,
-      "end": 3.808,
+      "start": 3.646,
+      "end": 4.017,
       "phrase": 2
     },
     {
       "text": "i",
-      "start": 3.855,
-      "end": 3.889,
+      "start": 4.098,
+      "end": 4.133,
       "phrase": 2
     },
     {
       "text": "widelec.",
-      "start": 3.936,
-      "end": 4.632,
+      "start": 4.18,
+      "end": 4.83,
       "phrase": 2
     },
     {
       "text": "W",
-      "start": 4.841,
-      "end": 4.899,
+      "start": 4.981,
+      "end": 5.05,
       "phrase": 3
     },
     {
       "text": "szklance",
-      "start": 4.957,
-      "end": 5.399,
+      "start": 5.074,
+      "end": 5.492,
       "phrase": 3
     },
     {
       "text": "jest",
-      "start": 5.433,
-      "end": 5.561,
+      "start": 5.526,
+      "end": 5.689,
       "phrase": 3
     },
     {
       "text": "woda.",
-      "start": 5.642,
-      "end": 6.188,
+      "start": 5.747,
+      "end": 6.246,
       "phrase": 3
     },
     {
       "text": "Gotuję",
-      "start": 6.339,
-      "end": 6.711,
+      "start": 6.327,
+      "end": 6.676,
       "phrase": 4
     },
     {
       "text": "zupę.",
-      "start": 6.769,
-      "end": 7.256,
+      "start": 6.722,
+      "end": 7.21,
       "phrase": 4
     },
     {
       "text": "Zupa",
-      "start": 7.535,
-      "end": 7.895,
+      "start": 7.488,
+      "end": 7.755,
       "phrase": 5
     },
     {
       "text": "jest",
-      "start": 7.941,
-      "end": 8.104,
+      "start": 7.79,
+      "end": 7.941,
       "phrase": 5
     },
     {
       "text": "gorąca.",
-      "start": 8.173,
-      "end": 8.928,
+      "start": 7.999,
+      "end": 8.731,
       "phrase": 5
     },
     {
       "text": "Pachnie",
-      "start": 9.102,
-      "end": 9.532,
+      "start": 8.905,
+      "end": 9.276,
       "phrase": 6
     },
     {
       "text": "bardzo",
-      "start": 9.601,
-      "end": 9.938,
+      "start": 9.323,
+      "end": 9.59,
       "phrase": 6
     },
     {
       "text": "dobrze.",
-      "start": 9.985,
-      "end": 10.588,
+      "start": 9.636,
+      "end": 10.147,
       "phrase": 6
     },
     {
       "text": "Kroję",
-      "start": 10.832,
-      "end": 11.157,
+      "start": 10.356,
+      "end": 10.693,
       "phrase": 7
     },
     {
       "text": "chleb.",
-      "start": 11.18,
-      "end": 11.703,
+      "start": 10.716,
+      "end": 11.238,
       "phrase": 7
     },
     {
       "text": "Biorę",
-      "start": 11.854,
-      "end": 12.144,
+      "start": 11.389,
+      "end": 11.691,
       "phrase": 8
     },
     {
       "text": "masło.",
-      "start": 12.19,
-      "end": 12.829,
+      "start": 11.738,
+      "end": 12.353,
       "phrase": 8
     },
     {
       "text": "Smaruję",
-      "start": 13.038,
-      "end": 13.468,
+      "start": 12.469,
+      "end": 12.91,
       "phrase": 9
     },
     {
       "text": "kromkę.",
-      "start": 13.514,
-      "end": 14.176,
+      "start": 12.957,
+      "end": 13.618,
       "phrase": 9
     },
     {
       "text": "Siadam",
-      "start": 14.501,
-      "end": 14.849,
+      "start": 13.827,
+      "end": 14.187,
       "phrase": 10
     },
     {
       "text": "przy",
-      "start": 14.884,
-      "end": 15.047,
+      "start": 14.211,
+      "end": 14.373,
       "phrase": 10
     },
     {
       "text": "stole.",
-      "start": 15.07,
-      "end": 15.673,
+      "start": 14.396,
+      "end": 14.954,
       "phrase": 10
     },
     {
       "text": "Smacznego.",
-      "start": 15.999,
-      "end": 16.951,
+      "start": 15.128,
+      "end": 16.068,
       "phrase": 11
     }
   ],
@@ -213,73 +213,73 @@
       "index": 0,
       "text": "Jestem w kuchni.",
       "start": 0,
-      "end": 1.161
+      "end": 1.265
     },
     {
       "index": 1,
       "text": "Na stole stoi talerz.",
-      "start": 1.242,
-      "end": 2.601
+      "start": 1.416,
+      "end": 2.786
     },
     {
       "index": 2,
       "text": "Obok leży łyżka i widelec.",
-      "start": 2.879,
-      "end": 4.632
+      "start": 3.03,
+      "end": 4.83
     },
     {
       "index": 3,
       "text": "W szklance jest woda.",
-      "start": 4.841,
-      "end": 6.188
+      "start": 4.981,
+      "end": 6.246
     },
     {
       "index": 4,
       "text": "Gotuję zupę.",
-      "start": 6.339,
-      "end": 7.256
+      "start": 6.327,
+      "end": 7.21
     },
     {
       "index": 5,
       "text": "Zupa jest gorąca.",
-      "start": 7.535,
-      "end": 8.928
+      "start": 7.488,
+      "end": 8.731
     },
     {
       "index": 6,
       "text": "Pachnie bardzo dobrze.",
-      "start": 9.102,
-      "end": 10.588
+      "start": 8.905,
+      "end": 10.147
     },
     {
       "index": 7,
       "text": "Kroję chleb.",
-      "start": 10.832,
-      "end": 11.703
+      "start": 10.356,
+      "end": 11.238
     },
     {
       "index": 8,
       "text": "Biorę masło.",
-      "start": 11.854,
-      "end": 12.829
+      "start": 11.389,
+      "end": 12.353
     },
     {
       "index": 9,
       "text": "Smaruję kromkę.",
-      "start": 13.038,
-      "end": 14.176
+      "start": 12.469,
+      "end": 13.618
     },
     {
       "index": 10,
       "text": "Siadam przy stole.",
-      "start": 14.501,
-      "end": 15.673
+      "start": 13.827,
+      "end": 14.954
     },
     {
       "index": 11,
       "text": "Smacznego.",
-      "start": 15.999,
-      "end": 16.951
+      "start": 15.128,
+      "end": 16.068
     }
   ]
 }

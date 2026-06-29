@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import { loadLibraryIndex } from "@/lib/library";
-import { levelMeta, topicsForLevel } from "@/lib/levels";
+import { ARTICLES_SECTION, articleTopics, levelMeta, topicsForLevel } from "@/lib/levels";
 import type { ExerciseSummary } from "@/lib/types";
 import styles from "./Library.module.css";
 
@@ -11,30 +11,46 @@ export function TopicList() {
   const [exercises, setExercises] = useState<ExerciseSummary[] | null>(null);
   const [error, setError] = useState(false);
   const [level, setLevel] = useState<number | null>(null);
+  const [isArticles, setIsArticles] = useState(false);
 
   useEffect(() => {
-    const raw = new URLSearchParams(window.location.search).get("level");
-    const parsed = raw === null ? NaN : Number(raw);
-    setLevel(Number.isFinite(parsed) ? parsed : null);
+    const params = new URLSearchParams(window.location.search);
+    if (params.get("cat") === "article") {
+      setIsArticles(true);
+    } else {
+      const raw = params.get("level");
+      const parsed = raw === null ? NaN : Number(raw);
+      setLevel(Number.isFinite(parsed) ? parsed : null);
+    }
     loadLibraryIndex()
       .then((i) => setExercises(i.exercises))
       .catch(() => setError(true));
   }, []);
 
   const meta = level != null ? levelMeta(level) : undefined;
-  const topics =
-    exercises && level != null ? topicsForLevel(exercises, level) : null;
+  const heading = isArticles ? ARTICLES_SECTION.title : meta ? meta.title : "Ćwiczenia";
+  const description = isArticles ? ARTICLES_SECTION.description : meta?.description;
+  const topics = !exercises
+    ? null
+    : isArticles
+      ? articleTopics(exercises)
+      : level != null
+        ? topicsForLevel(exercises, level)
+        : null;
+  const emptyLabel = isArticles
+    ? "Brak artykułów."
+    : "Brak tematów na tym poziomie.";
 
   return (
     <main className={styles.container}>
       <nav className={styles.nav}>
         <Link href="/">← Poziomy</Link>
       </nav>
-      <h1 className={styles.heading}>{meta ? meta.title : "Ćwiczenia"}</h1>
-      {meta && <p className={styles.subheading}>{meta.description}</p>}
+      <h1 className={styles.heading}>{heading}</h1>
+      {description && <p className={styles.subheading}>{description}</p>}
       {error && <p>Nie udało się wczytać ćwiczeń.</p>}
       {!error && exercises === null && <p>Wczytywanie…</p>}
-      {topics && topics.length === 0 && <p>Brak tematów na tym poziomie.</p>}
+      {topics && topics.length === 0 && <p>{emptyLabel}</p>}
       {topics && topics.length > 0 && (
         <ul className={styles.list}>
           {topics.map((e) => (

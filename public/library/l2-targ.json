@@ -6,415 +6,415 @@
     {
       "text": "W",
       "start": 0,
-      "end": 0.163,
+      "end": 0.174,
       "phrase": 0
     },
     {
       "text": "sobotę",
-      "start": 0.221,
-      "end": 0.557,
+      "start": 0.232,
+      "end": 0.58,
       "phrase": 0
     },
     {
       "text": "rano",
-      "start": 0.592,
-      "end": 0.848,
+      "start": 0.615,
+      "end": 0.882,
       "phrase": 0
     },
     {
       "text": "poszłam",
-      "start": 0.917,
-      "end": 1.219,
+      "start": 0.94,
+      "end": 1.277,
       "phrase": 0
     },
     {
       "text": "na",
-      "start": 1.277,
-      "end": 1.358,
+      "start": 1.335,
+      "end": 1.416,
       "phrase": 0
     },
     {
       "text": "targ",
-      "start": 1.416,
-      "end": 1.753,
+      "start": 1.474,
+      "end": 1.776,
       "phrase": 0
     },
     {
       "text": "niedaleko",
-      "start": 1.869,
-      "end": 2.345,
+      "start": 1.846,
+      "end": 2.299,
       "phrase": 0
     },
     {
       "text": "domu.",
-      "start": 2.392,
-      "end": 2.914,
+      "start": 2.357,
+      "end": 2.879,
       "phrase": 0
     },
     {
       "text": "Na",
-      "start": 3.193,
-      "end": 3.32,
+      "start": 3.123,
+      "end": 3.251,
       "phrase": 1
     },
     {
       "text": "straganach",
-      "start": 3.367,
-      "end": 3.959,
+      "start": 3.286,
+      "end": 3.855,
       "phrase": 1
     },
     {
       "text": "leżały",
-      "start": 4.04,
-      "end": 4.365,
+      "start": 3.901,
+      "end": 4.249,
       "phrase": 1
     },
     {
       "text": "świeże",
-      "start": 4.412,
-      "end": 4.725,
+      "start": 4.296,
+      "end": 4.621,
       "phrase": 1
     },
     {
       "text": "warzywa",
-      "start": 4.772,
-      "end": 5.178,
+      "start": 4.667,
+      "end": 5.085,
       "phrase": 1
     },
     {
       "text": "i",
-      "start": 5.248,
-      "end": 5.294,
+      "start": 5.166,
+      "end": 5.201,
       "phrase": 1
     },
     {
       "text": "owoce.",
-      "start": 5.364,
-      "end": 5.991,
+      "start": 5.271,
+      "end": 5.979,
       "phrase": 1
     },
     {
       "text": "Kupiłam",
-      "start": 6.2,
-      "end": 6.629,
+      "start": 6.153,
+      "end": 6.594,
       "phrase": 2
     },
     {
       "text": "kilogram",
-      "start": 6.699,
-      "end": 7.117,
+      "start": 6.653,
+      "end": 7.07,
       "phrase": 2
     },
     {
       "text": "jabłek,",
-      "start": 7.187,
-      "end": 7.825,
+      "start": 7.14,
+      "end": 7.697,
       "phrase": 2
     },
     {
       "text": "bochenek",
-      "start": 7.918,
-      "end": 8.371,
+      "start": 7.732,
+      "end": 8.162,
       "phrase": 2
     },
     {
       "text": "chleba",
-      "start": 8.429,
-      "end": 8.858,
+      "start": 8.231,
+      "end": 8.719,
       "phrase": 2
     },
     {
       "text": "i",
-      "start": 8.975,
-      "end": 9.056,
+      "start": 8.789,
+      "end": 8.835,
       "phrase": 2
     },
     {
       "text": "bukiet",
-      "start": 9.149,
-      "end": 9.474,
+      "start": 8.905,
+      "end": 9.183,
       "phrase": 2
     },
     {
       "text": "kwiatów.",
-      "start": 9.543,
-      "end": 10.263,
+      "start": 9.242,
+      "end": 9.857,
       "phrase": 2
     },
     {
       "text": "Sprzedawca",
-      "start": 10.588,
-      "end": 11.122,
+      "start": 10.182,
+      "end": 10.728,
       "phrase": 3
     },
     {
       "text": "uśmiechnął",
-      "start": 11.18,
-      "end": 11.738,
+      "start": 10.786,
+      "end": 11.331,
       "phrase": 3
     },
     {
       "text": "się",
-      "start": 11.796,
-      "end": 11.912,
+      "start": 11.389,
+      "end": 11.494,
       "phrase": 3
     },
     {
       "text": "i",
-      "start": 11.981,
-      "end": 12.016,
+      "start": 11.587,
+      "end": 11.61,
       "phrase": 3
     },
     {
       "text": "zapytał,",
-      "start": 12.074,
-      "end": 12.527,
+      "start": 11.668,
+      "end": 12.167,
       "phrase": 3
     },
     {
       "text": "jak",
-      "start": 12.55,
-      "end": 12.69,
+      "start": 12.202,
+      "end": 12.341,
       "phrase": 3
     },
     {
       "text": "mija",
-      "start": 12.759,
-      "end": 12.934,
+      "start": 12.411,
+      "end": 12.597,
       "phrase": 3
     },
     {
       "text": "mi",
-      "start": 12.992,
-      "end": 13.084,
+      "start": 12.655,
+      "end": 12.736,
       "phrase": 3
     },
     {
       "text": "dzień.",
-      "start": 13.119,
-      "end": 13.584,
+      "start": 12.771,
+      "end": 13.293,
       "phrase": 3
     },
     {
       "text": "Powiedziałam,",
-      "start": 13.827,
-      "end": 14.396,
+      "start": 13.444,
+      "end": 14.025,
       "phrase": 4
     },
     {
       "text": "że",
-      "start": 14.431,
-      "end": 14.524,
+      "start": 14.06,
+      "end": 14.141,
       "phrase": 4
     },
     {
       "text": "bardzo",
-      "start": 14.582,
-      "end": 14.908,
+      "start": 14.188,
+      "end": 14.467,
       "phrase": 4
     },
     {
       "text": "dobrze,",
-      "start": 14.966,
-      "end": 15.442,
+      "start": 14.525,
+      "end": 15.035,
       "phrase": 4
     },
     {
       "text": "bo",
-      "start": 15.488,
-      "end": 15.639,
+      "start": 15.093,
+      "end": 15.198,
       "phrase": 4
     },
     {
       "text": "pogoda",
-      "start": 15.697,
-      "end": 16.057,
+      "start": 15.256,
+      "end": 15.662,
       "phrase": 4
     },
     {
       "text": "była",
-      "start": 16.103,
-      "end": 16.312,
+      "start": 15.72,
+      "end": 15.941,
       "phrase": 4
     },
     {
       "text": "słoneczna.",
-      "start": 16.347,
-      "end": 17.206,
+      "start": 15.987,
+      "end": 16.823,
       "phrase": 4
     },
     {
       "text": "W",
-      "start": 17.45,
-      "end": 17.497,
+      "start": 17.067,
+      "end": 17.125,
       "phrase": 5
     },
     {
       "text": "drodze",
-      "start": 17.566,
-      "end": 17.822,
+      "start": 17.183,
+      "end": 17.474,
       "phrase": 5
     },
     {
       "text": "powrotnej",
-      "start": 17.868,
-      "end": 18.379,
+      "start": 17.52,
+      "end": 17.984,
       "phrase": 5
     },
     {
       "text": "spotkałam",
-      "start": 18.425,
-      "end": 18.913,
+      "start": 18.019,
+      "end": 18.507,
       "phrase": 5
     },
     {
       "text": "sąsiadkę,",
-      "start": 18.971,
-      "end": 19.621,
+      "start": 18.565,
+      "end": 19.122,
       "phrase": 5
     },
     {
       "text": "która",
-      "start": 19.656,
-      "end": 19.923,
+      "start": 19.157,
+      "end": 19.424,
       "phrase": 5
     },
     {
       "text": "niosła",
-      "start": 19.97,
-      "end": 20.341,
+      "start": 19.47,
+      "end": 19.784,
       "phrase": 5
     },
     {
       "text": "ciężką",
-      "start": 20.399,
-      "end": 20.887,
+      "start": 19.819,
+      "end": 20.225,
       "phrase": 5
     },
     {
       "text": "torbę.",
-      "start": 20.956,
-      "end": 21.607,
+      "start": 20.283,
+      "end": 20.864,
       "phrase": 5
     },
     {
       "text": "Pomogłam",
-      "start": 21.816,
-      "end": 22.35,
+      "start": 21.073,
+      "end": 21.572,
       "phrase": 6
     },
     {
       "text": "jej",
-      "start": 22.442,
-      "end": 22.547,
+      "start": 21.653,
+      "end": 21.758,
       "phrase": 6
     },
     {
       "text": "donieść",
-      "start": 22.617,
-      "end": 23.046,
+      "start": 21.827,
+      "end": 22.257,
       "phrase": 6
     },
     {
       "text": "zakupy",
-      "start": 23.162,
-      "end": 23.569,
+      "start": 22.35,
+      "end": 22.71,
       "phrase": 6
     },
     {
       "text": "do",
-      "start": 23.603,
-      "end": 23.685,
+      "start": 22.744,
+      "end": 22.826,
       "phrase": 6
     },
     {
       "text": "domu.",
-      "start": 23.743,
-      "end": 24.277,
+      "start": 22.872,
+      "end": 23.36,
       "phrase": 6
     },
     {
       "text": "Kiedy",
-      "start": 24.486,
-      "end": 24.741,
+      "start": 23.476,
+      "end": 23.708,
       "phrase": 7
     },
     {
       "text": "wróciłam,",
-      "start": 24.776,
-      "end": 25.357,
+      "start": 23.743,
+      "end": 24.323,
       "phrase": 7
     },
     {
       "text": "zaparzyłam",
-      "start": 25.391,
-      "end": 25.891,
+      "start": 24.347,
+      "end": 24.834,
       "phrase": 7
     },
     {
       "text": "kawę",
-      "start": 25.949,
-      "end": 26.251,
+      "start": 24.915,
+      "end": 25.333,
       "phrase": 7
     },
     {
       "text": "i",
-      "start": 26.332,
-      "end": 26.413,
+      "start": 25.426,
+      "end": 25.577,
       "phrase": 7
     },
     {
       "text": "usiadłam",
-      "start": 26.494,
-      "end": 26.959,
+      "start": 25.659,
+      "end": 26.123,
       "phrase": 7
     },
     {
       "text": "przy",
-      "start": 26.982,
-      "end": 27.133,
+      "start": 26.146,
+      "end": 26.32,
       "phrase": 7
     },
     {
       "text": "oknie.",
-      "start": 27.191,
-      "end": 27.725,
+      "start": 26.39,
+      "end": 26.947,
       "phrase": 7
     },
     {
       "text": "To",
-      "start": 27.899,
-      "end": 28.038,
+      "start": 27.226,
+      "end": 27.365,
       "phrase": 8
     },
     {
       "text": "był",
-      "start": 28.085,
-      "end": 28.224,
+      "start": 27.423,
+      "end": 27.586,
       "phrase": 8
     },
     {
       "text": "spokojny",
-      "start": 28.282,
-      "end": 28.979,
+      "start": 27.679,
+      "end": 28.34,
       "phrase": 8
     },
     {
       "text": "i",
-      "start": 29.06,
-      "end": 29.141,
+      "start": 28.41,
+      "end": 28.468,
       "phrase": 8
     },
     {
       "text": "miły",
-      "start": 29.211,
-      "end": 29.478,
+      "start": 28.526,
+      "end": 28.758,
       "phrase": 8
     },
     {
       "text": "poranek.",
-      "start": 29.536,
-      "end": 30.372,
+      "start": 28.816,
+      "end": 29.629,
       "phrase": 8
     }
   ],
@@ -423,55 +423,55 @@
       "index": 0,
       "text": "W sobotę rano poszłam na targ niedaleko domu.",
       "start": 0,
-      "end": 2.914
+      "end": 2.879
     },
     {
       "index": 1,
       "text": "Na straganach leżały świeże warzywa i owoce.",
-      "start": 3.193,
-      "end": 5.991
+      "start": 3.123,
+      "end": 5.979
     },
     {
       "index": 2,
       "text": "Kupiłam kilogram jabłek, bochenek chleba i bukiet kwiatów.",
-      "start": 6.2,
-      "end": 10.263
+      "start": 6.153,
+      "end": 9.857
     },
     {
       "index": 3,
       "text": "Sprzedawca uśmiechnął się i zapytał, jak mija mi dzień.",
-      "start": 10.588,
-      "end": 13.584
+      "start": 10.182,
+      "end": 13.293
     },
     {
       "index": 4,
       "text": "Powiedziałam, że bardzo dobrze, bo pogoda była słoneczna.",
-      "start": 13.827,
-      "end": 17.206
+      "start": 13.444,
+      "end": 16.823
     },
     {
       "index": 5,
       "text": "W drodze powrotnej spotkałam sąsiadkę, która niosła ciężką torbę.",
-      "start": 17.45,
-      "end": 21.607
+      "start": 17.067,
+      "end": 20.864
     },
     {
       "index": 6,
       "text": "Pomogłam jej donieść zakupy do domu.",
-      "start": 21.816,
-      "end": 24.277
+      "start": 21.073,
+      "end": 23.36
     },
     {
       "index": 7,
       "text": "Kiedy wróciłam, zaparzyłam kawę i usiadłam przy oknie.",
-      "start": 24.486,
-      "end": 27.725
+      "start": 23.476,
+      "end": 26.947
     },
     {
       "index": 8,
       "text": "To był spokojny i miły poranek.",
-      "start": 27.899,
-      "end": 30.372
+      "start": 27.226,
+      "end": 29.629
     }
   ]
 }

@@ -3,7 +3,14 @@
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import { loadLibraryIndex } from "@/lib/library";
-import { LEVELS, topicCountLabel, topicsForLevel } from "@/lib/levels";
+import {
+  ARTICLES_SECTION,
+  LEVELS,
+  articleCountLabel,
+  articleTopics,
+  topicCountLabel,
+  topicsForLevel,
+} from "@/lib/levels";
 import type { ExerciseSummary } from "@/lib/types";
 import styles from "./Library.module.css";
 
@@ -37,6 +44,17 @@ export function LevelMenu() {
               </li>
             );
           })}
+          {articleTopics(exercises).length > 0 && (
+            <li key="articles">
+              <Link href="/level?cat=article" className={styles.card}>
+                <span className={styles.cardTitle}>{ARTICLES_SECTION.title}</span>
+                <span className={styles.cardDesc}>{ARTICLES_SECTION.description}</span>
+                <span className={styles.cardMeta}>
+                  {articleCountLabel(articleTopics(exercises).length)}
+                </span>
+              </Link>
+            </li>
+          )}
         </ul>
       )}
     </main>

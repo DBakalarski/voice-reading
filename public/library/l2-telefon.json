@@ -11,416 +11,416 @@
     },
     {
       "text": "wieczorem",
-      "start": 0.511,
+      "start": 0.522,
       "end": 0.917,
       "phrase": 0
     },
     {
       "text": "zadzwoniła",
-      "start": 0.987,
-      "end": 1.428,
+      "start": 0.964,
+      "end": 1.463,
       "phrase": 0
     },
     {
       "text": "do",
-      "start": 1.474,
-      "end": 1.556,
+      "start": 1.521,
+      "end": 1.602,
       "phrase": 0
     },
     {
       "text": "mnie",
-      "start": 1.591,
-      "end": 1.718,
+      "start": 1.637,
+      "end": 1.776,
       "phrase": 0
     },
     {
       "text": "moja",
-      "start": 1.765,
-      "end": 1.962,
+      "start": 1.823,
+      "end": 2.043,
       "phrase": 0
     },
     {
       "text": "przyjaciółka",
-      "start": 1.997,
-      "end": 2.566,
+      "start": 2.078,
+      "end": 2.74,
       "phrase": 0
     },
     {
       "text": "Anna.",
-      "start": 2.647,
-      "end": 3.193,
+      "start": 2.821,
+      "end": 3.413,
       "phrase": 0
     },
     {
       "text": "Powiedziała,",
-      "start": 3.437,
-      "end": 3.982,
+      "start": 3.657,
+      "end": 4.191,
       "phrase": 1
     },
     {
       "text": "że",
-      "start": 4.029,
-      "end": 4.203,
-      "phrase": 1
-    },
-    {
-      "text": "w",
-      "start": 4.284,
+      "start": 4.226,
       "end": 4.319,
       "phrase": 1
     },
     {
+      "text": "w",
+      "start": 4.354,
+      "end": 4.389,
+      "phrase": 1
+    },
+    {
       "text": "sobotę",
-      "start": 4.377,
-      "end": 4.783,
+      "start": 4.435,
+      "end": 4.865,
       "phrase": 1
     },
     {
       "text": "organizuje",
-      "start": 4.841,
-      "end": 5.445,
+      "start": 4.934,
+      "end": 5.584,
       "phrase": 1
     },
     {
       "text": "małe",
-      "start": 5.515,
-      "end": 5.793,
+      "start": 5.654,
+      "end": 5.944,
       "phrase": 1
     },
     {
       "text": "przyjęcie",
-      "start": 5.828,
-      "end": 6.316,
+      "start": 5.979,
+      "end": 6.49,
       "phrase": 1
     },
     {
       "text": "z",
-      "start": 6.374,
-      "end": 6.397,
+      "start": 6.536,
+      "end": 6.56,
       "phrase": 1
     },
     {
       "text": "okazji",
-      "start": 6.478,
-      "end": 6.896,
+      "start": 6.641,
+      "end": 7.024,
       "phrase": 1
     },
     {
       "text": "urodzin.",
-      "start": 6.954,
-      "end": 7.686,
+      "start": 7.094,
+      "end": 7.767,
       "phrase": 1
     },
     {
       "text": "Zapytała,",
-      "start": 8.069,
-      "end": 8.615,
+      "start": 8.092,
+      "end": 8.661,
       "phrase": 2
     },
     {
       "text": "czy",
-      "start": 8.638,
-      "end": 8.754,
+      "start": 8.684,
+      "end": 8.777,
       "phrase": 2
     },
     {
       "text": "mam",
-      "start": 8.8,
+      "start": 8.824,
       "end": 8.963,
       "phrase": 2
     },
     {
       "text": "ochotę",
-      "start": 9.009,
-      "end": 9.3,
+      "start": 9.044,
+      "end": 9.358,
       "phrase": 2
     },
     {
       "text": "przyjść",
-      "start": 9.346,
-      "end": 9.764,
+      "start": 9.404,
+      "end": 9.857,
       "phrase": 2
     },
     {
       "text": "i",
-      "start": 9.88,
-      "end": 9.915,
+      "start": 9.95,
+      "end": 9.985,
       "phrase": 2
     },
     {
       "text": "kogo",
-      "start": 10.031,
-      "end": 10.333,
+      "start": 10.077,
+      "end": 10.356,
       "phrase": 2
     },
     {
       "text": "jeszcze",
-      "start": 10.403,
-      "end": 10.658,
+      "start": 10.414,
+      "end": 10.67,
       "phrase": 2
     },
     {
       "text": "powinna",
       "start": 10.704,
-      "end": 11.111,
+      "end": 11.099,
       "phrase": 2
     },
     {
       "text": "zaprosić.",
-      "start": 11.169,
-      "end": 12.005,
+      "start": 11.157,
+      "end": 11.947,
       "phrase": 2
     },
     {
       "text": "Odpowiedziałam,",
-      "start": 12.283,
-      "end": 13.05,
+      "start": 12.225,
+      "end": 12.968,
       "phrase": 3
     },
     {
       "text": "że",
-      "start": 13.084,
-      "end": 13.177,
+      "start": 13.003,
+      "end": 13.084,
       "phrase": 3
     },
     {
       "text": "bardzo",
-      "start": 13.224,
-      "end": 13.514,
+      "start": 13.131,
+      "end": 13.386,
       "phrase": 3
     },
     {
       "text": "się",
-      "start": 13.56,
-      "end": 13.665,
+      "start": 13.444,
+      "end": 13.537,
       "phrase": 3
     },
     {
       "text": "cieszę",
-      "start": 13.723,
-      "end": 14.048,
+      "start": 13.595,
+      "end": 13.92,
       "phrase": 3
     },
     {
       "text": "i",
-      "start": 14.129,
-      "end": 14.164,
+      "start": 14.036,
+      "end": 14.082,
       "phrase": 3
     },
     {
       "text": "na",
-      "start": 14.21,
-      "end": 14.28,
+      "start": 14.199,
+      "end": 14.303,
       "phrase": 3
     },
     {
       "text": "pewno",
-      "start": 14.327,
-      "end": 14.57,
+      "start": 14.373,
+      "end": 14.698,
       "phrase": 3
     },
     {
       "text": "będę.",
-      "start": 14.617,
-      "end": 15.209,
+      "start": 14.744,
+      "end": 15.36,
       "phrase": 3
     },
     {
       "text": "Umówiłyśmy",
-      "start": 15.534,
-      "end": 16.231,
+      "start": 15.685,
+      "end": 16.358,
       "phrase": 4
     },
     {
       "text": "się,",
-      "start": 16.265,
-      "end": 16.428,
+      "start": 16.393,
+      "end": 16.544,
       "phrase": 4
     },
     {
       "text": "że",
-      "start": 16.474,
-      "end": 16.556,
+      "start": 16.579,
+      "end": 16.683,
       "phrase": 4
     },
     {
       "text": "przyniosę",
-      "start": 16.591,
-      "end": 17.067,
+      "start": 16.718,
+      "end": 17.171,
       "phrase": 4
     },
     {
       "text": "domowe",
-      "start": 17.113,
-      "end": 17.426,
+      "start": 17.217,
+      "end": 17.554,
       "phrase": 4
     },
     {
       "text": "ciasto",
-      "start": 17.461,
-      "end": 17.937,
-      "phrase": 4
-    },
-    {
-      "text": "i",
-      "start": 18.019,
+      "start": 17.6,
       "end": 18.065,
       "phrase": 4
     },
     {
+      "text": "i",
+      "start": 18.181,
+      "end": 18.297,
+      "phrase": 4
+    },
+    {
       "text": "kilka",
-      "start": 18.135,
-      "end": 18.413,
+      "start": 18.39,
+      "end": 18.761,
       "phrase": 4
     },
     {
       "text": "napojów.",
-      "start": 18.46,
-      "end": 19.122,
+      "start": 18.819,
+      "end": 19.551,
       "phrase": 4
     },
     {
       "text": "Rozmawiałyśmy",
-      "start": 19.447,
-      "end": 20.19,
+      "start": 19.795,
+      "end": 20.549,
       "phrase": 5
     },
     {
       "text": "jeszcze",
-      "start": 20.236,
-      "end": 20.445,
+      "start": 20.596,
+      "end": 20.828,
       "phrase": 5
     },
     {
       "text": "przez",
-      "start": 20.48,
-      "end": 20.666,
+      "start": 20.863,
+      "end": 21.072,
       "phrase": 5
     },
     {
       "text": "chwilę",
-      "start": 20.689,
-      "end": 20.968,
+      "start": 21.118,
+      "end": 21.408,
       "phrase": 5
     },
     {
       "text": "o",
-      "start": 21.014,
-      "end": 21.049,
+      "start": 21.466,
+      "end": 21.513,
       "phrase": 5
     },
     {
       "text": "pracy",
-      "start": 21.095,
-      "end": 21.606,
+      "start": 21.559,
+      "end": 21.977,
       "phrase": 5
     },
     {
       "text": "i",
-      "start": 21.676,
-      "end": 21.734,
+      "start": 22.035,
+      "end": 22.093,
       "phrase": 5
     },
     {
       "text": "o",
-      "start": 21.815,
-      "end": 21.85,
+      "start": 22.175,
+      "end": 22.221,
       "phrase": 5
     },
     {
       "text": "pogodzie.",
-      "start": 21.896,
-      "end": 22.616,
+      "start": 22.268,
+      "end": 22.953,
       "phrase": 5
     },
     {
       "text": "Zanim",
-      "start": 22.895,
-      "end": 23.197,
+      "start": 23.231,
+      "end": 23.579,
       "phrase": 6
     },
     {
       "text": "się",
-      "start": 23.243,
-      "end": 23.336,
+      "start": 23.626,
+      "end": 23.719,
       "phrase": 6
     },
     {
       "text": "rozłączyłyśmy,",
-      "start": 23.382,
-      "end": 24.311,
+      "start": 23.765,
+      "end": 24.764,
       "phrase": 6
     },
     {
       "text": "podała",
-      "start": 24.346,
-      "end": 24.683,
+      "start": 24.973,
+      "end": 25.344,
       "phrase": 6
     },
     {
       "text": "mi",
-      "start": 24.729,
-      "end": 24.799,
+      "start": 25.391,
+      "end": 25.472,
       "phrase": 6
     },
     {
       "text": "dokładny",
-      "start": 24.845,
-      "end": 25.275,
+      "start": 25.518,
+      "end": 26.099,
       "phrase": 6
     },
     {
       "text": "adres",
-      "start": 25.333,
-      "end": 25.704,
+      "start": 26.168,
+      "end": 26.586,
       "phrase": 6
     },
     {
       "text": "i",
-      "start": 25.786,
-      "end": 25.82,
+      "start": 26.679,
+      "end": 26.737,
       "phrase": 6
     },
     {
       "text": "godzinę.",
-      "start": 25.89,
-      "end": 26.54,
+      "start": 26.807,
+      "end": 27.504,
       "phrase": 6
     },
     {
       "text": "Odłożyłam",
-      "start": 26.923,
-      "end": 27.516,
+      "start": 27.782,
+      "end": 28.34,
       "phrase": 7
     },
     {
       "text": "telefon",
-      "start": 27.574,
-      "end": 28.015,
+      "start": 28.398,
+      "end": 28.781,
       "phrase": 7
     },
     {
       "text": "w",
-      "start": 28.096,
-      "end": 28.131,
+      "start": 28.85,
+      "end": 28.885,
       "phrase": 7
     },
     {
       "text": "bardzo",
-      "start": 28.201,
-      "end": 28.584,
+      "start": 28.955,
+      "end": 29.292,
       "phrase": 7
     },
     {
       "text": "dobrym",
-      "start": 28.63,
-      "end": 28.909,
+      "start": 29.338,
+      "end": 29.651,
       "phrase": 7
     },
     {
       "text": "nastroju.",
-      "start": 28.955,
-      "end": 29.861,
+      "start": 29.698,
+      "end": 30.511,
       "phrase": 7
     }
   ],
@@ -429,49 +429,49 @@
       "index": 0,
       "text": "Wczoraj wieczorem zadzwoniła do mnie moja przyjaciółka Anna.",
       "start": 0,
-      "end": 3.193
+      "end": 3.413
     },
     {
       "index": 1,
       "text": "Powiedziała, że w sobotę organizuje małe przyjęcie z okazji urodzin.",
-      "start": 3.437,
-      "end": 7.686
+      "start": 3.657,
+      "end": 7.767
     },
     {
       "index": 2,
       "text": "Zapytała, czy mam ochotę przyjść i kogo jeszcze powinna zaprosić.",
-      "start": 8.069,
-      "end": 12.005
+      "start": 8.092,
+      "end": 11.947
     },
     {
       "index": 3,
       "text": "Odpowiedziałam, że bardzo się cieszę i na pewno będę.",
-      "start": 12.283,
-      "end": 15.209
+      "start": 12.225,
+      "end": 15.36
     },
     {
       "index": 4,
       "text": "Umówiłyśmy się, że przyniosę domowe ciasto i kilka napojów.",
-      "start": 15.534,
-      "end": 19.122
+      "start": 15.685,
+      "end": 19.551
     },
     {
       "index": 5,
       "text": "Rozmawiałyśmy jeszcze przez chwilę o pracy i o pogodzie.",
-      "start": 19.447,
-      "end": 22.616
+      "start": 19.795,
+      "end": 22.953
     },
     {
       "index": 6,
       "text": "Zanim się rozłączyłyśmy, podała mi dokładny adres i godzinę.",
-      "start": 22.895,
-      "end": 26.54
+      "start": 23.231,
+      "end": 27.504
     },
     {
       "index": 7,
       "text": "Odłożyłam telefon w bardzo dobrym nastroju.",
-      "start": 26.923,
-      "end": 29.861
+      "start": 27.782,
+      "end": 30.511
     }
   ]
 }
