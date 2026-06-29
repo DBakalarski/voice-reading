@@ -1,6 +1,12 @@
 // @vitest-environment node
 import { describe, it, expect } from "vitest";
-import { extractArticle, normalizeText, slugify, uniqueId } from "./article";
+import {
+  extractArticle,
+  normalizeText,
+  slugify,
+  trimBoilerplateText,
+  uniqueId,
+} from "./article";
 
 describe("normalizeText", () => {
   it("collapses whitespace and trims", () => {
@@ -18,6 +24,45 @@ describe("normalizeText", () => {
     expect(normalizeText("Kawa &amp; herbata &#8211; wyb&#243;r")).toBe(
       "Kawa & herbata – wybór",
     );
+  });
+});
+
+describe("trimBoilerplateText", () => {
+  // długi korpus, żeby marker w ostatnich 40% wyzwolił obcięcie
+  const body =
+    "Sen jest jedną z najważniejszych potrzeb organizmu. " +
+    "W trakcie snu mózg porządkuje wspomnienia i utrwala wiedzę. " +
+    "Dorosły człowiek powinien spać od siedmiu do dziewięciu godzin. " +
+    "Regularny rytm snu pomaga zachować zdrowie przez długie lata.";
+
+  it("cuts the tail from 'Literatura' onward", () => {
+    const input = `${body} Literatura Walker M. Dlaczego śpimy. Marginesy 2017.`;
+    expect(trimBoilerplateText(input)).toBe(body);
+  });
+
+  it("cuts the tail from 'Tagi:' onward", () => {
+    const input = `${body} Tagi: sen, mózg, zdrowie`;
+    expect(trimBoilerplateText(input)).toBe(body);
+  });
+
+  it("cuts the tail from 'Bibliografia' onward", () => {
+    const input = `${body} Bibliografia Kalat J.W. Biologiczne podstawy psychologii.`;
+    expect(trimBoilerplateText(input)).toBe(body);
+  });
+
+  it("removes a 'Przeczytaj też:' sentence", () => {
+    const input = `${body} Przeczytaj też: Mózg a emocje. ${body}`;
+    expect(trimBoilerplateText(input)).toBe(`${body} ${body}`);
+  });
+
+  it("removes a leading 'Przewidywany czas' prefix", () => {
+    const input = `Przewidywany czas: 5 min ${body}`;
+    expect(trimBoilerplateText(input)).toBe(body);
+  });
+
+  it("does NOT cut when the marker word appears early in the text", () => {
+    const input = `Literatura piękna bywa tematem snu. ${body}`;
+    expect(trimBoilerplateText(input)).toBe(input);
   });
 });
 

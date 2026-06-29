@@ -29,6 +29,39 @@ export function normalizeText(raw: string): string {
     .trim();
 }
 
+/** Markers whose appearance in the LAST ~40% of the text starts the tail to drop. */
+const TAIL_MARKERS = ["Literatura", "Bibliografia", "Przypisy", "Tagi:"];
+
+/**
+ * Strip boilerplate that survives in the plain text: a leading reading-time
+ * prefix, inline "Przeczytaj też:" callouts, and the bibliography/tags tail.
+ * The tail cut only fires when the marker sits in the back of the text, so an
+ * early mention of e.g. "literatura" in prose is left untouched.
+ */
+export function trimBoilerplateText(text: string): string {
+  let out = text;
+
+  // Leading "Przewidywany czas: N min".
+  out = out.replace(/^\s*Przewidywany czas:\s*\d+\s*min\s*/i, "");
+
+  // Inline "Przeczytaj też: …" up to (and including) the end of that sentence.
+  out = out.replace(/\s*Przeczytaj też:[^.!?]*[.!?]?/gi, " ");
+
+  // Tail cut: earliest tail marker that lands in the last 40% of the text.
+  const threshold = out.length * 0.6;
+  let cut = -1;
+  for (const marker of TAIL_MARKERS) {
+    const re = new RegExp(`\\b${marker.replace(/[:]/g, "\\$&")}`, "i");
+    const m = re.exec(out);
+    if (m && m.index >= threshold && (cut === -1 || m.index < cut)) {
+      cut = m.index;
+    }
+  }
+  if (cut !== -1) out = out.slice(0, cut);
+
+  return out.replace(/\s+/g, " ").trim();
+}
+
 /** Build a URL-safe ascii slug from a (possibly Polish) title. */
 export function slugify(input: string): string {
   const slug = input
