@@ -2,24 +2,27 @@ import "dotenv/config";
 import { createHash } from "node:crypto";
 import { existsSync } from "node:fs";
 import { mkdir, readFile, writeFile } from "node:fs/promises";
+import { pathToFileURL } from "node:url";
 import { ElevenLabsClient } from "@elevenlabs/elevenlabs-js";
 import { buildExercise } from "../src/lib/exercise";
 import type { Alignment, ContentItem, LibraryIndex } from "../src/lib/types";
 
-const apiKey = process.env.ELEVENLABS_API_KEY;
-const voiceId = process.env.ELEVENLABS_VOICE_ID;
-if (!apiKey || !voiceId) {
-  console.error("Missing ELEVENLABS_API_KEY or ELEVENLABS_VOICE_ID in .env");
-  process.exit(1);
-}
-
-const client = new ElevenLabsClient({ apiKey });
 const OUT_DIR = "public/library";
 const MANIFEST = `${OUT_DIR}/.manifest.json`;
 const MODEL_ID = "eleven_multilingual_v2";
 
+/** Throw early if the ElevenLabs credentials are missing. */
+export function requireElevenLabsEnv(): { apiKey: string; voiceId: string } {
+  const apiKey = process.env.ELEVENLABS_API_KEY;
+  const voiceId = process.env.ELEVENLABS_VOICE_ID;
+  if (!apiKey || !voiceId) {
+    throw new Error("Missing ELEVENLABS_API_KEY or ELEVENLABS_VOICE_ID in .env");
+  }
+  return { apiKey, voiceId };
+}
+
 /** A short fingerprint of what determines the audio: voice, model and text. */
-function fingerprint(text: string): string {
+function fingerprint(voiceId: string, text: string): string {
   return createHash("sha256")
     .update(`${voiceId}:${MODEL_ID}:${text}`)
     .digest("hex")
@@ -34,10 +37,26 @@ async function readManifest(): Promise<Record<string, string>> {
   }
 }
 
-async function main() {
-  const args = process.argv.slice(2);
-  const force = args.includes("--force");
-  const onlyIds = args.filter((a) => !a.startsWith("--"));
+export interface GenerateOptions {
+  /** Limit work to these ids; empty/omitted means all items. */
+  onlyIds?: string[];
+  /** Regenerate even if the text fingerprint is unchanged. */
+  force?: boolean;
+}
+
+export interface GenerateResult {
+  generated: number;
+  skipped: number;
+  failed: number;
+  count: number;
+}
+
+/** (Re)generate audio + alignment incrementally and rewrite the library index. */
+export async function generateLibrary(opts: GenerateOptions = {}): Promise<GenerateResult> {
+  const onlyIds = opts.onlyIds ?? [];
+  const force = opts.force ?? false;
+  const { apiKey, voiceId } = requireElevenLabsEnv();
+  const client = new ElevenLabsClient({ apiKey });
 
   const raw = await readFile("content/index.json", "utf8");
   const { exercises } = JSON.parse(raw) as { exercises: ContentItem[] };
@@ -60,7 +79,7 @@ async function main() {
     }
 
     const selected = onlyIds.length === 0 || onlyIds.includes(item.id);
-    const hash = fingerprint(item.text);
+    const hash = fingerprint(voiceId, item.text);
     const known = manifest[item.id];
 
     // Decide whether to (re)generate. Goal: never spend quota on unchanged text.
@@ -74,7 +93,7 @@ async function main() {
     if (needsGen) {
       try {
         console.log(`Generating "${item.id}" (${item.text.length} chars)...`);
-        const res = await client.textToSpeech.convertWithTimestamps(voiceId!, {
+        const res = await client.textToSpeech.convertWithTimestamps(voiceId, {
           text: item.text,
           modelId: MODEL_ID,
           outputFormat: "mp3_44100_128",
@@ -101,9 +120,7 @@ async function main() {
       }
     } else {
       skipped++;
-      if (!selected) {
-        // not targeted this run; only keep in index if already built
-      } else {
+      if (selected) {
         console.log(`Up to date "${item.id}" — skipping.`);
         if (known === undefined && filesExist) manifest[item.id] = hash; // backfill
       }
@@ -126,10 +143,20 @@ async function main() {
     `\nDone. ${generated} generated, ${skipped} up-to-date, ${failed} failed. ` +
       `${summaries.length} exercises in ${OUT_DIR}/index.json.`,
   );
-  if (failed > 0) process.exitCode = 1;
+  return { generated, skipped, failed, count: summaries.length };
 }
 
-main().catch((err) => {
-  console.error(err);
-  process.exit(1);
-});
+// CLI entry point — only runs when this file is executed directly.
+if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
+  const args = process.argv.slice(2);
+  const force = args.includes("--force");
+  const onlyIds = args.filter((a) => !a.startsWith("--"));
+  generateLibrary({ onlyIds, force })
+    .then((r) => {
+      if (r.failed > 0) process.exitCode = 1;
+    })
+    .catch((err) => {
+      console.error(err);
+      process.exit(1);
+    });
+}

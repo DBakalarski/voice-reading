@@ -1,26 +1,41 @@
+import "dotenv/config";
+import { execFileSync } from "node:child_process";
 import { readFile, writeFile } from "node:fs/promises";
 import { extractArticle, slugify, uniqueId } from "../src/lib/article";
+import { generateLibrary, requireElevenLabsEnv } from "./generate";
 import type { ContentItem } from "../src/lib/types";
 
 const CONTENT_FILE = "content/index.json";
-/** ElevenLabs free plan: ~10k characters per month. Warn past this. */
-const FREE_QUOTA_CHARS = 10_000;
 
 function fail(message: string): never {
-  console.error(message);
+  console.error(`\n✗ ${message}`);
   process.exit(1);
 }
 
+function git(args: string[]) {
+  console.log(`$ git ${args.join(" ")}`);
+  execFileSync("git", args, { stdio: "inherit" });
+}
+
 async function main() {
-  const url = process.argv[2];
+  const args = process.argv.slice(2);
+  const noCommit = args.includes("--no-commit");
+  const noPush = args.includes("--no-push");
+  const url = args.find((a) => !a.startsWith("--"));
+
   if (!url) {
-    fail('Usage: npm run fetch -- <url>\n  e.g. npm run fetch -- "https://blog.example/wpis"');
+    fail(
+      'Usage: npm run fetch -- <url> [--no-push] [--no-commit]\n' +
+        '  e.g. npm run fetch -- "https://blog.example/wpis"',
+    );
   }
   try {
     new URL(url);
   } catch {
     fail(`Invalid URL: ${url}`);
   }
+  // Fail fast before any network work if the audio credentials are missing.
+  requireElevenLabsEnv();
 
   console.log(`Fetching ${url} …`);
   const res = await fetch(url, {
@@ -39,25 +54,34 @@ async function main() {
 
   const raw = await readFile(CONTENT_FILE, "utf8");
   const content = JSON.parse(raw) as { exercises: ContentItem[] };
-  const existingIds = content.exercises.map((e) => e.id);
-  const id = uniqueId(`art-${slugify(title)}`, existingIds);
+  const id = uniqueId(`art-${slugify(title)}`, content.exercises.map((e) => e.id));
 
-  const entry: ContentItem = { id, title, category: "article", url, text };
-  content.exercises.push(entry);
+  content.exercises.push({ id, title, category: "article", url, text });
   await writeFile(CONTENT_FILE, JSON.stringify(content, null, 2) + "\n");
+  console.log(`Added "${title}" (id: ${id}, ${text.length} chars).`);
 
-  console.log(`\nAdded "${title}"`);
-  console.log(`  id:    ${id}`);
-  console.log(`  chars: ${text.length}`);
-  if (text.length > FREE_QUOTA_CHARS) {
-    console.warn(
-      `  ⚠ ${text.length} chars exceeds the ~${FREE_QUOTA_CHARS}-char/month free ElevenLabs quota.\n` +
-        `    Consider trimming the "text" of "${id}" in ${CONTENT_FILE} before generating.`,
+  console.log(`\nGenerating audio…`);
+  const result = await generateLibrary({ onlyIds: [id] });
+  if (result.failed > 0) {
+    fail(
+      `Audio generation failed for "${id}" (likely ElevenLabs quota).\n` +
+        `  The entry stays in ${CONTENT_FILE}. Trim its text or wait for quota, then run:\n` +
+        `    npm run generate -- ${id}\n` +
+        `  Nothing was committed.`,
     );
   }
-  console.log(
-    `\nReview/edit the text in ${CONTENT_FILE}, then run:\n  npm run generate`,
-  );
+
+  if (noCommit) {
+    console.log("\nDone (skipped commit). Review, then commit when ready.");
+    return;
+  }
+
+  console.log("");
+  git(["add", CONTENT_FILE, "public/library"]);
+  git(["commit", "-m", `content: import article "${title}"`]);
+  if (!noPush) git(["push"]);
+
+  console.log(`\n✓ Imported "${title}"${noPush ? " (committed, not pushed)" : " and pushed"}.`);
 }
 
 main().catch((err) => {

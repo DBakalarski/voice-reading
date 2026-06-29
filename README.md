@@ -22,16 +22,27 @@ Treści żyją w `content/index.json`. Każdy wpis ma `id`, `title`, `text` oraz
 
 Dodaj wpis z `level` i `text`, a następnie wygeneruj audio (poniżej).
 
-### Import artykułu z linku
+### Import artykułu z linku (wszystko jednym poleceniem)
 
 ```bash
+# .env: ELEVENLABS_API_KEY + ELEVENLABS_VOICE_ID
 npm run fetch -- "https://adres-artykulu"
 ```
 
-Skrypt pobiera stronę, wyciąga główną treść (Readability), nadaje `id`, ustawia
-`category: "article"`, bierze tytuł ze strony i **dopisuje gotowy wpis do
-`content/index.json`**. Przejrzyj i w razie potrzeby przytnij `text` (np. spis
-treści, stopkę, bio autora) — to oszczędza limit znaków ElevenLabs.
+Jedno polecenie robi całość: pobiera stronę, wyciąga główną treść (Readability),
+nadaje `id`, ustawia `category: "article"`, dopisuje wpis do `content/index.json`,
+**generuje audio + alignment**, a następnie **commituje i pushuje**.
+
+Flagi:
+
+```bash
+npm run fetch -- "<url>" --no-push     # zatrzymaj się na commicie
+npm run fetch -- "<url>" --no-commit   # tylko pobierz + wygeneruj (do podglądu)
+```
+
+Jeśli generacja padnie (np. limit ElevenLabs), wpis zostaje w `content/index.json`,
+a skrypt NIC nie commituje — przytnij `text` lub poczekaj na limit i dokończ przez
+`npm run generate -- <id>`.
 
 Artykuły pojawiają się w osobnej karcie „Artykuły" na ekranie głównym (widocznej
 tylko gdy istnieje co najmniej jeden artykuł).
