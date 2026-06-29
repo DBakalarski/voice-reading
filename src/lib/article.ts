@@ -113,8 +113,9 @@ export function extractArticle(html: string, url: string): ExtractedArticle {
   // A bare VirtualConsole with no listeners swallows jsdom's noisy CSS/resource
   // parse errors that real-world pages routinely trigger.
   const dom = new JSDOM(html, { url, virtualConsole: new VirtualConsole() });
+  stripBoilerplate(dom.window.document);
   const parsed = new Readability(dom.window.document).parse();
-  const text = parsed ? normalizeText(parsed.textContent ?? "") : "";
+  const text = parsed ? trimBoilerplateText(normalizeText(parsed.textContent ?? "")) : "";
   if (!text) {
     throw new Error(
       "Nie udało się wyodrębnić treści artykułu z tej strony. Sprawdź link.",

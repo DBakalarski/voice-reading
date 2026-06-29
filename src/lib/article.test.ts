@@ -118,6 +118,29 @@ describe("extractArticle", () => {
       /tre/i,
     );
   });
+
+  const dirtyHtml = `<!DOCTYPE html><html><head><title>Po co nam sen — Nauka To Lubię</title></head>
+  <body>
+    <article>
+      <div class="ntl-reading-time">Przewidywany czas: 5 min</div>
+      <h1>Po co nam sen</h1>
+      <div id="ez-toc-container" class="ez-toc-container-direction"><p>Spis treści</p><ul><li>Co to jest sen?</li><li>Po co nam sen?</li></ul></div>
+      <p>Sen jest jedną z najważniejszych potrzeb naszego organizmu i pełni wiele kluczowych funkcji. W trakcie snu mózg porządkuje wspomnienia z całego dnia oraz utrwala nowo zdobytą wiedzę i umiejętności.</p>
+      <p>Brak odpowiedniej ilości snu prowadzi do problemów z koncentracją oraz osłabienia odporności. Dorosły człowiek powinien spać od siedmiu do dziewięciu godzin na dobę, aby zachować zdrowie fizyczne i psychiczne.</p>
+      <p><strong>Literatura</strong> Walker M. Dlaczego śpimy. Marginesy 2017. Kalat J.W. Biologiczne podstawy psychologii. PWN 2020.</p>
+      <div class="ntl-authorbox">Autor Joanna Śliwowska — z wykształcenia biolog.</div>
+    </article>
+  </body></html>`;
+
+  it("strips reading-time, TOC, bibliography and author box", () => {
+    const { text } = extractArticle(dirtyHtml, "https://naukatolubie.pl/po-co-nam-sen/");
+    expect(text).toContain("Sen jest jedną z najważniejszych potrzeb");
+    expect(text).toContain("siedmiu do dziewięciu godzin");
+    expect(text).not.toContain("Przewidywany czas");
+    expect(text).not.toContain("Spis treści");
+    expect(text).not.toContain("Walker M.");
+    expect(text).not.toContain("Joanna Śliwowska");
+  });
 });
 
 describe("stripBoilerplate", () => {
