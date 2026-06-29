@@ -1,7 +1,19 @@
 {
   "exercises": [
-    { "id": "powitanie", "title": "Codzienne powitania", "text": "Dzień dobry. Jak się masz? Miło cię widzieć." },
-    { "id": "dom", "title": "W domu", "text": "Otwieram okno. Na stole leży chleb. Kot śpi na kanapie." },
-    { "id": "spacer", "title": "Spacer", "text": "Idę do parku. Świeci słońce. Spotykam sąsiada i mówię cześć." }
+    {
+      "id": "latwy",
+      "title": "Poziom 1 — Łatwy: Poranek",
+      "text": "Dzień dobry. Jest ranek. Słońce wschodzi. Wstaję z łóżka. Otwieram okno. Powietrze jest świeże. Robię herbatę. Piję ją powoli. Na stole leży chleb. Jem śniadanie. Potem myję naczynia. Czuję się dobrze. Zaczynam nowy dzień."
+    },
+    {
+      "id": "sredni",
+      "title": "Poziom 2 — Średni: Na targu",
+      "text": "W sobotę rano poszłam na targ niedaleko domu. Na straganach leżały świeże warzywa i owoce. Kupiłam kilogram jabłek, bochenek chleba i bukiet kwiatów. Sprzedawca uśmiechnął się i zapytał, jak mija mi dzień. Powiedziałam, że bardzo dobrze, bo pogoda była słoneczna. W drodze powrotnej spotkałam sąsiadkę, która niosła ciężką torbę. Pomogłam jej donieść zakupy do domu. Kiedy wróciłam, zaparzyłam kawę i usiadłam przy oknie. To był spokojny i miły poranek."
+    },
+    {
+      "id": "trudny",
+      "title": "Poziom 3 — Trudny: Jesień w mieście",
+      "text": "Jesień w mieście ma swój własny, niepowtarzalny rytm. Poranki stają się chłodniejsze, a światło, które wpada między kamienice, nabiera złotawej barwy. Liście, początkowo zielone, powoli przybierają odcienie żółci, pomarańczy i czerwieni, by w końcu opaść na wilgotne chodniki. Ludzie idą szybciej niż latem, chowając dłonie w kieszeniach płaszczy. Z otwartych drzwi kawiarni unosi się zapach cynamonu i świeżo mielonej kawy. Mimo wczesnej pory ulice tętnią życiem: tramwaje suną wzdłuż torów, a gdzieś w oddali słychać dzwony kościoła. Dla wielu mieszkańców to właśnie ta pora roku, choć krótka i zmienna, kryje w sobie najwięcej spokoju i zadumy."
+    }
   ]
 }

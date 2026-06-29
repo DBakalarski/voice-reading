@@ -1,0 +1,291 @@
+{
+  "id": "latwy",
+  "title": "Poziom 1 — Łatwy: Poranek",
+  "audio": "/library/latwy.mp3",
+  "words": [
+    {
+      "text": "Dzień",
+      "start": 0,
+      "end": 0.348,
+      "phrase": 0
+    },
+    {
+      "text": "dobry.",
+      "start": 0.395,
+      "end": 0.94,
+      "phrase": 0
+    },
+    {
+      "text": "Jest",
+      "start": 1.057,
+      "end": 1.312,
+      "phrase": 1
+    },
+    {
+      "text": "ranek.",
+      "start": 1.382,
+      "end": 2.02,
+      "phrase": 1
+    },
+    {
+      "text": "Słońce",
+      "start": 2.171,
+      "end": 2.577,
+      "phrase": 2
+    },
+    {
+      "text": "wschodzi.",
+      "start": 2.612,
+      "end": 3.297,
+      "phrase": 2
+    },
+    {
+      "text": "Wstaję",
+      "start": 3.448,
+      "end": 3.878,
+      "phrase": 3
+    },
+    {
+      "text": "z",
+      "start": 3.913,
+      "end": 3.936,
+      "phrase": 3
+    },
+    {
+      "text": "łóżka.",
+      "start": 3.994,
+      "end": 4.551,
+      "phrase": 3
+    },
+    {
+      "text": "Otwieram",
+      "start": 4.598,
+      "end": 5.062,
+      "phrase": 4
+    },
+    {
+      "text": "okno.",
+      "start": 5.132,
+      "end": 5.735,
+      "phrase": 4
+    },
+    {
+      "text": "Powietrze",
+      "start": 5.909,
+      "end": 6.409,
+      "phrase": 5
+    },
+    {
+      "text": "jest",
+      "start": 6.444,
+      "end": 6.629,
+      "phrase": 5
+    },
+    {
+      "text": "świeże.",
+      "start": 6.687,
+      "end": 7.384,
+      "phrase": 5
+    },
+    {
+      "text": "Robię",
+      "start": 7.663,
+      "end": 7.895,
+      "phrase": 6
+    },
+    {
+      "text": "herbatę.",
+      "start": 7.93,
+      "end": 8.638,
+      "phrase": 6
+    },
+    {
+      "text": "Piję",
+      "start": 8.812,
+      "end": 9.137,
+      "phrase": 7
+    },
+    {
+      "text": "ją",
+      "start": 9.183,
+      "end": 9.323,
+      "phrase": 7
+    },
+    {
+      "text": "powoli.",
+      "start": 9.381,
+      "end": 10.043,
+      "phrase": 7
+    },
+    {
+      "text": "Na",
+      "start": 10.321,
+      "end": 10.484,
+      "phrase": 8
+    },
+    {
+      "text": "stole",
+      "start": 10.53,
+      "end": 10.832,
+      "phrase": 8
+    },
+    {
+      "text": "leży",
+      "start": 10.879,
+      "end": 11.099,
+      "phrase": 8
+    },
+    {
+      "text": "chleb.",
+      "start": 11.122,
+      "end": 11.622,
+      "phrase": 8
+    },
+    {
+      "text": "Jem",
+      "start": 11.796,
+      "end": 11.993,
+      "phrase": 9
+    },
+    {
+      "text": "śniadanie.",
+      "start": 12.063,
+      "end": 12.864,
+      "phrase": 9
+    },
+    {
+      "text": "Potem",
+      "start": 13.142,
+      "end": 13.514,
+      "phrase": 10
+    },
+    {
+      "text": "myję",
+      "start": 13.63,
+      "end": 13.897,
+      "phrase": 10
+    },
+    {
+      "text": "naczynia.",
+      "start": 13.944,
+      "end": 14.64,
+      "phrase": 10
+    },
+    {
+      "text": "Czuję",
+      "start": 14.814,
+      "end": 15.105,
+      "phrase": 11
+    },
+    {
+      "text": "się",
+      "start": 15.151,
+      "end": 15.244,
+      "phrase": 11
+    },
+    {
+      "text": "dobrze.",
+      "start": 15.29,
+      "end": 15.894,
+      "phrase": 11
+    },
+    {
+      "text": "Zaczynam",
+      "start": 16.138,
+      "end": 16.614,
+      "phrase": 12
+    },
+    {
+      "text": "nowy",
+      "start": 16.672,
+      "end": 16.869,
+      "phrase": 12
+    },
+    {
+      "text": "dzień.",
+      "start": 16.893,
+      "end": 17.461,
+      "phrase": 12
+    }
+  ],
+  "phrases": [
+    {
+      "index": 0,
+      "text": "Dzień dobry.",
+      "start": 0,
+      "end": 0.94
+    },
+    {
+      "index": 1,
+      "text": "Jest ranek.",
+      "start": 1.057,
+      "end": 2.02
+    },
+    {
+      "index": 2,
+      "text": "Słońce wschodzi.",
+      "start": 2.171,
+      "end": 3.297
+    },
+    {
+      "index": 3,
+      "text": "Wstaję z łóżka.",
+      "start": 3.448,
+      "end": 4.551
+    },
+    {
+      "index": 4,
+      "text": "Otwieram okno.",
+      "start": 4.598,
+      "end": 5.735
+    },
+    {
+      "index": 5,
+      "text": "Powietrze jest świeże.",
+      "start": 5.909,
+      "end": 7.384
+    },
+    {
+      "index": 6,
+      "text": "Robię herbatę.",
+      "start": 7.663,
+      "end": 8.638
+    },
+    {
+      "index": 7,
+      "text": "Piję ją powoli.",
+      "start": 8.812,
+      "end": 10.043
+    },
+    {
+      "index": 8,
+      "text": "Na stole leży chleb.",
+      "start": 10.321,
+      "end": 11.622
+    },
+    {
+      "index": 9,
+      "text": "Jem śniadanie.",
+      "start": 11.796,
+      "end": 12.864
+    },
+    {
+      "index": 10,
+      "text": "Potem myję naczynia.",
+      "start": 13.142,
+      "end": 14.64
+    },
+    {
+      "index": 11,
+      "text": "Czuję się dobrze.",
+      "start": 14.814,
+      "end": 15.894
+    },
+    {
+      "index": 12,
+      "text": "Zaczynam nowy dzień.",
+      "start": 16.138,
+      "end": 17.461
+    }
+  ]
+}

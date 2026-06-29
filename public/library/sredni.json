@@ -1,0 +1,477 @@
+{
+  "id": "sredni",
+  "title": "Poziom 2 — Średni: Na targu",
+  "audio": "/library/sredni.mp3",
+  "words": [
+    {
+      "text": "W",
+      "start": 0,
+      "end": 0.151,
+      "phrase": 0
+    },
+    {
+      "text": "sobotę",
+      "start": 0.209,
+      "end": 0.546,
+      "phrase": 0
+    },
+    {
+      "text": "rano",
+      "start": 0.58,
+      "end": 0.836,
+      "phrase": 0
+    },
+    {
+      "text": "poszłam",
+      "start": 0.894,
+      "end": 1.231,
+      "phrase": 0
+    },
+    {
+      "text": "na",
+      "start": 1.289,
+      "end": 1.37,
+      "phrase": 0
+    },
+    {
+      "text": "targ",
+      "start": 1.44,
+      "end": 1.753,
+      "phrase": 0
+    },
+    {
+      "text": "niedaleko",
+      "start": 1.834,
+      "end": 2.276,
+      "phrase": 0
+    },
+    {
+      "text": "domu.",
+      "start": 2.334,
+      "end": 2.856,
+      "phrase": 0
+    },
+    {
+      "text": "Na",
+      "start": 3.007,
+      "end": 3.158,
+      "phrase": 1
+    },
+    {
+      "text": "straganach",
+      "start": 3.193,
+      "end": 3.843,
+      "phrase": 1
+    },
+    {
+      "text": "leżały",
+      "start": 3.924,
+      "end": 4.272,
+      "phrase": 1
+    },
+    {
+      "text": "świeże",
+      "start": 4.331,
+      "end": 4.644,
+      "phrase": 1
+    },
+    {
+      "text": "warzywa",
+      "start": 4.69,
+      "end": 5.12,
+      "phrase": 1
+    },
+    {
+      "text": "i",
+      "start": 5.19,
+      "end": 5.236,
+      "phrase": 1
+    },
+    {
+      "text": "owoce.",
+      "start": 5.306,
+      "end": 5.956,
+      "phrase": 1
+    },
+    {
+      "text": "Kupiłam",
+      "start": 6.2,
+      "end": 6.653,
+      "phrase": 2
+    },
+    {
+      "text": "kilogram",
+      "start": 6.722,
+      "end": 7.163,
+      "phrase": 2
+    },
+    {
+      "text": "jabłek,",
+      "start": 7.233,
+      "end": 7.779,
+      "phrase": 2
+    },
+    {
+      "text": "bochenek",
+      "start": 7.837,
+      "end": 8.29,
+      "phrase": 2
+    },
+    {
+      "text": "chleba",
+      "start": 8.371,
+      "end": 8.858,
+      "phrase": 2
+    },
+    {
+      "text": "i",
+      "start": 8.975,
+      "end": 9.091,
+      "phrase": 2
+    },
+    {
+      "text": "bukiet",
+      "start": 9.172,
+      "end": 9.451,
+      "phrase": 2
+    },
+    {
+      "text": "kwiatów.",
+      "start": 9.52,
+      "end": 10.159,
+      "phrase": 2
+    },
+    {
+      "text": "Sprzedawca",
+      "start": 10.437,
+      "end": 10.995,
+      "phrase": 3
+    },
+    {
+      "text": "uśmiechnął",
+      "start": 11.064,
+      "end": 11.656,
+      "phrase": 3
+    },
+    {
+      "text": "się",
+      "start": 11.726,
+      "end": 11.9,
+      "phrase": 3
+    },
+    {
+      "text": "i",
+      "start": 12.016,
+      "end": 12.074,
+      "phrase": 3
+    },
+    {
+      "text": "zapytał,",
+      "start": 12.156,
+      "end": 12.748,
+      "phrase": 3
+    },
+    {
+      "text": "jak",
+      "start": 12.817,
+      "end": 13.015,
+      "phrase": 3
+    },
+    {
+      "text": "mija",
+      "start": 13.096,
+      "end": 13.293,
+      "phrase": 3
+    },
+    {
+      "text": "mi",
+      "start": 13.351,
+      "end": 13.444,
+      "phrase": 3
+    },
+    {
+      "text": "dzień.",
+      "start": 13.479,
+      "end": 14.048,
+      "phrase": 3
+    },
+    {
+      "text": "Powiedziałam,",
+      "start": 14.327,
+      "end": 14.896,
+      "phrase": 4
+    },
+    {
+      "text": "że",
+      "start": 14.942,
+      "end": 15.023,
+      "phrase": 4
+    },
+    {
+      "text": "bardzo",
+      "start": 15.07,
+      "end": 15.36,
+      "phrase": 4
+    },
+    {
+      "text": "dobrze,",
+      "start": 15.407,
+      "end": 15.836,
+      "phrase": 4
+    },
+    {
+      "text": "bo",
+      "start": 15.871,
+      "end": 16.034,
+      "phrase": 4
+    },
+    {
+      "text": "pogoda",
+      "start": 16.092,
+      "end": 16.475,
+      "phrase": 4
+    },
+    {
+      "text": "była",
+      "start": 16.521,
+      "end": 16.707,
+      "phrase": 4
+    },
+    {
+      "text": "słoneczna.",
+      "start": 16.753,
+      "end": 17.52,
+      "phrase": 4
+    },
+    {
+      "text": "W",
+      "start": 17.903,
+      "end": 17.961,
+      "phrase": 5
+    },
+    {
+      "text": "drodze",
+      "start": 18.03,
+      "end": 18.309,
+      "phrase": 5
+    },
+    {
+      "text": "powrotnej",
+      "start": 18.344,
+      "end": 18.797,
+      "phrase": 5
+    },
+    {
+      "text": "spotkałam",
+      "start": 18.832,
+      "end": 19.308,
+      "phrase": 5
+    },
+    {
+      "text": "sąsiadkę,",
+      "start": 19.366,
+      "end": 19.934,
+      "phrase": 5
+    },
+    {
+      "text": "która",
+      "start": 19.969,
+      "end": 20.201,
+      "phrase": 5
+    },
+    {
+      "text": "niosła",
+      "start": 20.26,
+      "end": 20.585,
+      "phrase": 5
+    },
+    {
+      "text": "ciężką",
+      "start": 20.631,
+      "end": 21.014,
+      "phrase": 5
+    },
+    {
+      "text": "torbę.",
+      "start": 21.084,
+      "end": 21.606,
+      "phrase": 5
+    },
+    {
+      "text": "Pomogłam",
+      "start": 21.815,
+      "end": 22.315,
+      "phrase": 6
+    },
+    {
+      "text": "jej",
+      "start": 22.396,
+      "end": 22.477,
+      "phrase": 6
+    },
+    {
+      "text": "donieść",
+      "start": 22.535,
+      "end": 22.918,
+      "phrase": 6
+    },
+    {
+      "text": "zakupy",
+      "start": 22.999,
+      "end": 23.359,
+      "phrase": 6
+    },
+    {
+      "text": "do",
+      "start": 23.406,
+      "end": 23.487,
+      "phrase": 6
+    },
+    {
+      "text": "domu.",
+      "start": 23.534,
+      "end": 24.01,
+      "phrase": 6
+    },
+    {
+      "text": "Kiedy",
+      "start": 24.184,
+      "end": 24.428,
+      "phrase": 7
+    },
+    {
+      "text": "wróciłam,",
+      "start": 24.462,
+      "end": 25.124,
+      "phrase": 7
+    },
+    {
+      "text": "zaparzyłam",
+      "start": 25.217,
+      "end": 25.763,
+      "phrase": 7
+    },
+    {
+      "text": "kawę",
+      "start": 25.832,
+      "end": 26.123,
+      "phrase": 7
+    },
+    {
+      "text": "i",
+      "start": 26.181,
+      "end": 26.215,
+      "phrase": 7
+    },
+    {
+      "text": "usiadłam",
+      "start": 26.285,
+      "end": 26.703,
+      "phrase": 7
+    },
+    {
+      "text": "przy",
+      "start": 26.726,
+      "end": 26.9,
+      "phrase": 7
+    },
+    {
+      "text": "oknie.",
+      "start": 26.958,
+      "end": 27.481,
+      "phrase": 7
+    },
+    {
+      "text": "To",
+      "start": 27.725,
+      "end": 27.841,
+      "phrase": 8
+    },
+    {
+      "text": "był",
+      "start": 27.887,
+      "end": 28.027,
+      "phrase": 8
+    },
+    {
+      "text": "spokojny",
+      "start": 28.073,
+      "end": 28.735,
+      "phrase": 8
+    },
+    {
+      "text": "i",
+      "start": 28.816,
+      "end": 28.886,
+      "phrase": 8
+    },
+    {
+      "text": "miły",
+      "start": 28.967,
+      "end": 29.234,
+      "phrase": 8
+    },
+    {
+      "text": "poranek.",
+      "start": 29.28,
+      "end": 30.047,
+      "phrase": 8
+    }
+  ],
+  "phrases": [
+    {
+      "index": 0,
+      "text": "W sobotę rano poszłam na targ niedaleko domu.",
+      "start": 0,
+      "end": 2.856
+    },
+    {
+      "index": 1,
+      "text": "Na straganach leżały świeże warzywa i owoce.",
+      "start": 3.007,
+      "end": 5.956
+    },
+    {
+      "index": 2,
+      "text": "Kupiłam kilogram jabłek, bochenek chleba i bukiet kwiatów.",
+      "start": 6.2,
+      "end": 10.159
+    },
+    {
+      "index": 3,
+      "text": "Sprzedawca uśmiechnął się i zapytał, jak mija mi dzień.",
+      "start": 10.437,
+      "end": 14.048
+    },
+    {
+      "index": 4,
+      "text": "Powiedziałam, że bardzo dobrze, bo pogoda była słoneczna.",
+      "start": 14.327,
+      "end": 17.52
+    },
+    {
+      "index": 5,
+      "text": "W drodze powrotnej spotkałam sąsiadkę, która niosła ciężką torbę.",
+      "start": 17.903,
+      "end": 21.606
+    },
+    {
+      "index": 6,
+      "text": "Pomogłam jej donieść zakupy do domu.",
+      "start": 21.815,
+      "end": 24.01
+    },
+    {
+      "index": 7,
+      "text": "Kiedy wróciłam, zaparzyłam kawę i usiadłam przy oknie.",
+      "start": 24.184,
+      "end": 27.481
+    },
+    {
+      "index": 8,
+      "text": "To był spokojny i miły poranek.",
+      "start": 27.725,
+      "end": 30.047
+    }
+  ]
+}

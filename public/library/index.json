@@ -1,16 +1,16 @@
 {
   "exercises": [
     {
-      "id": "powitanie",
-      "title": "Codzienne powitania"
+      "id": "latwy",
+      "title": "Poziom 1 — Łatwy: Poranek"
     },
     {
-      "id": "dom",
-      "title": "W domu"
+      "id": "sredni",
+      "title": "Poziom 2 — Średni: Na targu"
     },
     {
-      "id": "spacer",
-      "title": "Spacer"
+      "id": "trudny",
+      "title": "Poziom 3 — Trudny: Jesień w mieście"
     }
   ]
 }
