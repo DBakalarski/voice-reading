@@ -101,6 +101,16 @@ export function stripBoilerplate(document: Document): void {
       el.remove();
     }
   }
+
+  // Remove "Przeczytaj też: …" callout paragraphs (including multi-sentence ones
+  // whose link text contains additional periods) before Readability runs. We
+  // restrict the query to leaf-ish containers so we never accidentally remove a
+  // large ancestor.
+  for (const el of Array.from(document.querySelectorAll("p, li, aside, blockquote"))) {
+    if (el.textContent?.trim().toLowerCase().startsWith("przeczytaj też")) {
+      el.remove();
+    }
+  }
 }
 
 export interface ExtractedArticle {

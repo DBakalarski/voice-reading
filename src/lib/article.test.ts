@@ -160,4 +160,17 @@ describe("stripBoilerplate", () => {
     expect(html).not.toContain("Przewidywany czas");
     expect(html).not.toContain("Joanna Śliwowska");
   });
+
+  it("removes a multi-sentence 'Przeczytaj też' callout paragraph at DOM level", () => {
+    const dom = new JSDOM(`<!DOCTYPE html><html><body>
+      <p>Treść artykułu o śnie i jego fazach.</p>
+      <p>Przeczytaj też: <a href="#">Mózg a emocje. Na tropach neurobiologii agresji i empatii</a></p>
+    </body></html>`);
+    stripBoilerplate(dom.window.document);
+    const textContent = dom.window.document.body.textContent ?? "";
+    expect(textContent).toContain("Treść artykułu o śnie");
+    expect(textContent).not.toContain("Przeczytaj też");
+    expect(textContent).not.toContain("Mózg a emocje");
+    expect(textContent).not.toContain("Na tropach neurobiologii");
+  });
 });
