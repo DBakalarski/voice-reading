@@ -11,7 +11,9 @@
   transition: background-color 80ms linear;
   /* Keep the active word clear of the sticky controls when auto-scrolled. */
   scroll-margin-top: 6rem;
-  scroll-margin-bottom: 3rem;
+  /* Large bottom margin makes `block: "nearest"` scroll early — the read word
+     settles around the middle of the screen instead of sinking to the bottom. */
+  scroll-margin-bottom: 45vh;
 }
 
 .currentPhrase {
