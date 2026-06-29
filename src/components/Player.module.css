@@ -35,6 +35,29 @@
   cursor: pointer;
 }
 
+.fontControls {
+  display: flex;
+  gap: 0.5rem;
+  flex-shrink: 0;
+}
+
+.fontButton {
+  font-size: 1rem;
+  line-height: 1;
+  min-width: 2.75rem;
+  padding: 0.6rem 0.5rem;
+  border: 1px solid #ced4da;
+  border-radius: 0.5rem;
+  background: #f8f9fa;
+  color: #495057;
+  cursor: pointer;
+}
+
+.fontButton:disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+
 .progress {
   flex: 1;
   height: 0.5rem;

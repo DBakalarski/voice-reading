@@ -8,9 +8,11 @@ interface Props {
   words: Word[];
   wordIndex: number;
   phraseIndex: number;
+  /** Text size in rem; overrides the CSS default when provided. */
+  fontSize?: number;
 }
 
-export function HighlightedText({ words, wordIndex, phraseIndex }: Props) {
+export function HighlightedText({ words, wordIndex, phraseIndex, fontSize }: Props) {
   const activeWordRef = useRef<HTMLSpanElement>(null);
 
   // Gently follow the reading: nudge the page only when the active word is
@@ -31,7 +33,7 @@ export function HighlightedText({ words, wordIndex, phraseIndex }: Props) {
   }, [wordIndex]);
 
   return (
-    <p className={styles.text}>
+    <p className={styles.text} style={fontSize ? { fontSize: `${fontSize}rem` } : undefined}>
       {words.map((w, i) => {
         const isWord = i === wordIndex;
         const isPhrase = phraseIndex !== -1 && w.phrase === phraseIndex;
