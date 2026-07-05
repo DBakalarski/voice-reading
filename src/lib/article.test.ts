@@ -2,6 +2,7 @@
 import { describe, it, expect } from "vitest";
 import { JSDOM } from "jsdom";
 import {
+  buildArticleParts,
   chunkText,
   extractArticle,
   normalizeText,
@@ -198,5 +199,25 @@ describe("chunkText", () => {
     expect(chunks.length).toBeGreaterThan(1);
     for (const c of chunks) expect(c.length).toBeLessThanOrEqual(50);
     expect(chunks.join(" ")).toBe(longSentence);
+  });
+});
+
+describe("buildArticleParts", () => {
+  it("returns a single unnumbered item when there is one chunk", () => {
+    const parts = buildArticleParts("art-sen", "Sen", ["Cały tekst."]);
+    expect(parts).toEqual([{ id: "art-sen", title: "Sen", text: "Cały tekst." }]);
+  });
+
+  it("numbers parts, adds Polish suffix and chains nextId", () => {
+    const parts = buildArticleParts("art-sen", "Sen", ["Jeden.", "Dwa.", "Trzy."]);
+    expect(parts.map((p) => p.id)).toEqual(["art-sen-cz-1", "art-sen-cz-2", "art-sen-cz-3"]);
+    expect(parts.map((p) => p.title)).toEqual([
+      "Sen (część 1)",
+      "Sen (część 2)",
+      "Sen (część 3)",
+    ]);
+    expect(parts[0].part).toEqual({ index: 1, total: 3, nextId: "art-sen-cz-2" });
+    expect(parts[1].part).toEqual({ index: 2, total: 3, nextId: "art-sen-cz-3" });
+    expect(parts[2].part).toEqual({ index: 3, total: 3, nextId: undefined });
   });
 });

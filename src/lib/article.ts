@@ -1,5 +1,6 @@
 import { JSDOM, VirtualConsole } from "jsdom";
 import { Readability } from "@mozilla/readability";
+import type { PartInfo } from "./types";
 
 const POLISH: Record<string, string> = {
   ą: "a", ć: "c", ę: "e", ł: "l", ń: "n", ó: "o", ś: "s", ź: "z", ż: "z",
@@ -186,4 +187,25 @@ export function extractArticle(html: string, url: string): ExtractedArticle {
   }
   const title = normalizeText(parsed?.title ?? "") || dom.window.document.title || url;
   return { title, text };
+}
+
+/** Turn chunked article text into content items. One chunk stays a plain,
+ *  unnumbered item; multiple chunks become numbered parts that chain via
+ *  `nextId`. */
+export function buildArticleParts(
+  baseId: string,
+  title: string,
+  chunks: string[],
+): Array<{ id: string; title: string; text: string; part?: PartInfo }> {
+  if (chunks.length === 1) {
+    return [{ id: baseId, title, text: chunks[0] }];
+  }
+  const total = chunks.length;
+  const ids = chunks.map((_, i) => `${baseId}-cz-${i + 1}`);
+  return chunks.map((text, i) => ({
+    id: ids[i],
+    title: `${title} (część ${i + 1})`,
+    text,
+    part: { index: i + 1, total, nextId: i + 1 < total ? ids[i + 1] : undefined },
+  }));
 }

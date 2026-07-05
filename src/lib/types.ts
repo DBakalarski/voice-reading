@@ -33,6 +33,13 @@ export interface LibraryIndex {
   exercises: ExerciseSummary[];
 }
 
+/** Position of one part within a split (multi-part) article. */
+export interface PartInfo {
+  index: number; // 1-based
+  total: number;
+  nextId?: string; // id of the next part; absent on the last part
+}
+
 /** An authored content entry in content/index.json (input to the generate pipeline). */
 export interface ContentItem {
   id: string;
@@ -43,6 +50,8 @@ export interface ContentItem {
   url?: string;
   /** The text read aloud. Filled by `npm run fetch` for articles. */
   text?: string;
+  /** Set only for split articles; absent for single-chunk articles and exercises. */
+  part?: PartInfo;
 }
 
 /** Shape of the `alignment` object returned by ElevenLabs convertWithTimestamps. */
