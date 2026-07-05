@@ -10,6 +10,7 @@ import {
   stripBoilerplate,
   trimBoilerplateText,
   uniqueId,
+  uniquePartBase,
 } from "./article";
 
 describe("normalizeText", () => {
@@ -88,6 +89,20 @@ describe("uniqueId", () => {
 
   it("suffixes a counter on collision", () => {
     expect(uniqueId("art-sen", ["art-sen", "art-sen-2"])).toBe("art-sen-3");
+  });
+});
+
+describe("uniquePartBase", () => {
+  it("returns the base when no part id in the family collides", () => {
+    expect(uniquePartBase("art-sen", 3, ["art-inne", "art-sen-cz-1-stare"])).toBe("art-sen");
+  });
+
+  it("bumps the base until the whole -cz family is free", () => {
+    expect(uniquePartBase("art-sen", 3, ["art-sen-cz-1"])).toBe("art-sen-2");
+  });
+
+  it("bumps again when the bumped family also collides", () => {
+    expect(uniquePartBase("art-sen", 3, ["art-sen-cz-1", "art-sen-2-cz-2"])).toBe("art-sen-3");
   });
 });
 

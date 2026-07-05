@@ -7,6 +7,7 @@ import {
   extractArticle,
   slugify,
   uniqueId,
+  uniquePartBase,
 } from "../src/lib/article";
 import { generateLibrary, requireElevenLabsEnv } from "./generate";
 import type { ContentItem } from "../src/lib/types";
@@ -60,8 +61,14 @@ async function main() {
 
   const raw = await readFile(CONTENT_FILE, "utf8");
   const content = JSON.parse(raw) as { exercises: ContentItem[] };
-  const baseId = uniqueId(`art-${slugify(title)}`, content.exercises.map((e) => e.id));
-  const parts = buildArticleParts(baseId, title, chunkText(text));
+  const existingIds = content.exercises.map((e) => e.id);
+  const chunks = chunkText(text);
+  const slugBase = `art-${slugify(title)}`;
+  const baseId =
+    chunks.length === 1
+      ? uniqueId(slugBase, existingIds)
+      : uniquePartBase(slugBase, chunks.length, existingIds);
+  const parts = buildArticleParts(baseId, title, chunks);
 
   for (const p of parts) {
     content.exercises.push({ ...p, category: "article", url });

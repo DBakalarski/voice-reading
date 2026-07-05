@@ -84,6 +84,19 @@ export function uniqueId(base: string, existing: string[]): string {
   return `${base}-${n}`;
 }
 
+/** Pick a base id whose derived `-cz-N` part family does not collide with any
+ *  existing id. `uniqueId` only protects the base string itself, which is never
+ *  an id in the multi-part case, so the family must be checked as a whole. */
+export function uniquePartBase(base: string, partCount: number, existing: string[]): string {
+  const taken = new Set(existing);
+  const familyFree = (b: string): boolean =>
+    Array.from({ length: partCount }, (_, i) => `${b}-cz-${i + 1}`).every((id) => !taken.has(id));
+  if (familyFree(base)) return base;
+  let n = 2;
+  while (!familyFree(`${base}-${n}`)) n++;
+  return `${base}-${n}`;
+}
+
 /** Split normalized text into sentences, keeping the terminator attached.
  *  Text is already single-spaced, so we break on whitespace that follows
  *  a sentence-ending mark. */
