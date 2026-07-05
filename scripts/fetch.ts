@@ -1,7 +1,13 @@
 import "dotenv/config";
 import { execFileSync } from "node:child_process";
 import { readFile, writeFile } from "node:fs/promises";
-import { extractArticle, slugify, uniqueId } from "../src/lib/article";
+import {
+  buildArticleParts,
+  chunkText,
+  extractArticle,
+  slugify,
+  uniqueId,
+} from "../src/lib/article";
 import { generateLibrary, requireElevenLabsEnv } from "./generate";
 import type { ContentItem } from "../src/lib/types";
 
@@ -54,19 +60,30 @@ async function main() {
 
   const raw = await readFile(CONTENT_FILE, "utf8");
   const content = JSON.parse(raw) as { exercises: ContentItem[] };
-  const id = uniqueId(`art-${slugify(title)}`, content.exercises.map((e) => e.id));
+  const baseId = uniqueId(`art-${slugify(title)}`, content.exercises.map((e) => e.id));
+  const parts = buildArticleParts(baseId, title, chunkText(text));
 
-  content.exercises.push({ id, title, category: "article", url, text });
+  for (const p of parts) {
+    content.exercises.push({ ...p, category: "article", url });
+  }
   await writeFile(CONTENT_FILE, JSON.stringify(content, null, 2) + "\n");
-  console.log(`Added "${title}" (id: ${id}, ${text.length} chars).`);
+  if (parts.length === 1) {
+    console.log(`Added "${title}" (id: ${baseId}, ${text.length} chars).`);
+  } else {
+    console.log(
+      `Added "${title}" as ${parts.length} parts (${text.length} chars total).`,
+    );
+  }
 
   console.log(`\nGenerating audio…`);
-  const result = await generateLibrary({ onlyIds: [id] });
+  const partIds = parts.map((p) => p.id);
+  const result = await generateLibrary({ onlyIds: partIds });
   if (result.failed > 0) {
     fail(
-      `Audio generation failed for "${id}" (likely ElevenLabs quota).\n` +
-        `  The entry stays in ${CONTENT_FILE}. Trim its text or wait for quota, then run:\n` +
-        `    npm run generate -- ${id}\n` +
+      `Audio generation failed for "${title}" (likely ElevenLabs quota).\n` +
+        `  The entr${parts.length === 1 ? "y stays" : "ies stay"} in ${CONTENT_FILE}. ` +
+        `Wait for quota, then run:\n` +
+        `    npm run generate -- ${partIds.join(" ")}\n` +
         `  Nothing was committed.`,
     );
   }
