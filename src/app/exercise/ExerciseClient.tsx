@@ -35,7 +35,11 @@ function ExerciseView() {
         Nie udało się wczytać ćwiczenia. <Link href="/">Wróć</Link>
       </main>
     );
-  if (!exercise) return <main style={{ padding: "2rem" }}>Wczytywanie…</main>;
+  // Guard on `exercise.id !== id` too: on a soft navigation the new id arrives
+  // one render before the effect reloads, so this keeps the previous part's
+  // text/audio from flashing until the matching exercise is in hand.
+  if (!exercise || exercise.id !== id)
+    return <main style={{ padding: "2rem" }}>Wczytywanie…</main>;
   return (
     <>
       <nav style={{ padding: "1rem 1.5rem" }}>
