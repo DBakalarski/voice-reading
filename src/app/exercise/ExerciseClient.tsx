@@ -41,6 +41,11 @@ export function ExerciseClient() {
         <Link href="/">← Lista ćwiczeń</Link>
       </nav>
       <Player exercise={exercise} />
+      {exercise.next && (
+        <nav style={{ padding: "1rem 1.5rem" }}>
+          <Link href={`/exercise?id=${exercise.next}`}>Następna część →</Link>
+        </nav>
+      )}
     </>
   );
 }
