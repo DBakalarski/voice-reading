@@ -1,28 +1,29 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { Suspense, useEffect, useState } from "react";
+import { useSearchParams } from "next/navigation";
 import Link from "next/link";
 import { Player } from "@/components/Player";
 import { loadExercise } from "@/lib/library";
 import type { Exercise } from "@/lib/types";
 
-export function ExerciseClient() {
+function ExerciseView() {
+  const id = useSearchParams().get("id");
   const [exercise, setExercise] = useState<Exercise | null>(null);
   const [error, setError] = useState(false);
-  const [missingId, setMissingId] = useState(false);
 
   useEffect(() => {
-    const id = new URLSearchParams(window.location.search).get("id");
-    if (!id) {
-      setMissingId(true);
-      return;
-    }
+    if (!id) return;
+    // Reset while switching parts so the reader shows the loading state and
+    // never briefly renders the previous part's text/audio.
+    setExercise(null);
+    setError(false);
     loadExercise(id)
       .then(setExercise)
       .catch(() => setError(true));
-  }, []);
+  }, [id]);
 
-  if (missingId)
+  if (!id)
     return (
       <main style={{ padding: "2rem" }}>
         Brak wybranego ćwiczenia. <Link href="/">Wróć</Link>
@@ -47,5 +48,13 @@ export function ExerciseClient() {
         </nav>
       )}
     </>
+  );
+}
+
+export function ExerciseClient() {
+  return (
+    <Suspense fallback={<main style={{ padding: "2rem" }}>Wczytywanie…</main>}>
+      <ExerciseView />
+    </Suspense>
   );
 }
