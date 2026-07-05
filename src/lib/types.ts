@@ -18,6 +18,8 @@ export interface Exercise {
   audio: string;
   words: Word[];
   phrases: Phrase[];
+  /** Id of the next part, for multi-part articles; drives the reader link. */
+  next?: string;
 }
 
 export type Category = "exercise" | "article";

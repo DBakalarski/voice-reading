@@ -20,4 +20,14 @@ describe("buildExercise", () => {
     expect(ex.words.map((w) => w.text)).toEqual(["Cześć."]);
     expect(ex.phrases).toHaveLength(1);
   });
+
+  it("sets next when a following part id is given", () => {
+    const ex = buildExercise("art-x-cz-1", "X (część 1)", align("A."), "art-x-cz-2");
+    expect(ex.next).toBe("art-x-cz-2");
+  });
+
+  it("omits next when no following part id is given", () => {
+    const ex = buildExercise("powitanie", "Powitania", align("Cześć."));
+    expect(ex.next).toBeUndefined();
+  });
 });

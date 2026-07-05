@@ -103,7 +103,7 @@ export async function generateLibrary(opts: GenerateOptions = {}): Promise<Gener
         await writeFile(mp3Path, audioBuffer);
 
         const alignment = res.alignment as unknown as Alignment;
-        const exercise = buildExercise(item.id, item.title, alignment);
+        const exercise = buildExercise(item.id, item.title, alignment, item.part?.nextId);
         await writeFile(jsonPath, JSON.stringify(exercise, null, 2));
 
         manifest[item.id] = hash;
