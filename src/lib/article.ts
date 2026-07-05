@@ -83,6 +83,59 @@ export function uniqueId(base: string, existing: string[]): string {
   return `${base}-${n}`;
 }
 
+/** Split normalized text into sentences, keeping the terminator attached.
+ *  Text is already single-spaced, so we break on whitespace that follows
+ *  a sentence-ending mark. */
+function splitSentences(text: string): string[] {
+  return text.split(/(?<=[.?!])\s+/).filter((s) => s.length > 0);
+}
+
+/** Last-resort split for a single sentence longer than maxChars: pack whole
+ *  words up to the cap. (Real article prose has no word this long.) */
+function splitLongSentence(sentence: string, maxChars: number): string[] {
+  if (sentence.length <= maxChars) return [sentence];
+  const pieces: string[] = [];
+  let current = "";
+  for (const word of sentence.split(" ")) {
+    if (current === "") current = word;
+    else if (current.length + 1 + word.length <= maxChars) current += " " + word;
+    else {
+      pieces.push(current);
+      current = word;
+    }
+  }
+  if (current !== "") pieces.push(current);
+  return pieces;
+}
+
+/**
+ * Split text into chunks no larger than `maxChars`, breaking only at sentence
+ * boundaries. Returns `[text]` unchanged when it already fits. Parts are
+ * balanced: the part count is minimized, then sentences are packed toward an
+ * even target size.
+ */
+export function chunkText(text: string, maxChars = 9000): string[] {
+  if (text.length <= maxChars) return [text];
+
+  const parts = Math.ceil(text.length / maxChars);
+  const target = Math.ceil(text.length / parts);
+
+  const chunks: string[] = [];
+  let current = "";
+  for (const sentence of splitSentences(text)) {
+    for (const piece of splitLongSentence(sentence, maxChars)) {
+      if (current === "") current = piece;
+      else if (current.length + 1 + piece.length <= target) current += " " + piece;
+      else {
+        chunks.push(current);
+        current = piece;
+      }
+    }
+  }
+  if (current !== "") chunks.push(current);
+  return chunks;
+}
+
 /**
  * Boilerplate containers to delete before Readability runs. Mostly specific to
  * naukatolubie.pl (the primary source); `#ez-toc-container` is the generic

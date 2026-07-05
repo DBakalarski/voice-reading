@@ -2,6 +2,7 @@
 import { describe, it, expect } from "vitest";
 import { JSDOM } from "jsdom";
 import {
+  chunkText,
   extractArticle,
   normalizeText,
   slugify,
@@ -172,5 +173,30 @@ describe("stripBoilerplate", () => {
     expect(textContent).not.toContain("Przeczytaj też");
     expect(textContent).not.toContain("Mózg a emocje");
     expect(textContent).not.toContain("Na tropach neurobiologii");
+  });
+});
+
+describe("chunkText", () => {
+  it("returns the text unchanged when it fits", () => {
+    expect(chunkText("Krótkie zdanie.", 9000)).toEqual(["Krótkie zdanie."]);
+  });
+
+  it("splits at sentence boundaries and never exceeds the cap", () => {
+    const text = Array.from({ length: 20 }, (_, i) => `To jest zdanie numer ${i + 1}.`).join(" ");
+    const chunks = chunkText(text, 60);
+    expect(chunks.length).toBeGreaterThan(1);
+    for (const c of chunks) expect(c.length).toBeLessThanOrEqual(60);
+    // No content lost: rejoining reproduces the original (single-spaced) text.
+    expect(chunks.join(" ")).toBe(text);
+    // No sentence broken: every chunk ends on a sentence terminator.
+    for (const c of chunks) expect(c).toMatch(/[.?!]$/);
+  });
+
+  it("word-splits a single sentence longer than the cap", () => {
+    const longSentence = Array.from({ length: 40 }, () => "slowo").join(" ") + ".";
+    const chunks = chunkText(longSentence, 50);
+    expect(chunks.length).toBeGreaterThan(1);
+    for (const c of chunks) expect(c.length).toBeLessThanOrEqual(50);
+    expect(chunks.join(" ")).toBe(longSentence);
   });
 });
