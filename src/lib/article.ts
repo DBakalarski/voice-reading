@@ -151,15 +151,23 @@ export function chunkText(text: string, maxChars = 9000): string[] {
 }
 
 /**
- * Boilerplate containers to delete before Readability runs. Mostly specific to
- * naukatolubie.pl (the primary source); `#ez-toc-container` is the generic
- * WordPress "Easy Table of Contents" plugin. Extend as new sources appear.
+ * Boilerplate containers to delete before Readability runs. Covers
+ * naukatolubie.pl (`.ntl-*`, the WordPress ez-toc plugin) and zero.pl
+ * (lead-image caption + photo credit, ad slots, source line). Extend as new
+ * sources appear.
  */
 export const BOILERPLATE_SELECTORS = [
   "#ez-toc-container", // spis treści (plugin ez-toc)
   ".ntl-reading-time", // "Przewidywany czas: N min"
   ".ntl-authorbox", // bio autora
+  "figure.post-thumbnail", // zero.pl zdjęcie wiodące (podtytuł + podpis "Fot. …")
+  "figcaption", // podpisy pod zdjęciami (podpis + źródło fotografii)
+  ".sources", // zero.pl "Źródło: …"
+  ".ad-slot-wrapper", // zero.pl sloty reklamowe ("Reklama")
 ];
+
+/** Leading text of a callout/attribution paragraph to drop wholesale. */
+const CALLOUT_PREFIXES = ["przeczytaj też", "przeczytaj także", "tekst ukazał się"];
 
 /** Remove known boilerplate blocks from the document in place. */
 export function stripBoilerplate(document: Document): void {
@@ -169,14 +177,30 @@ export function stripBoilerplate(document: Document): void {
     }
   }
 
-  // Remove "Przeczytaj też: …" callout paragraphs (including multi-sentence ones
-  // whose link text contains additional periods) before Readability runs. We
-  // restrict the query to leaf-ish containers so we never accidentally remove a
-  // large ancestor.
+  // Remove "Przeczytaj też/także: …" callouts and "Tekst ukazał się w …"
+  // self-promo attributions (including multi-sentence ones whose link text
+  // contains additional periods) before Readability runs. We restrict the
+  // query to leaf-ish containers so we never accidentally remove a large
+  // ancestor.
   for (const el of Array.from(document.querySelectorAll("p, li, aside, blockquote"))) {
-    if (el.textContent?.trim().toLowerCase().startsWith("przeczytaj też")) {
+    const text = el.textContent?.trim().toLowerCase() ?? "";
+    if (CALLOUT_PREFIXES.some((prefix) => text.startsWith(prefix))) {
       el.remove();
     }
+  }
+}
+
+/** Block-level tags whose text must not run into the next block's text.
+ *  `textContent` concatenates blocks with no separator, fusing e.g. a heading
+ *  into the following paragraph ("…Polaków.Kult banderowski…"). */
+const BLOCK_TAGS = "p, h1, h2, h3, h4, h5, h6, li, blockquote, figure, figcaption";
+
+/** Append a space after every block element so `textContent` keeps word
+ *  boundaries at block edges. Run before Readability; the trailing spaces are
+ *  collapsed away later by `normalizeText`. */
+export function separateBlocks(document: Document): void {
+  for (const el of Array.from(document.querySelectorAll(BLOCK_TAGS))) {
+    el.appendChild(document.createTextNode(" "));
   }
 }
 
@@ -191,6 +215,7 @@ export function extractArticle(html: string, url: string): ExtractedArticle {
   // parse errors that real-world pages routinely trigger.
   const dom = new JSDOM(html, { url, virtualConsole: new VirtualConsole() });
   stripBoilerplate(dom.window.document);
+  separateBlocks(dom.window.document);
   const parsed = new Readability(dom.window.document).parse();
   const text = parsed ? trimBoilerplateText(normalizeText(parsed.textContent ?? "")) : "";
   if (!text) {

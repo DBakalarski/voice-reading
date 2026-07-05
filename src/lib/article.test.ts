@@ -6,6 +6,7 @@ import {
   chunkText,
   extractArticle,
   normalizeText,
+  separateBlocks,
   slugify,
   stripBoilerplate,
   trimBoilerplateText,
@@ -189,6 +190,50 @@ describe("stripBoilerplate", () => {
     expect(textContent).not.toContain("Przeczytaj też");
     expect(textContent).not.toContain("Mózg a emocje");
     expect(textContent).not.toContain("Na tropach neurobiologii");
+  });
+
+  it("removes 'Przeczytaj także' callouts and 'Tekst ukazał się' attribution (zero.pl)", () => {
+    const dom = new JSDOM(`<!DOCTYPE html><html><body>
+      <p>Treść właściwego artykułu.</p>
+      <p>Przeczytaj także: <a href="#">Inny tekst o Wołyniu. Trwają ekshumacje</a></p>
+      <p>Tekst ukazał się w <a href="#">Magazynie Zero#2</a>.</p>
+    </body></html>`);
+    stripBoilerplate(dom.window.document);
+    const textContent = dom.window.document.body.textContent ?? "";
+    expect(textContent).toContain("Treść właściwego artykułu");
+    expect(textContent).not.toContain("Przeczytaj także");
+    expect(textContent).not.toContain("Trwają ekshumacje");
+    expect(textContent).not.toContain("Tekst ukazał się");
+    expect(textContent).not.toContain("Magazynie Zero");
+  });
+
+  it("removes the lead-image caption and photo credit (figure/figcaption/.sources)", () => {
+    const dom = new JSDOM(`<!DOCTYPE html><html><body>
+      <figure class="post-thumbnail"><img src="x.jpg">
+        <figcaption>Podtytuł artykułu?Fot. Jan Kowalski/REPORTER (fot. Jan Kowalski / East News)</figcaption>
+      </figure>
+      <div class="sources">Źródło: Magazyn Zero</div>
+      <p>Właściwa treść artykułu zaczyna się tutaj.</p>
+    </body></html>`);
+    stripBoilerplate(dom.window.document);
+    const textContent = dom.window.document.body.textContent ?? "";
+    expect(textContent).toContain("Właściwa treść artykułu");
+    expect(textContent).not.toContain("Fot.");
+    expect(textContent).not.toContain("East News");
+    expect(textContent).not.toContain("Źródło");
+  });
+});
+
+describe("separateBlocks", () => {
+  it("inserts whitespace between adjacent block elements so words do not fuse", () => {
+    const dom = new JSDOM(`<!DOCTYPE html><html><body>
+      <p>Zamordowano około 100 tys. Polaków.</p><h2>Kult banderowski</h2><p>Kult ten próbował wzniecić prezydent.</p>
+    </body></html>`);
+    separateBlocks(dom.window.document);
+    const text = (dom.window.document.body.textContent ?? "").replace(/\s+/g, " ").trim();
+    expect(text).toContain("Polaków. Kult banderowski Kult ten");
+    expect(text).not.toContain("Polaków.Kult");
+    expect(text).not.toContain("banderowskiKult");
   });
 });
 
