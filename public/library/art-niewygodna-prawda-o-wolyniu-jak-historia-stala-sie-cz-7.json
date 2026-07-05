@@ -4,816 +4,456 @@
   "audio": "/library/art-niewygodna-prawda-o-wolyniu-jak-historia-stala-sie-cz-7.mp3",
   "words": [
     {
-      "text": "Inne",
-      "start": 0,
-      "end": 0.244,
-      "phrase": 0
-    },
-    {
-      "text": "szacunki",
-      "start": 0.279,
-      "end": 0.72,
-      "phrase": 0
-    },
-    {
-      "text": "mówią",
-      "start": 0.778,
-      "end": 1.033,
-      "phrase": 0
-    },
-    {
-      "text": "o",
-      "start": 1.115,
-      "end": 1.138,
-      "phrase": 0
-    },
-    {
-      "text": "1341",
-      "start": 1.219,
-      "end": 2.485,
-      "phrase": 0
-    },
-    {
-      "text": "lub",
-      "start": 2.589,
-      "end": 2.728,
-      "phrase": 0
-    },
-    {
-      "text": "1482",
-      "start": 2.81,
-      "end": 4.574,
-      "phrase": 0
-    },
-    {
-      "text": "Ukraińcach,",
-      "start": 4.679,
-      "end": 5.387,
-      "phrase": 0
-    },
-    {
-      "text": "którzy",
-      "start": 5.584,
-      "end": 5.84,
-      "phrase": 0
-    },
-    {
-      "text": "ocalili",
-      "start": 5.898,
-      "end": 6.281,
-      "phrase": 0
-    },
-    {
-      "text": "co",
-      "start": 6.339,
-      "end": 6.444,
-      "phrase": 0
-    },
-    {
-      "text": "najmniej",
-      "start": 6.525,
-      "end": 6.873,
-      "phrase": 0
-    },
-    {
-      "text": "2527",
-      "start": 6.978,
-      "end": 8.766,
-      "phrase": 0
-    },
-    {
-      "text": "Polaków.",
-      "start": 8.87,
-      "end": 9.404,
-      "phrase": 0
-    },
-    {
-      "text": "Liczba",
-      "start": 10.031,
-      "end": 10.333,
-      "phrase": 1
-    },
-    {
-      "text": "ta",
-      "start": 10.368,
-      "end": 10.588,
-      "phrase": 1
-    },
-    {
-      "text": "może",
-      "start": 10.693,
-      "end": 10.902,
-      "phrase": 1
-    },
-    {
-      "text": "wydawać",
-      "start": 10.937,
-      "end": 11.25,
-      "phrase": 1
-    },
-    {
-      "text": "się",
-      "start": 11.285,
-      "end": 11.355,
-      "phrase": 1
-    },
-    {
-      "text": "mała",
-      "start": 11.413,
-      "end": 11.68,
-      "phrase": 1
-    },
-    {
-      "text": "–",
-      "start": 11.784,
-      "end": 11.842,
-      "phrase": 1
-    },
-    {
-      "text": "tak",
-      "start": 12.132,
-      "end": 12.283,
-      "phrase": 1
-    },
-    {
-      "text": "jak",
-      "start": 12.353,
-      "end": 12.446,
-      "phrase": 1
-    },
-    {
-      "text": "mała",
-      "start": 12.55,
-      "end": 12.852,
-      "phrase": 1
-    },
-    {
-      "text": "może",
-      "start": 12.957,
-      "end": 13.189,
-      "phrase": 1
-    },
-    {
-      "text": "wydawać",
-      "start": 13.224,
-      "end": 13.537,
-      "phrase": 1
-    },
-    {
-      "text": "się",
-      "start": 13.572,
-      "end": 13.642,
-      "phrase": 1
-    },
-    {
-      "text": "liczba",
-      "start": 13.7,
-      "end": 14.036,
-      "phrase": 1
-    },
-    {
-      "text": "7232",
-      "start": 14.327,
-      "end": 15.732,
-      "phrase": 1
-    },
-    {
-      "text": "Polaków",
-      "start": 15.824,
-      "end": 16.254,
-      "phrase": 1
-    },
-    {
-      "text": "uhonorowanych",
-      "start": 16.649,
-      "end": 17.334,
-      "phrase": 1
-    },
-    {
-      "text": "tytułem",
-      "start": 17.392,
-      "end": 17.752,
-      "phrase": 1
-    },
-    {
-      "text": "„Sprawiedliwego",
-      "start": 17.786,
-      "end": 18.727,
-      "phrase": 1
-    },
-    {
-      "text": "wśród",
-      "start": 18.762,
-      "end": 19.017,
-      "phrase": 1
-    },
-    {
-      "text": "Narodów",
-      "start": 19.075,
-      "end": 19.354,
-      "phrase": 1
-    },
-    {
-      "text": "Świata”",
-      "start": 19.4,
-      "end": 19.934,
-      "phrase": 1
-    },
-    {
-      "text": "za",
-      "start": 20.224,
-      "end": 20.341,
-      "phrase": 1
-    },
-    {
-      "text": "ratowanie",
-      "start": 20.375,
-      "end": 20.793,
-      "phrase": 1
-    },
-    {
-      "text": "Żydów.Obie",
-      "start": 20.851,
-      "end": 21.571,
-      "phrase": 1
-    },
-    {
-      "text": "grupy",
-      "start": 21.629,
-      "end": 21.989,
-      "phrase": 1
-    },
-    {
-      "text": "podejmowały",
-      "start": 22.036,
-      "end": 22.686,
-      "phrase": 1
-    },
-    {
-      "text": "ogromne",
-      "start": 22.732,
-      "end": 23.243,
-      "phrase": 1
-    },
-    {
-      "text": "ryzyko,",
-      "start": 23.289,
-      "end": 23.963,
-      "phrase": 1
-    },
-    {
-      "text": "udzielając",
-      "start": 24.23,
-      "end": 24.764,
-      "phrase": 1
-    },
-    {
-      "text": "pomocy.",
-      "start": 24.834,
-      "end": 25.507,
-      "phrase": 1
-    },
-    {
       "text": "Ryzyko",
-      "start": 26.18,
-      "end": 26.552,
-      "phrase": 2
+      "start": 0,
+      "end": 0.569,
+      "phrase": 0
     },
     {
       "text": "śmierci",
-      "start": 26.598,
-      "end": 27.063,
-      "phrase": 2
+      "start": 0.639,
+      "end": 1.126,
+      "phrase": 0
     },
     {
       "text": "nie",
-      "start": 27.109,
-      "end": 27.202,
-      "phrase": 2
+      "start": 1.196,
+      "end": 1.3,
+      "phrase": 0
     },
     {
       "text": "tylko",
-      "start": 27.237,
-      "end": 27.515,
-      "phrase": 2
+      "start": 1.347,
+      "end": 1.614,
+      "phrase": 0
     },
     {
       "text": "własnej,",
-      "start": 27.55,
-      "end": 28.166,
-      "phrase": 2
+      "start": 1.66,
+      "end": 2.31,
+      "phrase": 0
     },
     {
       "text": "ale",
-      "start": 28.212,
-      "end": 28.467,
-      "phrase": 2
+      "start": 2.357,
+      "end": 2.566,
+      "phrase": 0
     },
     {
       "text": "i",
-      "start": 28.537,
-      "end": 28.572,
-      "phrase": 2
+      "start": 2.635,
+      "end": 2.67,
+      "phrase": 0
     },
     {
       "text": "całej",
-      "start": 28.642,
-      "end": 28.978,
-      "phrase": 2
+      "start": 2.74,
+      "end": 3.088,
+      "phrase": 0
     },
     {
       "text": "swojej",
-      "start": 29.025,
-      "end": 29.35,
-      "phrase": 2
+      "start": 3.135,
+      "end": 3.46,
+      "phrase": 0
     },
     {
       "text": "rodziny.",
-      "start": 29.42,
-      "end": 30.023,
-      "phrase": 2
+      "start": 3.541,
+      "end": 4.145,
+      "phrase": 0
     },
     {
       "text": "Nie",
-      "start": 30.697,
-      "end": 30.871,
-      "phrase": 3
+      "start": 4.818,
+      "end": 4.981,
+      "phrase": 1
     },
     {
       "text": "można",
-      "start": 30.94,
-      "end": 31.277,
-      "phrase": 3
+      "start": 5.027,
+      "end": 5.317,
+      "phrase": 1
     },
     {
       "text": "więc",
-      "start": 31.312,
-      "end": 31.498,
-      "phrase": 3
+      "start": 5.364,
+      "end": 5.526,
+      "phrase": 1
     },
     {
       "text": "takiego",
-      "start": 31.567,
-      "end": 31.916,
-      "phrase": 3
+      "start": 5.573,
+      "end": 5.921,
+      "phrase": 1
     },
     {
       "text": "heroizmu",
-      "start": 31.962,
-      "end": 32.519,
-      "phrase": 3
+      "start": 5.991,
+      "end": 6.513,
+      "phrase": 1
     },
     {
       "text": "wymagać",
-      "start": 32.554,
-      "end": 33.193,
-      "phrase": 3
+      "start": 6.548,
+      "end": 7.175,
+      "phrase": 1
     },
     {
       "text": "i",
-      "start": 33.297,
-      "end": 33.344,
-      "phrase": 3
+      "start": 7.279,
+      "end": 7.326,
+      "phrase": 1
     },
     {
       "text": "oczekiwać",
-      "start": 33.425,
-      "end": 33.936,
-      "phrase": 3
+      "start": 7.407,
+      "end": 7.895,
+      "phrase": 1
     },
     {
       "text": "od",
-      "start": 34.005,
-      "end": 34.075,
-      "phrase": 3
+      "start": 7.964,
+      "end": 8.022,
+      "phrase": 1
     },
     {
       "text": "wszystkich.",
-      "start": 34.098,
-      "end": 34.795,
-      "phrase": 3
+      "start": 8.046,
+      "end": 8.742,
+      "phrase": 1
     },
     {
       "text": "A",
-      "start": 35.468,
-      "end": 35.55,
-      "phrase": 4
+      "start": 9.311,
+      "end": 9.404,
+      "phrase": 2
     },
     {
       "text": "trzeba",
-      "start": 35.619,
-      "end": 35.898,
-      "phrase": 4
+      "start": 9.485,
+      "end": 9.752,
+      "phrase": 2
     },
     {
       "text": "wiedzieć,",
-      "start": 35.933,
-      "end": 36.548,
-      "phrase": 4
+      "start": 9.799,
+      "end": 10.437,
+      "phrase": 2
     },
     {
       "text": "że",
-      "start": 36.618,
-      "end": 36.734,
-      "phrase": 4
+      "start": 10.565,
+      "end": 10.751,
+      "phrase": 2
     },
     {
       "text": "w",
-      "start": 36.78,
-      "end": 36.804,
-      "phrase": 4
+      "start": 10.844,
+      "end": 10.867,
+      "phrase": 2
     },
     {
       "text": "odróżnieniu",
-      "start": 36.873,
-      "end": 37.465,
-      "phrase": 4
+      "start": 10.96,
+      "end": 11.54,
+      "phrase": 2
     },
     {
       "text": "od",
-      "start": 37.512,
-      "end": 37.593,
-      "phrase": 4
+      "start": 11.587,
+      "end": 11.668,
+      "phrase": 2
     },
     {
       "text": "Polaków",
-      "start": 37.674,
-      "end": 38.243,
-      "phrase": 4
+      "start": 11.749,
+      "end": 12.318,
+      "phrase": 2
     },
     {
       "text": "–",
-      "start": 38.383,
-      "end": 38.464,
-      "phrase": 4
+      "start": 12.516,
+      "end": 12.643,
+      "phrase": 2
     },
     {
       "text": "Ukraińcy",
-      "start": 38.592,
-      "end": 39.265,
-      "phrase": 4
+      "start": 12.841,
+      "end": 13.526,
+      "phrase": 2
     },
     {
       "text": "nawet",
-      "start": 39.311,
-      "end": 39.578,
-      "phrase": 4
+      "start": 13.607,
+      "end": 13.92,
+      "phrase": 2
     },
     {
       "text": "po",
-      "start": 39.66,
-      "end": 39.764,
-      "phrase": 4
+      "start": 14.002,
+      "end": 14.083,
+      "phrase": 2
     },
     {
       "text": "wojnie",
-      "start": 39.811,
-      "end": 40.205,
-      "phrase": 4
+      "start": 14.118,
+      "end": 14.42,
+      "phrase": 2
     },
     {
       "text": "nie",
-      "start": 40.252,
-      "end": 40.356,
-      "phrase": 4
+      "start": 14.489,
+      "end": 14.594,
+      "phrase": 2
     },
     {
       "text": "mogli",
-      "start": 40.426,
-      "end": 40.67,
-      "phrase": 4
+      "start": 14.663,
+      "end": 14.954,
+      "phrase": 2
     },
     {
       "text": "się",
-      "start": 40.705,
-      "end": 40.786,
-      "phrase": 4
+      "start": 14.988,
+      "end": 15.081,
+      "phrase": 2
     },
     {
       "text": "przyznać,",
-      "start": 40.832,
-      "end": 41.413,
-      "phrase": 4
+      "start": 15.128,
+      "end": 15.697,
+      "phrase": 2
     },
     {
       "text": "że",
-      "start": 41.448,
-      "end": 41.529,
-      "phrase": 4
+      "start": 15.743,
+      "end": 15.836,
+      "phrase": 2
     },
     {
       "text": "kogoś",
-      "start": 41.575,
-      "end": 41.877,
-      "phrase": 4
+      "start": 15.883,
+      "end": 16.185,
+      "phrase": 2
     },
     {
       "text": "ratowali.",
-      "start": 41.958,
-      "end": 42.713,
-      "phrase": 4
+      "start": 16.277,
+      "end": 17.044,
+      "phrase": 2
     },
     {
       "text": "Występowali",
-      "start": 43.491,
-      "end": 44.164,
-      "phrase": 5
+      "start": 17.822,
+      "end": 18.553,
+      "phrase": 3
     },
     {
       "text": "wszak",
-      "start": 44.199,
-      "end": 44.431,
-      "phrase": 5
+      "start": 18.588,
+      "end": 18.808,
+      "phrase": 3
     },
     {
       "text": "przeciwko",
-      "start": 44.501,
-      "end": 44.931,
-      "phrase": 5
+      "start": 18.843,
+      "end": 19.284,
+      "phrase": 3
     },
     {
       "text": "swoim",
-      "start": 44.965,
-      "end": 45.279,
-      "phrase": 5
+      "start": 19.319,
+      "end": 19.668,
+      "phrase": 3
     },
     {
       "text": "rodakom.",
-      "start": 45.349,
-      "end": 46.092,
-      "phrase": 5
+      "start": 19.737,
+      "end": 20.445,
+      "phrase": 3
     },
     {
       "text": "W",
-      "start": 46.405,
-      "end": 46.475,
-      "phrase": 6
+      "start": 21.014,
+      "end": 21.119,
+      "phrase": 4
     },
     {
       "text": "oczach",
-      "start": 46.568,
-      "end": 46.811,
-      "phrase": 6
+      "start": 21.247,
+      "end": 21.606,
+      "phrase": 4
     },
     {
       "text": "nacjonalistów",
-      "start": 46.881,
-      "end": 47.775,
-      "phrase": 6
+      "start": 21.699,
+      "end": 22.686,
+      "phrase": 4
     },
     {
       "text": "i",
-      "start": 47.868,
-      "end": 47.938,
-      "phrase": 6
+      "start": 22.791,
+      "end": 22.86,
+      "phrase": 4
     },
     {
       "text": "swoich",
-      "start": 48.007,
-      "end": 48.356,
-      "phrase": 6
+      "start": 22.942,
+      "end": 23.325,
+      "phrase": 4
     },
     {
       "text": "sąsiadów",
-      "start": 48.379,
-      "end": 49.006,
-      "phrase": 6
+      "start": 23.348,
+      "end": 23.998,
+      "phrase": 4
     },
     {
       "text": "stawali",
-      "start": 49.366,
-      "end": 49.807,
-      "phrase": 6
+      "start": 24.358,
+      "end": 24.834,
+      "phrase": 4
     },
     {
       "text": "się",
-      "start": 49.853,
-      "end": 49.946,
-      "phrase": 6
+      "start": 24.88,
+      "end": 25.089,
+      "phrase": 4
     },
     {
       "text": "„zdrajcami”.",
-      "start": 49.969,
-      "end": 50.979,
-      "phrase": 6
+      "start": 25.252,
+      "end": 26.494,
+      "phrase": 4
     },
     {
       "text": "Wielu",
-      "start": 51.548,
-      "end": 51.873,
-      "phrase": 7
+      "start": 27.272,
+      "end": 27.609,
+      "phrase": 5
     },
     {
       "text": "przypłaciło",
-      "start": 51.908,
-      "end": 52.488,
-      "phrase": 7
+      "start": 27.655,
+      "end": 28.259,
+      "phrase": 5
     },
     {
       "text": "to",
-      "start": 52.535,
-      "end": 52.616,
-      "phrase": 7
+      "start": 28.305,
+      "end": 28.387,
+      "phrase": 5
     },
     {
       "text": "życiem,",
-      "start": 52.686,
-      "end": 53.243,
-      "phrase": 7
+      "start": 28.456,
+      "end": 29.072,
+      "phrase": 5
     },
     {
       "text": "inni",
-      "start": 53.603,
-      "end": 53.974,
-      "phrase": 7
+      "start": 29.339,
+      "end": 29.675,
+      "phrase": 5
     },
     {
       "text": "pozostali",
-      "start": 54.044,
-      "end": 54.648,
-      "phrase": 7
+      "start": 29.745,
+      "end": 30.291,
+      "phrase": 5
     },
     {
       "text": "anonimowi",
-      "start": 54.717,
-      "end": 55.275,
-      "phrase": 7
+      "start": 30.337,
+      "end": 30.883,
+      "phrase": 5
     },
     {
       "text": "na",
-      "start": 55.321,
-      "end": 55.402,
-      "phrase": 7
+      "start": 30.929,
+      "end": 30.999,
+      "phrase": 5
     },
     {
       "text": "zawsze",
-      "start": 55.449,
-      "end": 55.96,
-      "phrase": 7
+      "start": 31.069,
+      "end": 31.545,
+      "phrase": 5
     },
     {
       "text": "–",
-      "start": 56.053,
-      "end": 56.122,
-      "phrase": 7
+      "start": 31.672,
+      "end": 31.742,
+      "phrase": 5
     },
     {
       "text": "nawet",
-      "start": 56.61,
-      "end": 56.923,
-      "phrase": 7
+      "start": 32.055,
+      "end": 32.381,
+      "phrase": 5
     },
     {
       "text": "dla",
-      "start": 56.993,
-      "end": 57.202,
-      "phrase": 7
+      "start": 32.427,
+      "end": 32.648,
+      "phrase": 5
     },
     {
       "text": "tych,",
-      "start": 57.283,
-      "end": 57.504,
-      "phrase": 7
+      "start": 32.717,
+      "end": 32.949,
+      "phrase": 5
     },
     {
       "text": "których",
-      "start": 57.527,
-      "end": 57.899,
-      "phrase": 7
+      "start": 32.973,
+      "end": 33.321,
+      "phrase": 5
     },
     {
-      "text": "ocalili.Przeczytaj",
-      "start": 57.968,
-      "end": 59.768,
-      "phrase": 7
-    },
-    {
-      "text": "także:",
-      "start": 59.837,
-      "end": 60.464,
-      "phrase": 7
-    },
-    {
-      "text": "Ukraina",
-      "start": 60.952,
-      "end": 61.567,
-      "phrase": 7
-    },
-    {
-      "text": "chce",
-      "start": 61.591,
-      "end": 61.776,
-      "phrase": 7
-    },
-    {
-      "text": "dialogu",
-      "start": 61.823,
-      "end": 62.276,
-      "phrase": 7
-    },
-    {
-      "text": "z",
-      "start": 62.299,
-      "end": 62.322,
-      "phrase": 7
-    },
-    {
-      "text": "Polską.",
-      "start": 62.392,
-      "end": 63.088,
-      "phrase": 7
-    },
-    {
-      "text": "„Partnerskie,",
-      "start": 63.576,
-      "end": 64.83,
-      "phrase": 8
-    },
-    {
-      "text": "uczciwe",
-      "start": 65.062,
-      "end": 65.782,
-      "phrase": 8
-    },
-    {
-      "text": "i",
-      "start": 65.886,
-      "end": 65.921,
-      "phrase": 8
-    },
-    {
-      "text": "wzajemnie",
-      "start": 65.968,
-      "end": 66.525,
-      "phrase": 8
-    },
-    {
-      "text": "korzystne",
-      "start": 66.594,
-      "end": 67.129,
-      "phrase": 8
-    },
-    {
-      "text": "relacje”",
-      "start": 67.175,
-      "end": 68.127,
-      "phrase": 8
+      "text": "ocalili.",
+      "start": 33.391,
+      "end": 34.273,
+      "phrase": 5
     }
   ],
   "phrases": [
     {
       "index": 0,
-      "text": "Inne szacunki mówią o 1341 lub 1482 Ukraińcach, którzy ocalili co najmniej 2527 Polaków.",
+      "text": "Ryzyko śmierci nie tylko własnej, ale i całej swojej rodziny.",
       "start": 0,
-      "end": 9.404
+      "end": 4.145
     },
     {
       "index": 1,
-      "text": "Liczba ta może wydawać się mała – tak jak mała może wydawać się liczba 7232 Polaków uhonorowanych tytułem „Sprawiedliwego wśród Narodów Świata” za ratowanie Żydów.Obie grupy podejmowały ogromne ryzyko, udzielając pomocy.",
-      "start": 10.031,
-      "end": 25.507
+      "text": "Nie można więc takiego heroizmu wymagać i oczekiwać od wszystkich.",
+      "start": 4.818,
+      "end": 8.742
     },
     {
       "index": 2,
-      "text": "Ryzyko śmierci nie tylko własnej, ale i całej swojej rodziny.",
-      "start": 26.18,
-      "end": 30.023
+      "text": "A trzeba wiedzieć, że w odróżnieniu od Polaków – Ukraińcy nawet po wojnie nie mogli się przyznać, że kogoś ratowali.",
+      "start": 9.311,
+      "end": 17.044
     },
     {
       "index": 3,
-      "text": "Nie można więc takiego heroizmu wymagać i oczekiwać od wszystkich.",
-      "start": 30.697,
-      "end": 34.795
+      "text": "Występowali wszak przeciwko swoim rodakom.",
+      "start": 17.822,
+      "end": 20.445
     },
     {
       "index": 4,
-      "text": "A trzeba wiedzieć, że w odróżnieniu od Polaków – Ukraińcy nawet po wojnie nie mogli się przyznać, że kogoś ratowali.",
-      "start": 35.468,
-      "end": 42.713
+      "text": "W oczach nacjonalistów i swoich sąsiadów stawali się „zdrajcami”.",
+      "start": 21.014,
+      "end": 26.494
     },
     {
       "index": 5,
-      "text": "Występowali wszak przeciwko swoim rodakom.",
-      "start": 43.491,
-      "end": 46.092
-    },
-    {
-      "index": 6,
-      "text": "W oczach nacjonalistów i swoich sąsiadów stawali się „zdrajcami”.",
-      "start": 46.405,
-      "end": 50.979
-    },
-    {
-      "index": 7,
-      "text": "Wielu przypłaciło to życiem, inni pozostali anonimowi na zawsze – nawet dla tych, których ocalili.Przeczytaj także: Ukraina chce dialogu z Polską.",
-      "start": 51.548,
-      "end": 63.088
-    },
-    {
-      "index": 8,
-      "text": "„Partnerskie, uczciwe i wzajemnie korzystne relacje”",
-      "start": 63.576,
-      "end": 68.127
+      "text": "Wielu przypłaciło to życiem, inni pozostali anonimowi na zawsze – nawet dla tych, których ocalili.",
+      "start": 27.272,
+      "end": 34.273
     }
   ]
 }
