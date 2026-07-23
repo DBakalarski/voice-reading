@@ -30,4 +30,15 @@ describe("buildExercise", () => {
     const ex = buildExercise("powitanie", "Powitania", align("Cześć."));
     expect(ex.next).toBeUndefined();
   });
+
+  it("passes questions through to the exercise when provided", () => {
+    const questions = [
+      { question: "Co piję?", answers: ["Herbatę", "Kawę", "Sok"], correct: 0 },
+    ];
+    const withQ = buildExercise("id1", "T", align("Piję herbatę."), undefined, questions);
+    expect(withQ.questions).toEqual(questions);
+
+    const withoutQ = buildExercise("id1", "T", align("Piję herbatę."));
+    expect(withoutQ.questions).toBeUndefined();
+  });
 });

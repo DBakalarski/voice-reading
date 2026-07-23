@@ -12,6 +12,15 @@ export interface Phrase {
   end: number;
 }
 
+/** One comprehension question shown after listening. */
+export interface Question {
+  question: string;
+  /** Exactly 3 answer options. */
+  answers: string[];
+  /** Index into `answers` of the correct option. */
+  correct: number;
+}
+
 export interface Exercise {
   id: string;
   title: string;
@@ -20,6 +29,8 @@ export interface Exercise {
   phrases: Phrase[];
   /** Id of the next part, for multi-part articles; drives the reader link. */
   next?: string;
+  /** Comprehension quiz shown after playback ends; absent = no quiz. */
+  questions?: Question[];
 }
 
 export type Category = "exercise" | "article";
@@ -54,6 +65,8 @@ export interface ContentItem {
   text?: string;
   /** Set only for split articles; absent for single-chunk articles and exercises. */
   part?: PartInfo;
+  /** Hand-authored comprehension questions (copied into the library JSON). */
+  questions?: Question[];
 }
 
 /** Shape of the `alignment` object returned by ElevenLabs convertWithTimestamps. */

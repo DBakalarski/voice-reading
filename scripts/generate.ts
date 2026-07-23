@@ -5,7 +5,7 @@ import { mkdir, readFile, writeFile } from "node:fs/promises";
 import { pathToFileURL } from "node:url";
 import { ElevenLabsClient } from "@elevenlabs/elevenlabs-js";
 import { buildExercise } from "../src/lib/exercise";
-import type { Alignment, ContentItem, LibraryIndex } from "../src/lib/types";
+import type { Alignment, ContentItem, Exercise, LibraryIndex } from "../src/lib/types";
 
 const OUT_DIR = "public/library";
 const MANIFEST = `${OUT_DIR}/.manifest.json`;
@@ -103,7 +103,13 @@ export async function generateLibrary(opts: GenerateOptions = {}): Promise<Gener
         await writeFile(mp3Path, audioBuffer);
 
         const alignment = res.alignment as unknown as Alignment;
-        const exercise = buildExercise(item.id, item.title, alignment, item.part?.nextId);
+        const exercise = buildExercise(
+          item.id,
+          item.title,
+          alignment,
+          item.part?.nextId,
+          item.questions,
+        );
         await writeFile(jsonPath, JSON.stringify(exercise, null, 2));
 
         manifest[item.id] = hash;
@@ -123,6 +129,19 @@ export async function generateLibrary(opts: GenerateOptions = {}): Promise<Gener
       if (selected) {
         console.log(`Up to date "${item.id}" — skipping.`);
         if (known === undefined && filesExist) manifest[item.id] = hash; // backfill
+      }
+
+      // Sync questions into an already-generated file without spending quota.
+      if (filesExist) {
+        const exercise = JSON.parse(await readFile(jsonPath, "utf8")) as Exercise;
+        const want = item.questions ?? [];
+        const have = exercise.questions ?? [];
+        if (JSON.stringify(want) !== JSON.stringify(have)) {
+          if (want.length > 0) exercise.questions = want;
+          else delete exercise.questions;
+          await writeFile(jsonPath, JSON.stringify(exercise, null, 2));
+          console.log(`Updated questions for "${item.id}".`);
+        }
       }
     }
 
