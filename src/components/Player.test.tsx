@@ -85,4 +85,33 @@ describe("Player", () => {
     fireEvent.click(screen.getByRole("button", { name: "Najpierw słuchaj" }));
     expect(screen.queryAllByTestId("word")).toHaveLength(0);
   });
+
+  it("repeats the current phrase from its start and plays", () => {
+    const twoPhrases: Exercise = {
+      id: "y",
+      title: "Dwa zdania",
+      audio: "/library/y.mp3",
+      words: [
+        { text: "Raz.", start: 0, end: 1, phrase: 0 },
+        { text: "Dwa.", start: 1.5, end: 2.5, phrase: 1 },
+      ],
+      phrases: [
+        { index: 0, text: "Raz.", start: 0, end: 1 },
+        { index: 1, text: "Dwa.", start: 1.5, end: 2.5 },
+      ],
+    };
+    render(<Player exercise={twoPhrases} />);
+    const audio = document.querySelector("audio")!;
+    let time = 2.0; // inside phrase 1
+    Object.defineProperty(audio, "currentTime", {
+      get: () => time,
+      set: (v: number) => {
+        time = v;
+      },
+      configurable: true,
+    });
+    fireEvent.click(screen.getByRole("button", { name: "Powtórz zdanie" }));
+    expect(time).toBe(1.5);
+    expect(screen.getByRole("button", { name: /pauza/i })).toBeInTheDocument();
+  });
 });

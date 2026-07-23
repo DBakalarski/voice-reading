@@ -3,6 +3,7 @@
 import { useEffect, useRef, useState } from "react";
 import { HighlightedText } from "./HighlightedText";
 import { useAudioSync } from "@/hooks/useAudioSync";
+import { phraseToRepeat } from "@/lib/activeIndex";
 import type { Exercise } from "@/lib/types";
 import styles from "./Player.module.css";
 
@@ -100,6 +101,14 @@ export function Player({ exercise }: { exercise: Exercise }) {
     else audio.pause();
   };
 
+  const repeatPhrase = () => {
+    const audio = audioRef.current;
+    if (!audio) return;
+    const i = phraseToRepeat(audio.currentTime, exercise.phrases);
+    audio.currentTime = i === -1 ? 0 : exercise.phrases[i].start;
+    void audio.play();
+  };
+
   const onTimeUpdate = () => {
     const audio = audioRef.current;
     if (!audio || !audio.duration) return;
@@ -126,6 +135,23 @@ export function Player({ exercise }: { exercise: Exercise }) {
                 <path d="M8 5.5v13a1 1 0 0 0 1.53.85l10.2-6.5a1 1 0 0 0 0-1.7L9.53 4.65A1 1 0 0 0 8 5.5Z" />
               </svg>
             )}
+          </button>
+          <button
+            className={styles.secondaryButton}
+            onClick={repeatPhrase}
+            aria-label="Powtórz zdanie"
+            title="Powtórz zdanie"
+          >
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+              aria-hidden="true"
+            >
+              <path d="M3 12a9 9 0 1 0 3-6.7" strokeLinecap="round" />
+              <path d="M3 4v5h5" strokeLinecap="round" strokeLinejoin="round" />
+            </svg>
           </button>
           <div className={styles.progress}>
             <div className={styles.progressFill} style={{ width: `${progress}%` }} />

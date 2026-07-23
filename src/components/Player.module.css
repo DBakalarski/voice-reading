@@ -185,3 +185,27 @@
 .coverButton:hover {
   background: var(--accent-deep);
 }
+
+.secondaryButton {
+  width: 2.75rem;
+  height: 2.75rem;
+  flex-shrink: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--line);
+  border-radius: 50%;
+  background: #fff;
+  color: var(--ink);
+  cursor: pointer;
+  transition: border-color 120ms ease;
+}
+
+.secondaryButton:hover {
+  border-color: var(--accent);
+}
+
+.secondaryButton svg {
+  width: 1.2rem;
+  height: 1.2rem;
+}
