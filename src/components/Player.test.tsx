@@ -16,6 +16,7 @@ const exercise: Exercise = {
 
 describe("Player", () => {
   beforeEach(() => {
+    localStorage.clear();
     // jsdom doesn't implement media playback; stub play/pause.
     vi.spyOn(HTMLMediaElement.prototype, "play").mockImplementation(async function (this: HTMLMediaElement) {
       this.dispatchEvent(new Event("play"));
@@ -38,5 +39,21 @@ describe("Player", () => {
       fireEvent.click(btn);
     });
     expect(screen.getByRole("button", { name: /pauza/i })).toBeInTheDocument();
+  });
+
+  it("changes playback rate and persists it", () => {
+    render(<Player exercise={exercise} />);
+    const btn = screen.getByRole("button", { name: "0,9×" });
+    fireEvent.click(btn);
+    const audio = document.querySelector("audio")!;
+    expect(audio.playbackRate).toBe(0.9);
+    expect(localStorage.getItem("voice-reading:rate")).toBe("0.9");
+    expect(btn).toHaveAttribute("aria-pressed", "true");
+  });
+
+  it("restores the saved playback rate on mount", () => {
+    localStorage.setItem("voice-reading:rate", "0.75");
+    render(<Player exercise={exercise} />);
+    expect(screen.getByRole("button", { name: "0,75×" })).toHaveAttribute("aria-pressed", "true");
   });
 });

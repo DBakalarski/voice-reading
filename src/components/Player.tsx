@@ -12,6 +12,11 @@ const FONT_SIZE_MIN = 1.25;
 const FONT_SIZE_MAX = 3.5;
 const FONT_SIZE_STEP = 0.25;
 
+const RATE_KEY = "voice-reading:rate";
+const RATES = [0.75, 0.9, 1];
+/** "0,75×" — Polish decimal comma. */
+const formatRate = (r: number) => `${String(r).replace(".", ",")}×`;
+
 const clampFontSize = (rem: number) =>
   Math.min(FONT_SIZE_MAX, Math.max(FONT_SIZE_MIN, Math.round(rem / FONT_SIZE_STEP) * FONT_SIZE_STEP));
 
@@ -29,6 +34,35 @@ export function Player({ exercise }: { exercise: Exercise }) {
     const saved = window.localStorage.getItem(FONT_SIZE_KEY);
     if (saved !== null) setFontSize(clampFontSize(Number(saved)));
   }, []);
+
+  // Reader-chosen playback tempo, persisted like the font size.
+  const [rate, setRate] = useState(1);
+
+  useEffect(() => {
+    const saved = window.localStorage.getItem(RATE_KEY);
+    const parsed = saved === null ? NaN : Number(saved);
+    if (RATES.includes(parsed)) setRate(parsed);
+  }, []);
+
+  useEffect(() => {
+    const audio = audioRef.current;
+    if (!audio) return;
+    const apply = () => {
+      // Slower voice at the same pitch. Modern browsers default to true;
+      // set it explicitly so older Safari behaves the same.
+      audio.preservesPitch = true;
+      audio.playbackRate = rate;
+    };
+    apply();
+    // Loading a new src resets playbackRate — re-apply once metadata arrives.
+    audio.addEventListener("loadedmetadata", apply);
+    return () => audio.removeEventListener("loadedmetadata", apply);
+  }, [rate, exercise.audio]);
+
+  const changeRate = (r: number) => {
+    setRate(r);
+    window.localStorage.setItem(RATE_KEY, String(r));
+  };
 
   const changeFontSize = (delta: number) => {
     setFontSize((prev) => {
@@ -54,45 +88,61 @@ export function Player({ exercise }: { exercise: Exercise }) {
   return (
     <main className={styles.container}>
       <div className={styles.controls}>
-        <button
-          className={styles.button}
-          onClick={toggle}
-          aria-label={playing ? "Pauza" : "Odtwórz"}
-          title={playing ? "Pauza" : "Odtwórz"}
-        >
-          {playing ? (
-            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-              <rect x="6" y="5" width="4" height="14" rx="1" />
-              <rect x="14" y="5" width="4" height="14" rx="1" />
-            </svg>
-          ) : (
-            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-              <path d="M8 5.5v13a1 1 0 0 0 1.53.85l10.2-6.5a1 1 0 0 0 0-1.7L9.53 4.65A1 1 0 0 0 8 5.5Z" />
-            </svg>
-          )}
-        </button>
-        <div className={styles.progress}>
-          <div className={styles.progressFill} style={{ width: `${progress}%` }} />
+        <div className={styles.controlsRow}>
+          <button
+            className={styles.button}
+            onClick={toggle}
+            aria-label={playing ? "Pauza" : "Odtwórz"}
+            title={playing ? "Pauza" : "Odtwórz"}
+          >
+            {playing ? (
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <rect x="6" y="5" width="4" height="14" rx="1" />
+                <rect x="14" y="5" width="4" height="14" rx="1" />
+              </svg>
+            ) : (
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M8 5.5v13a1 1 0 0 0 1.53.85l10.2-6.5a1 1 0 0 0 0-1.7L9.53 4.65A1 1 0 0 0 8 5.5Z" />
+              </svg>
+            )}
+          </button>
+          <div className={styles.progress}>
+            <div className={styles.progressFill} style={{ width: `${progress}%` }} />
+          </div>
         </div>
-        <div className={styles.fontControls} role="group" aria-label="Rozmiar tekstu">
-          <button
-            className={styles.fontButton}
-            onClick={() => changeFontSize(-FONT_SIZE_STEP)}
-            disabled={fontSize <= FONT_SIZE_MIN}
-            aria-label="Zmniejsz tekst"
-            title="Zmniejsz tekst"
-          >
-            A−
-          </button>
-          <button
-            className={styles.fontButton}
-            onClick={() => changeFontSize(FONT_SIZE_STEP)}
-            disabled={fontSize >= FONT_SIZE_MAX}
-            aria-label="Powiększ tekst"
-            title="Powiększ tekst"
-          >
-            A+
-          </button>
+        <div className={styles.controlsRow}>
+          <div className={styles.rateControls} role="group" aria-label="Tempo odtwarzania">
+            {RATES.map((r) => (
+              <button
+                key={r}
+                className={styles.rateButton}
+                onClick={() => changeRate(r)}
+                aria-pressed={rate === r}
+              >
+                {formatRate(r)}
+              </button>
+            ))}
+          </div>
+          <div className={styles.fontControls} role="group" aria-label="Rozmiar tekstu">
+            <button
+              className={styles.fontButton}
+              onClick={() => changeFontSize(-FONT_SIZE_STEP)}
+              disabled={fontSize <= FONT_SIZE_MIN}
+              aria-label="Zmniejsz tekst"
+              title="Zmniejsz tekst"
+            >
+              A−
+            </button>
+            <button
+              className={styles.fontButton}
+              onClick={() => changeFontSize(FONT_SIZE_STEP)}
+              disabled={fontSize >= FONT_SIZE_MAX}
+              aria-label="Powiększ tekst"
+              title="Powiększ tekst"
+            >
+              A+
+            </button>
+          </div>
         </div>
       </div>
       <h1 className={styles.title}>{exercise.title}</h1>

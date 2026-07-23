@@ -19,11 +19,47 @@
   top: 0;
   z-index: 10;
   display: flex;
-  align-items: center;
-  gap: 1rem;
+  flex-direction: column;
+  gap: 0.6rem;
   padding: 0.9rem 0;
   background: var(--paper);
   border-bottom: 1px solid var(--line);
+}
+
+.controlsRow {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.rateControls {
+  display: flex;
+  gap: 0.4rem;
+}
+
+.rateButton {
+  font-size: 0.95rem;
+  font-weight: 600;
+  line-height: 1;
+  min-width: 3.1rem;
+  min-height: 2.75rem;
+  padding: 0.5rem;
+  border: 1px solid var(--line);
+  border-radius: 0.6rem;
+  background: #fff;
+  color: var(--ink);
+  cursor: pointer;
+  transition: border-color 120ms ease;
+}
+
+.rateButton:hover[aria-pressed="false"] {
+  border-color: var(--accent);
+}
+
+.rateButton[aria-pressed="true"] {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
 }
 
 .button {
@@ -68,6 +104,7 @@
   display: flex;
   gap: 0.4rem;
   flex-shrink: 0;
+  margin-left: auto;
 }
 
 .fontButton {
