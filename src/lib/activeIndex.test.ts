@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { resolveActiveIndices } from "./activeIndex";
+import { resolveActiveIndices, phraseToRepeat } from "./activeIndex";
 import type { Phrase, Word } from "./types";
 
 const words: Word[] = [
@@ -29,5 +29,28 @@ describe("resolveActiveIndices", () => {
   it("returns -1/-1 before the first word and after the last", () => {
     expect(resolveActiveIndices(-0.5, words, phrases)).toEqual({ wordIndex: -1, phraseIndex: -1 });
     expect(resolveActiveIndices(99, words, phrases)).toEqual({ wordIndex: -1, phraseIndex: -1 });
+  });
+});
+
+describe("phraseToRepeat", () => {
+  const phrases: Phrase[] = [
+    { index: 0, text: "Pierwsze zdanie.", start: 0.5, end: 2 },
+    { index: 1, text: "Drugie zdanie.", start: 2.5, end: 4 },
+  ];
+
+  it("returns -1 before the first phrase", () => {
+    expect(phraseToRepeat(0.2, phrases)).toBe(-1);
+  });
+
+  it("returns the phrase containing the time", () => {
+    expect(phraseToRepeat(3, phrases)).toBe(1);
+  });
+
+  it("returns the previous phrase inside a gap between phrases", () => {
+    expect(phraseToRepeat(2.2, phrases)).toBe(0);
+  });
+
+  it("returns the last phrase after the audio end", () => {
+    expect(phraseToRepeat(99, phrases)).toBe(1);
   });
 });
