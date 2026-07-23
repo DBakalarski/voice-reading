@@ -1558,7 +1558,7 @@ buildExercise(id, title, alignment, next?, questions?: Question[]): Exercise
 
   plus: `npm run generate` copies `questions` from `content/index.json` into already-generated `public/library/<id>.json` files WITHOUT calling the ElevenLabs API.
 
-- [ ] **Step 1: Write the failing test**
+- [x] **Step 1: Write the failing test**
 
 Append inside the `describe("buildExercise", ...)` block of `src/lib/exercise.test.ts` (the file already defines an `align(text: string): Alignment` helper at the top — use it):
 
@@ -1575,12 +1575,12 @@ Append inside the `describe("buildExercise", ...)` block of `src/lib/exercise.te
   });
 ```
 
-- [ ] **Step 2: Run test to verify it fails**
+- [x] **Step 2: Run test to verify it fails**
 
 Run: `npx vitest run src/lib/exercise.test.ts`
 Expected: FAIL — TypeScript error (too many arguments) or `questions` undefined mismatch.
 
-- [ ] **Step 3: Implement**
+- [x] **Step 3: Implement**
 
 In `src/lib/types.ts`, add above `Exercise`:
 
@@ -1664,11 +1664,11 @@ In `scripts/generate.ts`:
       }
 ```
 
-- [ ] **Step 4: Run tests to verify they pass**
+- [x] **Step 4: Run tests to verify they pass**
 
 Run: `npx vitest run src/lib/exercise.test.ts` → ALL PASS. Also run `npm run build` (type-checks the app; scripts are type-checked by tsx at runtime).
 
-- [ ] **Step 5: Commit**
+- [x] **Step 5: Commit**
 
 ```bash
 git add src/lib/types.ts src/lib/exercise.ts src/lib/exercise.test.ts scripts/generate.ts
@@ -1686,7 +1686,7 @@ git commit -m "feat(content): comprehension questions flow through the generate 
 - Consumes: `Question` from `@/lib/types` (Task 11).
 - Produces: `<Quiz questions={Question[]} onFinish={(correct: number, total: number) => void} />` — `onFinish` fires exactly once, on submit.
 
-- [ ] **Step 1: Write the failing tests**
+- [x] **Step 1: Write the failing tests**
 
 Create `src/components/Quiz.test.tsx`:
 
@@ -1733,12 +1733,12 @@ describe("Quiz", () => {
 });
 ```
 
-- [ ] **Step 2: Run tests to verify they fail**
+- [x] **Step 2: Run tests to verify they fail**
 
 Run: `npx vitest run src/components/Quiz.test.tsx`
 Expected: FAIL — `./Quiz` does not exist.
 
-- [ ] **Step 3: Implement**
+- [x] **Step 3: Implement**
 
 Create `src/components/Quiz.tsx`:
 
@@ -1894,11 +1894,11 @@ Create `src/components/Quiz.module.css`:
 }
 ```
 
-- [ ] **Step 4: Run tests to verify they pass**
+- [x] **Step 4: Run tests to verify they pass**
 
 Run: `npx vitest run src/components/Quiz.test.tsx` → ALL PASS.
 
-- [ ] **Step 5: Commit**
+- [x] **Step 5: Commit**
 
 ```bash
 git add src/components/Quiz.tsx src/components/Quiz.module.css src/components/Quiz.test.tsx
@@ -1914,7 +1914,7 @@ git commit -m "feat(quiz): comprehension quiz component"
 **Interfaces:**
 - Consumes: `Quiz` (Task 12), `saveQuizResult` from `@/lib/progress` (Task 7), the `ended` handler effect from Task 8.
 
-- [ ] **Step 1: Write the failing test**
+- [x] **Step 1: Write the failing test**
 
 Append to `src/components/Player.test.tsx`:
 
@@ -1940,12 +1940,12 @@ Append to `src/components/Player.test.tsx`:
   });
 ```
 
-- [ ] **Step 2: Run test to verify it fails**
+- [x] **Step 2: Run test to verify it fails**
 
 Run: `npx vitest run src/components/Player.test.tsx`
 Expected: FAIL — "Sprawdź zrozumienie" never appears.
 
-- [ ] **Step 3: Implement**
+- [x] **Step 3: Implement**
 
 In `src/components/Player.tsx`:
 
@@ -1978,11 +1978,11 @@ In `src/components/Player.tsx`:
       )}
 ```
 
-- [ ] **Step 4: Run tests to verify they pass**
+- [x] **Step 4: Run tests to verify they pass**
 
 Run: `npx vitest run src/components/Player.test.tsx` → ALL PASS.
 
-- [ ] **Step 5: Commit**
+- [x] **Step 5: Commit**
 
 ```bash
 git add src/components/Player.tsx src/components/Player.test.tsx
@@ -1998,7 +1998,7 @@ git commit -m "feat(player): show comprehension quiz after playback ends"
 **Interfaces:**
 - Consumes: the `questions` field (Task 11) and `npm run generate` sync path. Requires `.env` with `ELEVENLABS_API_KEY` + `ELEVENLABS_VOICE_ID` present (the sync path spends NO quota, but the script checks env upfront).
 
-- [ ] **Step 1: Add questions to `content/index.json`**
+- [x] **Step 1: Add questions to `content/index.json`**
 
 Add a `questions` array to each of the three level-1 items (verify against each item's `text` — the questions below match the current texts):
 
@@ -2029,16 +2029,16 @@ To `l1-kuchnia`:
 ]
 ```
 
-- [ ] **Step 2: Sync into the library**
+- [x] **Step 2: Sync into the library**
 
 Run: `npm run generate`
 Expected output includes `Updated questions for "l1-poranek".` (and the other two), `0 generated` — NO audio regenerated, no quota spent. If it instead says `Generating ...`, STOP and check you did not modify any `text` field.
 
-- [ ] **Step 3: Verify manually**
+- [x] **Step 3: Verify manually**
 
 Run: `npx vitest run` (full suite) and `npm run build`. Then check `public/library/l1-poranek.json` ends with the `questions` array.
 
-- [ ] **Step 4: Commit**
+- [x] **Step 4: Commit**
 
 ```bash
 git add content/index.json public/library
@@ -2049,7 +2049,7 @@ git commit -m "content: comprehension questions for level-1 exercises"
 
 ## Final verification (after all tasks)
 
-- [ ] `npm test` — all tests pass.
-- [ ] `npm run build` — static export succeeds.
-- [ ] Manual smoke test: `npm run dev`, open an exercise → change tempo (voice slower, same pitch), switch to „Najpierw słuchaj" (text covered, reveal works), click a word mid-text (playback jumps), drag the slider, let audio finish (quiz appears for l1 exercises), go home (Kontynuuj card + streak after 2 days).
-- [ ] Do NOT push — the user pushes to `main` themselves.
+- [x] `npm test` — all tests pass (96).
+- [x] `npm run build` — static export succeeds.
+- [x] Manual smoke test (done via browser on `npm run dev`): `npm run dev`, open an exercise → change tempo (voice slower, same pitch), switch to „Najpierw słuchaj" (text covered, reveal works), click a word mid-text (playback jumps), drag the slider, let audio finish (quiz appears for l1 exercises), go home (Kontynuuj card + streak after 2 days).
+- [x] Do NOT push — the user pushes to `main` themselves.
