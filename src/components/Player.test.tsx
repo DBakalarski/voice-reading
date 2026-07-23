@@ -129,4 +129,21 @@ describe("Player", () => {
     fireEvent.click(screen.getAllByTestId("word")[0]); // phrase 0 starts at 0
     expect(time).toBe(0);
   });
+
+  it("seeks when the progress slider changes", () => {
+    render(<Player exercise={exercise} />);
+    const audio = document.querySelector("audio")!;
+    let time = 0;
+    Object.defineProperty(audio, "currentTime", {
+      get: () => time,
+      set: (v: number) => {
+        time = v;
+      },
+      configurable: true,
+    });
+    Object.defineProperty(audio, "duration", { value: 10, configurable: true });
+    const slider = screen.getByRole("slider", { name: "Postęp odtwarzania" });
+    fireEvent.change(slider, { target: { value: "50" } });
+    expect(time).toBe(5);
+  });
 });

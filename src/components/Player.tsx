@@ -117,6 +117,14 @@ export function Player({ exercise }: { exercise: Exercise }) {
     void audio.play();
   };
 
+  const onSeek = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const audio = audioRef.current;
+    if (!audio || !audio.duration) return;
+    const pct = Number(e.target.value);
+    audio.currentTime = (pct / 100) * audio.duration;
+    setProgress(pct);
+  };
+
   const onTimeUpdate = () => {
     const audio = audioRef.current;
     if (!audio || !audio.duration) return;
@@ -161,9 +169,17 @@ export function Player({ exercise }: { exercise: Exercise }) {
               <path d="M3 4v5h5" strokeLinecap="round" strokeLinejoin="round" />
             </svg>
           </button>
-          <div className={styles.progress}>
-            <div className={styles.progressFill} style={{ width: `${progress}%` }} />
-          </div>
+          <input
+            type="range"
+            className={styles.progress}
+            min={0}
+            max={100}
+            step={0.1}
+            value={progress}
+            onChange={onSeek}
+            aria-label="Postęp odtwarzania"
+            style={{ "--pct": `${progress}%` } as React.CSSProperties}
+          />
         </div>
         <div className={styles.controlsRow}>
           <div className={styles.rateControls} role="group" aria-label="Tempo odtwarzania">
