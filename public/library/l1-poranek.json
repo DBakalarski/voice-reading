@@ -287,5 +287,25 @@
       "start": 17.31,
       "end": 18.901
     }
+  ],
+  "questions": [
+    {
+      "question": "Co robię po wstaniu z łóżka?",
+      "answers": [
+        "Otwieram okno",
+        "Włączam telewizor",
+        "Idę na spacer"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Co piję powoli?",
+      "answers": [
+        "Kawę",
+        "Herbatę",
+        "Wodę"
+      ],
+      "correct": 1
+    }
   ]
 }

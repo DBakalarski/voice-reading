@@ -281,5 +281,25 @@
       "start": 15.128,
       "end": 16.068
     }
+  ],
+  "questions": [
+    {
+      "question": "Co gotuję?",
+      "answers": [
+        "Makaron",
+        "Zupę",
+        "Ziemniaki"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Co jest w szklance?",
+      "answers": [
+        "Mleko",
+        "Sok",
+        "Woda"
+      ],
+      "correct": 2
+    }
   ]
 }

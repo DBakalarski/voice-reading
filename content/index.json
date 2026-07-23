@@ -4,19 +4,31 @@
       "id": "l1-poranek",
       "level": 1,
       "title": "Poranek",
-      "text": "Dzień dobry. Jest ranek. Słońce wschodzi. Wstaję z łóżka. Otwieram okno. Powietrze jest świeże. Robię herbatę. Piję ją powoli. Na stole leży chleb. Jem śniadanie. Potem myję naczynia. Czuję się dobrze. Zaczynam nowy dzień."
+      "text": "Dzień dobry. Jest ranek. Słońce wschodzi. Wstaję z łóżka. Otwieram okno. Powietrze jest świeże. Robię herbatę. Piję ją powoli. Na stole leży chleb. Jem śniadanie. Potem myję naczynia. Czuję się dobrze. Zaczynam nowy dzień.",
+      "questions": [
+        { "question": "Co robię po wstaniu z łóżka?", "answers": ["Otwieram okno", "Włączam telewizor", "Idę na spacer"], "correct": 0 },
+        { "question": "Co piję powoli?", "answers": ["Kawę", "Herbatę", "Wodę"], "correct": 1 }
+      ]
     },
     {
       "id": "l1-liczby",
       "level": 1,
       "title": "Liczby i dni",
-      "text": "Liczę powoli. Jeden, dwa, trzy. Cztery, pięć, sześć. To jest prosta liczba. Dziś jest poniedziałek. Jutro będzie wtorek. Tydzień ma siedem dni. Rok ma dwanaście miesięcy. Teraz jest godzina ósma. Mam dużo czasu. Liczę jeszcze raz. Jeden, dwa, trzy."
+      "text": "Liczę powoli. Jeden, dwa, trzy. Cztery, pięć, sześć. To jest prosta liczba. Dziś jest poniedziałek. Jutro będzie wtorek. Tydzień ma siedem dni. Rok ma dwanaście miesięcy. Teraz jest godzina ósma. Mam dużo czasu. Liczę jeszcze raz. Jeden, dwa, trzy.",
+      "questions": [
+        { "question": "Ile dni ma tydzień?", "answers": ["Pięć", "Dziesięć", "Siedem"], "correct": 2 },
+        { "question": "Jaki dzień będzie jutro?", "answers": ["Wtorek", "Piątek", "Niedziela"], "correct": 0 }
+      ]
     },
     {
       "id": "l1-kuchnia",
       "level": 1,
       "title": "W kuchni",
-      "text": "Jestem w kuchni. Na stole stoi talerz. Obok leży łyżka i widelec. W szklance jest woda. Gotuję zupę. Zupa jest gorąca. Pachnie bardzo dobrze. Kroję chleb. Biorę masło. Smaruję kromkę. Siadam przy stole. Smacznego."
+      "text": "Jestem w kuchni. Na stole stoi talerz. Obok leży łyżka i widelec. W szklance jest woda. Gotuję zupę. Zupa jest gorąca. Pachnie bardzo dobrze. Kroję chleb. Biorę masło. Smaruję kromkę. Siadam przy stole. Smacznego.",
+      "questions": [
+        { "question": "Co gotuję?", "answers": ["Makaron", "Zupę", "Ziemniaki"], "correct": 1 },
+        { "question": "Co jest w szklance?", "answers": ["Mleko", "Sok", "Woda"], "correct": 2 }
+      ]
     },
     {
       "id": "l2-targ",

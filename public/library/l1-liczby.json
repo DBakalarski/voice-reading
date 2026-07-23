@@ -311,5 +311,25 @@
       "start": 16.858,
       "end": 18.715
     }
+  ],
+  "questions": [
+    {
+      "question": "Ile dni ma tydzień?",
+      "answers": [
+        "Pięć",
+        "Dziesięć",
+        "Siedem"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Jaki dzień będzie jutro?",
+      "answers": [
+        "Wtorek",
+        "Piątek",
+        "Niedziela"
+      ],
+      "correct": 0
+    }
   ]
 }
