@@ -442,7 +442,7 @@ git commit -m "feat(player): listen-first mode with covered text and reveal"
 **Interfaces:**
 - Produces: `phraseToRepeat(time: number, phrases: Phrase[]): number` — index of the phrase containing `time`, else the last phrase started before `time`, else `-1`. Used by Task 4.
 
-- [ ] **Step 1: Write the failing tests**
+- [x] **Step 1: Write the failing tests**
 
 Append to `src/lib/activeIndex.test.ts` (add `phraseToRepeat` to the existing import from `./activeIndex`, and `Phrase` to the type import from `./types` if not already there):
 
@@ -471,12 +471,12 @@ describe("phraseToRepeat", () => {
 });
 ```
 
-- [ ] **Step 2: Run tests to verify they fail**
+- [x] **Step 2: Run tests to verify they fail**
 
 Run: `npx vitest run src/lib/activeIndex.test.ts`
 Expected: FAIL — `phraseToRepeat` is not exported.
 
-- [ ] **Step 3: Implement**
+- [x] **Step 3: Implement**
 
 Append to `src/lib/activeIndex.ts`:
 
@@ -491,11 +491,11 @@ export function phraseToRepeat(time: number, phrases: Phrase[]): number {
 }
 ```
 
-- [ ] **Step 4: Run tests to verify they pass**
+- [x] **Step 4: Run tests to verify they pass**
 
 Run: `npx vitest run src/lib/activeIndex.test.ts` → ALL PASS.
 
-- [ ] **Step 5: Commit**
+- [x] **Step 5: Commit**
 
 ```bash
 git add src/lib/activeIndex.ts src/lib/activeIndex.test.ts
@@ -513,7 +513,7 @@ git commit -m "feat(lib): phraseToRepeat resolves the phrase to jump back to"
 - Consumes: `phraseToRepeat` from `@/lib/activeIndex` (Task 3); Task 1's `.controlsRow` layout.
 - Produces: `.secondaryButton` CSS class (reused nowhere else yet).
 
-- [ ] **Step 1: Write the failing test**
+- [x] **Step 1: Write the failing test**
 
 Append to `src/components/Player.test.tsx`. It needs a 2-phrase exercise, defined locally in the test:
 
@@ -548,12 +548,12 @@ Append to `src/components/Player.test.tsx`. It needs a 2-phrase exercise, define
   });
 ```
 
-- [ ] **Step 2: Run test to verify it fails**
+- [x] **Step 2: Run test to verify it fails**
 
 Run: `npx vitest run src/components/Player.test.tsx`
 Expected: new test FAILS ("Unable to find ... Powtórz zdanie").
 
-- [ ] **Step 3: Implement**
+- [x] **Step 3: Implement**
 
 In `src/components/Player.tsx`:
 
@@ -621,11 +621,11 @@ Append to `src/components/Player.module.css`:
 }
 ```
 
-- [ ] **Step 4: Run tests to verify they pass**
+- [x] **Step 4: Run tests to verify they pass**
 
 Run: `npx vitest run src/components/Player.test.tsx` → ALL PASS.
 
-- [ ] **Step 5: Commit**
+- [x] **Step 5: Commit**
 
 ```bash
 git add src/components/Player.tsx src/components/Player.module.css src/components/Player.test.tsx
@@ -644,7 +644,7 @@ git commit -m "feat(player): repeat-current-phrase button"
 - Produces: `HighlightedText` prop `onPhraseClick?: (phrase: number) => void` (word click reports its `phrase` number).
 - Consumes: nothing new in Player beyond `audioRef` and `exercise.phrases`.
 
-- [ ] **Step 1: Write the failing tests**
+- [x] **Step 1: Write the failing tests**
 
 In `src/components/HighlightedText.test.tsx`, extend the vitest import to `import { describe, it, expect, vi } from "vitest";` and the testing-library import to include `fireEvent`. Append:
 
@@ -683,12 +683,12 @@ In `src/components/Player.test.tsx`, append:
   });
 ```
 
-- [ ] **Step 2: Run tests to verify they fail**
+- [x] **Step 2: Run tests to verify they fail**
 
 Run: `npx vitest run src/components/HighlightedText.test.tsx src/components/Player.test.tsx`
 Expected: HighlightedText test fails (`onPhraseClick` never called); Player test fails (time stays 0.9).
 
-- [ ] **Step 3: Implement**
+- [x] **Step 3: Implement**
 
 In `src/components/HighlightedText.tsx`:
 
@@ -761,11 +761,11 @@ and pass it to the text (only the non-covered branch renders it):
         />
 ```
 
-- [ ] **Step 4: Run tests to verify they pass**
+- [x] **Step 4: Run tests to verify they pass**
 
 Run: `npx vitest run src/components/HighlightedText.test.tsx src/components/Player.test.tsx` → ALL PASS.
 
-- [ ] **Step 5: Commit**
+- [x] **Step 5: Commit**
 
 ```bash
 git add src/components/HighlightedText.tsx src/components/HighlightedText.module.css src/components/HighlightedText.test.tsx src/components/Player.tsx src/components/Player.test.tsx
@@ -783,7 +783,7 @@ git commit -m "feat(reader): tap a phrase to seek playback to its start"
 - Consumes: Task 1's row layout (`.progress` sits in row 1).
 - Produces: the progress bar becomes `<input type="range">` with `aria-label="Postęp odtwarzania"`; `.progressFill` is deleted.
 
-- [ ] **Step 1: Write the failing test**
+- [x] **Step 1: Write the failing test**
 
 Append to `src/components/Player.test.tsx`:
 
@@ -806,12 +806,12 @@ Append to `src/components/Player.test.tsx`:
   });
 ```
 
-- [ ] **Step 2: Run test to verify it fails**
+- [x] **Step 2: Run test to verify it fails**
 
 Run: `npx vitest run src/components/Player.test.tsx`
 Expected: FAIL — no element with role `slider`.
 
-- [ ] **Step 3: Implement**
+- [x] **Step 3: Implement**
 
 In `src/components/Player.tsx`, below `seekToPhrase`, add:
 
@@ -880,11 +880,11 @@ In `src/components/Player.module.css`, DELETE the `.progressFill` rule and repla
 }
 ```
 
-- [ ] **Step 4: Run tests to verify they pass**
+- [x] **Step 4: Run tests to verify they pass**
 
 Run: `npx vitest run src/components/Player.test.tsx` → ALL PASS.
 
-- [ ] **Step 5: Full suite + build, then commit**
+- [x] **Step 5: Full suite + build, then commit**
 
 Run: `npm test` and `npm run build` → both pass.
 
