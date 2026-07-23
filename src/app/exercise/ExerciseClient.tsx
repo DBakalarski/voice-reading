@@ -6,6 +6,7 @@ import Link from "next/link";
 import { Player } from "@/components/Player";
 import { loadExercise } from "@/lib/library";
 import type { Exercise } from "@/lib/types";
+import styles from "./Exercise.module.css";
 
 function ExerciseView() {
   const id = useSearchParams().get("id");
@@ -25,13 +26,13 @@ function ExerciseView() {
 
   if (!id)
     return (
-      <main style={{ padding: "2rem" }}>
+      <main className={styles.status}>
         Brak wybranego ćwiczenia. <Link href="/">Wróć</Link>
       </main>
     );
   if (error)
     return (
-      <main style={{ padding: "2rem" }}>
+      <main className={styles.status}>
         Nie udało się wczytać ćwiczenia. <Link href="/">Wróć</Link>
       </main>
     );
@@ -39,15 +40,15 @@ function ExerciseView() {
   // one render before the effect reloads, so this keeps the previous part's
   // text/audio from flashing until the matching exercise is in hand.
   if (!exercise || exercise.id !== id)
-    return <main style={{ padding: "2rem" }}>Wczytywanie…</main>;
+    return <main className={styles.status}>Wczytywanie…</main>;
   return (
     <>
-      <nav style={{ padding: "1rem 1.5rem" }}>
+      <nav className={styles.chrome}>
         <Link href="/">← Lista ćwiczeń</Link>
       </nav>
       <Player exercise={exercise} />
       {exercise.next && (
-        <nav style={{ padding: "1rem 1.5rem" }}>
+        <nav className={styles.nextPart}>
           <Link href={`/exercise?id=${exercise.next}`}>Następna część →</Link>
         </nav>
       )}
@@ -57,7 +58,7 @@ function ExerciseView() {
 
 export function ExerciseClient() {
   return (
-    <Suspense fallback={<main style={{ padding: "2rem" }}>Wczytywanie…</main>}>
+    <Suspense fallback={<main className={styles.status}>Wczytywanie…</main>}>
       <ExerciseView />
     </Suspense>
   );

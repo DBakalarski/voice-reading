@@ -12,6 +12,7 @@ import {
   topicsForLevel,
 } from "@/lib/levels";
 import type { ExerciseSummary } from "@/lib/types";
+import { SoundBars } from "./SoundBars";
 import styles from "./Library.module.css";
 
 export function LevelMenu() {
@@ -28,8 +29,8 @@ export function LevelMenu() {
     <main className={styles.container}>
       <h1 className={styles.heading}>Ćwiczenia słuchowe</h1>
       <p className={styles.subheading}>Wybierz poziom trudności.</p>
-      {error && <p>Nie udało się wczytać ćwiczeń.</p>}
-      {!error && exercises === null && <p>Wczytywanie…</p>}
+      {error && <p className={styles.status}>Nie udało się wczytać ćwiczeń.</p>}
+      {!error && exercises === null && <p className={styles.status}>Wczytywanie…</p>}
       {exercises && (
         <ul className={styles.list}>
           {LEVELS.map((lvl) => {
@@ -40,6 +41,9 @@ export function LevelMenu() {
                   <span className={styles.cardTitle}>{lvl.title}</span>
                   <span className={styles.cardDesc}>{lvl.description}</span>
                   <span className={styles.cardMeta}>{topicCountLabel(count)}</span>
+                  <span className={styles.cardBars} aria-hidden="true">
+                    <SoundBars variant={lvl.level as 1 | 2 | 3} />
+                  </span>
                 </Link>
               </li>
             );
@@ -51,6 +55,9 @@ export function LevelMenu() {
                 <span className={styles.cardDesc}>{ARTICLES_SECTION.description}</span>
                 <span className={styles.cardMeta}>
                   {articleCountLabel(articleTopics(exercises).length)}
+                </span>
+                <span className={styles.cardBars} aria-hidden="true">
+                  <SoundBars variant="article" />
                 </span>
               </Link>
             </li>

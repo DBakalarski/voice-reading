@@ -48,9 +48,9 @@ export function TopicList() {
       </nav>
       <h1 className={styles.heading}>{heading}</h1>
       {description && <p className={styles.subheading}>{description}</p>}
-      {error && <p>Nie udało się wczytać ćwiczeń.</p>}
-      {!error && exercises === null && <p>Wczytywanie…</p>}
-      {topics && topics.length === 0 && <p>{emptyLabel}</p>}
+      {error && <p className={styles.status}>Nie udało się wczytać ćwiczeń.</p>}
+      {!error && exercises === null && <p className={styles.status}>Wczytywanie…</p>}
+      {topics && topics.length === 0 && <p className={styles.status}>{emptyLabel}</p>}
       {topics && topics.length > 0 && (
         <ul className={styles.list}>
           {topics.map((e) => (

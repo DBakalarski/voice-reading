@@ -1,0 +1,64 @@
+.chrome {
+  max-width: 44rem;
+  margin: 0 auto;
+  padding: 1.25rem 1.5rem 0;
+}
+
+.chrome a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 600;
+  padding: 0.4rem 0.6rem;
+  margin-left: -0.6rem;
+  border-radius: 0.5rem;
+}
+
+.chrome a:hover {
+  background: var(--accent-tint);
+}
+
+.status {
+  max-width: 44rem;
+  margin: 0 auto;
+  padding: 2.5rem 1.5rem;
+  color: var(--muted);
+  font-size: 1.05rem;
+}
+
+.status a {
+  color: var(--accent);
+  font-weight: 600;
+}
+
+/* Prominent forward link at the end of a multi-part article. */
+.nextPart {
+  max-width: 44rem;
+  margin: 0 auto;
+  padding: 0 1.5rem 3rem;
+}
+
+.nextPart a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1.1rem 1.4rem;
+  border: 1px solid var(--line);
+  border-radius: 0.9rem;
+  background: #fff;
+  color: var(--accent);
+  font-weight: 600;
+  font-size: 1.1rem;
+  text-decoration: none;
+  transition:
+    border-color 120ms ease,
+    box-shadow 120ms ease;
+}
+
+.nextPart a:hover {
+  border-color: var(--accent);
+  box-shadow: 0 2px 10px rgba(42, 39, 34, 0.07);
+}

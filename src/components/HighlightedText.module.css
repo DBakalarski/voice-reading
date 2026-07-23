@@ -1,8 +1,10 @@
 .text {
+  font-family: var(--font-reading), Georgia, serif;
   font-size: 2rem;
-  line-height: 2.4;
-  letter-spacing: 0.01em;
-  word-spacing: 0.2em;
+  line-height: 2.3;
+  letter-spacing: 0.005em;
+  word-spacing: 0.15em;
+  color: var(--ink);
 }
 
 .word {
@@ -17,11 +19,11 @@
 }
 
 .currentPhrase {
-  background-color: #fff3bf;
+  background-color: var(--phrase);
 }
 
 .currentWord {
-  background-color: #ffd43b;
+  background-color: var(--word);
   /* Faux-bold via text-shadow: visually heavier without changing glyph width,
      so emphasising the current word never reflows the text (no jumping). */
   text-shadow: 0.02em 0 0 currentColor, -0.02em 0 0 currentColor;

@@ -54,8 +54,22 @@ export function Player({ exercise }: { exercise: Exercise }) {
   return (
     <main className={styles.container}>
       <div className={styles.controls}>
-        <button className={styles.button} onClick={toggle}>
-          {playing ? "Pauza" : "Odtwórz"}
+        <button
+          className={styles.button}
+          onClick={toggle}
+          aria-label={playing ? "Pauza" : "Odtwórz"}
+          title={playing ? "Pauza" : "Odtwórz"}
+        >
+          {playing ? (
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <rect x="6" y="5" width="4" height="14" rx="1" />
+              <rect x="14" y="5" width="4" height="14" rx="1" />
+            </svg>
+          ) : (
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M8 5.5v13a1 1 0 0 0 1.53.85l10.2-6.5a1 1 0 0 0 0-1.7L9.53 4.65A1 1 0 0 0 8 5.5Z" />
+            </svg>
+          )}
         </button>
         <div className={styles.progress}>
           <div className={styles.progressFill} style={{ width: `${progress}%` }} />
