@@ -2,6 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import { HighlightedText } from "./HighlightedText";
+import { Quiz } from "./Quiz";
 import { useAudioSync } from "@/hooks/useAudioSync";
 import { phraseToRepeat } from "@/lib/activeIndex";
 import {
@@ -9,6 +10,7 @@ import {
   markCompleted,
   recordPracticeDay,
   saveLastPosition,
+  saveQuizResult,
   todayKey,
 } from "@/lib/progress";
 import type { Exercise } from "@/lib/types";
@@ -78,6 +80,8 @@ export function Player({ exercise }: { exercise: Exercise }) {
   // "read" shows the text immediately; "listen" covers it until revealed.
   const [mode, setMode] = useState<Mode>("read");
   const [revealed, setRevealed] = useState(false);
+  // Playback reached the end at least once for this exercise.
+  const [finished, setFinished] = useState(false);
 
   useEffect(() => {
     const saved = window.localStorage.getItem(MODE_KEY);
@@ -85,7 +89,10 @@ export function Player({ exercise }: { exercise: Exercise }) {
   }, []);
 
   // A new exercise always starts covered again.
-  useEffect(() => setRevealed(false), [exercise.id]);
+  useEffect(() => {
+    setRevealed(false);
+    setFinished(false);
+  }, [exercise.id]);
 
   const switchMode = (m: Mode) => {
     setMode(m);
@@ -100,6 +107,7 @@ export function Player({ exercise }: { exercise: Exercise }) {
     const onPlay = () => recordPracticeDay(todayKey());
     const onPause = () => saveLastPosition(exercise.id, audio.currentTime);
     const onEnded = () => {
+      setFinished(true);
       markCompleted(exercise.id);
       recordPracticeDay(todayKey());
       saveLastPosition(exercise.id, 0);
@@ -287,6 +295,12 @@ export function Player({ exercise }: { exercise: Exercise }) {
           phraseIndex={phraseIndex}
           fontSize={fontSize}
           onPhraseClick={seekToPhrase}
+        />
+      )}
+      {finished && exercise.questions && exercise.questions.length > 0 && (
+        <Quiz
+          questions={exercise.questions}
+          onFinish={(correct, total) => saveQuizResult(exercise.id, correct, total)}
         />
       )}
       <audio ref={audioRef} src={exercise.audio} onTimeUpdate={onTimeUpdate} preload="auto" />

@@ -190,4 +190,24 @@ describe("Player", () => {
     });
     expect(time).toBe(0.5);
   });
+
+  it("shows the quiz after the audio ends and stores the result", () => {
+    const withQuiz: Exercise = {
+      ...exercise,
+      questions: [
+        { question: "Kto ma?", answers: ["Ala", "Ola", "Ula"], correct: 0 },
+      ],
+    };
+    render(<Player exercise={withQuiz} />);
+    expect(screen.queryByText("Sprawdź zrozumienie")).not.toBeInTheDocument();
+    const audio = document.querySelector("audio")!;
+    act(() => {
+      audio.dispatchEvent(new Event("ended"));
+    });
+    expect(screen.getByText("Sprawdź zrozumienie")).toBeInTheDocument();
+    fireEvent.click(screen.getByLabelText("Ala"));
+    fireEvent.click(screen.getByRole("button", { name: "Sprawdź odpowiedzi" }));
+    const stored = JSON.parse(localStorage.getItem("voice-reading:progress")!);
+    expect(stored.quiz).toEqual({ x: { correct: 1, total: 1 } });
+  });
 });
