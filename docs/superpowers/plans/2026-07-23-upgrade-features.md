@@ -37,7 +37,7 @@
 - Consumes: existing `Player` component; existing `FONT_SIZE_*` localStorage pattern.
 - Produces: localStorage key `voice-reading:rate` storing `"0.75" | "0.9" | "1"`; controls bar restructured into two `.controlsRow` divs (later tasks insert buttons into these rows).
 
-- [ ] **Step 1: Write the failing tests**
+- [x] **Step 1: Write the failing tests**
 
 Append to the `describe("Player", ...)` block in `src/components/Player.test.tsx`:
 
@@ -61,12 +61,12 @@ Append to the `describe("Player", ...)` block in `src/components/Player.test.tsx
 
 Also add `localStorage.clear();` as the FIRST line inside the existing `beforeEach(() => { ... })` (before the media stubs) so saved font size/rate never leaks between tests.
 
-- [ ] **Step 2: Run tests to verify they fail**
+- [x] **Step 2: Run tests to verify they fail**
 
 Run: `npx vitest run src/components/Player.test.tsx`
 Expected: 2 new tests FAIL with "Unable to find an accessible element with the role button and name 0,9×". The 2 existing tests still pass.
 
-- [ ] **Step 3: Implement**
+- [x] **Step 3: Implement**
 
 In `src/components/Player.tsx`, add below the `FONT_SIZE_STEP` constant:
 
@@ -212,12 +212,12 @@ In `src/components/Player.module.css`, replace the `.controls` rule and add row/
 
 And add `margin-left: auto;` to the existing `.fontControls` rule (pushes it to the right edge of row 2).
 
-- [ ] **Step 4: Run tests to verify they pass**
+- [x] **Step 4: Run tests to verify they pass**
 
 Run: `npx vitest run src/components/Player.test.tsx`
 Expected: ALL tests PASS (4 total).
 
-- [ ] **Step 5: Full suite + build, then commit**
+- [x] **Step 5: Full suite + build, then commit**
 
 Run: `npm test` → all pass. Run: `npm run build` → succeeds.
 
