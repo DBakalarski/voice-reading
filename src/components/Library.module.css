@@ -142,3 +142,13 @@
   font-family: var(--font-ui), system-ui, sans-serif;
   font-size: 1.1rem;
 }
+
+.itemTitle {
+  flex: 1;
+}
+
+.done {
+  color: var(--accent);
+  font-weight: 700;
+  font-size: 1.1rem;
+}

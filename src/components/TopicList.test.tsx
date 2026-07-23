@@ -1,7 +1,8 @@
-import { describe, it, expect, vi, afterEach } from "vitest";
+import { describe, it, expect, vi, afterEach, beforeEach } from "vitest";
 import { render, screen, waitFor } from "@testing-library/react";
 import { TopicList } from "./TopicList";
 
+beforeEach(() => localStorage.clear());
 afterEach(() => vi.restoreAllMocks());
 
 describe("TopicList", () => {
@@ -42,5 +43,25 @@ describe("TopicList", () => {
       "/exercise?id=art-sen",
     );
     expect(screen.queryByText("Poranek")).not.toBeInTheDocument();
+  });
+
+  it("shows a completed badge for finished exercises", async () => {
+    localStorage.setItem(
+      "voice-reading:progress",
+      JSON.stringify({ completed: ["l1-poranek"], days: [] }),
+    );
+    const index = {
+      exercises: [
+        { id: "l1-poranek", title: "Poranek", level: 1 },
+        { id: "l1-liczby", title: "Liczby", level: 1 },
+      ],
+    };
+    vi.stubGlobal("fetch", vi.fn(async () => new Response(JSON.stringify(index))));
+    window.history.pushState({}, "", "/level?level=1");
+    render(<TopicList />);
+    await waitFor(() => expect(screen.getByText("Poranek")).toBeInTheDocument());
+    expect(screen.getByRole("img", { name: "Ukończone" })).toBeInTheDocument();
+    // Only one badge — "Liczby" is not completed.
+    expect(screen.getAllByRole("img", { name: "Ukończone" })).toHaveLength(1);
   });
 });

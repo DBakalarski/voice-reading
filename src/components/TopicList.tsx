@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import { loadLibraryIndex } from "@/lib/library";
+import { loadProgress } from "@/lib/progress";
 import { ARTICLES_SECTION, articleTopics, levelMeta, topicsForLevel } from "@/lib/levels";
 import type { ExerciseSummary } from "@/lib/types";
 import styles from "./Library.module.css";
@@ -12,6 +13,7 @@ export function TopicList() {
   const [error, setError] = useState(false);
   const [level, setLevel] = useState<number | null>(null);
   const [isArticles, setIsArticles] = useState(false);
+  const [completed, setCompleted] = useState<Set<string>>(new Set());
 
   useEffect(() => {
     const params = new URLSearchParams(window.location.search);
@@ -25,6 +27,7 @@ export function TopicList() {
     loadLibraryIndex()
       .then((i) => setExercises(i.exercises))
       .catch(() => setError(true));
+    setCompleted(new Set(loadProgress().completed));
   }, []);
 
   const meta = level != null ? levelMeta(level) : undefined;
@@ -55,7 +58,14 @@ export function TopicList() {
         <ul className={styles.list}>
           {topics.map((e) => (
             <li key={e.id} className={styles.item}>
-              <Link href={`/exercise?id=${e.id}`}>{e.title}</Link>
+              <Link href={`/exercise?id=${e.id}`}>
+                <span className={styles.itemTitle}>{e.title}</span>
+                {completed.has(e.id) && (
+                  <span className={styles.done} role="img" aria-label="Ukończone">
+                    ✓
+                  </span>
+                )}
+              </Link>
             </li>
           ))}
         </ul>
