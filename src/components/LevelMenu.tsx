@@ -7,7 +7,7 @@ import {
   ARTICLES_SECTION,
   LEVELS,
   articleCountLabel,
-  articleTopics,
+  articleGroups,
   topicCountLabel,
   topicsForLevel,
 } from "@/lib/levels";
@@ -68,13 +68,13 @@ export function LevelMenu() {
               </li>
             );
           })}
-          {articleTopics(exercises).length > 0 && (
+          {articleGroups(exercises).length > 0 && (
             <li key="articles">
               <Link href="/level?cat=article" className={styles.card}>
                 <span className={styles.cardTitle}>{ARTICLES_SECTION.title}</span>
                 <span className={styles.cardDesc}>{ARTICLES_SECTION.description}</span>
                 <span className={styles.cardMeta}>
-                  {articleCountLabel(articleTopics(exercises).length)}
+                  {articleCountLabel(articleGroups(exercises).length)}
                 </span>
                 <span className={styles.cardBars} aria-hidden="true">
                   <SoundBars variant="article" />

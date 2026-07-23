@@ -26,6 +26,20 @@ describe("LevelMenu", () => {
     expect(screen.queryByText("Artykuły")).not.toBeInTheDocument();
   });
 
+  it("counts a multi-part article once on the Artykuły card", async () => {
+    const index = {
+      exercises: [
+        { id: "art-sen", title: "Po co nam sen", category: "article" },
+        { id: "art-wolyn-cz-1", title: "Wołyń (część 1)", category: "article" },
+        { id: "art-wolyn-cz-2", title: "Wołyń (część 2)", category: "article" },
+      ],
+    };
+    vi.stubGlobal("fetch", vi.fn(async () => new Response(JSON.stringify(index))));
+    render(<LevelMenu />);
+    await waitFor(() => expect(screen.getByText("Artykuły")).toBeInTheDocument());
+    expect(screen.getByText("2 artykuły")).toBeInTheDocument();
+  });
+
   it("shows an Artykuły card only when articles exist", async () => {
     const index = {
       exercises: [

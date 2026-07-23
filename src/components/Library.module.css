@@ -175,3 +175,10 @@
 .continueCard:hover {
   box-shadow: 0 2px 10px rgba(42, 39, 34, 0.07);
 }
+
+.itemMeta {
+  color: var(--muted);
+  font-family: var(--font-ui), system-ui, sans-serif;
+  font-size: 0.9rem;
+  white-space: nowrap;
+}
