@@ -241,7 +241,7 @@ git commit -m "feat(player): playback tempo control 0.75/0.9/1 with persistence"
 - Consumes: Task 1's Player layout (mode toggle goes BELOW the `.controls` div).
 - Produces: localStorage key `voice-reading:mode` storing `"read" | "listen"`; Player state `revealed: boolean` (Task 13's quiz does not depend on it).
 
-- [ ] **Step 1: Write the failing tests**
+- [x] **Step 1: Write the failing tests**
 
 Append to `src/components/Player.test.tsx`:
 
@@ -276,12 +276,12 @@ Append to `src/components/Player.test.tsx`:
   });
 ```
 
-- [ ] **Step 2: Run tests to verify they fail**
+- [x] **Step 2: Run tests to verify they fail**
 
 Run: `npx vitest run src/components/Player.test.tsx`
 Expected: 3 new tests FAIL ("Unable to find ... name Najpierw słuchaj").
 
-- [ ] **Step 3: Implement**
+- [x] **Step 3: Implement**
 
 In `src/components/Player.tsx`, add below the `formatRate` constant:
 
@@ -415,12 +415,12 @@ Append to `src/components/Player.module.css`:
 }
 ```
 
-- [ ] **Step 4: Run tests to verify they pass**
+- [x] **Step 4: Run tests to verify they pass**
 
 Run: `npx vitest run src/components/Player.test.tsx`
 Expected: ALL PASS (7 total).
 
-- [ ] **Step 5: Full suite + build, then commit**
+- [x] **Step 5: Full suite + build, then commit**
 
 Run: `npm test` and `npm run build` → both pass.
 
