@@ -926,7 +926,7 @@ streak(today: string): number
 saveQuizResult(id: string, correct: number, total: number): void
 ```
 
-- [ ] **Step 1: Write the failing tests**
+- [x] **Step 1: Write the failing tests**
 
 Create `src/lib/progress.test.ts`:
 
@@ -1028,12 +1028,12 @@ describe("streak (reads storage)", () => {
 });
 ```
 
-- [ ] **Step 2: Run tests to verify they fail**
+- [x] **Step 2: Run tests to verify they fail**
 
 Run: `npx vitest run src/lib/progress.test.ts`
 Expected: FAIL — module `./progress` does not exist.
 
-- [ ] **Step 3: Implement**
+- [x] **Step 3: Implement**
 
 Create `src/lib/progress.ts`:
 
@@ -1157,11 +1157,11 @@ export function streak(today: string): number {
 }
 ```
 
-- [ ] **Step 4: Run tests to verify they pass**
+- [x] **Step 4: Run tests to verify they pass**
 
 Run: `npx vitest run src/lib/progress.test.ts` → ALL PASS.
 
-- [ ] **Step 5: Commit**
+- [x] **Step 5: Commit**
 
 ```bash
 git add src/lib/progress.ts src/lib/progress.test.ts
@@ -1178,7 +1178,7 @@ git commit -m "feat(lib): localStorage progress module (completed, last position
 - Consumes: `markCompleted`, `saveLastPosition`, `lastPosition`, `recordPracticeDay`, `todayKey` from `@/lib/progress` (Task 7).
 - Produces: audio `ended` → exercise completed + practice day recorded + position reset; `pause` → position saved; `loadedmetadata` → resume if this exercise was the last one. Task 13 extends the same `ended` handler with `setFinished(true)`.
 
-- [ ] **Step 1: Write the failing tests**
+- [x] **Step 1: Write the failing tests**
 
 Append to `src/components/Player.test.tsx`:
 
@@ -1228,12 +1228,12 @@ Append to `src/components/Player.test.tsx`:
   });
 ```
 
-- [ ] **Step 2: Run tests to verify they fail**
+- [x] **Step 2: Run tests to verify they fail**
 
 Run: `npx vitest run src/components/Player.test.tsx`
 Expected: 3 new tests FAIL (nothing writes `voice-reading:progress`).
 
-- [ ] **Step 3: Implement**
+- [x] **Step 3: Implement**
 
 In `src/components/Player.tsx` add the import:
 
@@ -1281,11 +1281,11 @@ Inside `Player`, below the mode effects, add ONE effect wiring all progress even
   }, [exercise.id]);
 ```
 
-- [ ] **Step 4: Run tests to verify they pass**
+- [x] **Step 4: Run tests to verify they pass**
 
 Run: `npx vitest run src/components/Player.test.tsx` → ALL PASS.
 
-- [ ] **Step 5: Commit**
+- [x] **Step 5: Commit**
 
 ```bash
 git add src/components/Player.tsx src/components/Player.test.tsx
@@ -1303,7 +1303,7 @@ git commit -m "feat(player): record completion, practice days and resume positio
 - Consumes: `loadProgress` from `@/lib/progress`.
 - Produces: completed topics show a ✓ badge (`role="img"`, `aria-label="Ukończone"`); topic titles are wrapped in `.itemTitle`.
 
-- [ ] **Step 1: Write the failing test**
+- [x] **Step 1: Write the failing test**
 
 In `src/components/TopicList.test.tsx`, add `localStorage.clear();` at the top of the existing `beforeEach`/setup (if the file has no `beforeEach`, add `beforeEach(() => localStorage.clear());` below the imports, importing `beforeEach` from vitest). Then append inside the describe block (mirror the file's existing fetch-stub + history pattern — copy the setup lines from the first test in the file, they stub `fetch` and set `window.history.replaceState` to select the level):
 
@@ -1329,12 +1329,12 @@ In `src/components/TopicList.test.tsx`, add `localStorage.clear();` at the top o
   });
 ```
 
-- [ ] **Step 2: Run test to verify it fails**
+- [x] **Step 2: Run test to verify it fails**
 
 Run: `npx vitest run src/components/TopicList.test.tsx`
 Expected: new test FAILS (no `img` role element).
 
-- [ ] **Step 3: Implement**
+- [x] **Step 3: Implement**
 
 In `src/components/TopicList.tsx`:
 
@@ -1380,11 +1380,11 @@ Append to `src/components/Library.module.css`:
 }
 ```
 
-- [ ] **Step 4: Run tests to verify they pass**
+- [x] **Step 4: Run tests to verify they pass**
 
 Run: `npx vitest run src/components/TopicList.test.tsx` → ALL PASS (including the two pre-existing tests — the badge renders only for completed ids, so their accessible link names are unchanged).
 
-- [ ] **Step 5: Commit**
+- [x] **Step 5: Commit**
 
 ```bash
 git add src/components/TopicList.tsx src/components/Library.module.css src/components/TopicList.test.tsx
@@ -1402,7 +1402,7 @@ git commit -m "feat(library): completed checkmark on topic lists"
 - Consumes: `lastPosition`, `streak`, `todayKey` from `@/lib/progress`; existing `loadLibraryIndex`.
 - Produces: home shows a "Kontynuuj" card (top of list) when the last-played exercise still exists in the index, and a streak line when `streak >= 2`.
 
-- [ ] **Step 1: Write the failing tests**
+- [x] **Step 1: Write the failing tests**
 
 In `src/components/LevelMenu.test.tsx`, add `beforeEach` to the vitest import and below the `afterEach` line add:
 
@@ -1446,12 +1446,12 @@ Append inside the describe block:
   });
 ```
 
-- [ ] **Step 2: Run tests to verify they fail**
+- [x] **Step 2: Run tests to verify they fail**
 
 Run: `npx vitest run src/components/LevelMenu.test.tsx`
 Expected: 2 new tests FAIL.
 
-- [ ] **Step 3: Implement**
+- [x] **Step 3: Implement**
 
 In `src/components/LevelMenu.tsx`:
 
@@ -1522,11 +1522,11 @@ Append to `src/components/Library.module.css`:
 }
 ```
 
-- [ ] **Step 4: Run tests to verify they pass**
+- [x] **Step 4: Run tests to verify they pass**
 
 Run: `npx vitest run src/components/LevelMenu.test.tsx` → ALL PASS.
 
-- [ ] **Step 5: Full suite + build, then commit**
+- [x] **Step 5: Full suite + build, then commit**
 
 Run: `npm test` and `npm run build` → both pass.
 
