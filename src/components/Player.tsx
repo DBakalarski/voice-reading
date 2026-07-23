@@ -4,6 +4,13 @@ import { useEffect, useRef, useState } from "react";
 import { HighlightedText } from "./HighlightedText";
 import { useAudioSync } from "@/hooks/useAudioSync";
 import { phraseToRepeat } from "@/lib/activeIndex";
+import {
+  lastPosition,
+  markCompleted,
+  recordPracticeDay,
+  saveLastPosition,
+  todayKey,
+} from "@/lib/progress";
 import type { Exercise } from "@/lib/types";
 import styles from "./Player.module.css";
 
@@ -85,6 +92,36 @@ export function Player({ exercise }: { exercise: Exercise }) {
     if (m === "listen") setRevealed(false);
     window.localStorage.setItem(MODE_KEY, m);
   };
+
+  // Progress bookkeeping: what was played, how far, and on which days.
+  useEffect(() => {
+    const audio = audioRef.current;
+    if (!audio) return;
+    const onPlay = () => recordPracticeDay(todayKey());
+    const onPause = () => saveLastPosition(exercise.id, audio.currentTime);
+    const onEnded = () => {
+      markCompleted(exercise.id);
+      recordPracticeDay(todayKey());
+      saveLastPosition(exercise.id, 0);
+    };
+    const onLoaded = () => {
+      const last = lastPosition();
+      if (!last || last.id !== exercise.id || last.seconds <= 0) return;
+      // Don't resume within the final second — treat as finished.
+      if (Number.isFinite(audio.duration) && last.seconds >= audio.duration - 1) return;
+      audio.currentTime = last.seconds;
+    };
+    audio.addEventListener("play", onPlay);
+    audio.addEventListener("pause", onPause);
+    audio.addEventListener("ended", onEnded);
+    audio.addEventListener("loadedmetadata", onLoaded);
+    return () => {
+      audio.removeEventListener("play", onPlay);
+      audio.removeEventListener("pause", onPause);
+      audio.removeEventListener("ended", onEnded);
+      audio.removeEventListener("loadedmetadata", onLoaded);
+    };
+  }, [exercise.id]);
 
   const changeFontSize = (delta: number) => {
     setFontSize((prev) => {

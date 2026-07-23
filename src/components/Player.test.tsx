@@ -146,4 +146,48 @@ describe("Player", () => {
     fireEvent.change(slider, { target: { value: "50" } });
     expect(time).toBe(5);
   });
+
+  it("marks the exercise completed when audio ends", () => {
+    render(<Player exercise={exercise} />);
+    const audio = document.querySelector("audio")!;
+    act(() => {
+      audio.dispatchEvent(new Event("ended"));
+    });
+    const stored = JSON.parse(localStorage.getItem("voice-reading:progress")!);
+    expect(stored.completed).toContain("x");
+    expect(stored.days).toHaveLength(1);
+  });
+
+  it("saves the position on pause", () => {
+    render(<Player exercise={exercise} />);
+    const audio = document.querySelector("audio")!;
+    Object.defineProperty(audio, "currentTime", { value: 0.7, configurable: true });
+    act(() => {
+      audio.dispatchEvent(new Event("pause"));
+    });
+    const stored = JSON.parse(localStorage.getItem("voice-reading:progress")!);
+    expect(stored.last).toEqual({ id: "x", seconds: 0.7 });
+  });
+
+  it("resumes from the saved position of the same exercise", () => {
+    localStorage.setItem(
+      "voice-reading:progress",
+      JSON.stringify({ completed: [], days: [], last: { id: "x", seconds: 0.5 } }),
+    );
+    render(<Player exercise={exercise} />);
+    const audio = document.querySelector("audio")!;
+    let time = 0;
+    Object.defineProperty(audio, "currentTime", {
+      get: () => time,
+      set: (v: number) => {
+        time = v;
+      },
+      configurable: true,
+    });
+    Object.defineProperty(audio, "duration", { value: 10, configurable: true });
+    act(() => {
+      audio.dispatchEvent(new Event("loadedmetadata"));
+    });
+    expect(time).toBe(0.5);
+  });
 });
