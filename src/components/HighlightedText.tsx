@@ -10,9 +10,17 @@ interface Props {
   phraseIndex: number;
   /** Text size in rem; overrides the CSS default when provided. */
   fontSize?: number;
+  /** Called with the phrase number of a clicked word (tap-to-seek). */
+  onPhraseClick?: (phrase: number) => void;
 }
 
-export function HighlightedText({ words, wordIndex, phraseIndex, fontSize }: Props) {
+export function HighlightedText({
+  words,
+  wordIndex,
+  phraseIndex,
+  fontSize,
+  onPhraseClick,
+}: Props) {
   const activeWordRef = useRef<HTMLSpanElement>(null);
 
   // Gently follow the reading: nudge the page only when the active word is
@@ -33,7 +41,10 @@ export function HighlightedText({ words, wordIndex, phraseIndex, fontSize }: Pro
   }, [wordIndex]);
 
   return (
-    <p className={styles.text} style={fontSize ? { fontSize: `${fontSize}rem` } : undefined}>
+    <p
+      className={onPhraseClick ? `${styles.text} ${styles.clickable}` : styles.text}
+      style={fontSize ? { fontSize: `${fontSize}rem` } : undefined}
+    >
       {words.map((w, i) => {
         const isWord = i === wordIndex;
         const isPhrase = phraseIndex !== -1 && w.phrase === phraseIndex;
@@ -46,6 +57,7 @@ export function HighlightedText({ words, wordIndex, phraseIndex, fontSize }: Pro
             ref={isWord ? activeWordRef : undefined}
             data-testid="word"
             className={classNames.join(" ")}
+            onClick={onPhraseClick ? () => onPhraseClick(w.phrase) : undefined}
           >
             {w.text}{" "}
           </span>

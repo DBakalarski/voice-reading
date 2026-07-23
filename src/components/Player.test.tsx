@@ -114,4 +114,19 @@ describe("Player", () => {
     expect(time).toBe(1.5);
     expect(screen.getByRole("button", { name: /pauza/i })).toBeInTheDocument();
   });
+
+  it("seeks to the start of a clicked phrase", () => {
+    render(<Player exercise={exercise} />);
+    const audio = document.querySelector("audio")!;
+    let time = 0.9;
+    Object.defineProperty(audio, "currentTime", {
+      get: () => time,
+      set: (v: number) => {
+        time = v;
+      },
+      configurable: true,
+    });
+    fireEvent.click(screen.getAllByTestId("word")[0]); // phrase 0 starts at 0
+    expect(time).toBe(0);
+  });
 });

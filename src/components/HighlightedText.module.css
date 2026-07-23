@@ -28,3 +28,7 @@
      so emphasising the current word never reflows the text (no jumping). */
   text-shadow: 0.02em 0 0 currentColor, -0.02em 0 0 currentColor;
 }
+
+.clickable .word {
+  cursor: pointer;
+}

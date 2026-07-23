@@ -109,6 +109,14 @@ export function Player({ exercise }: { exercise: Exercise }) {
     void audio.play();
   };
 
+  const seekToPhrase = (phrase: number) => {
+    const audio = audioRef.current;
+    const p = exercise.phrases[phrase];
+    if (!audio || !p) return;
+    audio.currentTime = p.start;
+    void audio.play();
+  };
+
   const onTimeUpdate = () => {
     const audio = audioRef.current;
     if (!audio || !audio.duration) return;
@@ -225,6 +233,7 @@ export function Player({ exercise }: { exercise: Exercise }) {
           wordIndex={wordIndex}
           phraseIndex={phraseIndex}
           fontSize={fontSize}
+          onPhraseClick={seekToPhrase}
         />
       )}
       <audio ref={audioRef} src={exercise.audio} onTimeUpdate={onTimeUpdate} preload="auto" />
