@@ -17,6 +17,9 @@ const RATES = [0.75, 0.9, 1];
 /** "0,75×" — Polish decimal comma. */
 const formatRate = (r: number) => `${String(r).replace(".", ",")}×`;
 
+const MODE_KEY = "voice-reading:mode";
+type Mode = "read" | "listen";
+
 const clampFontSize = (rem: number) =>
   Math.min(FONT_SIZE_MAX, Math.max(FONT_SIZE_MIN, Math.round(rem / FONT_SIZE_STEP) * FONT_SIZE_STEP));
 
@@ -62,6 +65,24 @@ export function Player({ exercise }: { exercise: Exercise }) {
   const changeRate = (r: number) => {
     setRate(r);
     window.localStorage.setItem(RATE_KEY, String(r));
+  };
+
+  // "read" shows the text immediately; "listen" covers it until revealed.
+  const [mode, setMode] = useState<Mode>("read");
+  const [revealed, setRevealed] = useState(false);
+
+  useEffect(() => {
+    const saved = window.localStorage.getItem(MODE_KEY);
+    if (saved === "read" || saved === "listen") setMode(saved);
+  }, []);
+
+  // A new exercise always starts covered again.
+  useEffect(() => setRevealed(false), [exercise.id]);
+
+  const switchMode = (m: Mode) => {
+    setMode(m);
+    if (m === "listen") setRevealed(false);
+    window.localStorage.setItem(MODE_KEY, m);
   };
 
   const changeFontSize = (delta: number) => {
@@ -145,13 +166,41 @@ export function Player({ exercise }: { exercise: Exercise }) {
           </div>
         </div>
       </div>
+      <div className={styles.modeControls} role="group" aria-label="Tryb ćwiczenia">
+        <button
+          className={styles.modeButton}
+          onClick={() => switchMode("read")}
+          aria-pressed={mode === "read"}
+        >
+          Słuchaj i czytaj
+        </button>
+        <button
+          className={styles.modeButton}
+          onClick={() => switchMode("listen")}
+          aria-pressed={mode === "listen"}
+        >
+          Najpierw słuchaj
+        </button>
+      </div>
       <h1 className={styles.title}>{exercise.title}</h1>
-      <HighlightedText
-        words={exercise.words}
-        wordIndex={wordIndex}
-        phraseIndex={phraseIndex}
-        fontSize={fontSize}
-      />
+      {mode === "listen" && !revealed ? (
+        <div className={styles.cover}>
+          <p className={styles.coverText}>
+            Posłuchaj nagrania i spróbuj zrozumieć, o czym jest. Możesz odtworzyć je
+            wiele razy.
+          </p>
+          <button className={styles.coverButton} onClick={() => setRevealed(true)}>
+            Pokaż tekst
+          </button>
+        </div>
+      ) : (
+        <HighlightedText
+          words={exercise.words}
+          wordIndex={wordIndex}
+          phraseIndex={phraseIndex}
+          fontSize={fontSize}
+        />
+      )}
       <audio ref={audioRef} src={exercise.audio} onTimeUpdate={onTimeUpdate} preload="auto" />
     </main>
   );

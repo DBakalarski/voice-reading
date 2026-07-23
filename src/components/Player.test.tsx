@@ -56,4 +56,33 @@ describe("Player", () => {
     render(<Player exercise={exercise} />);
     expect(screen.getByRole("button", { name: "0,75×" })).toHaveAttribute("aria-pressed", "true");
   });
+
+  it("hides the text in listen-first mode until revealed", () => {
+    render(<Player exercise={exercise} />);
+    fireEvent.click(screen.getByRole("button", { name: "Najpierw słuchaj" }));
+    expect(screen.queryAllByTestId("word")).toHaveLength(0);
+    expect(localStorage.getItem("voice-reading:mode")).toBe("listen");
+
+    fireEvent.click(screen.getByRole("button", { name: "Pokaż tekst" }));
+    expect(screen.getAllByTestId("word")).toHaveLength(2);
+  });
+
+  it("restores listen-first mode from localStorage", () => {
+    localStorage.setItem("voice-reading:mode", "listen");
+    render(<Player exercise={exercise} />);
+    expect(screen.queryAllByTestId("word")).toHaveLength(0);
+    expect(screen.getByRole("button", { name: "Najpierw słuchaj" })).toHaveAttribute(
+      "aria-pressed",
+      "true",
+    );
+  });
+
+  it("re-covers the text when switching back to listen-first", () => {
+    render(<Player exercise={exercise} />);
+    fireEvent.click(screen.getByRole("button", { name: "Najpierw słuchaj" }));
+    fireEvent.click(screen.getByRole("button", { name: "Pokaż tekst" }));
+    fireEvent.click(screen.getByRole("button", { name: "Słuchaj i czytaj" }));
+    fireEvent.click(screen.getByRole("button", { name: "Najpierw słuchaj" }));
+    expect(screen.queryAllByTestId("word")).toHaveLength(0);
+  });
 });
